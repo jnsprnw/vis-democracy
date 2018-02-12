@@ -14,23 +14,23 @@
     </aside>
     <div class="page-content page-vis">
       <section>
-        <div v-for="country in equal" class="country"><span>Country</span></div>
+        <div v-for="country in countries" class="country" :style="{ width: country.values.counter.percent + '%' }"><span>{{ country.label }}</span></div>
       </section>
       <section>
-        <div v-for="country in equal" class="country"><span>Country</span></div>
+        <div v-for="country in countries" class="country" :style="{ width: country.values.population.percent + '%' }"><span>{{ country.label }}</span></div>
       </section>
       <section>
-        <div v-for="country in equal" class="country"><span>Country</span></div>
+        <div v-for="country in countries" class="country" :style="{ width: country.values.gdp.percent + '%' }"><span>{{ country.label }}</span></div>
       </section>
       <section>
-        <div v-for="country in equal" class="country"><span>Country</span></div>
+        <div v-for="country in countries" class="country" :style="{ width: country.values.area.percent + '%' }"><span>{{ country.label }}</span></div>
       </section>
     </div>
   </div>
 </template>
 
 <script>
-  // import { mapState, mapGetters, mapActions } from 'vuex'
+  import { mapGetters } from 'vuex'
   // import _ from 'lodash'
 
   export default {
@@ -43,6 +43,16 @@
       }
     },
     computed: {
+      // ...mapState([
+      //   'comparedItems',
+      //   'reference'
+      // ]),
+      ...mapGetters([
+        'countries'
+      ])
+      // activeTypes (state, getters) {
+      //   return _.isUndefined(this.$store.state.activeType) ? _.fill(Array(this.$store.getters.types.length), false) : this.$store.state.activeType
+      // }
     },
     watch: {
     },
@@ -51,6 +61,7 @@
     components: {
     },
     mounted () {
+      console.log(this.countries)
     }
   }
 </script>

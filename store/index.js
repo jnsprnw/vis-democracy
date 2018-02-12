@@ -2,43 +2,59 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import _ from 'lodash'
 import * as data from '../data/data.json'
-import * as d3 from 'd3-geo'
+// import * as d3 from 'd3-geo'
 
 Vue.use(Vuex)
 
 const store = () => new Vuex.Store({
   state: {
-    data: data,
-    comparedItems: ['de', 'fr'],
-    reference: 'de',
-    activeType: [],
-    activeProperty: {}
+    data: data
   },
   getters: {
-    itemIDs (state) {
-      return _.map(state.data, (datum, key) => {
-        return key
+    total (state) {
+      let values = {
+        'population': 0,
+        'gdp': 0,
+        'area': 0
+      }
+      _.each(state.data, country => {
+        values['population'] += country['values']['population']
+        values['gdp'] += country['values']['gdp']
+        values['area'] += country['values']['area']
       })
+      return values
     },
-    items (state) {
-      return _.fromPairs(_.map(state.data, (datum, key) => {
-        // let [width, height] = [1000, 1000]
-        // var projection = d3.geoMercator()
-        //   .scale(1000)
-        //   .translate([width / 2, height / 2])
+    countries (state, getters) {
+      let numberCountries = state.data.length
 
-        // var path = d3.geoPath()
-        //   .projection(projection)
+      return _.map(state.data, country => {
+        let retVal = {
+          ...country
+        }
 
-        // let shape = path(datum.shape)
-
-        return [key, {
-          ...datum,
-          'area': d3.geoArea(datum.shape),
-          'center': d3.geoCentroid(datum.shape),
-          'bounds': d3.geoBounds(datum.shape)
-        }]
-      }))
+        let { population, gdp, area } = country['values']
+        retVal['values'] = {
+          'counter': {
+            'percent': 100 / numberCountries
+          },
+          'population': {
+            'value': population,
+            'percent': 100 / getters.total.population * population,
+            'label': population + ' Menschen'
+          },
+          'gdp': {
+            'value': gdp,
+            'percent': 100 / getters.total.gdp * gdp,
+            'label': gdp + ' GDP'
+          },
+          'area': {
+            'value': area,
+            'percent': 100 / getters.total.area * area,
+            'label': area + ' Area'
+          }
+        }
+        return retVal
+      })
     }
     // activeModel (state, getters) {
     //   return _.fill(Array(getters.models.length), false)
