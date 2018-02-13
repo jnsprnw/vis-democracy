@@ -15,9 +15,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 1,
       "hdi" : 0.944,
-      "democracy" : 9.93,
-      "rank" : 1
+      "democracy" : 9.93
     },
     "organisations" : {
       "eu" : false,
@@ -43,9 +43,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 2,
       "hdi" : 0.899,
-      "democracy" : 9.5,
-      "rank" : 2
+      "democracy" : 9.5
     },
     "organisations" : {
       "eu" : false,
@@ -71,9 +71,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 3,
       "hdi" : 0.907,
-      "democracy" : 9.39,
-      "rank" : 3
+      "democracy" : 9.39
     },
     "organisations" : {
       "eu" : true,
@@ -99,9 +99,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 4,
       "hdi" : 0.913,
-      "democracy" : 9.26,
-      "rank" : 4
+      "democracy" : 9.26
     },
     "organisations" : {
       "eu" : false,
@@ -127,42 +127,14 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 5,
       "hdi" : 0.923,
-      "democracy" : 9.2,
-      "rank" : 5
+      "democracy" : 9.2
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
-      "oced" : true,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "CHE",
-    "label" : "Switzerland",
-    "region" : "Europe",
-    "values" : {
-      "population" : 8121830,
-      "gdp" : 4.823E11,
-      "area" : 41277
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "directorial",
-      "democracy-type" : "Full democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.93,
-      "democracy" : 9.09,
-      "rank" : 8
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
       "oced" : true,
       "g20" : false
     }
@@ -183,9 +155,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 6,
       "hdi" : 0.913,
-      "democracy" : 9.15,
-      "rank" : 6
+      "democracy" : 9.15
     },
     "organisations" : {
       "eu" : false,
@@ -193,6 +165,62 @@
       "nato" : true,
       "oced" : true,
       "g20" : true
+    }
+  },
+  {
+    "cca3" : "IRL",
+    "label" : "Ireland",
+    "region" : "Europe",
+    "values" : {
+      "population" : 4892305,
+      "gdp" : 2.574E11,
+      "area" : 70273
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Full democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 7,
+      "hdi" : 0.916,
+      "democracy" : 9.15
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : false,
+      "oced" : true,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "CHE",
+    "label" : "Switzerland",
+    "region" : "Europe",
+    "values" : {
+      "population" : 8121830,
+      "gdp" : 4.823E11,
+      "area" : 41277
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "directorial",
+      "democracy-type" : "Full democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 8,
+      "hdi" : 0.93,
+      "democracy" : 9.09
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : true,
+      "g20" : false
     }
   },
   {
@@ -211,9 +239,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 9,
       "hdi" : 0.883,
-      "democracy" : 9.03,
-      "rank" : 9
+      "democracy" : 9.03
     },
     "organisations" : {
       "eu" : true,
@@ -239,9 +267,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 10,
       "hdi" : 0.935,
-      "democracy" : 9.01,
-      "rank" : 10
+      "democracy" : 9.01
     },
     "organisations" : {
       "eu" : false,
@@ -249,34 +277,6 @@
       "nato" : false,
       "oced" : true,
       "g20" : true
-    }
-  },
-  {
-    "cca3" : "NLD",
-    "label" : "Netherlands",
-    "region" : "Europe",
-    "values" : {
-      "population" : 1.6947904E7,
-      "gdp" : 8.326E11,
-      "area" : 41543
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "parliamentary",
-      "democracy-type" : "Full democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.922,
-      "democracy" : 8.8,
-      "rank" : 12
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oced" : true,
-      "g20" : false
     }
   },
   {
@@ -295,9 +295,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 11,
       "hdi" : 0.892,
-      "democracy" : 8.81,
-      "rank" : 11
+      "democracy" : 8.81
     },
     "organisations" : {
       "eu" : true,
@@ -308,29 +308,29 @@
     }
   },
   {
-    "cca3" : "IRL",
-    "label" : "Ireland",
+    "cca3" : "NLD",
+    "label" : "Netherlands",
     "region" : "Europe",
     "values" : {
-      "population" : 4892305,
-      "gdp" : 2.574E11,
-      "area" : 70273
+      "population" : 1.6947904E7,
+      "gdp" : 8.326E11,
+      "area" : 41543
     },
     "types": {
-      "state" : "republic",
+      "state" : "monarchy",
       "government" : "parliamentary",
       "democracy-type" : "Full democracy",
       "hdi" : "top"
     },
     "scores": {
-      "hdi" : 0.916,
-      "democracy" : 9.15,
-      "rank" : 7
+      "rank" : 12,
+      "hdi" : 0.922,
+      "democracy" : 8.8
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
-      "nato" : false,
+      "nato" : true,
       "oced" : true,
       "g20" : false
     }
@@ -351,9 +351,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 13,
       "hdi" : 0.916,
-      "democracy" : 8.63,
-      "rank" : 13
+      "democracy" : 8.63
     },
     "organisations" : {
       "eu" : true,
@@ -379,9 +379,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 14,
       "hdi" : 0.885,
-      "democracy" : 8.41,
-      "rank" : 14
+      "democracy" : 8.41
     },
     "organisations" : {
       "eu" : true,
@@ -407,9 +407,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 15,
       "hdi" : 0.839,
-      "democracy" : 8.39,
-      "rank" : 15
+      "democracy" : 8.39
     },
     "organisations" : {
       "eu" : true,
@@ -435,9 +435,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 16,
       "hdi" : 0.907,
-      "democracy" : 8.36,
-      "rank" : 16
+      "democracy" : 8.36
     },
     "organisations" : {
       "eu" : true,
@@ -463,9 +463,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 17,
       "hdi" : 0.876,
-      "democracy" : 8.3,
-      "rank" : 17
+      "democracy" : 8.3
     },
     "organisations" : {
       "eu" : true,
@@ -491,9 +491,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 18,
       "hdi" : 0.777,
-      "democracy" : 8.28,
-      "rank" : 18
+      "democracy" : 8.28
     },
     "organisations" : {
       "eu" : false,
@@ -519,9 +519,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 19,
       "hdi" : 0.793,
-      "democracy" : 8.17,
-      "rank" : 19
+      "democracy" : 8.17
     },
     "organisations" : {
       "eu" : false,
@@ -529,6 +529,34 @@
       "nato" : false,
       "oced" : false,
       "g20" : false
+    }
+  },
+  {
+    "cca3" : "JPN",
+    "label" : "Japan",
+    "region" : "Asia",
+    "values" : {
+      "population" : 1.26919659E8,
+      "gdp" : 4.83E12,
+      "area" : 377915
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 20,
+      "hdi" : 0.891,
+      "democracy" : 7.99
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : true,
+      "g20" : true
     }
   },
   {
@@ -547,9 +575,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 21,
       "hdi" : 0.915,
-      "democracy" : 7.98,
-      "rank" : 21
+      "democracy" : 7.98
     },
     "organisations" : {
       "eu" : false,
@@ -575,9 +603,65 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 22,
       "hdi" : 0.873,
-      "democracy" : 7.98,
-      "rank" : 22
+      "democracy" : 7.98
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
+      "oced" : true,
+      "g20" : true
+    }
+  },
+  {
+    "cca3" : "CPV",
+    "label" : "Cabo Verde",
+    "region" : "Africa",
+    "values" : {
+      "population" : 545993,
+      "gdp" : 3.423E9,
+      "area" : 4033
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 23,
+      "hdi" : 0.646,
+      "democracy" : 7.94
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "FRA",
+    "label" : "France",
+    "region" : "Europe",
+    "values" : {
+      "population" : 6.6553766E7,
+      "gdp" : 2.647E12,
+      "area" : 643801
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 24,
+      "hdi" : 0.888,
+      "democracy" : 7.92
     },
     "organisations" : {
       "eu" : true,
@@ -603,37 +687,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 25,
       "hdi" : 0.898,
-      "democracy" : 7.92,
-      "rank" : 25
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : true,
-      "g20" : true
-    }
-  },
-  {
-    "cca3" : "JPN",
-    "label" : "Japan",
-    "region" : "Asia",
-    "values" : {
-      "population" : 1.26919659E8,
-      "gdp" : 4.83E12,
-      "area" : 377915
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.891,
-      "democracy" : 7.99,
-      "rank" : 20
+      "democracy" : 7.92
     },
     "organisations" : {
       "eu" : false,
@@ -659,9 +715,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 26,
       "hdi" : 0.766,
-      "democracy" : 7.88,
-      "rank" : 26
+      "democracy" : 7.88
     },
     "organisations" : {
       "eu" : false,
@@ -669,90 +725,6 @@
       "nato" : false,
       "oced" : false,
       "g20" : false
-    }
-  },
-  {
-    "cca3" : "CZE",
-    "label" : "Czech Republic",
-    "region" : "Europe",
-    "values" : {
-      "population" : 1.0644842E7,
-      "gdp" : 3.325E11,
-      "area" : 78867
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.87,
-      "democracy" : 7.82,
-      "rank" : 31
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oced" : true,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "BEL",
-    "label" : "Belgium",
-    "region" : "Europe",
-    "values" : {
-      "population" : 1.1323973E7,
-      "gdp" : 4.941E11,
-      "area" : 30528
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.89,
-      "democracy" : 7.77,
-      "rank" : 35
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oced" : true,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "FRA",
-    "label" : "France",
-    "region" : "Europe",
-    "values" : {
-      "population" : 6.6553766E7,
-      "gdp" : 2.647E12,
-      "area" : 643801
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.888,
-      "democracy" : 7.92,
-      "rank" : 24
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oced" : true,
-      "g20" : true
     }
   },
   {
@@ -771,121 +743,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 27,
       "hdi" : 0.698,
-      "democracy" : 7.87,
-      "rank" : 27
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "EST",
-    "label" : "Estonia",
-    "region" : "Europe",
-    "values" : {
-      "population" : 1265420,
-      "gdp" : 3.755E10,
-      "area" : 45228
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.861,
-      "democracy" : 7.85,
-      "rank" : 30
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oced" : true,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "CHL",
-    "label" : "Chile",
-    "region" : "Americas",
-    "values" : {
-      "population" : 1.750826E7,
-      "gdp" : 4.224E11,
-      "area" : 756102
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.832,
-      "democracy" : 7.78,
-      "rank" : 34
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : true,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "TWN",
-    "label" : "Taiwan",
-    "region" : "Asia",
-    "values" : {
-      "population" : 2.3415126E7,
-      "gdp" : 1.099E12,
-      "area" : 35980
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : ""
-    },
-    "scores": {
-      "hdi" : null,
-      "democracy" : 7.79,
-      "rank" : 33
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "CPV",
-    "label" : "Cabo Verde",
-    "region" : "Africa",
-    "values" : {
-      "population" : 545993,
-      "gdp" : 3.423E9,
-      "area" : 4033
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.646,
-      "democracy" : 7.94,
-      "rank" : 23
+      "democracy" : 7.87
     },
     "organisations" : {
       "eu" : false,
@@ -911,9 +771,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 28,
       "hdi" : 0.83,
-      "democracy" : 7.86,
-      "rank" : 28
+      "democracy" : 7.86
     },
     "organisations" : {
       "eu" : true,
@@ -939,14 +799,70 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 29,
       "hdi" : 0.894,
-      "democracy" : 7.85,
-      "rank" : 29
+      "democracy" : 7.85
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
+      "oced" : true,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "EST",
+    "label" : "Estonia",
+    "region" : "Europe",
+    "values" : {
+      "population" : 1265420,
+      "gdp" : 3.755E10,
+      "area" : 45228
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 30,
+      "hdi" : 0.861,
+      "democracy" : 7.85
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
+      "oced" : true,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "CZE",
+    "label" : "Czech Republic",
+    "region" : "Europe",
+    "values" : {
+      "population" : 1.0644842E7,
+      "gdp" : 3.325E11,
+      "area" : 78867
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 31,
+      "hdi" : 0.87,
+      "democracy" : 7.82
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
       "oced" : true,
       "g20" : false
     }
@@ -967,9 +883,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 32,
       "hdi" : 0.609,
-      "democracy" : 7.81,
-      "rank" : 32
+      "democracy" : 7.81
     },
     "organisations" : {
       "eu" : false,
@@ -980,86 +896,86 @@
     }
   },
   {
-    "cca3" : "SVN",
-    "label" : "Slovenia",
-    "region" : "Europe",
+    "cca3" : "TWN",
+    "label" : "Taiwan",
+    "region" : "Asia",
     "values" : {
-      "population" : 1983412,
-      "gdp" : 6.396E10,
-      "area" : 20273
+      "population" : 2.3415126E7,
+      "gdp" : 1.099E12,
+      "area" : 35980
     },
     "types": {
       "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : ""
+    },
+    "scores": {
+      "rank" : 33,
+      "hdi" : null,
+      "democracy" : 7.79
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "CHL",
+    "label" : "Chile",
+    "region" : "Americas",
+    "values" : {
+      "population" : 1.750826E7,
+      "gdp" : 4.224E11,
+      "area" : 756102
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 34,
+      "hdi" : 0.832,
+      "democracy" : 7.78
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : true,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "BEL",
+    "label" : "Belgium",
+    "region" : "Europe",
+    "values" : {
+      "population" : 1.1323973E7,
+      "gdp" : 4.941E11,
+      "area" : 30528
+    },
+    "types": {
+      "state" : "monarchy",
       "government" : "parliamentary",
       "democracy-type" : "Flawed democracy",
       "hdi" : "top"
     },
     "scores": {
-      "hdi" : 0.88,
-      "democracy" : 7.51,
-      "rank" : 37
+      "rank" : 35,
+      "hdi" : 0.89,
+      "democracy" : 7.77
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "ZAF",
-    "label" : "South Africa",
-    "region" : "Africa",
-    "values" : {
-      "population" : 5.3675563E7,
-      "gdp" : 7.235E11,
-      "area" : 1219090
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.666,
-      "democracy" : 7.41,
-      "rank" : 39
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : true
-    }
-  },
-  {
-    "cca3" : "LTU",
-    "label" : "Lithuania",
-    "region" : "Europe",
-    "values" : {
-      "population" : 2884433,
-      "gdp" : 8.236E10,
-      "area" : 65300
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.839,
-      "democracy" : 7.47,
-      "rank" : 38
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oced" : false,
       "g20" : false
     }
   },
@@ -1079,9 +995,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 36,
       "hdi" : 0.85,
-      "democracy" : 7.65,
-      "rank" : 36
+      "democracy" : 7.65
     },
     "organisations" : {
       "eu" : true,
@@ -1092,13 +1008,13 @@
     }
   },
   {
-    "cca3" : "GRC",
-    "label" : "Greece",
+    "cca3" : "SVN",
+    "label" : "Slovenia",
     "region" : "Europe",
     "values" : {
-      "population" : 1.0775643E7,
-      "gdp" : 2.86E11,
-      "area" : 131957
+      "population" : 1983412,
+      "gdp" : 6.396E10,
+      "area" : 20273
     },
     "types": {
       "state" : "republic",
@@ -1107,9 +1023,9 @@
       "hdi" : "top"
     },
     "scores": {
-      "hdi" : 0.865,
-      "democracy" : 7.23,
-      "rank" : 44
+      "rank" : 37,
+      "hdi" : 0.88,
+      "democracy" : 7.51
     },
     "organisations" : {
       "eu" : true,
@@ -1117,6 +1033,62 @@
       "nato" : true,
       "oced" : true,
       "g20" : false
+    }
+  },
+  {
+    "cca3" : "LTU",
+    "label" : "Lithuania",
+    "region" : "Europe",
+    "values" : {
+      "population" : 2884433,
+      "gdp" : 8.236E10,
+      "area" : 65300
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 38,
+      "hdi" : 0.839,
+      "democracy" : 7.47
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "ZAF",
+    "label" : "South Africa",
+    "region" : "Africa",
+    "values" : {
+      "population" : 5.3675563E7,
+      "gdp" : 7.235E11,
+      "area" : 1219090
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 39,
+      "hdi" : 0.666,
+      "democracy" : 7.41
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : true
     }
   },
   {
@@ -1135,9 +1107,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 40,
       "hdi" : 0.719,
-      "democracy" : 7.39,
-      "rank" : 40
+      "democracy" : 7.39
     },
     "organisations" : {
       "eu" : false,
@@ -1163,9 +1135,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 41,
       "hdi" : 0.819,
-      "democracy" : 7.31,
-      "rank" : 41
+      "democracy" : 7.31
     },
     "organisations" : {
       "eu" : true,
@@ -1191,9 +1163,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 42,
       "hdi" : 0.844,
-      "democracy" : 7.29,
-      "rank" : 42
+      "democracy" : 7.29
     },
     "organisations" : {
       "eu" : true,
@@ -1219,15 +1191,43 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 43,
       "hdi" : 0.595,
-      "democracy" : 7.24,
-      "rank" : 43
+      "democracy" : 7.24
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "GRC",
+    "label" : "Greece",
+    "region" : "Europe",
+    "values" : {
+      "population" : 1.0775643E7,
+      "gdp" : 2.86E11,
+      "area" : 131957
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 44,
+      "hdi" : 0.865,
+      "democracy" : 7.23
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
+      "oced" : true,
       "g20" : false
     }
   },
@@ -1247,9 +1247,37 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 45,
       "hdi" : 0.78,
-      "democracy" : 7.13,
-      "rank" : 45
+      "democracy" : 7.13
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "TTO",
+    "label" : "Trinidad and Tobago",
+    "region" : "Americas",
+    "values" : {
+      "population" : 1222363,
+      "gdp" : 4.431E10,
+      "area" : 5128
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 46,
+      "hdi" : 0.772,
+      "democracy" : 7.1
     },
     "organisations" : {
       "eu" : false,
@@ -1275,71 +1303,15 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 47,
       "hdi" : 0.782,
-      "democracy" : 7.01,
-      "rank" : 47
+      "democracy" : 7.01
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "TTO",
-    "label" : "Trinidad and Tobago",
-    "region" : "Americas",
-    "values" : {
-      "population" : 1222363,
-      "gdp" : 4.431E10,
-      "area" : 5128
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.772,
-      "democracy" : 7.1,
-      "rank" : 46
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "POL",
-    "label" : "Poland",
-    "region" : "Europe",
-    "values" : {
-      "population" : 3.8562189E7,
-      "gdp" : 1.005E12,
-      "area" : 312685
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.843,
-      "democracy" : 6.83,
-      "rank" : 52
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oced" : true,
       "g20" : false
     }
   },
@@ -1359,9 +1331,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 48,
       "hdi" : 0.684,
-      "democracy" : 6.97,
-      "rank" : 48
+      "democracy" : 6.97
     },
     "organisations" : {
       "eu" : false,
@@ -1387,9 +1359,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 49,
       "hdi" : 0.836,
-      "democracy" : 6.96,
-      "rank" : 49
+      "democracy" : 6.96
     },
     "organisations" : {
       "eu" : false,
@@ -1397,90 +1369,6 @@
       "nato" : false,
       "oced" : false,
       "g20" : true
-    }
-  },
-  {
-    "cca3" : "BRA",
-    "label" : "Brazil",
-    "region" : "Americas",
-    "values" : {
-      "population" : 2.04259812E8,
-      "gdp" : 3.192E12,
-      "area" : 8515770
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.755,
-      "democracy" : 6.9,
-      "rank" : 51
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : true
-    }
-  },
-  {
-    "cca3" : "HRV",
-    "label" : "Croatia",
-    "region" : "Europe",
-    "values" : {
-      "population" : 4464844,
-      "gdp" : 9.11E10,
-      "area" : 56594
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.818,
-      "democracy" : 6.75,
-      "rank" : 54
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "GHA",
-    "label" : "Ghana",
-    "region" : "Africa",
-    "values" : {
-      "population" : 2.6327649E7,
-      "gdp" : 1.147E11,
-      "area" : 238533
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.579,
-      "democracy" : 6.75,
-      "rank" : 55
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
     }
   },
   {
@@ -1499,9 +1387,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 50,
       "hdi" : 0.668,
-      "democracy" : 6.94,
-      "rank" : 50
+      "democracy" : 6.94
     },
     "organisations" : {
       "eu" : false,
@@ -1512,13 +1400,41 @@
     }
   },
   {
-    "cca3" : "HUN",
-    "label" : "Hungary",
+    "cca3" : "BRA",
+    "label" : "Brazil",
+    "region" : "Americas",
+    "values" : {
+      "population" : 2.04259812E8,
+      "gdp" : 3.192E12,
+      "area" : 8515770
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 51,
+      "hdi" : 0.755,
+      "democracy" : 6.9
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : true
+    }
+  },
+  {
+    "cca3" : "POL",
+    "label" : "Poland",
     "region" : "Europe",
     "values" : {
-      "population" : 9897541,
-      "gdp" : 2.584E11,
-      "area" : 93028
+      "population" : 3.8562189E7,
+      "gdp" : 1.005E12,
+      "area" : 312685
     },
     "types": {
       "state" : "republic",
@@ -1527,9 +1443,9 @@
       "hdi" : "top"
     },
     "scores": {
-      "hdi" : 0.828,
-      "democracy" : 6.72,
-      "rank" : 56
+      "rank" : 52,
+      "hdi" : 0.843,
+      "democracy" : 6.83
     },
     "organisations" : {
       "eu" : true,
@@ -1555,9 +1471,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 53,
       "hdi" : 0.714,
-      "democracy" : 6.77,
-      "rank" : 53
+      "democracy" : 6.77
     },
     "organisations" : {
       "eu" : false,
@@ -1568,86 +1484,86 @@
     }
   },
   {
-    "cca3" : "TUN",
-    "label" : "Tunisia",
-    "region" : "Africa",
+    "cca3" : "HRV",
+    "label" : "Croatia",
+    "region" : "Europe",
     "values" : {
-      "population" : 1.1037225E7,
-      "gdp" : 1.27E11,
-      "area" : 163610
+      "population" : 4464844,
+      "gdp" : 9.11E10,
+      "area" : 56594
     },
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
       "democracy-type" : "Flawed democracy",
-      "hdi" : "high"
+      "hdi" : "top"
     },
     "scores": {
-      "hdi" : 0.721,
-      "democracy" : 6.4,
-      "rank" : 69
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "SRB",
-    "label" : "Serbia",
-    "region" : "Europe",
-    "values" : {
-      "population" : 7176794,
-      "gdp" : 9.75E10,
-      "area" : 77474
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.771,
-      "democracy" : 6.57,
-      "rank" : 64
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "ROU",
-    "label" : "Romania",
-    "region" : "Europe",
-    "values" : {
-      "population" : 2.166635E7,
-      "gdp" : 4.138E11,
-      "area" : 238391
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.793,
-      "democracy" : 6.62,
-      "rank" : 61
+      "rank" : 54,
+      "hdi" : 0.818,
+      "democracy" : 6.75
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "GHA",
+    "label" : "Ghana",
+    "region" : "Africa",
+    "values" : {
+      "population" : 2.6327649E7,
+      "gdp" : 1.147E11,
+      "area" : 238533
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 55,
+      "hdi" : 0.579,
+      "democracy" : 6.75
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "HUN",
+    "label" : "Hungary",
+    "region" : "Europe",
+    "values" : {
+      "population" : 9897541,
+      "gdp" : 2.584E11,
+      "area" : 93028
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 56,
+      "hdi" : 0.828,
+      "democracy" : 6.72
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
+      "oced" : true,
       "g20" : false
     }
   },
@@ -1667,65 +1583,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 57,
       "hdi" : 0.715,
-      "democracy" : 6.67,
-      "rank" : 57
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "SLV",
-    "label" : "El Salvador",
-    "region" : "Americas",
-    "values" : {
-      "population" : 6141350,
-      "gdp" : 5.295E10,
-      "area" : 21041
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.666,
-      "democracy" : 6.64,
-      "rank" : 60
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "MNG",
-    "label" : "Mongolia",
-    "region" : "Asia",
-    "values" : {
-      "population" : 2992908,
-      "gdp" : 3.607E10,
-      "area" : 1564116
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.727,
-      "democracy" : 6.62,
-      "rank" : 62
+      "democracy" : 6.67
     },
     "organisations" : {
       "eu" : false,
@@ -1751,37 +1611,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 58,
       "hdi" : 0.72,
-      "democracy" : 6.67,
-      "rank" : 58
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "LSO",
-    "label" : "Lesotho",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1947701,
-      "gdp" : 5.77E9,
-      "area" : 30355
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.497,
-      "democracy" : 6.59,
-      "rank" : 63
+      "democracy" : 6.67
     },
     "organisations" : {
       "eu" : false,
@@ -1807,9 +1639,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 59,
       "hdi" : 0.734,
-      "democracy" : 6.65,
-      "rank" : 59
+      "democracy" : 6.65
     },
     "organisations" : {
       "eu" : false,
@@ -1820,52 +1652,136 @@
     }
   },
   {
-    "cca3" : "MEX",
-    "label" : "Mexico",
+    "cca3" : "SLV",
+    "label" : "El Salvador",
     "region" : "Americas",
     "values" : {
-      "population" : 1.21736809E8,
-      "gdp" : 2.227E12,
-      "area" : 1964375
+      "population" : 6141350,
+      "gdp" : 5.295E10,
+      "area" : 21041
     },
     "types": {
       "state" : "republic",
       "government" : "presidential",
       "democracy-type" : "Flawed democracy",
-      "hdi" : "high"
+      "hdi" : "medium"
     },
     "scores": {
-      "hdi" : 0.756,
-      "democracy" : 6.47,
-      "rank" : 67
+      "rank" : 60,
+      "hdi" : 0.666,
+      "democracy" : 6.64
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
-      "oced" : true,
-      "g20" : true
+      "oced" : false,
+      "g20" : false
     }
   },
   {
-    "cca3" : "HKG",
-    "label" : "Hong Kong",
-    "region" : "Asia",
+    "cca3" : "ROU",
+    "label" : "Romania",
+    "region" : "Europe",
     "values" : {
-      "population" : 7141106,
-      "gdp" : 4.146E11,
-      "area" : 1108
+      "population" : 2.166635E7,
+      "gdp" : 4.138E11,
+      "area" : 238391
     },
     "types": {
       "state" : "republic",
-      "government" : "presidential",
+      "government" : "semi-presidential",
       "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
+      "hdi" : "high"
     },
     "scores": {
-      "hdi" : 0.91,
-      "democracy" : 6.42,
-      "rank" : 68
+      "rank" : 61,
+      "hdi" : 0.793,
+      "democracy" : 6.62
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "MNG",
+    "label" : "Mongolia",
+    "region" : "Asia",
+    "values" : {
+      "population" : 2992908,
+      "gdp" : 3.607E10,
+      "area" : 1564116
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 62,
+      "hdi" : 0.727,
+      "democracy" : 6.62
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "LSO",
+    "label" : "Lesotho",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1947701,
+      "gdp" : 5.77E9,
+      "area" : 30355
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 63,
+      "hdi" : 0.497,
+      "democracy" : 6.59
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "SRB",
+    "label" : "Serbia",
+    "region" : "Europe",
+    "values" : {
+      "population" : 7176794,
+      "gdp" : 9.75E10,
+      "area" : 77474
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 64,
+      "hdi" : 0.771,
+      "democracy" : 6.57
     },
     "organisations" : {
       "eu" : false,
@@ -1891,9 +1807,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 65,
       "hdi" : 0.779,
-      "democracy" : 6.54,
-      "rank" : 65
+      "democracy" : 6.54
     },
     "organisations" : {
       "eu" : false,
@@ -1919,9 +1835,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 66,
       "hdi" : 0.757,
-      "democracy" : 6.48,
-      "rank" : 66
+      "democracy" : 6.48
     },
     "organisations" : {
       "eu" : false,
@@ -1932,52 +1848,108 @@
     }
   },
   {
-    "cca3" : "MDA",
-    "label" : "Moldova",
-    "region" : "Europe",
-    "values" : {
-      "population" : 3546847,
-      "gdp" : 1.779E10,
-      "area" : 33851
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.693,
-      "democracy" : 6.01,
-      "rank" : 76
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "PRY",
-    "label" : "Paraguay",
+    "cca3" : "MEX",
+    "label" : "Mexico",
     "region" : "Americas",
     "values" : {
-      "population" : 6783272,
-      "gdp" : 6.098E10,
-      "area" : 406752
+      "population" : 1.21736809E8,
+      "gdp" : 2.227E12,
+      "area" : 1964375
     },
     "types": {
       "state" : "republic",
       "government" : "presidential",
       "democracy-type" : "Flawed democracy",
-      "hdi" : "medium"
+      "hdi" : "high"
     },
     "scores": {
-      "hdi" : 0.679,
-      "democracy" : 6.27,
-      "rank" : 72
+      "rank" : 67,
+      "hdi" : 0.756,
+      "democracy" : 6.47
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : true,
+      "g20" : true
+    }
+  },
+  {
+    "cca3" : "HKG",
+    "label" : "Hong Kong",
+    "region" : "Asia",
+    "values" : {
+      "population" : 7141106,
+      "gdp" : 4.146E11,
+      "area" : 1108
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 68,
+      "hdi" : 0.91,
+      "democracy" : 6.42
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "TUN",
+    "label" : "Tunisia",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1.1037225E7,
+      "gdp" : 1.27E11,
+      "area" : 163610
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 69,
+      "hdi" : 0.721,
+      "democracy" : 6.4
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "SGP",
+    "label" : "Singapore",
+    "region" : "Asia",
+    "values" : {
+      "population" : 5674472,
+      "gdp" : 4.719E11,
+      "area" : 697
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 70,
+      "hdi" : 0.912,
+      "democracy" : 6.38
     },
     "organisations" : {
       "eu" : false,
@@ -2003,9 +1975,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 71,
       "hdi" : 0.628,
-      "democracy" : 6.31,
-      "rank" : 71
+      "democracy" : 6.31
     },
     "organisations" : {
       "eu" : false,
@@ -2016,13 +1988,13 @@
     }
   },
   {
-    "cca3" : "ZMB",
-    "label" : "Zambia",
-    "region" : "Africa",
+    "cca3" : "PRY",
+    "label" : "Paraguay",
+    "region" : "Americas",
     "values" : {
-      "population" : 1.5066266E7,
-      "gdp" : 6.271E10,
-      "area" : 752618
+      "population" : 6783272,
+      "gdp" : 6.098E10,
+      "area" : 406752
     },
     "types": {
       "state" : "republic",
@@ -2031,65 +2003,9 @@
       "hdi" : "medium"
     },
     "scores": {
-      "hdi" : 0.586,
-      "democracy" : 5.99,
-      "rank" : 77
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "SGP",
-    "label" : "Singapore",
-    "region" : "Asia",
-    "values" : {
-      "population" : 5674472,
-      "gdp" : 4.719E11,
-      "area" : 697
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.912,
-      "democracy" : 6.38,
-      "rank" : 70
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "SEN",
-    "label" : "Senegal",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1.3975834E7,
-      "gdp" : 3.669E10,
-      "area" : 196722
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.466,
-      "democracy" : 6.21,
-      "rank" : 74
+      "rank" : 72,
+      "hdi" : 0.679,
+      "democracy" : 6.27
     },
     "organisations" : {
       "eu" : false,
@@ -2115,9 +2031,37 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 73,
       "hdi" : 0.636,
-      "democracy" : 6.25,
-      "rank" : 73
+      "democracy" : 6.25
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "SEN",
+    "label" : "Senegal",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1.3975834E7,
+      "gdp" : 3.669E10,
+      "area" : 196722
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 74,
+      "hdi" : 0.466,
+      "democracy" : 6.21
     },
     "organisations" : {
       "eu" : false,
@@ -2143,9 +2087,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 75,
       "hdi" : 0.505,
-      "democracy" : 6.03,
-      "rank" : 75
+      "democracy" : 6.03
     },
     "organisations" : {
       "eu" : false,
@@ -2156,24 +2100,24 @@
     }
   },
   {
-    "cca3" : "MKD",
-    "label" : "Macedonia",
+    "cca3" : "MDA",
+    "label" : "Moldova",
     "region" : "Europe",
     "values" : {
-      "population" : 2096015,
-      "gdp" : 2.904E10,
-      "area" : 25713
+      "population" : 3546847,
+      "gdp" : 1.779E10,
+      "area" : 33851
     },
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
       "democracy-type" : "Flawed democracy",
-      "hdi" : "high"
+      "hdi" : "medium"
     },
     "scores": {
-      "hdi" : 0.747,
-      "democracy" : 5.23,
-      "rank" : 95
+      "rank" : 76,
+      "hdi" : 0.693,
+      "democracy" : 6.01
     },
     "organisations" : {
       "eu" : false,
@@ -2184,85 +2128,29 @@
     }
   },
   {
-    "cca3" : "MNE",
-    "label" : "Montenegro",
-    "region" : "Europe",
+    "cca3" : "ZMB",
+    "label" : "Zambia",
+    "region" : "Africa",
     "values" : {
-      "population" : 647073,
-      "gdp" : 1.004E10,
-      "area" : 13812
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Flawed democracy",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.802,
-      "democracy" : 5.72,
-      "rank" : 85
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "GTM",
-    "label" : "Guatemala",
-    "region" : "Americas",
-    "values" : {
-      "population" : 1.4918999E7,
-      "gdp" : 1.259E11,
-      "area" : 108889
+      "population" : 1.5066266E7,
+      "gdp" : 6.271E10,
+      "area" : 752618
     },
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "democracy-type" : "Flawed democracy",
       "hdi" : "medium"
     },
     "scores": {
-      "hdi" : 0.627,
-      "democracy" : 5.92,
-      "rank" : 80
+      "rank" : 77,
+      "hdi" : 0.586,
+      "democracy" : 5.99
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "ALB",
-    "label" : "Albania",
-    "region" : "Europe",
-    "values" : {
-      "population" : 3029278,
-      "gdp" : 3.265E10,
-      "area" : 28748
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.733,
-      "democracy" : 5.91,
-      "rank" : 81
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : true,
       "oced" : false,
       "g20" : false
     }
@@ -2283,37 +2171,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 78,
       "hdi" : 0.754,
-      "democracy" : 5.93,
-      "rank" : 78
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "ECU",
-    "label" : "Ecuador",
-    "region" : "Americas",
-    "values" : {
-      "population" : 1.5868396E7,
-      "gdp" : 1.834E11,
-      "area" : 283561
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.732,
-      "democracy" : 5.81,
-      "rank" : 82
+      "democracy" : 5.93
     },
     "organisations" : {
       "eu" : false,
@@ -2339,9 +2199,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 79,
       "hdi" : 0.606,
-      "democracy" : 5.92,
-      "rank" : 79
+      "democracy" : 5.92
     },
     "organisations" : {
       "eu" : false,
@@ -2352,13 +2212,13 @@
     }
   },
   {
-    "cca3" : "BOL",
-    "label" : "Bolivia",
+    "cca3" : "GTM",
+    "label" : "Guatemala",
     "region" : "Americas",
     "values" : {
-      "population" : 1.0800882E7,
-      "gdp" : 7.439E10,
-      "area" : 1098581
+      "population" : 1.4918999E7,
+      "gdp" : 1.259E11,
+      "area" : 108889
     },
     "types": {
       "state" : "republic",
@@ -2367,9 +2227,9 @@
       "hdi" : "medium"
     },
     "scores": {
-      "hdi" : 0.662,
-      "democracy" : 5.63,
-      "rank" : 90
+      "rank" : 80,
+      "hdi" : 0.627,
+      "democracy" : 5.92
     },
     "organisations" : {
       "eu" : false,
@@ -2380,125 +2240,13 @@
     }
   },
   {
-    "cca3" : "BGD",
-    "label" : "Bangladesh",
-    "region" : "Asia",
-    "values" : {
-      "population" : 1.68957745E8,
-      "gdp" : 5.77E11,
-      "area" : 148460
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.57,
-      "democracy" : 5.73,
-      "rank" : 84
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "BEN",
-    "label" : "Benin",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1.0448647E7,
-      "gdp" : 2.295E10,
-      "area" : 112622
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.48,
-      "democracy" : 5.67,
-      "rank" : 88
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "UKR",
-    "label" : "Ukraine",
+    "cca3" : "ALB",
+    "label" : "Albania",
     "region" : "Europe",
     "values" : {
-      "population" : 4.4429471E7,
-      "gdp" : 3.395E11,
-      "area" : 603550
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.747,
-      "democracy" : 5.7,
-      "rank" : 86
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "MLI",
-    "label" : "Mali",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1.6955536E7,
-      "gdp" : 3.583E10,
-      "area" : 1240192
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.419,
-      "democracy" : 5.7,
-      "rank" : 87
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "FJI",
-    "label" : "Fiji",
-    "region" : "Oceania",
-    "values" : {
-      "population" : 909389,
-      "gdp" : 8.048E9,
-      "area" : 18274
+      "population" : 3029278,
+      "gdp" : 3.265E10,
+      "area" : 28748
     },
     "types": {
       "state" : "republic",
@@ -2507,9 +2255,37 @@
       "hdi" : "high"
     },
     "scores": {
-      "hdi" : 0.727,
-      "democracy" : 5.64,
-      "rank" : 89
+      "rank" : 81,
+      "hdi" : 0.733,
+      "democracy" : 5.91
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : true,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "ECU",
+    "label" : "Ecuador",
+    "region" : "Americas",
+    "values" : {
+      "population" : 1.5868396E7,
+      "gdp" : 1.834E11,
+      "area" : 283561
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 82,
+      "hdi" : 0.732,
+      "democracy" : 5.81
     },
     "organisations" : {
       "eu" : false,
@@ -2535,9 +2311,205 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 83,
       "hdi" : 0.521,
-      "democracy" : 5.76,
-      "rank" : 83
+      "democracy" : 5.76
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "BGD",
+    "label" : "Bangladesh",
+    "region" : "Asia",
+    "values" : {
+      "population" : 1.68957745E8,
+      "gdp" : 5.77E11,
+      "area" : 148460
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 84,
+      "hdi" : 0.57,
+      "democracy" : 5.73
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "MNE",
+    "label" : "Montenegro",
+    "region" : "Europe",
+    "values" : {
+      "population" : 647073,
+      "gdp" : 1.004E10,
+      "area" : 13812
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 85,
+      "hdi" : 0.802,
+      "democracy" : 5.72
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "UKR",
+    "label" : "Ukraine",
+    "region" : "Europe",
+    "values" : {
+      "population" : 4.4429471E7,
+      "gdp" : 3.395E11,
+      "area" : 603550
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 86,
+      "hdi" : 0.747,
+      "democracy" : 5.7
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "MLI",
+    "label" : "Mali",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1.6955536E7,
+      "gdp" : 3.583E10,
+      "area" : 1240192
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 87,
+      "hdi" : 0.419,
+      "democracy" : 5.7
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "BEN",
+    "label" : "Benin",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1.0448647E7,
+      "gdp" : 2.295E10,
+      "area" : 112622
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 88,
+      "hdi" : 0.48,
+      "democracy" : 5.67
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "FJI",
+    "label" : "Fiji",
+    "region" : "Oceania",
+    "values" : {
+      "population" : 909389,
+      "gdp" : 8.048E9,
+      "area" : 18274
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 89,
+      "hdi" : 0.727,
+      "democracy" : 5.64
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "BOL",
+    "label" : "Bolivia",
+    "region" : "Americas",
+    "values" : {
+      "population" : 1.0800882E7,
+      "gdp" : 7.439E10,
+      "area" : 1098581
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 90,
+      "hdi" : 0.662,
+      "democracy" : 5.63
     },
     "organisations" : {
       "eu" : false,
@@ -2563,37 +2535,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 91,
       "hdi" : 0.445,
-      "democracy" : 5.55,
-      "rank" : 91
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "KGZ",
-    "label" : "Kyrgyz Republic",
-    "region" : "Asia",
-    "values" : {
-      "population" : 5664939,
-      "gdp" : 2.01E10,
-      "area" : 199951
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.655,
-      "democracy" : 4.93,
-      "rank" : 98
+      "democracy" : 5.55
     },
     "organisations" : {
       "eu" : false,
@@ -2619,149 +2563,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 92,
       "hdi" : 0.548,
-      "democracy" : 5.33,
-      "rank" : 92
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "NIC",
-    "label" : "Nicaragua",
-    "region" : "Americas",
-    "values" : {
-      "population" : 5907881,
-      "gdp" : 3.133E10,
-      "area" : 130370
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.631,
-      "democracy" : 4.81,
-      "rank" : 104
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "UGA",
-    "label" : "Uganda",
-    "region" : "Africa",
-    "values" : {
-      "population" : 3.7101745E7,
-      "gdp" : 7.988E10,
-      "area" : 241038
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.483,
-      "democracy" : 5.26,
-      "rank" : 94
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "TUR",
-    "label" : "Turkey",
-    "region" : "Asia",
-    "values" : {
-      "population" : 7.9414269E7,
-      "gdp" : 1.589E12,
-      "area" : 783562
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.761,
-      "democracy" : 5.04,
-      "rank" : 97
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : true,
-      "oced" : true,
-      "g20" : true
-    }
-  },
-  {
-    "cca3" : "THA",
-    "label" : "Thailand",
-    "region" : "Asia",
-    "values" : {
-      "population" : 6.7976405E7,
-      "gdp" : 1.108E12,
-      "area" : 513120
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "constitutional",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.726,
-      "democracy" : 4.92,
-      "rank" : 100
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "VEN",
-    "label" : "Venezuela",
-    "region" : "Americas",
-    "values" : {
-      "population" : 2.927546E7,
-      "gdp" : 5.157E11,
-      "area" : 912050
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.762,
-      "democracy" : 4.68,
-      "rank" : 107
+      "democracy" : 5.33
     },
     "organisations" : {
       "eu" : false,
@@ -2787,9 +2591,149 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 93,
       "hdi" : 0.43,
-      "democracy" : 5.31,
-      "rank" : 93
+      "democracy" : 5.31
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "UGA",
+    "label" : "Uganda",
+    "region" : "Africa",
+    "values" : {
+      "population" : 3.7101745E7,
+      "gdp" : 7.988E10,
+      "area" : 241038
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 94,
+      "hdi" : 0.483,
+      "democracy" : 5.26
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "MKD",
+    "label" : "Macedonia",
+    "region" : "Europe",
+    "values" : {
+      "population" : 2096015,
+      "gdp" : 2.904E10,
+      "area" : 25713
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Flawed democracy",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 95,
+      "hdi" : 0.747,
+      "democracy" : 5.23
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "MDG",
+    "label" : "Madagascar",
+    "region" : "Africa",
+    "values" : {
+      "population" : 2.3812681E7,
+      "gdp" : 3.544E10,
+      "area" : 587041
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 96,
+      "hdi" : 0.51,
+      "democracy" : 5.07
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "TUR",
+    "label" : "Turkey",
+    "region" : "Asia",
+    "values" : {
+      "population" : 7.9414269E7,
+      "gdp" : 1.589E12,
+      "area" : 783562
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 97,
+      "hdi" : 0.761,
+      "democracy" : 5.04
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : true,
+      "oced" : true,
+      "g20" : true
+    }
+  },
+  {
+    "cca3" : "KGZ",
+    "label" : "Kyrgyz Republic",
+    "region" : "Asia",
+    "values" : {
+      "population" : 5664939,
+      "gdp" : 2.01E10,
+      "area" : 199951
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 98,
+      "hdi" : 0.655,
+      "democracy" : 4.93
     },
     "organisations" : {
       "eu" : false,
@@ -2815,9 +2759,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 99,
       "hdi" : 0.605,
-      "democracy" : 4.93,
-      "rank" : 99
+      "democracy" : 4.93
     },
     "organisations" : {
       "eu" : false,
@@ -2828,52 +2772,24 @@
     }
   },
   {
-    "cca3" : "LBN",
-    "label" : "Lebanon",
+    "cca3" : "THA",
+    "label" : "Thailand",
     "region" : "Asia",
     "values" : {
-      "population" : 6184701,
-      "gdp" : 8.306E10,
-      "area" : 10400
+      "population" : 6.7976405E7,
+      "gdp" : 1.108E12,
+      "area" : 513120
     },
     "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
+      "state" : "monarchy",
+      "government" : "constitutional",
       "democracy-type" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "hdi" : 0.769,
-      "democracy" : 4.86,
-      "rank" : 102
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "MDG",
-    "label" : "Madagascar",
-    "region" : "Africa",
-    "values" : {
-      "population" : 2.3812681E7,
-      "gdp" : 3.544E10,
-      "area" : 587041
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.51,
-      "democracy" : 5.07,
-      "rank" : 96
+      "rank" : 100,
+      "hdi" : 0.726,
+      "democracy" : 4.92
     },
     "organisations" : {
       "eu" : false,
@@ -2899,13 +2815,41 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 101,
       "hdi" : 0.733,
-      "democracy" : 4.87,
-      "rank" : 101
+      "democracy" : 4.87
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "LBN",
+    "label" : "Lebanon",
+    "region" : "Asia",
+    "values" : {
+      "population" : 6184701,
+      "gdp" : 8.306E10,
+      "area" : 10400
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 102,
+      "hdi" : 0.769,
+      "democracy" : 4.86
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
       "nato" : false,
       "oced" : false,
       "g20" : false
@@ -2927,9 +2871,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 103,
       "hdi" : 0.548,
-      "democracy" : 4.86,
-      "rank" : 103
+      "democracy" : 4.86
     },
     "organisations" : {
       "eu" : false,
@@ -2940,24 +2884,24 @@
     }
   },
   {
-    "cca3" : "BFA",
-    "label" : "Burkina Faso",
-    "region" : "Africa",
+    "cca3" : "NIC",
+    "label" : "Nicaragua",
+    "region" : "Americas",
     "values" : {
-      "population" : 1.8931686E7,
-      "gdp" : 3.088E10,
-      "area" : 274200
+      "population" : 5907881,
+      "gdp" : 3.133E10,
+      "area" : 130370
     },
     "types": {
       "state" : "republic",
       "government" : "presidential",
       "democracy-type" : "Hybrid regime",
-      "hdi" : "low"
+      "hdi" : "medium"
     },
     "scores": {
-      "hdi" : 0.402,
-      "democracy" : 4.7,
-      "rank" : 106
+      "rank" : 104,
+      "hdi" : 0.631,
+      "democracy" : 4.81
     },
     "organisations" : {
       "eu" : false,
@@ -2983,13 +2927,97 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 105,
       "hdi" : 0.628,
-      "democracy" : 4.77,
-      "rank" : 105
+      "democracy" : 4.77
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "BFA",
+    "label" : "Burkina Faso",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1.8931686E7,
+      "gdp" : 3.088E10,
+      "area" : 274200
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 106,
+      "hdi" : 0.402,
+      "democracy" : 4.7
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "VEN",
+    "label" : "Venezuela",
+    "region" : "Americas",
+    "values" : {
+      "population" : 2.927546E7,
+      "gdp" : 5.157E11,
+      "area" : 912050
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 107,
+      "hdi" : 0.762,
+      "democracy" : 4.68
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "SLE",
+    "label" : "Sierra Leone",
+    "region" : "Africa",
+    "values" : {
+      "population" : 5879098,
+      "gdp" : 9.966E9,
+      "area" : 71740
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 108,
+      "hdi" : 0.413,
+      "democracy" : 4.55
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
       "nato" : false,
       "oced" : false,
       "g20" : false
@@ -3011,37 +3039,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 109,
       "hdi" : 0.514,
-      "democracy" : 4.5,
-      "rank" : 109
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "MOZ",
-    "label" : "Mozambique",
-    "region" : "Africa",
-    "values" : {
-      "population" : 2.5303113E7,
-      "gdp" : 3.319E10,
-      "area" : 799380
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.416,
-      "democracy" : 4.02,
-      "rank" : 115
+      "democracy" : 4.5
     },
     "organisations" : {
       "eu" : false,
@@ -3067,41 +3067,13 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 110,
       "hdi" : 0.677,
-      "democracy" : 4.49,
-      "rank" : 110
+      "democracy" : 4.49
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "SLE",
-    "label" : "Sierra Leone",
-    "region" : "Africa",
-    "values" : {
-      "population" : 5879098,
-      "gdp" : 9.966E9,
-      "area" : 71740
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.413,
-      "democracy" : 4.55,
-      "rank" : 108
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
       "nato" : false,
       "oced" : false,
       "g20" : false
@@ -3123,9 +3095,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 111,
       "hdi" : 0.538,
-      "democracy" : 4.33,
-      "rank" : 111
+      "democracy" : 4.33
     },
     "organisations" : {
       "eu" : false,
@@ -3151,9 +3123,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 112,
       "hdi" : 0.555,
-      "democracy" : 4.27,
-      "rank" : 112
+      "democracy" : 4.27
     },
     "organisations" : {
       "eu" : false,
@@ -3179,9 +3151,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 113,
       "hdi" : 0.536,
-      "democracy" : 4.2,
-      "rank" : 113
+      "democracy" : 4.2
     },
     "organisations" : {
       "eu" : false,
@@ -3207,9 +3179,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 114,
       "hdi" : 0.654,
-      "democracy" : 4.08,
-      "rank" : 114
+      "democracy" : 4.08
     },
     "organisations" : {
       "eu" : false,
@@ -3220,24 +3192,52 @@
     }
   },
   {
-    "cca3" : "ARM",
-    "label" : "Armenia",
-    "region" : "Asia",
+    "cca3" : "MOZ",
+    "label" : "Mozambique",
+    "region" : "Africa",
     "values" : {
-      "population" : 3056382,
-      "gdp" : 2.532E10,
-      "area" : 29743
+      "population" : 2.5303113E7,
+      "gdp" : 3.319E10,
+      "area" : 799380
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 115,
+      "hdi" : 0.416,
+      "democracy" : 4.02
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "HTI",
+    "label" : "Haiti",
+    "region" : "Americas",
+    "values" : {
+      "population" : 1.0110019E7,
+      "gdp" : 1.875E10,
+      "area" : 27750
     },
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
-      "hdi" : "high"
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
     },
     "scores": {
-      "hdi" : 0.733,
-      "democracy" : 3.88,
-      "rank" : 120
+      "rank" : 116,
+      "hdi" : 0.483,
+      "democracy" : 4.02
     },
     "organisations" : {
       "eu" : false,
@@ -3263,69 +3263,13 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 117,
       "hdi" : 0.506,
-      "democracy" : 3.96,
-      "rank" : 117
+      "democracy" : 3.96
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "DZA",
-    "label" : "Algeria",
-    "region" : "Africa",
-    "values" : {
-      "population" : 3.9542166E7,
-      "gdp" : 5.787E11,
-      "area" : 2381741
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.736,
-      "democracy" : 3.56,
-      "rank" : 126
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "HTI",
-    "label" : "Haiti",
-    "region" : "Americas",
-    "values" : {
-      "population" : 1.0110019E7,
-      "gdp" : 1.875E10,
-      "area" : 27750
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.483,
-      "democracy" : 4.02,
-      "rank" : 116
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
       "nato" : false,
       "oced" : false,
       "g20" : false
@@ -3347,37 +3291,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 118,
       "hdi" : 0.748,
-      "democracy" : 3.96,
-      "rank" : 118
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "KWT",
-    "label" : "Kuwait",
-    "region" : "Asia",
-    "values" : {
-      "population" : 2788534,
-      "gdp" : 2.884E11,
-      "area" : 17818
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "constitutional",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.816,
-      "democracy" : 3.85,
-      "rank" : 121
+      "democracy" : 3.96
     },
     "organisations" : {
       "eu" : false,
@@ -3403,9 +3319,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 119,
       "hdi" : 0.348,
-      "democracy" : 3.96,
-      "rank" : 119
+      "democracy" : 3.96
     },
     "organisations" : {
       "eu" : false,
@@ -3416,24 +3332,80 @@
     }
   },
   {
-    "cca3" : "ETH",
-    "label" : "Ethiopia",
-    "region" : "Africa",
+    "cca3" : "ARM",
+    "label" : "Armenia",
+    "region" : "Asia",
     "values" : {
-      "population" : 9.9465819E7,
-      "gdp" : 1.616E11,
-      "area" : 1104300
+      "population" : 3056382,
+      "gdp" : 2.532E10,
+      "area" : 29743
     },
     "types": {
       "state" : "republic",
-      "government" : "parliamentary",
+      "government" : "semi-presidential",
+      "democracy-type" : "Hybrid regime",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 120,
+      "hdi" : 0.733,
+      "democracy" : 3.88
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "KWT",
+    "label" : "Kuwait",
+    "region" : "Asia",
+    "values" : {
+      "population" : 2788534,
+      "gdp" : 2.884E11,
+      "area" : 17818
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "constitutional",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 121,
+      "hdi" : 0.816,
+      "democracy" : 3.85
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "CIV",
+    "label" : "Côte d\u2019Ivoire",
+    "region" : "Africa",
+    "values" : {
+      "population" : 2.3295302E7,
+      "gdp" : 7.862E10,
+      "area" : 322463
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
       "democracy-type" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "hdi" : 0.442,
-      "democracy" : 3.6,
-      "rank" : 125
+      "rank" : 122,
+      "hdi" : 0.462,
+      "democracy" : 3.81
     },
     "organisations" : {
       "eu" : false,
@@ -3459,9 +3431,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 123,
       "hdi" : 0.684,
-      "democracy" : 3.74,
-      "rank" : 123
+      "democracy" : 3.74
     },
     "organisations" : {
       "eu" : false,
@@ -3487,9 +3459,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 124,
       "hdi" : 0.503,
-      "democracy" : 3.71,
-      "rank" : 124
+      "democracy" : 3.71
     },
     "organisations" : {
       "eu" : false,
@@ -3500,28 +3472,56 @@
     }
   },
   {
-    "cca3" : "CMR",
-    "label" : "Cameroon",
+    "cca3" : "ETH",
+    "label" : "Ethiopia",
     "region" : "Africa",
     "values" : {
-      "population" : 2.3739218E7,
-      "gdp" : 7.264E10,
-      "area" : 475440
+      "population" : 9.9465819E7,
+      "gdp" : 1.616E11,
+      "area" : 1104300
     },
     "types": {
       "state" : "republic",
-      "government" : "presidential",
+      "government" : "parliamentary",
       "democracy-type" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "hdi" : 0.512,
-      "democracy" : 3.46,
-      "rank" : 128
+      "rank" : 125,
+      "hdi" : 0.442,
+      "democracy" : 3.6
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "DZA",
+    "label" : "Algeria",
+    "region" : "Africa",
+    "values" : {
+      "population" : 3.9542166E7,
+      "gdp" : 5.787E11,
+      "area" : 2381741
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 126,
+      "hdi" : 0.736,
+      "democracy" : 3.56
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
       "nato" : false,
       "oced" : false,
       "g20" : false
@@ -3543,9 +3543,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 127,
       "hdi" : 0.798,
-      "democracy" : 3.54,
-      "rank" : 127
+      "democracy" : 3.54
     },
     "organisations" : {
       "eu" : false,
@@ -3556,24 +3556,24 @@
     }
   },
   {
-    "cca3" : "VNM",
-    "label" : "Vietnam",
-    "region" : "Asia",
+    "cca3" : "CMR",
+    "label" : "Cameroon",
+    "region" : "Africa",
     "values" : {
-      "population" : 9.4348835E7,
-      "gdp" : 5.523E11,
-      "area" : 331210
+      "population" : 2.3739218E7,
+      "gdp" : 7.264E10,
+      "area" : 475440
     },
     "types": {
       "state" : "republic",
-      "government" : "socialist",
+      "government" : "presidential",
       "democracy-type" : "Authoritarian",
-      "hdi" : "medium"
+      "hdi" : "low"
     },
     "scores": {
-      "hdi" : 0.666,
-      "democracy" : 3.38,
-      "rank" : 131
+      "rank" : 128,
+      "hdi" : 0.512,
+      "democracy" : 3.46
     },
     "organisations" : {
       "eu" : false,
@@ -3599,37 +3599,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 129,
       "hdi" : 0.769,
-      "democracy" : 3.46,
-      "rank" : 129
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "TGO",
-    "label" : "Togo",
-    "region" : "Africa",
-    "values" : {
-      "population" : 7552318,
-      "gdp" : 1.085E10,
-      "area" : 56785
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.484,
-      "democracy" : 3.32,
-      "rank" : 132
+      "democracy" : 3.46
     },
     "organisations" : {
       "eu" : false,
@@ -3655,9 +3627,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 130,
       "hdi" : 0.532,
-      "democracy" : 3.4,
-      "rank" : 130
+      "democracy" : 3.4
     },
     "organisations" : {
       "eu" : false,
@@ -3668,13 +3640,41 @@
     }
   },
   {
-    "cca3" : "CIV",
-    "label" : "Côte d\u2019Ivoire",
+    "cca3" : "VNM",
+    "label" : "Vietnam",
+    "region" : "Asia",
+    "values" : {
+      "population" : 9.4348835E7,
+      "gdp" : 5.523E11,
+      "area" : 331210
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "socialist",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 131,
+      "hdi" : 0.666,
+      "democracy" : 3.38
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "TGO",
+    "label" : "Togo",
     "region" : "Africa",
     "values" : {
-      "population" : 2.3295302E7,
-      "gdp" : 7.862E10,
-      "area" : 322463
+      "population" : 7552318,
+      "gdp" : 1.085E10,
+      "area" : 56785
     },
     "types": {
       "state" : "republic",
@@ -3683,13 +3683,41 @@
       "hdi" : "low"
     },
     "scores": {
-      "hdi" : 0.462,
-      "democracy" : 3.81,
-      "rank" : 122
+      "rank" : 132,
+      "hdi" : 0.484,
+      "democracy" : 3.32
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "EGY",
+    "label" : "Egypt",
+    "region" : "Africa",
+    "values" : {
+      "population" : 8.8487396E7,
+      "gdp" : 1.048E12,
+      "area" : 1001450
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 133,
+      "hdi" : 0.69,
+      "democracy" : 3.31
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
       "nato" : false,
       "oced" : false,
       "g20" : false
@@ -3711,9 +3739,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 134,
       "hdi" : 0.798,
-      "democracy" : 3.24,
-      "rank" : 134
+      "democracy" : 3.24
     },
     "organisations" : {
       "eu" : false,
@@ -3721,34 +3749,6 @@
       "nato" : false,
       "oced" : false,
       "g20" : true
-    }
-  },
-  {
-    "cca3" : "EGY",
-    "label" : "Egypt",
-    "region" : "Africa",
-    "values" : {
-      "population" : 8.8487396E7,
-      "gdp" : 1.048E12,
-      "area" : 1001450
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.69,
-      "democracy" : 3.31,
-      "rank" : 133
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
     }
   },
   {
@@ -3767,9 +3767,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 135,
       "hdi" : 0.85,
-      "democracy" : 3.18,
-      "rank" : 135
+      "democracy" : 3.18
     },
     "organisations" : {
       "eu" : false,
@@ -3795,9 +3795,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 136,
       "hdi" : 0.411,
-      "democracy" : 3.14,
-      "rank" : 136
+      "democracy" : 3.14
     },
     "organisations" : {
       "eu" : false,
@@ -3823,9 +3823,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 137,
       "hdi" : 0.727,
-      "democracy" : 3.14,
-      "rank" : 137
+      "democracy" : 3.14
     },
     "organisations" : {
       "eu" : false,
@@ -3833,34 +3833,6 @@
       "nato" : false,
       "oced" : false,
       "g20" : true
-    }
-  },
-  {
-    "cca3" : "SWZ",
-    "label" : "Swaziland",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1435613,
-      "gdp" : 1.085E10,
-      "area" : 17364
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "absolute",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.531,
-      "democracy" : 3.03,
-      "rank" : 142
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
     }
   },
   {
@@ -3879,9 +3851,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 138,
       "hdi" : 0.483,
-      "democracy" : 3.07,
-      "rank" : 138
+      "democracy" : 3.07
     },
     "organisations" : {
       "eu" : false,
@@ -3907,9 +3879,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 139,
       "hdi" : 0.788,
-      "democracy" : 3.06,
-      "rank" : 139
+      "democracy" : 3.06
     },
     "organisations" : {
       "eu" : false,
@@ -3935,9 +3907,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 140,
       "hdi" : 0.509,
-      "democracy" : 3.05,
-      "rank" : 140
+      "democracy" : 3.05
     },
     "organisations" : {
       "eu" : false,
@@ -3963,9 +3935,9 @@
       "hdi" : "high"
     },
     "scores": {
+      "rank" : 141,
       "hdi" : 0.793,
-      "democracy" : 3.04,
-      "rank" : 141
+      "democracy" : 3.04
     },
     "organisations" : {
       "eu" : false,
@@ -3976,388 +3948,24 @@
     }
   },
   {
-    "cca3" : "GMB",
-    "label" : "Gambia",
+    "cca3" : "SWZ",
+    "label" : "Swaziland",
     "region" : "Africa",
     "values" : {
-      "population" : 1967709,
-      "gdp" : 3.261E9,
-      "area" : 11300
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.441,
-      "democracy" : 2.91,
-      "rank" : 144
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "COD",
-    "label" : "Democratic Republic of Congo",
-    "region" : "Africa",
-    "values" : {
-      "population" : 7.9375136E7,
-      "gdp" : 6.287E10,
-      "area" : 2344858
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.433,
-      "democracy" : 1.93,
-      "rank" : 159
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "DJI",
-    "label" : "Djibouti",
-    "region" : "Africa",
-    "values" : {
-      "population" : 828324,
-      "gdp" : 3.094E9,
-      "area" : 23200
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.47,
-      "democracy" : 2.83,
-      "rank" : 145
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "BHR",
-    "label" : "Bahrain",
-    "region" : "Asia",
-    "values" : {
-      "population" : 1346613,
-      "gdp" : 6.48E10,
-      "area" : 760
+      "population" : 1435613,
+      "gdp" : 1.085E10,
+      "area" : 17364
     },
     "types": {
       "state" : "monarchy",
-      "government" : "constitutional",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.824,
-      "democracy" : 2.79,
-      "rank" : 146
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "AFG",
-    "label" : "Afghanistan",
-    "region" : "Asia",
-    "values" : {
-      "population" : 3.2564342E7,
-      "gdp" : 6.232E10,
-      "area" : 652230
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
+      "government" : "absolute",
       "democracy-type" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "hdi" : 0.465,
-      "democracy" : 2.55,
-      "rank" : 149
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "ARE",
-    "label" : "United Arab Emirates",
-    "region" : "Asia",
-    "values" : {
-      "population" : 5779760,
-      "gdp" : 6.478E11,
-      "area" : 83600
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "constitutional",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "top"
-    },
-    "scores": {
-      "hdi" : 0.835,
-      "democracy" : 2.75,
-      "rank" : 147
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "AZE",
-    "label" : "Azerbaijan",
-    "region" : "Asia",
-    "values" : {
-      "population" : 9780780,
-      "gdp" : 1.694E11,
-      "area" : 86600
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.751,
-      "democracy" : 2.65,
-      "rank" : 148
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "BDI",
-    "label" : "Burundi",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1.0742276E7,
-      "gdp" : 7.711E9,
-      "area" : 27830
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.4,
-      "democracy" : 2.4,
-      "rank" : 150
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "SDN",
-    "label" : "Sudan",
-    "region" : "Africa",
-    "values" : {
-      "population" : 3.6108853E7,
-      "gdp" : 1.67E11,
-      "area" : 1861484
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.479,
-      "democracy" : 2.37,
-      "rank" : 151
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "ERI",
-    "label" : "Eritrea",
-    "region" : "Africa",
-    "values" : {
-      "population" : 6527689,
-      "gdp" : 8.713E9,
-      "area" : 117600
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.391,
-      "democracy" : 2.37,
-      "rank" : 152
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "LBY",
-    "label" : "Libya",
-    "region" : "Africa",
-    "values" : {
-      "population" : 6411776,
-      "gdp" : 9.261E10,
-      "area" : 1759540
-    },
-    "types": {
-      "state" : "other",
-      "government" : "other",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.724,
-      "democracy" : 2.25,
-      "rank" : 155
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "YEM",
-    "label" : "Yemen",
-    "region" : "Asia",
-    "values" : {
-      "population" : 2.6737317E7,
-      "gdp" : 7.554E10,
-      "area" : 527968
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "other",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "hdi" : 0.498,
-      "democracy" : 2.07,
-      "rank" : 156
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "LAO",
-    "label" : "Laos",
-    "region" : "Asia",
-    "values" : {
-      "population" : 6911544,
-      "gdp" : 3.732E10,
-      "area" : 236800
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "socialist",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.575,
-      "democracy" : 2.37,
-      "rank" : 153
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "IRN",
-    "label" : "Iran",
-    "region" : "Asia",
-    "values" : {
-      "population" : 8.182427E7,
-      "gdp" : 1.371E12,
-      "area" : 1648195
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "theocratic",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "high"
-    },
-    "scores": {
-      "hdi" : 0.766,
-      "democracy" : 2.34,
-      "rank" : 154
+      "rank" : 142,
+      "hdi" : 0.531,
+      "democracy" : 3.03
     },
     "organisations" : {
       "eu" : false,
@@ -4383,9 +3991,401 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 143,
       "hdi" : 0.591,
-      "democracy" : 2.91,
-      "rank" : 143
+      "democracy" : 2.91
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "GMB",
+    "label" : "Gambia",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1967709,
+      "gdp" : 3.261E9,
+      "area" : 11300
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 144,
+      "hdi" : 0.441,
+      "democracy" : 2.91
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "DJI",
+    "label" : "Djibouti",
+    "region" : "Africa",
+    "values" : {
+      "population" : 828324,
+      "gdp" : 3.094E9,
+      "area" : 23200
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 145,
+      "hdi" : 0.47,
+      "democracy" : 2.83
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "BHR",
+    "label" : "Bahrain",
+    "region" : "Asia",
+    "values" : {
+      "population" : 1346613,
+      "gdp" : 6.48E10,
+      "area" : 760
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "constitutional",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 146,
+      "hdi" : 0.824,
+      "democracy" : 2.79
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "ARE",
+    "label" : "United Arab Emirates",
+    "region" : "Asia",
+    "values" : {
+      "population" : 5779760,
+      "gdp" : 6.478E11,
+      "area" : 83600
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "constitutional",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "top"
+    },
+    "scores": {
+      "rank" : 147,
+      "hdi" : 0.835,
+      "democracy" : 2.75
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "AZE",
+    "label" : "Azerbaijan",
+    "region" : "Asia",
+    "values" : {
+      "population" : 9780780,
+      "gdp" : 1.694E11,
+      "area" : 86600
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 148,
+      "hdi" : 0.751,
+      "democracy" : 2.65
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "AFG",
+    "label" : "Afghanistan",
+    "region" : "Asia",
+    "values" : {
+      "population" : 3.2564342E7,
+      "gdp" : 6.232E10,
+      "area" : 652230
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 149,
+      "hdi" : 0.465,
+      "democracy" : 2.55
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "BDI",
+    "label" : "Burundi",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1.0742276E7,
+      "gdp" : 7.711E9,
+      "area" : 27830
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 150,
+      "hdi" : 0.4,
+      "democracy" : 2.4
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "SDN",
+    "label" : "Sudan",
+    "region" : "Africa",
+    "values" : {
+      "population" : 3.6108853E7,
+      "gdp" : 1.67E11,
+      "area" : 1861484
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 151,
+      "hdi" : 0.479,
+      "democracy" : 2.37
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "ERI",
+    "label" : "Eritrea",
+    "region" : "Africa",
+    "values" : {
+      "population" : 6527689,
+      "gdp" : 8.713E9,
+      "area" : 117600
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 152,
+      "hdi" : 0.391,
+      "democracy" : 2.37
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "LAO",
+    "label" : "Laos",
+    "region" : "Asia",
+    "values" : {
+      "population" : 6911544,
+      "gdp" : 3.732E10,
+      "area" : 236800
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "socialist",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 153,
+      "hdi" : 0.575,
+      "democracy" : 2.37
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "IRN",
+    "label" : "Iran",
+    "region" : "Asia",
+    "values" : {
+      "population" : 8.182427E7,
+      "gdp" : 1.371E12,
+      "area" : 1648195
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "theocratic",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 154,
+      "hdi" : 0.766,
+      "democracy" : 2.34
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "LBY",
+    "label" : "Libya",
+    "region" : "Africa",
+    "values" : {
+      "population" : 6411776,
+      "gdp" : 9.261E10,
+      "area" : 1759540
+    },
+    "types": {
+      "state" : "other",
+      "government" : "other",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "high"
+    },
+    "scores": {
+      "rank" : 155,
+      "hdi" : 0.724,
+      "democracy" : 2.25
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "YEM",
+    "label" : "Yemen",
+    "region" : "Asia",
+    "values" : {
+      "population" : 2.6737317E7,
+      "gdp" : 7.554E10,
+      "area" : 527968
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "other",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 156,
+      "hdi" : 0.498,
+      "democracy" : 2.07
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
+    }
+  },
+  {
+    "cca3" : "GNB",
+    "label" : "Guinea-Bissau",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1726170,
+      "gdp" : 2.68E9,
+      "area" : 36125
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "low"
+    },
+    "scores": {
+      "rank" : 157,
+      "hdi" : 0.42,
+      "democracy" : 1.98
     },
     "organisations" : {
       "eu" : false,
@@ -4411,9 +4411,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 158,
       "hdi" : 0.675,
-      "democracy" : 1.95,
-      "rank" : 158
+      "democracy" : 1.95
     },
     "organisations" : {
       "eu" : false,
@@ -4424,41 +4424,13 @@
     }
   },
   {
-    "cca3" : "TJK",
-    "label" : "Tajikistan",
-    "region" : "Asia",
-    "values" : {
-      "population" : 8191958,
-      "gdp" : 2.331E10,
-      "area" : 144100
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "democracy-type" : "Authoritarian",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "hdi" : 0.624,
-      "democracy" : 1.89,
-      "rank" : 161
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oced" : false,
-      "g20" : false
-    }
-  },
-  {
-    "cca3" : "GNB",
-    "label" : "Guinea-Bissau",
+    "cca3" : "COD",
+    "label" : "Democratic Republic of Congo",
     "region" : "Africa",
     "values" : {
-      "population" : 1726170,
-      "gdp" : 2.68E9,
-      "area" : 36125
+      "population" : 7.9375136E7,
+      "gdp" : 6.287E10,
+      "area" : 2344858
     },
     "types": {
       "state" : "republic",
@@ -4467,9 +4439,9 @@
       "hdi" : "low"
     },
     "scores": {
-      "hdi" : 0.42,
-      "democracy" : 1.98,
-      "rank" : 157
+      "rank" : 159,
+      "hdi" : 0.433,
+      "democracy" : 1.93
     },
     "organisations" : {
       "eu" : false,
@@ -4495,9 +4467,9 @@
       "hdi" : "top"
     },
     "scores": {
+      "rank" : 160,
       "hdi" : 0.837,
-      "democracy" : 1.93,
-      "rank" : 160
+      "democracy" : 1.93
     },
     "organisations" : {
       "eu" : false,
@@ -4505,6 +4477,34 @@
       "nato" : false,
       "oced" : false,
       "g20" : true
+    }
+  },
+  {
+    "cca3" : "TJK",
+    "label" : "Tajikistan",
+    "region" : "Asia",
+    "values" : {
+      "population" : 8191958,
+      "gdp" : 2.331E10,
+      "area" : 144100
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "democracy-type" : "Authoritarian",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "rank" : 161,
+      "hdi" : 0.624,
+      "democracy" : 1.89
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oced" : false,
+      "g20" : false
     }
   },
   {
@@ -4523,9 +4523,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 162,
       "hdi" : 0.688,
-      "democracy" : 1.83,
-      "rank" : 162
+      "democracy" : 1.83
     },
     "organisations" : {
       "eu" : false,
@@ -4551,9 +4551,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 163,
       "hdi" : 0.587,
-      "democracy" : 1.7,
-      "rank" : 163
+      "democracy" : 1.7
     },
     "organisations" : {
       "eu" : false,
@@ -4579,9 +4579,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 164,
       "hdi" : 0.35,
-      "democracy" : 1.61,
-      "rank" : 164
+      "democracy" : 1.61
     },
     "organisations" : {
       "eu" : false,
@@ -4607,9 +4607,9 @@
       "hdi" : "low"
     },
     "scores": {
+      "rank" : 165,
       "hdi" : 0.392,
-      "democracy" : 1.5,
-      "rank" : 165
+      "democracy" : 1.5
     },
     "organisations" : {
       "eu" : false,
@@ -4635,9 +4635,9 @@
       "hdi" : "medium"
     },
     "scores": {
+      "rank" : 166,
       "hdi" : 0.594,
-      "democracy" : 1.43,
-      "rank" : 166
+      "democracy" : 1.43
     },
     "organisations" : {
       "eu" : false,
@@ -4663,9 +4663,9 @@
       "hdi" : ""
     },
     "scores": {
+      "rank" : 167,
       "hdi" : null,
-      "democracy" : 1.08,
-      "rank" : 167
+      "democracy" : 1.08
     },
     "organisations" : {
       "eu" : false,

@@ -53,7 +53,7 @@ const store = () => new Vuex.Store({
         let retVal = {
           ...country,
           'colours': {
-            'default': 'inherit',
+            'default': colorScaleRank(country.scores.rank).css(),
             'rank': colorScaleRank(country.scores.rank).css(),
             'hdi': colorScaleHDI(country.scores.hdi).css(),
             'democracy': colorScaleDemocracy(country.scores.democracy).css()
@@ -96,6 +96,9 @@ const store = () => new Vuex.Store({
         })
       })
       return retVal
+    },
+    shapes (state) {
+
     }
     // activeModel (state, getters) {
     //   return _.fill(Array(getters.models.length), false)
