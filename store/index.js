@@ -3,12 +3,15 @@ import Vuex from 'vuex'
 import _ from 'lodash'
 import * as data from '../data/data.json'
 // import * as d3 from 'd3-geo'
+import chroma from 'chroma-js'
 
 Vue.use(Vuex)
 
 const store = () => new Vuex.Store({
   state: {
-    data: data
+    data: data,
+    activeStatus: 'default',
+    activeColour: 'default'
   },
   getters: {
     total (state) {
@@ -24,12 +27,37 @@ const store = () => new Vuex.Store({
       })
       return values
     },
+    scores (state) {
+      return _.keys(_.first(state.data)['scores'])
+    },
+    domains (state) {
+      let rankScores = _.map(state.data, 'scores.rank')
+      let hdiScores = _.map(state.data, 'scores.hdi')
+      let democracyScore = _.map(state.data, 'scores.democracy')
+
+      let retVal = {
+        'rank': [_.min(rankScores), _.max(rankScores)],
+        'hdi': [_.min(hdiScores), _.max(hdiScores)],
+        'democracy': [_.min(democracyScore), _.max(democracyScore)]
+      }
+
+      return retVal
+    },
     countries (state, getters) {
       let numberCountries = state.data.length
+      let colorScaleRank = chroma.scale(['green', 'red']).mode('lab').domain(getters.domains.rank)
+      let colorScaleHDI = chroma.scale(['green', 'red']).mode('lab').domain(getters.domains.hdi)
+      let colorScaleDemocracy = chroma.scale(['green', 'red']).mode('lab').domain(getters.domains.democracy)
 
-      return _.map(state.data, country => {
+      return _.map(state.data, (country, index) => {
         let retVal = {
-          ...country
+          ...country,
+          'colours': {
+            'default': 'inherit',
+            'rank': colorScaleRank(country.scores.rank).css(),
+            'hdi': colorScaleHDI(country.scores.hdi).css(),
+            'democracy': colorScaleDemocracy(country.scores.democracy).css()
+          }
         }
 
         let { population, gdp, area } = country['values']
@@ -55,6 +83,19 @@ const store = () => new Vuex.Store({
         }
         return retVal
       })
+    },
+    organisations (state) {
+      return _.keys(_.first(state.data)['organisations'])
+    },
+    status (state, getters) {
+      let retVal = {}
+      retVal[state.activeStatus] = _.fill(Array(state.data.length), false)
+      _.each(getters.organisations, organisation => {
+        retVal[organisation] = _.map(state.data, country => {
+          return country['organisations'][organisation]
+        })
+      })
+      return retVal
     }
     // activeModel (state, getters) {
     //   return _.fill(Array(getters.models.length), false)
@@ -142,9 +183,13 @@ const store = () => new Vuex.Store({
     // }
   },
   mutations: {
-    MAKE_REFERENCE (state, itemID) {
+    MAKE_ACTIVE_STATUS (state, key) {
       // console.log('SET_ACTIVE_MODEL')
-      state.reference = itemID
+      state.activeStatus = key
+    },
+    MAKE_ACTIVE_COLOUR (state, key) {
+      // console.log('SET_ACTIVE_MODEL')
+      state.activeColour = key
     },
     ADD_ITEM (state, itemID) {
       // console.log('SET_ACTIVE_MODEL')
@@ -158,8 +203,11 @@ const store = () => new Vuex.Store({
     }
   },
   actions: {
-    makeReference ({ commit }, id) {
-      commit('MAKE_REFERENCE', id)
+    makeActiveStatus ({ commit }, key) {
+      commit('MAKE_ACTIVE_STATUS', key)
+    },
+    makeActiveColour ({ commit }, key) {
+      commit('MAKE_ACTIVE_COLOUR', key)
     },
     addItem ({ commit }, id) {
       commit('ADD_ITEM', id)

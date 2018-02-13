@@ -3,52 +3,68 @@
     <aside class="page-aside">
       <h2>Democracy Index</h2>
       <section>
-        <span>Legend</span>
+        <strong>Legend</strong>
       </section>
       <section>
-        <span>Story</span>
+        <strong>Story</strong>
       </section>
       <section>
-        <span>Groups</span>
+        <strong>Groups</strong>
+        <ul>
+          <li
+            v-for="organisation in organisations"
+            v-on:mouseover="makeActiveStatus(organisation)"
+            v-on:mouseleave="makeActiveStatus('default')"
+            >{{ organisation }}</li>
+        </ul>
+      </section>
+      <section>
+        <strong>Colours</strong>
+        <ul>
+          <li
+            v-for="score in scores"
+            v-on:mouseover="makeActiveColour(score)"
+            v-on:mouseleave="makeActiveColour('default')"
+            >{{ score }}</li>
+        </ul>
       </section>
     </aside>
     <div class="page-content page-vis">
       <section>
-        <div v-for="country in countries" class="country" :style="{ width: country.values.counter.percent + '%' }"><span>{{ country.label }}</span></div>
+        <div v-for="(country, index) in countries" :class="{ 'country': true, 'active': status[activeStatus][index] }" :style="{ width: country.values.counter.percent + '%', backgroundColor: country.colours[activeColour] }"><span>{{ country.label }}</span></div>
       </section>
       <section>
-        <div v-for="country in countries" class="country" :style="{ width: country.values.population.percent + '%' }"><span>{{ country.label }}</span></div>
+        <div v-for="(country, index) in countries" :class="{ 'country': true, 'active': status[activeStatus][index] }" :style="{ width: country.values.population.percent + '%', backgroundColor: country.colours[activeColour] }"><span>{{ country.label }}</span></div>
       </section>
       <section>
-        <div v-for="country in countries" class="country" :style="{ width: country.values.gdp.percent + '%' }"><span>{{ country.label }}</span></div>
+        <div v-for="(country, index) in countries" :class="{ 'country': true, 'active': status[activeStatus][index] }" :style="{ width: country.values.gdp.percent + '%', backgroundColor: country.colours[activeColour] }"><span>{{ country.label }}</span></div>
       </section>
       <section>
-        <div v-for="country in countries" class="country" :style="{ width: country.values.area.percent + '%' }"><span>{{ country.label }}</span></div>
+        <div v-for="(country, index) in countries" :class="{ 'country': true, 'active': status[activeStatus][index] }" :style="{ width: country.values.area.percent + '%', backgroundColor: country.colours[activeColour] }"><span>{{ country.label }}</span></div>
       </section>
     </div>
   </div>
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+  import { mapGetters, mapState, mapActions } from 'vuex'
   // import _ from 'lodash'
 
   export default {
     data: function () {
-      return {
-        'equal': new Array(168),
-        'GDP': new Array(168),
-        'population': new Array(168),
-        'area': new Array(168)
-      }
+      return {}
     },
     computed: {
-      // ...mapState([
-      //   'comparedItems',
-      //   'reference'
-      // ]),
+      ...mapState([
+        'activeStatus',
+        'activeColour'
+      ]),
       ...mapGetters([
-        'countries'
+        'countries',
+        'status',
+        'organisations',
+        'domains',
+        'scores'
       ])
       // activeTypes (state, getters) {
       //   return _.isUndefined(this.$store.state.activeType) ? _.fill(Array(this.$store.getters.types.length), false) : this.$store.state.activeType
@@ -57,6 +73,10 @@
     watch: {
     },
     methods: {
+      ...mapActions([
+        'makeActiveStatus',
+        'makeActiveColour'
+      ])
     },
     components: {
     },
