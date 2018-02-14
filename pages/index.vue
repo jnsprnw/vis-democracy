@@ -81,7 +81,8 @@
         resolution: [],
         shapes: [],
         points: [],
-        placements: []
+        placements: [],
+        rows: 5
       }
     },
     computed: {
@@ -95,10 +96,19 @@
         'organisations',
         'domains',
         'scores'
-      ])
-      // activeTypes (state, getters) {
-      //   return _.isUndefined(this.$store.state.activeType) ? _.fill(Array(this.$store.getters.types.length), false) : this.$store.state.activeType
-      // }
+      ]),
+      ysPercent (state, getters) {
+        let { rows } = state
+        let gutter = 3 // Percent
+        let row = (100 - (state.rows - 1) * gutter) / rows
+
+        let i = 0
+        return _.map(new Array(rows * 2), (y, n) => {
+          if (n === 0) return 0
+          i += n % 2 ? row : gutter
+          return i / 100
+        })
+      }
     },
     watch: {
       points: function () {
@@ -123,11 +133,11 @@
       },
       calcPoints () {
         let [width, height] = this.resolution
-        let rows = 5
+        let { rows } = this
         let cumulation = _.fill(new Array(rows), 0)
 
-        let ys = _.map(new Array(rows * 2), (y, n) => {
-          return height - (height * n / (rows * 2 - 1))
+        let ys = _.map(this.ysPercent, y => {
+          return height - height * y
         })
 
         let prevXs = _.fill(new Array(rows * 2), 0)
