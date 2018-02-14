@@ -19,9 +19,15 @@ body {
     .page-content {
       width: 80vw;
       height: 95vh;
+      display: flex;
 
-      svg {
-        width: 100%;
+      .vis-legend {
+        width: 3%;
+        font-size: 12px;
+      }
+
+      .vis-graphic {
+        width: 97%;
         height: 100%;
 
         path {

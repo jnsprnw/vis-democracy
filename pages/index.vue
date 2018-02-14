@@ -31,9 +31,19 @@
       </section>
     </aside>
     <div class="page-content page-vis" ref="vis">
+      <svg class="vis-legend">
+        <text
+          v-for="item in legendPlacements"
+          :y="item.y"
+          :x="item.x"
+          alignment-baseline="middle"
+          text-anchor="middle"
+          :transform="'rotate(90,' + item.x + ',' + item.y + ')'"
+        >{{ item.label }}</text>
+      </svg>
       <svg
         v-if="resolution.length && Math.min(...resolution) > 900"
-        :class="{ highlight: activeStatus !== 'default' }">
+        :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true }">
         <g
           v-for="(country, index) in countries"
           :class="{ 'country': true, 'active': status[activeStatus][index] }">
@@ -84,7 +94,9 @@
         shapi: [],
         points: [],
         placements: [],
-        rows: 5
+        legendPlacements: [],
+        rows: 5,
+        gutter: 5
       }
     },
     computed: {
@@ -99,9 +111,8 @@
         'domains',
         'scores'
       ]),
-      ysPercent (state, getters) {
-        let { rows } = state
-        let gutter = 5 // Percent
+      ysPercent (state) {
+        let { rows, gutter } = state
         let row = (100 - (state.rows - 1) * gutter) / rows
 
         let i = 0
@@ -128,10 +139,24 @@
         // console.log(this.resolution)
         this.calcShapes()
         this.calcPoints()
+        this.calcLegendPlacement()
       },
       handleResize () {
         console.log('resized')
         this.getResolution()
+      },
+      calcLegendPlacement () {
+        let labels = ['Scaled by:', 'Population', 'GDP', 'Area', ' ']
+        let [width, height] = this.resolution
+        let { rows, gutter } = this
+        let row = (100 - (rows - 1) * gutter) / rows
+        this.legendPlacements = _.map(labels, (label, n) => {
+          return {
+            'label': label,
+            'x': width * 0.03 / 2,
+            'y': height * (((n + 0.5) * row + n * gutter) / 100)
+          }
+        })
       },
       calcPoints () {
         let [width, height] = this.resolution
@@ -162,7 +187,7 @@
 
           let rightsideXs = _.map(new Array(rows * 2), (x, n) => {
             let index = Math.floor(n / 2)
-            return _.round((cumulation[index] / 100) * width, 2)
+            return _.round((cumulation[index] / 100) * (width * 0.97), 2)
           })
 
           _.each(rightsideXs, (x, n) => {
