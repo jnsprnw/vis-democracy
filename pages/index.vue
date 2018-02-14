@@ -143,7 +143,7 @@
 
         let prevXs = _.fill(new Array(rows * 2), 0)
 
-        this.points = _.map(this.countries, country => {
+        let points = _.map(this.countries, country => {
           let points = []
           let leftsideXs = _.reverse(prevXs)
 
@@ -174,9 +174,11 @@
           prevXs = rightsideXs
           return points
         })
+
+        this.points = Object.freeze(points)
       },
       calcTextPlacement () {
-        this.placements = _.map(this.points, country => {
+        let placements = _.map(this.points, country => {
           let n = country.length / 4
           let points = _.clone(country)
           let placements = []
@@ -196,9 +198,11 @@
           // console.log(placements)
           return placements
         })
+
+        this.placements = Object.freeze(placements)
       },
       calcShapes () {
-        this.shapes = _.map(this.points, country => {
+        let shapes = _.map(this.points, country => {
           let curves = []
 
           let l = country.length - 1
@@ -213,18 +217,20 @@
             }
           }
 
-          console.log('M ' + curves.join(' ') + ' Z')
+          // console.log('M ' + curves.join(' ') + ' Z')
 
           return 'M ' + curves.join(' ') + ' Z'
         })
 
-        this.shapi = _.map(this.points, country => {
-          let shape = _.map(country, point => {
-            return point.join(' ')
-          })
+        this.shapes = Object.freeze(shapes)
 
-          return 'M ' + shape.join(' L ') + ' Z'
-        })
+        // this.shapi = _.map(this.points, country => {
+        //   let shape = _.map(country, point => {
+        //     return point.join(' ')
+        //   })
+
+        //   return 'M ' + shape.join(' L ') + ' Z'
+        // })
       }
     },
     components: {

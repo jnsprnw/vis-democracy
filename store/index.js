@@ -49,7 +49,7 @@ const store = () => new Vuex.Store({
       let colorScaleHDI = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.hdi)
       let colorScaleDemocracy = chroma.scale(['green', 'red']).mode('lab').domain(getters.domains.democracy)
 
-      return _.map(state.data, (country, index) => {
+      let countries = _.map(state.data, (country, index) => {
         let retVal = {
           ...country,
           'colours': {
@@ -83,9 +83,11 @@ const store = () => new Vuex.Store({
         }
         return retVal
       })
+
+      return Object.freeze(countries)
     },
     organisations (state) {
-      return _.keys(_.first(state.data)['organisations'])
+      return Object.freeze(_.keys(_.first(state.data)['organisations']))
     },
     status (state, getters) {
       let retVal = {}
@@ -95,7 +97,7 @@ const store = () => new Vuex.Store({
           return country['organisations'][organisation]
         })
       })
-      return retVal
+      return Object.freeze(retVal)
     },
     shapes (state) {
 
