@@ -40,7 +40,7 @@
             v-if="shapes.length"
             :style="{ fill: country.colours[activeColour] }"
             :d="shapes[index]" />
-          <!-- <circle v-for="point in points[index]"
+<!--           <circle v-for="point in points[index]"
             r="2"
             :cx="point[0]"
             :cy="point[1]"
@@ -80,6 +80,7 @@
       return {
         resolution: [],
         shapes: [],
+        shapi: [],
         points: [],
         placements: [],
         rows: 5
@@ -99,7 +100,7 @@
       ]),
       ysPercent (state, getters) {
         let { rows } = state
-        let gutter = 3 // Percent
+        let gutter = 5 // Percent
         let row = (100 - (state.rows - 1) * gutter) / rows
 
         let i = 0
@@ -183,10 +184,14 @@
             let corners = _.flatten([_.pullAt(points, [0, 1]), _.pullAt(points, [points.length - 2, points.length - 1])])
             let xs = _.map(corners, '0')
             let ys = _.map(corners, '1')
-            let x = (_.max(xs) - _.min(xs)) / 2 + _.min(xs)
-            let y = (_.max(ys) - _.min(ys)) / 2 + _.min(ys)
+            let minx = _.min(xs)
+            let maxx = _.max(xs)
+            let miny = _.min(ys)
+            let maxy = _.max(ys)
+            let x = (maxx - minx) / 2 + minx
+            let y = (maxy - miny) / 2 + miny
             // console.log(corners, xs, ys, x, y)
-            placements[n] = [x, y, _.max(xs) - _.min(xs)]
+            placements[n] = [x, y, _.max(xs) - minx]
           }
           // console.log(placements)
           return placements
@@ -194,6 +199,26 @@
       },
       calcShapes () {
         this.shapes = _.map(this.points, country => {
+          let curves = []
+
+          let l = country.length - 1
+          for (let n = 0; n < l; n++) {
+            if (n % 2) {
+              let diff = (country[n + 1][1] - country[n][1]) / 3
+              let y1 = country[n][1] + diff
+              let y2 = country[n + 1][1] - diff
+              curves.push('C ' + [country[n][0], y1].join(' ') + ' , ' + [country[n + 1][0], y2].join(' ') + ' , ')
+            } else {
+              curves.push(country[n].join(' ') + ' L ' + country[n + 1].join(' '))
+            }
+          }
+
+          console.log('M ' + curves.join(' ') + ' Z')
+
+          return 'M ' + curves.join(' ') + ' Z'
+        })
+
+        this.shapi = _.map(this.points, country => {
           let shape = _.map(country, point => {
             return point.join(' ')
           })
