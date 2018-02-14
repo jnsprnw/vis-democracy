@@ -3,12 +3,7 @@
     <aside class="page-aside">
       <h2><small>Degrees of</small> Democracy</h2>
       <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. A full democracy usually has the following features: free and fair elections; political pluralism; respect of civil liberties and human rights; protection of minority rights; a functioning government with an effective system of checks and balances; equality before the law and an independent judiciary as well as free and diverse media.</p>
-      <section>
-        <strong>Legend</strong>
-      </section>
-      <section>
-        <strong>Story</strong>
-      </section>
+      <p>The width illustrates the share each country has of the total population, land mass, and GDP respectively.</p>
       <section>
         <strong>Groups</strong>
         <ul>
@@ -20,7 +15,7 @@
         </ul>
       </section>
       <section>
-        <strong>Colours</strong>
+        <strong>Scores</strong>
         <ul>
           <li
             v-for="score in scores"
@@ -146,7 +141,7 @@
         this.getResolution()
       },
       calcLegendPlacement () {
-        let labels = ['Scaled by:', 'Population', 'GDP', 'Area', ' ']
+        let labels = ['Scaled by', 'Population', 'GDP', 'Area']
         let [width, height] = this.resolution
         let { rows, gutter } = this
         let row = (100 - (rows - 1) * gutter) / rows
