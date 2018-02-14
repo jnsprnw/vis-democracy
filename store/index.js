@@ -46,7 +46,7 @@ const store = () => new Vuex.Store({
     countries (state, getters) {
       let numberCountries = state.data.length
       let colorScaleRank = chroma.scale(['green', 'red']).mode('lab').domain(getters.domains.rank)
-      let colorScaleHDI = chroma.scale(['green', 'red']).mode('lab').domain(getters.domains.hdi)
+      let colorScaleHDI = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.hdi)
       let colorScaleDemocracy = chroma.scale(['green', 'red']).mode('lab').domain(getters.domains.democracy)
 
       return _.map(state.data, (country, index) => {
