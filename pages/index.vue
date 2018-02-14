@@ -39,6 +39,11 @@
           <path
             :style="{ fill: country.colours[activeColour] }"
             :d="shapes[index]" />
+          <circle v-for="point in points[index]"
+            r="2"
+            :cx="point[0]"
+            :cy="point[1]"
+          />
         </g>
       </svg>
       <resize-observer @notify="handleResize" />
@@ -94,16 +99,18 @@
       },
       calcShapes () {
         let [width, height] = this.resolution
+        let rows = 5
+        let cumulation = _.fill(Array(rows), 0)
 
-        let cumulation = [0, 0, 0, 0]
+        // let fixedYs = [0, 20, 20 + 1 * (20 / 3), ]
 
-        let ys = _.map(new Array(8), (y, n) => {
-          return height - (height * n / 7)
+        let ys = _.map(new Array(rows * 2), (y, n) => {
+          return height - (height * n / (rows * 2 - 1))
         })
 
-        console.log(ys, width, height)
+        // console.log(ys, width, height)
 
-        let prevXs = _.fill(Array(8), 0)
+        let prevXs = _.fill(Array(10), 0)
 
         this.shapes = _.map(this.countries, country => {
           let shape = []
@@ -133,8 +140,9 @@
           cumulation[1] += populationPer
           cumulation[2] += gdpPer
           cumulation[3] += areaPer
+          cumulation[4] += counterPer
 
-          let right = _.map(new Array(8), (x, n) => {
+          let right = _.map(new Array(rows * 2), (x, n) => {
             let index = Math.floor(n / 2)
             return _.round((cumulation[index] / 100) * width, 2)
           })
@@ -142,11 +150,11 @@
           // console.log(right)
 
           _.each(right, (x, n) => {
-            shape.push([x, ys[7 - n]].join(' '))
+            shape.push([x, ys[(rows * 2 - 1) - n]].join(' '))
           })
 
           // console.log(shape.join(' '))
-          console.log(_.round(right[0] - left[0], 1))
+          // console.log(_.round(right[0] - left[0], 1))
 
           prevXs = right
 
@@ -155,16 +163,14 @@
       },
       calcPoints () {
         let [width, height] = this.resolution
+        let rows = 5
+        let cumulation = _.fill(Array(rows), 0)
 
-        let cumulation = [0, 0, 0, 0]
-
-        let ys = _.map(new Array(8), (y, n) => {
-          return height - (height * n / 7)
+        let ys = _.map(new Array(rows * 2), (y, n) => {
+          return height - (height * n / (rows * 2 - 1))
         })
 
-        console.log(ys, width, height)
-
-        let prevXs = _.fill(Array(8), 0)
+        let prevXs = _.fill(Array(rows * 2), 0)
 
         this.points = _.map(this.countries, country => {
           let shape = []
@@ -176,41 +182,26 @@
 
           let { counter, population, gdp, area } = country['values']
 
-          // _.each(country['values'], (value, key, n) => {
-          //   // let { percent } = value
-          //   cumulation[n] += value['percent']
-          //   // return percent
-          // })
+          cumulation[0] += counter['percent']
+          cumulation[1] += population['percent']
+          cumulation[2] += gdp['percent']
+          cumulation[3] += area['percent']
+          cumulation[4] += counter['percent']
 
-          // console.log(cumulation)
-
-          let counterPer = counter['percent']
-          let populationPer = population['percent']
-          let gdpPer = gdp['percent']
-          let areaPer = area['percent']
-
-          cumulation[0] += counterPer
-          cumulation[1] += populationPer
-          cumulation[2] += gdpPer
-          cumulation[3] += areaPer
-
-          let right = _.map(new Array(8), (x, n) => {
+          let right = _.map(new Array(rows * 2), (x, n) => {
             let index = Math.floor(n / 2)
             return _.round((cumulation[index] / 100) * width, 2)
           })
 
-          // console.log(right)
-
           _.each(right, (x, n) => {
-            shape.push([x, ys[7 - n]])
+            shape.push([x, ys[(rows * 2 - 1) - n]])
           })
 
-          console.log(_.round(right[1] - left[1], 1))
+          // console.log(_.round(right[1] - left[1], 1))
 
-          // console.log(shape.join(' '))
+          console.log(shape)
 
           prevXs = right
-
           return shape
         })
       }
