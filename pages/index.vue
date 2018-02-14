@@ -31,7 +31,7 @@
     </aside>
     <div class="page-content page-vis" ref="vis">
       <svg
-        v-if="resolution.length"
+        v-if="resolution.length && Math.min(...resolution) > 900"
         :class="{ highlight: activeStatus !== 'default' }">
         <g
           v-for="(country, index) in countries"
@@ -59,6 +59,12 @@
           </text>
         </g>
       </svg>
+      <div class="error" v-if="Math.min(...resolution) < 900">
+        <div>
+          <span>💩</span>
+          <strong>Not for mobil</strong>
+        </div>
+      </div>
       <resize-observer @notify="handleResize" />
     </div>
   </div>

@@ -1,5 +1,5 @@
 body {
-  
+
 }
 
 .page {
@@ -41,6 +41,23 @@ body {
             &.active {
               opacity: 1;
             }
+          }
+        }
+      }
+
+      .error {
+        text-align: center;
+
+        div {
+          span {
+            font-size: 10em;
+            line-height: 1;
+            display: block;
+          }
+
+          strong {
+            font-size: 5em;
+            display: block;
           }
         }
       }
