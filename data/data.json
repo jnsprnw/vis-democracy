@@ -15,16 +15,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 1,
       "hdi" : 0.944,
-      "democracy" : 9.93
+      "democracy" : 9.93,
+      "rank" : 1
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -43,16 +49,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 2,
       "hdi" : 0.899,
-      "democracy" : 9.5
+      "democracy" : 9.5,
+      "rank" : 2
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -71,16 +83,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 3,
       "hdi" : 0.907,
-      "democracy" : 9.39
+      "democracy" : 9.39,
+      "rank" : 3
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -99,16 +117,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 4,
       "hdi" : 0.913,
-      "democracy" : 9.26
+      "democracy" : 9.26,
+      "rank" : 4
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : true,
+      "name" : false
     }
   },
   {
@@ -127,16 +151,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 5,
       "hdi" : 0.923,
-      "democracy" : 9.2
+      "democracy" : 9.2,
+      "rank" : 5
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -155,16 +185,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 6,
       "hdi" : 0.913,
-      "democracy" : 9.15
+      "democracy" : 9.15,
+      "rank" : 6
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -183,16 +219,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 7,
       "hdi" : 0.916,
-      "democracy" : 9.15
+      "democracy" : 9.15,
+      "rank" : 7
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -211,16 +253,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 8,
       "hdi" : 0.93,
-      "democracy" : 9.09
+      "democracy" : 9.09,
+      "rank" : 8
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -239,16 +287,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 9,
       "hdi" : 0.883,
-      "democracy" : 9.03
+      "democracy" : 9.03,
+      "rank" : 9
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -267,16 +321,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 10,
       "hdi" : 0.935,
-      "democracy" : 9.01
+      "democracy" : 9.01,
+      "rank" : 10
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : true,
+      "name" : false
     }
   },
   {
@@ -295,16 +355,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 11,
       "hdi" : 0.892,
-      "democracy" : 8.81
+      "democracy" : 8.81,
+      "rank" : 11
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -323,16 +389,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 12,
       "hdi" : 0.922,
-      "democracy" : 8.8
+      "democracy" : 8.8,
+      "rank" : 12
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -351,16 +423,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 13,
       "hdi" : 0.916,
-      "democracy" : 8.63
+      "democracy" : 8.63,
+      "rank" : 13
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -379,16 +457,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 14,
       "hdi" : 0.885,
-      "democracy" : 8.41
+      "democracy" : 8.41,
+      "rank" : 14
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -407,16 +491,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 15,
       "hdi" : 0.839,
-      "democracy" : 8.39
+      "democracy" : 8.39,
+      "rank" : 15
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -435,16 +525,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 16,
       "hdi" : 0.907,
-      "democracy" : 8.36
+      "democracy" : 8.36,
+      "rank" : 16
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -463,16 +559,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 17,
       "hdi" : 0.876,
-      "democracy" : 8.3
+      "democracy" : 8.3,
+      "rank" : 17
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -491,16 +593,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 18,
       "hdi" : 0.777,
-      "democracy" : 8.28
+      "democracy" : 8.28,
+      "rank" : 18
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -519,16 +627,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 19,
       "hdi" : 0.793,
-      "democracy" : 8.17
+      "democracy" : 8.17,
+      "rank" : 19
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -547,16 +661,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 20,
       "hdi" : 0.891,
-      "democracy" : 7.99
+      "democracy" : 7.99,
+      "rank" : 20
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -575,16 +695,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 21,
       "hdi" : 0.915,
-      "democracy" : 7.98
+      "democracy" : 7.98,
+      "rank" : 21
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -603,16 +729,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 22,
       "hdi" : 0.873,
-      "democracy" : 7.98
+      "democracy" : 7.98,
+      "rank" : 22
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -631,16 +763,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 23,
       "hdi" : 0.646,
-      "democracy" : 7.94
+      "democracy" : 7.94,
+      "rank" : 23
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -659,16 +797,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 24,
       "hdi" : 0.888,
-      "democracy" : 7.92
+      "democracy" : 7.92,
+      "rank" : 24
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -687,16 +831,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 25,
       "hdi" : 0.898,
-      "democracy" : 7.92
+      "democracy" : 7.92,
+      "rank" : 25
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -715,16 +865,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 26,
       "hdi" : 0.766,
-      "democracy" : 7.88
+      "democracy" : 7.88,
+      "rank" : 26
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -743,16 +899,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 27,
       "hdi" : 0.698,
-      "democracy" : 7.87
+      "democracy" : 7.87,
+      "rank" : 27
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -771,16 +933,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 28,
       "hdi" : 0.83,
-      "democracy" : 7.86
+      "democracy" : 7.86,
+      "rank" : 28
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -799,16 +967,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 29,
       "hdi" : 0.894,
-      "democracy" : 7.85
+      "democracy" : 7.85,
+      "rank" : 29
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -827,16 +1001,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 30,
       "hdi" : 0.861,
-      "democracy" : 7.85
+      "democracy" : 7.85,
+      "rank" : 30
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -855,16 +1035,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 31,
       "hdi" : 0.87,
-      "democracy" : 7.82
+      "democracy" : 7.82,
+      "rank" : 31
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -883,16 +1069,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 32,
       "hdi" : 0.609,
-      "democracy" : 7.81
+      "democracy" : 7.81,
+      "rank" : 32
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -911,16 +1103,22 @@
       "hdi" : ""
     },
     "scores": {
-      "rank" : 33,
       "hdi" : null,
-      "democracy" : 7.79
+      "democracy" : 7.79,
+      "rank" : 33
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -939,16 +1137,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 34,
       "hdi" : 0.832,
-      "democracy" : 7.78
+      "democracy" : 7.78,
+      "rank" : 34
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -967,16 +1171,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 35,
       "hdi" : 0.89,
-      "democracy" : 7.77
+      "democracy" : 7.77,
+      "rank" : 35
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -995,16 +1205,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 36,
       "hdi" : 0.85,
-      "democracy" : 7.65
+      "democracy" : 7.65,
+      "rank" : 36
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1023,16 +1239,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 37,
       "hdi" : 0.88,
-      "democracy" : 7.51
+      "democracy" : 7.51,
+      "rank" : 37
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1051,16 +1273,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 38,
       "hdi" : 0.839,
-      "democracy" : 7.47
+      "democracy" : 7.47,
+      "rank" : 38
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1079,16 +1307,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 39,
       "hdi" : 0.666,
-      "democracy" : 7.41
+      "democracy" : 7.41,
+      "rank" : 39
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : true
+      "g20" : true,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1107,16 +1341,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 40,
       "hdi" : 0.719,
-      "democracy" : 7.39
+      "democracy" : 7.39,
+      "rank" : 40
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1135,16 +1375,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 41,
       "hdi" : 0.819,
-      "democracy" : 7.31
+      "democracy" : 7.31,
+      "rank" : 41
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1163,16 +1409,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 42,
       "hdi" : 0.844,
-      "democracy" : 7.29
+      "democracy" : 7.29,
+      "rank" : 42
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1191,16 +1443,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 43,
       "hdi" : 0.595,
-      "democracy" : 7.24
+      "democracy" : 7.24,
+      "rank" : 43
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : true
     }
   },
   {
@@ -1219,16 +1477,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 44,
       "hdi" : 0.865,
-      "democracy" : 7.23
+      "democracy" : 7.23,
+      "rank" : 44
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1247,16 +1511,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 45,
       "hdi" : 0.78,
-      "democracy" : 7.13
+      "democracy" : 7.13,
+      "rank" : 45
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1275,16 +1545,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 46,
       "hdi" : 0.772,
-      "democracy" : 7.1
+      "democracy" : 7.1,
+      "rank" : 46
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1303,16 +1579,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 47,
       "hdi" : 0.782,
-      "democracy" : 7.01
+      "democracy" : 7.01,
+      "rank" : 47
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1331,16 +1613,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 48,
       "hdi" : 0.684,
-      "democracy" : 6.97
+      "democracy" : 6.97,
+      "rank" : 48
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1359,16 +1647,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 49,
       "hdi" : 0.836,
-      "democracy" : 6.96
+      "democracy" : 6.96,
+      "rank" : 49
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1387,16 +1681,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 50,
       "hdi" : 0.668,
-      "democracy" : 6.94
+      "democracy" : 6.94,
+      "rank" : 50
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1415,16 +1715,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 51,
       "hdi" : 0.755,
-      "democracy" : 6.9
+      "democracy" : 6.9,
+      "rank" : 51
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1443,16 +1749,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 52,
       "hdi" : 0.843,
-      "democracy" : 6.83
+      "democracy" : 6.83,
+      "rank" : 52
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1471,16 +1783,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 53,
       "hdi" : 0.714,
-      "democracy" : 6.77
+      "democracy" : 6.77,
+      "rank" : 53
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1499,16 +1817,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 54,
       "hdi" : 0.818,
-      "democracy" : 6.75
+      "democracy" : 6.75,
+      "rank" : 54
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1527,16 +1851,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 55,
       "hdi" : 0.579,
-      "democracy" : 6.75
+      "democracy" : 6.75,
+      "rank" : 55
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1555,16 +1885,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 56,
       "hdi" : 0.828,
-      "democracy" : 6.72
+      "democracy" : 6.72,
+      "rank" : 56
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1583,16 +1919,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 57,
       "hdi" : 0.715,
-      "democracy" : 6.67
+      "democracy" : 6.67,
+      "rank" : 57
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1611,16 +1953,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 58,
       "hdi" : 0.72,
-      "democracy" : 6.67
+      "democracy" : 6.67,
+      "rank" : 58
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1639,16 +1987,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 59,
       "hdi" : 0.734,
-      "democracy" : 6.65
+      "democracy" : 6.65,
+      "rank" : 59
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1667,16 +2021,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 60,
       "hdi" : 0.666,
-      "democracy" : 6.64
+      "democracy" : 6.64,
+      "rank" : 60
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1695,16 +2055,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 61,
       "hdi" : 0.793,
-      "democracy" : 6.62
+      "democracy" : 6.62,
+      "rank" : 61
     },
     "organisations" : {
       "eu" : true,
       "arab" : false,
       "nato" : true,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1723,16 +2089,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 62,
       "hdi" : 0.727,
-      "democracy" : 6.62
+      "democracy" : 6.62,
+      "rank" : 62
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1751,16 +2123,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 63,
       "hdi" : 0.497,
-      "democracy" : 6.59
+      "democracy" : 6.59,
+      "rank" : 63
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1779,16 +2157,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 64,
       "hdi" : 0.771,
-      "democracy" : 6.57
+      "democracy" : 6.57,
+      "rank" : 64
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1807,16 +2191,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 65,
       "hdi" : 0.779,
-      "democracy" : 6.54
+      "democracy" : 6.54,
+      "rank" : 65
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1835,16 +2225,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 66,
       "hdi" : 0.757,
-      "democracy" : 6.48
+      "democracy" : 6.48,
+      "rank" : 66
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1863,16 +2259,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 67,
       "hdi" : 0.756,
-      "democracy" : 6.47
+      "democracy" : 6.47,
+      "rank" : 67
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1891,16 +2293,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 68,
       "hdi" : 0.91,
-      "democracy" : 6.42
+      "democracy" : 6.42,
+      "rank" : 68
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1919,16 +2327,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 69,
       "hdi" : 0.721,
-      "democracy" : 6.4
+      "democracy" : 6.4,
+      "rank" : 69
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1947,16 +2361,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 70,
       "hdi" : 0.912,
-      "democracy" : 6.38
+      "democracy" : 6.38,
+      "rank" : 70
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -1975,16 +2395,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 71,
       "hdi" : 0.628,
-      "democracy" : 6.31
+      "democracy" : 6.31,
+      "rank" : 71
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2003,16 +2429,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 72,
       "hdi" : 0.679,
-      "democracy" : 6.27
+      "democracy" : 6.27,
+      "rank" : 72
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2031,16 +2463,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 73,
       "hdi" : 0.636,
-      "democracy" : 6.25
+      "democracy" : 6.25,
+      "rank" : 73
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2059,16 +2497,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 74,
       "hdi" : 0.466,
-      "democracy" : 6.21
+      "democracy" : 6.21,
+      "rank" : 74
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2087,16 +2531,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 75,
       "hdi" : 0.505,
-      "democracy" : 6.03
+      "democracy" : 6.03,
+      "rank" : 75
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : true,
+      "name" : false
     }
   },
   {
@@ -2115,16 +2565,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 76,
       "hdi" : 0.693,
-      "democracy" : 6.01
+      "democracy" : 6.01,
+      "rank" : 76
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2143,16 +2599,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 77,
       "hdi" : 0.586,
-      "democracy" : 5.99
+      "democracy" : 5.99,
+      "rank" : 77
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2171,16 +2633,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 78,
       "hdi" : 0.754,
-      "democracy" : 5.93
+      "democracy" : 5.93,
+      "rank" : 78
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2199,16 +2667,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 79,
       "hdi" : 0.606,
-      "democracy" : 5.92
+      "democracy" : 5.92,
+      "rank" : 79
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2227,16 +2701,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 80,
       "hdi" : 0.627,
-      "democracy" : 5.92
+      "democracy" : 5.92,
+      "rank" : 80
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2255,16 +2735,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 81,
       "hdi" : 0.733,
-      "democracy" : 5.91
+      "democracy" : 5.91,
+      "rank" : 81
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : true,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2283,16 +2769,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 82,
       "hdi" : 0.732,
-      "democracy" : 5.81
+      "democracy" : 5.81,
+      "rank" : 82
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2311,16 +2803,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 83,
       "hdi" : 0.521,
-      "democracy" : 5.76
+      "democracy" : 5.76,
+      "rank" : 83
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2339,16 +2837,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 84,
       "hdi" : 0.57,
-      "democracy" : 5.73
+      "democracy" : 5.73,
+      "rank" : 84
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2367,16 +2871,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 85,
       "hdi" : 0.802,
-      "democracy" : 5.72
+      "democracy" : 5.72,
+      "rank" : 85
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2395,16 +2905,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 86,
       "hdi" : 0.747,
-      "democracy" : 5.7
+      "democracy" : 5.7,
+      "rank" : 86
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2423,16 +2939,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 87,
       "hdi" : 0.419,
-      "democracy" : 5.7
+      "democracy" : 5.7,
+      "rank" : 87
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2451,16 +2973,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 88,
       "hdi" : 0.48,
-      "democracy" : 5.67
+      "democracy" : 5.67,
+      "rank" : 88
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2479,16 +3007,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 89,
       "hdi" : 0.727,
-      "democracy" : 5.64
+      "democracy" : 5.64,
+      "rank" : 89
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : true,
+      "name" : false
     }
   },
   {
@@ -2507,16 +3041,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 90,
       "hdi" : 0.662,
-      "democracy" : 5.63
+      "democracy" : 5.63,
+      "rank" : 90
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2535,16 +3075,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 91,
       "hdi" : 0.445,
-      "democracy" : 5.55
+      "democracy" : 5.55,
+      "rank" : 91
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2563,16 +3109,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 92,
       "hdi" : 0.548,
-      "democracy" : 5.33
+      "democracy" : 5.33,
+      "rank" : 92
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2591,16 +3143,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 93,
       "hdi" : 0.43,
-      "democracy" : 5.31
+      "democracy" : 5.31,
+      "rank" : 93
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2619,16 +3177,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 94,
       "hdi" : 0.483,
-      "democracy" : 5.26
+      "democracy" : 5.26,
+      "rank" : 94
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2647,16 +3211,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 95,
       "hdi" : 0.747,
-      "democracy" : 5.23
+      "democracy" : 5.23,
+      "rank" : 95
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2675,16 +3245,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 96,
       "hdi" : 0.51,
-      "democracy" : 5.07
+      "democracy" : 5.07,
+      "rank" : 96
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2703,16 +3279,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 97,
       "hdi" : 0.761,
-      "democracy" : 5.04
+      "democracy" : 5.04,
+      "rank" : 97
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : true,
       "oced" : true,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2731,16 +3313,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 98,
       "hdi" : 0.655,
-      "democracy" : 4.93
+      "democracy" : 4.93,
+      "rank" : 98
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2759,16 +3347,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 99,
       "hdi" : 0.605,
-      "democracy" : 4.93
+      "democracy" : 4.93,
+      "rank" : 99
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2787,16 +3381,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 100,
       "hdi" : 0.726,
-      "democracy" : 4.92
+      "democracy" : 4.92,
+      "rank" : 100
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2815,16 +3415,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 101,
       "hdi" : 0.733,
-      "democracy" : 4.87
+      "democracy" : 4.87,
+      "rank" : 101
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2843,16 +3449,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 102,
       "hdi" : 0.769,
-      "democracy" : 4.86
+      "democracy" : 4.86,
+      "rank" : 102
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2871,16 +3483,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 103,
       "hdi" : 0.548,
-      "democracy" : 4.86
+      "democracy" : 4.86,
+      "rank" : 103
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : true
     }
   },
   {
@@ -2899,16 +3517,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 104,
       "hdi" : 0.631,
-      "democracy" : 4.81
+      "democracy" : 4.81,
+      "rank" : 104
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2927,16 +3551,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 105,
       "hdi" : 0.628,
-      "democracy" : 4.77
+      "democracy" : 4.77,
+      "rank" : 105
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2955,16 +3585,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 106,
       "hdi" : 0.402,
-      "democracy" : 4.7
+      "democracy" : 4.7,
+      "rank" : 106
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -2983,16 +3619,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 107,
       "hdi" : 0.762,
-      "democracy" : 4.68
+      "democracy" : 4.68,
+      "rank" : 107
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3011,16 +3653,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 108,
       "hdi" : 0.413,
-      "democracy" : 4.55
+      "democracy" : 4.55,
+      "rank" : 108
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3039,16 +3687,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 109,
       "hdi" : 0.514,
-      "democracy" : 4.5
+      "democracy" : 4.5,
+      "rank" : 109
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3067,16 +3721,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 110,
       "hdi" : 0.677,
-      "democracy" : 4.49
+      "democracy" : 4.49,
+      "rank" : 110
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3095,16 +3755,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 111,
       "hdi" : 0.538,
-      "democracy" : 4.33
+      "democracy" : 4.33,
+      "rank" : 111
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3123,16 +3789,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 112,
       "hdi" : 0.555,
-      "democracy" : 4.27
+      "democracy" : 4.27,
+      "rank" : 112
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3151,16 +3823,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 113,
       "hdi" : 0.536,
-      "democracy" : 4.2
+      "democracy" : 4.2,
+      "rank" : 113
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3179,16 +3857,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 114,
       "hdi" : 0.654,
-      "democracy" : 4.08
+      "democracy" : 4.08,
+      "rank" : 114
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3207,16 +3891,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 115,
       "hdi" : 0.416,
-      "democracy" : 4.02
+      "democracy" : 4.02,
+      "rank" : 115
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3235,16 +3925,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 116,
       "hdi" : 0.483,
-      "democracy" : 4.02
+      "democracy" : 4.02,
+      "rank" : 116
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3263,16 +3959,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 117,
       "hdi" : 0.506,
-      "democracy" : 3.96
+      "democracy" : 3.96,
+      "rank" : 117
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3291,16 +3993,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 118,
       "hdi" : 0.748,
-      "democracy" : 3.96
+      "democracy" : 3.96,
+      "rank" : 118
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3319,16 +4027,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 119,
       "hdi" : 0.348,
-      "democracy" : 3.96
+      "democracy" : 3.96,
+      "rank" : 119
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3347,16 +4061,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 120,
       "hdi" : 0.733,
-      "democracy" : 3.88
+      "democracy" : 3.88,
+      "rank" : 120
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3375,16 +4095,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 121,
       "hdi" : 0.816,
-      "democracy" : 3.85
+      "democracy" : 3.85,
+      "rank" : 121
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3403,16 +4129,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 122,
       "hdi" : 0.462,
-      "democracy" : 3.81
+      "democracy" : 3.81,
+      "rank" : 122
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3431,16 +4163,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 123,
       "hdi" : 0.684,
-      "democracy" : 3.74
+      "democracy" : 3.74,
+      "rank" : 123
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3459,16 +4197,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 124,
       "hdi" : 0.503,
-      "democracy" : 3.71
+      "democracy" : 3.71,
+      "rank" : 124
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3487,16 +4231,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 125,
       "hdi" : 0.442,
-      "democracy" : 3.6
+      "democracy" : 3.6,
+      "rank" : 125
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : true
     }
   },
   {
@@ -3515,16 +4265,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 126,
       "hdi" : 0.736,
-      "democracy" : 3.56
+      "democracy" : 3.56,
+      "rank" : 126
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : true
     }
   },
   {
@@ -3543,16 +4299,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 127,
       "hdi" : 0.798,
-      "democracy" : 3.54
+      "democracy" : 3.54,
+      "rank" : 127
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3571,16 +4333,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 128,
       "hdi" : 0.512,
-      "democracy" : 3.46
+      "democracy" : 3.46,
+      "rank" : 128
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3599,16 +4367,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 129,
       "hdi" : 0.769,
-      "democracy" : 3.46
+      "democracy" : 3.46,
+      "rank" : 129
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3627,16 +4401,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 130,
       "hdi" : 0.532,
-      "democracy" : 3.4
+      "democracy" : 3.4,
+      "rank" : 130
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3655,16 +4435,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 131,
       "hdi" : 0.666,
-      "democracy" : 3.38
+      "democracy" : 3.38,
+      "rank" : 131
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3683,16 +4469,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 132,
       "hdi" : 0.484,
-      "democracy" : 3.32
+      "democracy" : 3.32,
+      "rank" : 132
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3711,16 +4503,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 133,
       "hdi" : 0.69,
-      "democracy" : 3.31
+      "democracy" : 3.31,
+      "rank" : 133
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3739,16 +4537,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 134,
       "hdi" : 0.798,
-      "democracy" : 3.24
+      "democracy" : 3.24,
+      "rank" : 134
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3767,16 +4571,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 135,
       "hdi" : 0.85,
-      "democracy" : 3.18
+      "democracy" : 3.18,
+      "rank" : 135
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3795,16 +4605,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 136,
       "hdi" : 0.411,
-      "democracy" : 3.14
+      "democracy" : 3.14,
+      "rank" : 136
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3823,16 +4639,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 137,
       "hdi" : 0.727,
-      "democracy" : 3.14
+      "democracy" : 3.14,
+      "rank" : 137
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3851,16 +4673,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 138,
       "hdi" : 0.483,
-      "democracy" : 3.07
+      "democracy" : 3.07,
+      "rank" : 138
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3879,16 +4707,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 139,
       "hdi" : 0.788,
-      "democracy" : 3.06
+      "democracy" : 3.06,
+      "rank" : 139
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3907,16 +4741,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 140,
       "hdi" : 0.509,
-      "democracy" : 3.05
+      "democracy" : 3.05,
+      "rank" : 140
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3935,16 +4775,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 141,
       "hdi" : 0.793,
-      "democracy" : 3.04
+      "democracy" : 3.04,
+      "rank" : 141
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3963,16 +4809,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 142,
       "hdi" : 0.531,
-      "democracy" : 3.03
+      "democracy" : 3.03,
+      "rank" : 142
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -3991,16 +4843,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 143,
       "hdi" : 0.591,
-      "democracy" : 2.91
+      "democracy" : 2.91,
+      "rank" : 143
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4019,16 +4877,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 144,
       "hdi" : 0.441,
-      "democracy" : 2.91
+      "democracy" : 2.91,
+      "rank" : 144
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4047,16 +4911,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 145,
       "hdi" : 0.47,
-      "democracy" : 2.83
+      "democracy" : 2.83,
+      "rank" : 145
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4075,16 +4945,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 146,
       "hdi" : 0.824,
-      "democracy" : 2.79
+      "democracy" : 2.79,
+      "rank" : 146
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4103,16 +4979,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 147,
       "hdi" : 0.835,
-      "democracy" : 2.75
+      "democracy" : 2.75,
+      "rank" : 147
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4131,16 +5013,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 148,
       "hdi" : 0.751,
-      "democracy" : 2.65
+      "democracy" : 2.65,
+      "rank" : 148
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4159,16 +5047,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 149,
       "hdi" : 0.465,
-      "democracy" : 2.55
+      "democracy" : 2.55,
+      "rank" : 149
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4187,16 +5081,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 150,
       "hdi" : 0.4,
-      "democracy" : 2.4
+      "democracy" : 2.4,
+      "rank" : 150
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4215,16 +5115,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 151,
       "hdi" : 0.479,
-      "democracy" : 2.37
+      "democracy" : 2.37,
+      "rank" : 151
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4243,16 +5149,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 152,
       "hdi" : 0.391,
-      "democracy" : 2.37
+      "democracy" : 2.37,
+      "rank" : 152
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4271,16 +5183,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 153,
       "hdi" : 0.575,
-      "democracy" : 2.37
+      "democracy" : 2.37,
+      "rank" : 153
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4299,16 +5217,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 154,
       "hdi" : 0.766,
-      "democracy" : 2.34
+      "democracy" : 2.34,
+      "rank" : 154
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4327,16 +5251,22 @@
       "hdi" : "high"
     },
     "scores": {
-      "rank" : 155,
       "hdi" : 0.724,
-      "democracy" : 2.25
+      "democracy" : 2.25,
+      "rank" : 155
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4355,16 +5285,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 156,
       "hdi" : 0.498,
-      "democracy" : 2.07
+      "democracy" : 2.07,
+      "rank" : 156
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4383,16 +5319,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 157,
       "hdi" : 0.42,
-      "democracy" : 1.98
+      "democracy" : 1.98,
+      "rank" : 157
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4411,16 +5353,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 158,
       "hdi" : 0.675,
-      "democracy" : 1.95
+      "democracy" : 1.95,
+      "rank" : 158
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4439,16 +5387,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 159,
       "hdi" : 0.433,
-      "democracy" : 1.93
+      "democracy" : 1.93,
+      "rank" : 159
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : true
     }
   },
   {
@@ -4467,16 +5421,22 @@
       "hdi" : "top"
     },
     "scores": {
-      "rank" : 160,
       "hdi" : 0.837,
-      "democracy" : 1.93
+      "democracy" : 1.93,
+      "rank" : 160
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : true
+      "g20" : true,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4495,16 +5455,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 161,
       "hdi" : 0.624,
-      "democracy" : 1.89
+      "democracy" : 1.89,
+      "rank" : 161
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4523,16 +5489,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 162,
       "hdi" : 0.688,
-      "democracy" : 1.83
+      "democracy" : 1.83,
+      "rank" : 162
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4551,16 +5523,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 163,
       "hdi" : 0.587,
-      "democracy" : 1.7
+      "democracy" : 1.7,
+      "rank" : 163
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4579,16 +5557,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 164,
       "hdi" : 0.35,
-      "democracy" : 1.61
+      "democracy" : 1.61,
+      "rank" : 164
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4607,16 +5591,22 @@
       "hdi" : "low"
     },
     "scores": {
-      "rank" : 165,
       "hdi" : 0.392,
-      "democracy" : 1.5
+      "democracy" : 1.5,
+      "rank" : 165
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4635,16 +5625,22 @@
       "hdi" : "medium"
     },
     "scores": {
-      "rank" : 166,
       "hdi" : 0.594,
-      "democracy" : 1.43
+      "democracy" : 1.43,
+      "rank" : 166
     },
     "organisations" : {
       "eu" : false,
       "arab" : true,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
@@ -4663,16 +5659,22 @@
       "hdi" : ""
     },
     "scores": {
-      "rank" : 167,
       "hdi" : null,
-      "democracy" : 1.08
+      "democracy" : 1.08,
+      "rank" : 167
     },
     "organisations" : {
       "eu" : false,
       "arab" : false,
       "nato" : false,
       "oced" : false,
-      "g20" : false
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : true
     }
   }
 ]
