@@ -15,7 +15,7 @@ h2 {
   font-size: 3em;
   font-weight: 700;
   line-height: 1.1;
-  margin: 0 0 2rem 0;
+  margin: 1rem 0 2rem 0;
   text-align: center;
 
   small {
@@ -27,7 +27,7 @@ h2 {
 }
 
 p {
-  padding: 0 1em;
+  padding: 0 1em 0.5em;
   font-size: 0.9rem;
 }
 
@@ -47,17 +47,23 @@ h4 {
   margin: 2rem 0;
 }
 
-p {
-  margin: 2rem 0;
-
-  &.introduction {
-    font-size: 1.3rem;
-    line-height: 1.3;
-  }
-}
-
 section {
-  border-bottom: 1px solid #eee;
   margin: 0.5em 1em;
   padding: 0.5em 0;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0.1em 0;
+    padding-left: 0.5em;
+    border-radius: 2px;
+    font-size: 0.8em;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
 }
