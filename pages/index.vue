@@ -1,7 +1,8 @@
 <template>
   <div class="page-body">
     <aside class="page-aside">
-      <h2>Democracy Index</h2>
+      <h2><small>Degrees of</small> Democracy</h2>
+      <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. A full democracy usually has the following features: free and fair elections; political pluralism; respect of civil liberties and human rights; protection of minority rights; a functioning government with an effective system of checks and balances; equality before the law and an independent judiciary as well as free and diverse media.</p>
       <section>
         <strong>Legend</strong>
       </section>
