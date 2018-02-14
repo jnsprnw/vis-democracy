@@ -3,10 +3,10 @@ body {
 }
 
 .page {
-  .page-header {
-    height: 5vh;
-    width: 100vw;
-  }
+  // .page-header {
+  //   height: 5vh;
+  //   width: 100vw;
+  // }
 
   .page-body {
     display: flex;
@@ -18,7 +18,7 @@ body {
 
     .page-content {
       width: 80vw;
-      height: 95vh;
+      height: 100vh;
       display: flex;
 
       .vis-legend {
