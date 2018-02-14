@@ -29,6 +29,11 @@ body {
           stroke-width: 0.5;
         }
 
+        text {
+          font-family: $font-family-default;
+          fill: #fff;
+        }
+
         &.highlight {
           g {
             opacity: 0.1;

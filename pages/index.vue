@@ -31,19 +31,32 @@
     </aside>
     <div class="page-content page-vis" ref="vis">
       <svg
-        v-if="resolution.length && shapes.length && points.length"
+        v-if="resolution.length"
         :class="{ highlight: activeStatus !== 'default' }">
         <g
           v-for="(country, index) in countries"
           :class="{ 'country': true, 'active': status[activeStatus][index] }">
           <path
+            v-if="shapes.length"
             :style="{ fill: country.colours[activeColour] }"
             :d="shapes[index]" />
-          <circle v-for="point in points[index]"
+          <!-- <circle v-for="point in points[index]"
             r="2"
             :cx="point[0]"
             :cy="point[1]"
-          />
+          /> -->
+          <text
+            v-for="placement in placements[index]"
+            v-if="points.length && placement[2] > 7"
+            alignment-baseline="middle"
+            text-anchor="middle"
+            v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
+            :transform="'rotate(90,' + placement[0] + ',' + placement[1] + ')'"
+            :x="placement[0]"
+            :y="placement[1]"
+          >
+            {{ country.label }}
+          </text>
         </g>
       </svg>
       <resize-observer @notify="handleResize" />
@@ -61,7 +74,8 @@
       return {
         resolution: [],
         shapes: [],
-        points: []
+        points: [],
+        placements: []
       }
     },
     computed: {
@@ -81,6 +95,10 @@
       // }
     },
     watch: {
+      points: function () {
+        this.calcShapes()
+        this.calcTextPlacement()
+      }
     },
     methods: {
       ...mapActions([
@@ -89,7 +107,7 @@
       ]),
       getResolution () {
         this.resolution = [this.$refs.vis.clientWidth, this.$refs.vis.clientHeight]
-        console.log(this.resolution)
+        // console.log(this.resolution)
         this.calcShapes()
         this.calcPoints()
       },
@@ -97,87 +115,23 @@
         console.log('resized')
         this.getResolution()
       },
-      calcShapes () {
-        let [width, height] = this.resolution
-        let rows = 5
-        let cumulation = _.fill(Array(rows), 0)
-
-        // let fixedYs = [0, 20, 20 + 1 * (20 / 3), ]
-
-        let ys = _.map(new Array(rows * 2), (y, n) => {
-          return height - (height * n / (rows * 2 - 1))
-        })
-
-        // console.log(ys, width, height)
-
-        let prevXs = _.fill(Array(10), 0)
-
-        this.shapes = _.map(this.countries, country => {
-          let shape = []
-
-          let left = _.reverse(prevXs)
-
-          _.each(left, (x, n) => {
-            shape.push([x, ys[n]].join(' '))
-          })
-
-          let { counter, population, gdp, area } = country['values']
-
-          // _.each(country['values'], (value, key, n) => {
-          //   // let { percent } = value
-          //   cumulation[n] += value['percent']
-          //   // return percent
-          // })
-
-          // console.log(cumulation)
-
-          let counterPer = counter['percent']
-          let populationPer = population['percent']
-          let gdpPer = gdp['percent']
-          let areaPer = area['percent']
-
-          cumulation[0] += counterPer
-          cumulation[1] += populationPer
-          cumulation[2] += gdpPer
-          cumulation[3] += areaPer
-          cumulation[4] += counterPer
-
-          let right = _.map(new Array(rows * 2), (x, n) => {
-            let index = Math.floor(n / 2)
-            return _.round((cumulation[index] / 100) * width, 2)
-          })
-
-          // console.log(right)
-
-          _.each(right, (x, n) => {
-            shape.push([x, ys[(rows * 2 - 1) - n]].join(' '))
-          })
-
-          // console.log(shape.join(' '))
-          // console.log(_.round(right[0] - left[0], 1))
-
-          prevXs = right
-
-          return 'M ' + shape.join(' L ') + ' Z'
-        })
-      },
       calcPoints () {
         let [width, height] = this.resolution
         let rows = 5
-        let cumulation = _.fill(Array(rows), 0)
+        let cumulation = _.fill(new Array(rows), 0)
 
         let ys = _.map(new Array(rows * 2), (y, n) => {
           return height - (height * n / (rows * 2 - 1))
         })
 
-        let prevXs = _.fill(Array(rows * 2), 0)
+        let prevXs = _.fill(new Array(rows * 2), 0)
 
         this.points = _.map(this.countries, country => {
-          let shape = []
-          let left = _.reverse(prevXs)
+          let points = []
+          let leftsideXs = _.reverse(prevXs)
 
-          _.each(left, (x, n) => {
-            shape.push([x, ys[n]])
+          _.each(leftsideXs, (x, n) => {
+            points.push([x, ys[n]])
           })
 
           let { counter, population, gdp, area } = country['values']
@@ -188,21 +142,47 @@
           cumulation[3] += area['percent']
           cumulation[4] += counter['percent']
 
-          let right = _.map(new Array(rows * 2), (x, n) => {
+          let rightsideXs = _.map(new Array(rows * 2), (x, n) => {
             let index = Math.floor(n / 2)
             return _.round((cumulation[index] / 100) * width, 2)
           })
 
-          _.each(right, (x, n) => {
-            shape.push([x, ys[(rows * 2 - 1) - n]])
+          _.each(rightsideXs, (x, n) => {
+            points.push([x, ys[(rows * 2 - 1) - n]])
           })
 
-          // console.log(_.round(right[1] - left[1], 1))
+          // console.log(_.round(rightsideXs[1] - left[1], 1))
+          // console.log(points)
 
-          console.log(shape)
+          prevXs = rightsideXs
+          return points
+        })
+      },
+      calcTextPlacement () {
+        this.placements = _.map(this.points, country => {
+          let n = country.length / 4
+          let points = _.clone(country)
+          let placements = []
+          while (n--) {
+            let corners = _.flatten([_.pullAt(points, [0, 1]), _.pullAt(points, [points.length - 2, points.length - 1])])
+            let xs = _.map(corners, '0')
+            let ys = _.map(corners, '1')
+            let x = (_.max(xs) - _.min(xs)) / 2 + _.min(xs)
+            let y = (_.max(ys) - _.min(ys)) / 2 + _.min(ys)
+            // console.log(corners, xs, ys, x, y)
+            placements[n] = [x, y, _.max(xs) - _.min(xs)]
+          }
+          // console.log(placements)
+          return placements
+        })
+      },
+      calcShapes () {
+        this.shapes = _.map(this.points, country => {
+          let shape = _.map(country, point => {
+            return point.join(' ')
+          })
 
-          prevXs = right
-          return shape
+          return 'M ' + shape.join(' L ') + ' Z'
         })
       }
     },
@@ -211,7 +191,7 @@
     },
     mounted () {
       this.getResolution()
-      console.log(this.countries)
+      // console.log(this.countries)
     }
   }
 </script>
