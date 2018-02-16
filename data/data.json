@@ -11,10 +11,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.944,
       "democracy" : 9.87,
       "rank" : 1,
@@ -51,10 +52,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.899,
       "democracy" : 9.58,
       "rank" : 2,
@@ -91,10 +93,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.907,
       "democracy" : 9.39,
       "rank" : 3,
@@ -131,10 +134,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.913,
       "democracy" : 9.26,
       "rank" : 4,
@@ -171,10 +175,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.923,
       "democracy" : 9.22,
       "rank" : 5,
@@ -211,10 +216,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.913,
       "democracy" : 9.15,
       "rank" : 6,
@@ -251,10 +257,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.916,
       "democracy" : 9.15,
       "rank" : 6,
@@ -291,10 +298,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.935,
       "democracy" : 9.09,
       "rank" : 8,
@@ -331,10 +339,11 @@
     "types": {
       "state" : "republic",
       "government" : "directorial",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.93,
       "democracy" : 9.03,
       "rank" : 9,
@@ -371,10 +380,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.883,
       "democracy" : 9.03,
       "rank" : 9,
@@ -411,10 +421,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.922,
       "democracy" : 8.89,
       "rank" : 11,
@@ -451,10 +462,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.892,
       "democracy" : 8.81,
       "rank" : 12,
@@ -491,10 +503,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.916,
       "democracy" : 8.61,
       "rank" : 13,
@@ -531,10 +544,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.907,
       "democracy" : 8.53,
       "rank" : 14,
@@ -571,10 +585,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.885,
       "democracy" : 8.42,
       "rank" : 15,
@@ -611,10 +626,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.777,
       "democracy" : 8.22,
       "rank" : 16,
@@ -651,10 +667,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.839,
       "democracy" : 8.15,
       "rank" : 17,
@@ -691,10 +708,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.793,
       "democracy" : 8.12,
       "rank" : 18,
@@ -731,10 +749,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.876,
       "democracy" : 8.08,
       "rank" : 19,
@@ -771,10 +790,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.898,
       "democracy" : 8,
       "rank" : 20,
@@ -811,10 +831,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.915,
       "democracy" : 7.98,
       "rank" : 21,
@@ -851,10 +872,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.873,
       "democracy" : 7.98,
       "rank" : 21,
@@ -891,10 +913,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.891,
       "democracy" : 7.88,
       "rank" : 23,
@@ -931,10 +954,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.646,
       "democracy" : 7.88,
       "rank" : 23,
@@ -971,10 +995,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.766,
       "democracy" : 7.88,
       "rank" : 23,
@@ -1011,10 +1036,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.83,
       "democracy" : 7.84,
       "rank" : 26,
@@ -1051,10 +1077,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.832,
       "democracy" : 7.84,
       "rank" : 26,
@@ -1091,10 +1118,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.698,
       "democracy" : 7.81,
       "rank" : 28,
@@ -1131,10 +1159,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Full democracies",
+      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Full democracies",
       "hdi" : 0.888,
       "democracy" : 7.8,
       "rank" : 29,
@@ -1171,10 +1200,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.894,
       "democracy" : 7.79,
       "rank" : 30,
@@ -1211,10 +1241,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.861,
       "democracy" : 7.79,
       "rank" : 30,
@@ -1251,10 +1282,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.89,
       "democracy" : 7.78,
       "rank" : 32,
@@ -1291,10 +1323,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : ""
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : null,
       "democracy" : 7.73,
       "rank" : 33,
@@ -1331,10 +1364,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.87,
       "democracy" : 7.62,
       "rank" : 34,
@@ -1371,10 +1405,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.85,
       "democracy" : 7.59,
       "rank" : 35,
@@ -1411,10 +1446,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.88,
       "democracy" : 7.5,
       "rank" : 36,
@@ -1451,10 +1487,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.839,
       "democracy" : 7.41,
       "rank" : 37,
@@ -1491,10 +1528,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.719,
       "democracy" : 7.29,
       "rank" : 38,
@@ -1531,10 +1569,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.865,
       "democracy" : 7.29,
       "rank" : 38,
@@ -1571,10 +1610,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.819,
       "democracy" : 7.25,
       "rank" : 40,
@@ -1611,10 +1651,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.666,
       "democracy" : 7.24,
       "rank" : 41,
@@ -1651,10 +1692,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.609,
       "democracy" : 7.23,
       "rank" : 42,
@@ -1691,10 +1733,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.595,
       "democracy" : 7.19,
       "rank" : 43,
@@ -1731,10 +1774,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.844,
       "democracy" : 7.16,
       "rank" : 44,
@@ -1771,10 +1815,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.78,
       "democracy" : 7.08,
       "rank" : 45,
@@ -1811,10 +1856,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.772,
       "democracy" : 7.04,
       "rank" : 46,
@@ -1851,10 +1897,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.782,
       "democracy" : 7.03,
       "rank" : 47,
@@ -1891,10 +1938,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.836,
       "democracy" : 6.96,
       "rank" : 48,
@@ -1931,10 +1979,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.755,
       "democracy" : 6.86,
       "rank" : 49,
@@ -1971,10 +2020,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.714,
       "democracy" : 6.76,
       "rank" : 50,
@@ -2011,10 +2061,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.668,
       "democracy" : 6.71,
       "rank" : 51,
@@ -2051,10 +2102,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.579,
       "democracy" : 6.69,
       "rank" : 52,
@@ -2091,10 +2143,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.843,
       "democracy" : 6.67,
       "rank" : 53,
@@ -2131,10 +2184,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.72,
       "democracy" : 6.67,
       "rank" : 53,
@@ -2171,10 +2225,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.715,
       "democracy" : 6.66,
       "rank" : 55,
@@ -2211,10 +2266,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.828,
       "democracy" : 6.64,
       "rank" : 56,
@@ -2251,10 +2307,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.497,
       "democracy" : 6.64,
       "rank" : 56,
@@ -2291,10 +2348,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.818,
       "democracy" : 6.63,
       "rank" : 58,
@@ -2331,10 +2389,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.779,
       "democracy" : 6.54,
       "rank" : 59,
@@ -2371,10 +2430,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.727,
       "democracy" : 6.5,
       "rank" : 60,
@@ -2411,10 +2471,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.734,
       "democracy" : 6.49,
       "rank" : 61,
@@ -2451,10 +2512,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.757,
       "democracy" : 6.48,
       "rank" : 62,
@@ -2491,10 +2553,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.636,
       "democracy" : 6.46,
       "rank" : 63,
@@ -2531,10 +2594,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.793,
       "democracy" : 6.44,
       "rank" : 64,
@@ -2571,10 +2635,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.666,
       "democracy" : 6.43,
       "rank" : 65,
@@ -2611,10 +2676,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.771,
       "democracy" : 6.41,
       "rank" : 66,
@@ -2651,10 +2717,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.756,
       "democracy" : 6.41,
       "rank" : 66,
@@ -2691,10 +2758,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.684,
       "democracy" : 6.39,
       "rank" : 68,
@@ -2731,10 +2799,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.721,
       "democracy" : 6.32,
       "rank" : 69,
@@ -2771,10 +2840,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.912,
       "democracy" : 6.32,
       "rank" : 69,
@@ -2811,10 +2881,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.91,
       "democracy" : 6.31,
       "rank" : 71,
@@ -2851,10 +2922,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.628,
       "democracy" : 6.31,
       "rank" : 71,
@@ -2891,10 +2963,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.679,
       "democracy" : 6.31,
       "rank" : 71,
@@ -2931,10 +3004,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.466,
       "democracy" : 6.15,
       "rank" : 74,
@@ -2971,10 +3045,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.505,
       "democracy" : 6.03,
       "rank" : 75,
@@ -3011,10 +3086,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.732,
       "democracy" : 6.02,
       "rank" : 76,
@@ -3051,10 +3127,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.733,
       "democracy" : 5.98,
       "rank" : 77,
@@ -3091,10 +3168,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.693,
       "democracy" : 5.94,
       "rank" : 78,
@@ -3131,10 +3209,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.754,
       "democracy" : 5.93,
       "rank" : 79,
@@ -3171,10 +3250,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.627,
       "democracy" : 5.86,
       "rank" : 80,
@@ -3211,10 +3291,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.727,
       "democracy" : 5.85,
       "rank" : 81,
@@ -3251,10 +3332,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.606,
       "democracy" : 5.72,
       "rank" : 82,
@@ -3291,10 +3373,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.802,
       "democracy" : 5.69,
       "rank" : 83,
@@ -3331,10 +3414,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.747,
       "democracy" : 5.69,
       "rank" : 83,
@@ -3371,10 +3455,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Flawed democracies",
+      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Flawed democracies",
       "hdi" : 0.586,
       "democracy" : 5.68,
       "rank" : 85,
@@ -3411,10 +3496,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.419,
       "democracy" : 5.64,
       "rank" : 86,
@@ -3451,10 +3537,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.48,
       "democracy" : 5.61,
       "rank" : 87,
@@ -3491,10 +3578,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.747,
       "democracy" : 5.57,
       "rank" : 88,
@@ -3531,10 +3619,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.662,
       "democracy" : 5.49,
       "rank" : 89,
@@ -3571,10 +3660,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.445,
       "democracy" : 5.49,
       "rank" : 89,
@@ -3611,10 +3701,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.521,
       "democracy" : 5.47,
       "rank" : 91,
@@ -3651,10 +3742,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.57,
       "democracy" : 5.43,
       "rank" : 92,
@@ -3691,10 +3783,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.43,
       "democracy" : 5.23,
       "rank" : 93,
@@ -3731,10 +3824,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.548,
       "democracy" : 5.18,
       "rank" : 94,
@@ -3771,10 +3865,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.548,
       "democracy" : 5.11,
       "rank" : 95,
@@ -3811,10 +3906,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.51,
       "democracy" : 5.11,
       "rank" : 95,
@@ -3851,10 +3947,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.655,
       "democracy" : 5.11,
       "rank" : 95,
@@ -3891,10 +3988,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.483,
       "democracy" : 5.09,
       "rank" : 98,
@@ -3931,10 +4029,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.605,
       "democracy" : 5.08,
       "rank" : 99,
@@ -3971,10 +4070,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.761,
       "democracy" : 4.88,
       "rank" : 100,
@@ -4011,10 +4111,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.733,
       "democracy" : 4.87,
       "rank" : 101,
@@ -4051,10 +4152,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.628,
       "democracy" : 4.87,
       "rank" : 101,
@@ -4091,10 +4193,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.402,
       "democracy" : 4.75,
       "rank" : 103,
@@ -4131,10 +4234,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.769,
       "democracy" : 4.72,
       "rank" : 104,
@@ -4171,10 +4275,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.631,
       "democracy" : 4.66,
       "rank" : 105,
@@ -4211,10 +4316,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.413,
       "democracy" : 4.66,
       "rank" : 105,
@@ -4251,10 +4357,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.726,
       "democracy" : 4.63,
       "rank" : 107,
@@ -4291,10 +4398,11 @@
     "types": {
       "state" : "other",
       "government" : "other",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.677,
       "democracy" : 4.46,
       "rank" : 108,
@@ -4331,10 +4439,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.514,
       "democracy" : 4.44,
       "rank" : 109,
@@ -4371,10 +4480,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.538,
       "democracy" : 4.26,
       "rank" : 110,
@@ -4411,10 +4521,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.733,
       "democracy" : 4.11,
       "rank" : 111,
@@ -4451,10 +4562,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.654,
       "democracy" : 4.09,
       "rank" : 112,
@@ -4491,10 +4603,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.441,
       "democracy" : 4.06,
       "rank" : 113,
@@ -4531,10 +4644,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.483,
       "democracy" : 4.03,
       "rank" : 114,
@@ -4571,10 +4685,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.416,
       "democracy" : 4.02,
       "rank" : 115,
@@ -4611,10 +4726,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.462,
       "democracy" : 3.93,
       "rank" : 116,
@@ -4651,10 +4767,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.762,
       "democracy" : 3.87,
       "rank" : 117,
@@ -4691,10 +4808,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.748,
       "democracy" : 3.87,
       "rank" : 117,
@@ -4731,10 +4849,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.816,
       "democracy" : 3.85,
       "rank" : 119,
@@ -4771,10 +4890,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.536,
       "democracy" : 3.83,
       "rank" : 120,
@@ -4811,10 +4931,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.506,
       "democracy" : 3.82,
       "rank" : 121,
@@ -4851,10 +4972,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.348,
       "democracy" : 3.76,
       "rank" : 122,
@@ -4891,10 +5013,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.503,
       "democracy" : 3.71,
       "rank" : 123,
@@ -4931,10 +5054,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "democracy-type" : "Hybrid regime",
+      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Hybrid regime",
       "hdi" : 0.555,
       "democracy" : 3.63,
       "rank" : 124,
@@ -4971,10 +5095,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.532,
       "democracy" : 3.62,
       "rank" : 125,
@@ -5011,10 +5136,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.684,
       "democracy" : 3.61,
       "rank" : 126,
@@ -5051,10 +5177,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.512,
       "democracy" : 3.61,
       "rank" : 126,
@@ -5091,10 +5218,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.736,
       "democracy" : 3.56,
       "rank" : 128,
@@ -5131,10 +5259,11 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.442,
       "democracy" : 3.42,
       "rank" : 129,
@@ -5171,10 +5300,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.69,
       "democracy" : 3.36,
       "rank" : 130,
@@ -5211,10 +5341,11 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.769,
       "democracy" : 3.31,
       "rank" : 131,
@@ -5251,10 +5382,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.591,
       "democracy" : 3.25,
       "rank" : 132,
@@ -5291,10 +5423,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "absolute",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.85,
       "democracy" : 3.19,
       "rank" : 133,
@@ -5331,10 +5464,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.483,
       "democracy" : 3.19,
       "rank" : 133,
@@ -5371,10 +5505,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.798,
       "democracy" : 3.17,
       "rank" : 135,
@@ -5411,10 +5546,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.509,
       "democracy" : 3.16,
       "rank" : 136,
@@ -5451,10 +5587,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.411,
       "democracy" : 3.14,
       "rank" : 137,
@@ -5491,10 +5628,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.798,
       "democracy" : 3.13,
       "rank" : 138,
@@ -5531,10 +5669,11 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.727,
       "democracy" : 3.1,
       "rank" : 139,
@@ -5571,10 +5710,11 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.666,
       "democracy" : 3.08,
       "rank" : 140,
@@ -5611,10 +5751,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.788,
       "democracy" : 3.06,
       "rank" : 141,
@@ -5651,10 +5792,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.484,
       "democracy" : 3.05,
       "rank" : 142,
@@ -5691,10 +5833,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "absolute",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.793,
       "democracy" : 3.04,
       "rank" : 143,
@@ -5731,10 +5874,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "absolute",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.531,
       "democracy" : 3.03,
       "rank" : 144,
@@ -5771,10 +5915,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.47,
       "democracy" : 2.76,
       "rank" : 145,
@@ -5811,10 +5956,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.824,
       "democracy" : 2.71,
       "rank" : 146,
@@ -5851,10 +5997,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.835,
       "democracy" : 2.69,
       "rank" : 147,
@@ -5891,10 +6038,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.751,
       "democracy" : 2.65,
       "rank" : 148,
@@ -5931,10 +6079,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.465,
       "democracy" : 2.55,
       "rank" : 149,
@@ -5971,10 +6120,11 @@
     "types": {
       "state" : "republic",
       "government" : "theocratic",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.766,
       "democracy" : 2.45,
       "rank" : 150,
@@ -6011,10 +6161,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.391,
       "democracy" : 2.37,
       "rank" : 151,
@@ -6051,10 +6202,11 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.575,
       "democracy" : 2.37,
       "rank" : 151,
@@ -6091,10 +6243,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.4,
       "democracy" : 2.33,
       "rank" : 153,
@@ -6131,10 +6284,11 @@
     "types": {
       "state" : "other",
       "government" : "other",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.724,
       "democracy" : 2.32,
       "rank" : 154,
@@ -6171,10 +6325,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.479,
       "democracy" : 2.15,
       "rank" : 155,
@@ -6211,10 +6366,11 @@
     "types": {
       "state" : "republic",
       "government" : "other",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.498,
       "democracy" : 2.07,
       "rank" : 156,
@@ -6251,10 +6407,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.42,
       "democracy" : 1.98,
       "rank" : 157,
@@ -6291,10 +6448,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.675,
       "democracy" : 1.95,
       "rank" : 158,
@@ -6331,10 +6489,11 @@
     "types": {
       "state" : "monarchy",
       "government" : "absolute",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "top"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.837,
       "democracy" : 1.93,
       "rank" : 159,
@@ -6371,10 +6530,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.624,
       "democracy" : 1.93,
       "rank" : 159,
@@ -6411,10 +6571,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.587,
       "democracy" : 1.81,
       "rank" : 161,
@@ -6451,10 +6612,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.688,
       "democracy" : 1.72,
       "rank" : 162,
@@ -6491,10 +6653,11 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.433,
       "democracy" : 1.61,
       "rank" : 163,
@@ -6531,10 +6694,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.35,
       "democracy" : 1.52,
       "rank" : 164,
@@ -6571,10 +6735,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.392,
       "democracy" : 1.5,
       "rank" : 165,
@@ -6611,10 +6776,11 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : 0.594,
       "democracy" : 1.43,
       "rank" : 166,
@@ -6651,10 +6817,11 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "democracy-type" : "Authoritarian",
+      "degree" : "Authoritarian",
       "hdi" : ""
     },
     "scores": {
+      "degree" : "Authoritarian",
       "hdi" : null,
       "democracy" : 1.08,
       "rank" : 167,

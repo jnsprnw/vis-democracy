@@ -11,7 +11,13 @@ const store = () => new Vuex.Store({
   state: {
     data: data,
     activeStatus: 'default',
-    activeColour: 'default'
+    activeColour: 'default',
+    colorRangesDegrees: {
+      'Full democracies': ['#f4e600', '#c2d22f'],
+      'Flawed democracies': ['#7dbb45', '#329967'],
+      'Hybrid regime': ['#117575', '#415151'],
+      'Authoritarian': ['#722b2c', '#a51916']
+    }
   },
   getters: {
     total (state) {
@@ -30,15 +36,25 @@ const store = () => new Vuex.Store({
     scores (state) {
       return _.keys(_.first(state.data)['scores'])
     },
+    degrees (state) {
+      return _.uniq(_.map(state.data, 'types.degree'))
+    },
     domains (state) {
       let rankScores = _.map(state.data, 'scores.rank')
       let hdiScores = _.map(state.data, 'scores.hdi')
       let democracyScore = _.map(state.data, 'scores.democracy')
 
+      let democracyTypesGroups = _.groupBy(state.data, 'types.degree')
+      let democracyTypes = _.fromPairs(_.map(democracyTypesGroups, (countries, key) => {
+        let values = _.map(countries, 'scores.rank')
+        return [key, [_.min(values), _.max(values)]]
+      }))
+
       let retVal = {
         'rank': [_.min(rankScores), _.max(rankScores)],
         'hdi': [_.min(hdiScores), _.max(hdiScores)],
-        'democracy': [_.min(democracyScore), _.max(democracyScore)]
+        'democracy': [_.min(democracyScore), _.max(democracyScore)],
+        ...democracyTypes
       }
 
       return retVal
@@ -49,6 +65,12 @@ const store = () => new Vuex.Store({
       let colorScaleHDI = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.hdi)
       let colorScaleDemocracy = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.democracy)
 
+      // let colorScaleDemocracy = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.democracy)
+
+      let colorScalesDegrees = _.fromPairs(_.map(getters.degrees, key => {
+        return [key, chroma.scale(state.colorRangesDegrees[key]).mode('lab').domain(getters.domains[key])]
+      }))
+
       let countries = _.map(state.data, (country, index) => {
         let retVal = {
           ...country,
@@ -56,7 +78,8 @@ const store = () => new Vuex.Store({
             'default': colorScaleRank(country.scores.rank).css(),
             'rank': colorScaleRank(country.scores.rank).css(),
             'hdi': colorScaleHDI(country.scores.hdi).css(),
-            'democracy': colorScaleDemocracy(country.scores.democracy).css()
+            'democracy': colorScaleDemocracy(country.scores.democracy).css(),
+            'degree': colorScalesDegrees[country.types.degree](country.scores.rank).css()
           }
         }
 
