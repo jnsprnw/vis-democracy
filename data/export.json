@@ -1,0 +1,44 @@
+  {
+    "cca3" : {{jsonize(cells["cca3"].value)}},
+    "label" : {{jsonize(cells["Country"].value)}},
+    "region" : {{jsonize(cells["region"].value)}},
+    "values" : {
+      "population" : {{jsonize(cells["population"].value)}},
+      "gdp" : {{jsonize(cells["GDP"].value)}},
+      "area" : {{jsonize(cells["area"].value)}}
+    },
+    "types": {
+      "state" : {{jsonize(cells["type fo state"].value)}},
+      "government" : {{jsonize(cells["type of government"].value)}},
+      "degree" : {{jsonize(cells["degree"].value)}},
+      "hdi" : {{jsonize(cells["HDI-Rating"].value)}}
+    },
+    "scores": {
+      "degree" : {{jsonize(cells["degree"].value)}},
+      "hdi" : {{jsonize(cells["HDI"].value)}},
+      "democracy" : {{jsonize(cells["Overall score 2017"].value)}},
+      "rank" : {{jsonize(cells["Rank2017"].value)}},
+      "Electoral process and pluralism" : {{jsonize(cells["Electoral process and pluralism 2017"].value)}},
+      "Functioning of government" : {{jsonize(cells["Functioning of government 2017"].value)}},
+      "Political participation" : {{jsonize(cells["Political participation 2017"].value)}},
+      "Political culture" : {{jsonize(cells["Political culture 2017"].value)}},
+      "Civil liberties" : {{jsonize(cells["Civil liberties 2017"].value)}}
+    },
+    "organisations" : {
+      "eu" : {{jsonize(cells["EU"].value)}},
+      "arab" : {{jsonize(cells["Arab"].value)}},
+      "nato" : {{jsonize(cells["Nato"].value)}},
+      "oecd" : {{jsonize(cells["OECD"].value)}},
+      "g20" : {{jsonize(cells["G20"].value)}},
+      "africa" : {{jsonize(cells["africa"].value)}},
+      "americas" : {{jsonize(cells["americas"].value)}},
+      "asia" : {{jsonize(cells["asia"].value)}},
+      "europe" : {{jsonize(cells["europe"].value)}},
+      "oceania" : {{jsonize(cells["oceania"].value)}},
+      "name" : {{jsonize(cells["name"].value)}},
+      "travelban" : {{jsonize(cells["travelban"].value)}},
+      "blacklist" : {{jsonize(cells["blacklist"].value)}},
+      "atom" : {{jsonize(cells["atom"].value)}},
+      "apple" : {{jsonize(cells["apple"].value)}},
+    }
+  }
