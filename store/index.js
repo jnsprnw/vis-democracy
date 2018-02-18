@@ -39,7 +39,7 @@ const store = () => new Vuex.Store({
         'travelban': 'Trump’s »Travelban« countries',
         'blacklist': 'EU’s tax watch-/black-list',
         'atom': 'Countries that probably have nuclear weapons',
-        'apple': 'Countries that have Apple stores',
+        'apple': 'Countries that have Apple stores'
       }
     }
   },
