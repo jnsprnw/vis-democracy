@@ -26,10 +26,10 @@
         <p>While economic heavyweights China and the US match up to each other in absolute numbers, comparing the numbers per capita would draw a different picture.The GDP per capita is $55,800 in the United States, but only $14,100 in China, $6,200 in India, and a mere $3,600 in Bangladesh.</p>
       </section>
       <section class="tab" v-if="activeTab === 'groups'">
-        <strong>Groupings</strong>
+        <h3>Groupings</h3>
         <div class="list">
           <section v-for="(list, section) in groups">
-            <h3>{{ section }}</h3>
+            <h4>{{ section }}</h4>
             <ul class="selection">
               <li
                 v-for="(organisation, key) in list"
@@ -41,7 +41,7 @@
         </div>
       </section>
       <section class="tab" v-if="activeTab === 'scores'">
-        <strong>Scores</strong>
+        <h3>Scores</h3>
         <ul>
           <li
             v-for="score in scores"
