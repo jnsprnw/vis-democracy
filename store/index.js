@@ -12,11 +12,32 @@ const store = () => new Vuex.Store({
     data: data,
     activeStatus: 'default',
     activeColour: 'default',
+    activeTab: 'intro',
     colorRangesDegrees: {
       'Full democracies': ['#f4e600', '#c2d22f'],
       'Flawed democracies': ['#7dbb45', '#329967'],
       'Hybrid regime': ['#117575', '#415151'],
       'Authoritarian': ['#722b2c', '#a51916']
+    },
+    groups: {
+      'Organisations': {
+        'eu': 'Members of the European Union',
+        'arab': 'Members of the Arab League',
+        'nato': 'Members of the NATO',
+        'oecd': 'Members of the OECD',
+        'g20': 'Members of the G20'
+      },
+      'Geographical': {
+        'africa': 'Countries on the African continent',
+        'americas': 'Countries on the American continent',
+        'asia': 'Countries on the Asian continent',
+        'europe': 'Countries on the European continent',
+        'oceania': 'Countries on the Oceanian continent'
+      },
+      'Other groups': {
+        'name': 'Countries with »Democracy« in their name',
+        'travelban': 'Trump’s »Travelban« Countries'
+      }
     }
   },
   getters: {
@@ -215,6 +236,10 @@ const store = () => new Vuex.Store({
       // console.log('SET_ACTIVE_MODEL')
       state.activeStatus = key
     },
+    MAKE_ACTIVE_TAB (state, key) {
+      // console.log('SET_ACTIVE_MODEL')
+      state.activeTab = key
+    },
     MAKE_ACTIVE_COLOUR (state, key) {
       // console.log('SET_ACTIVE_MODEL')
       state.activeColour = key
@@ -233,6 +258,9 @@ const store = () => new Vuex.Store({
   actions: {
     makeActiveStatus ({ commit }, key) {
       commit('MAKE_ACTIVE_STATUS', key)
+    },
+    makeActiveTab ({ commit }, key) {
+      commit('MAKE_ACTIVE_TAB', key)
     },
     makeActiveColour ({ commit }, key) {
       commit('MAKE_ACTIVE_COLOUR', key)

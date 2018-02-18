@@ -13,17 +13,22 @@ body {
     justify-content: flex-start;
 
     .page-aside {
-      width: 20vw;
+      width: 30vw;
     }
 
     .page-content {
-      width: 80vw;
+      width: 70vw;
       height: 100vh;
       display: flex;
 
       .vis-legend {
         width: 3%;
         font-size: 12px;
+        font-weight: bold;
+
+        text:first-child {
+          font-weight: normal;
+        }
       }
 
       .vis-graphic {
