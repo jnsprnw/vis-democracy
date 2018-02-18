@@ -39,6 +39,6 @@
       "travelban" : {{jsonize(cells["travelban"].value)}},
       "blacklist" : {{jsonize(cells["blacklist"].value)}},
       "atom" : {{jsonize(cells["atom"].value)}},
-      "apple" : {{jsonize(cells["apple"].value)}},
+      "apple" : {{jsonize(cells["apple"].value)}}
     }
   }
