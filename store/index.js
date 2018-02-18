@@ -36,7 +36,7 @@ const store = () => new Vuex.Store({
       },
       'Other groups': {
         'name': 'Countries with »Democracy« in their name',
-        'travelban': 'Trump’s »Travelban« Countries'
+        'travelban': 'Trump’s »Travelban« countries'
       }
     }
   },
