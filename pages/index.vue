@@ -11,6 +11,7 @@
         </ul>
       </nav>
       <section class="tab" v-if="activeTab === 'intro'">
+        {{ ysPercent }}
         <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. A full democracy usually has the following features: free and fair elections; political pluralism; respect of civil liberties and human rights; protection of minority rights; a functioning government with an effective system of checks and balances; equality before the law and an independent judiciary as well as free and diverse media.</p>
         <h3>How to read this graphic</h3>
         <p>The width illustrates the share each country has of the total population, land mass, and GDP respectively.</p>
@@ -80,7 +81,7 @@
           /> -->
           <text
             v-for="placement in placements[index]"
-            v-if="points.length && placement[2] > 7"
+            v-if="points.length && placement[2] > 7 && placement[3] > 40"
             alignment-baseline="middle"
             text-anchor="middle"
             v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
@@ -117,7 +118,7 @@
         placements: [],
         legendPlacements: [],
         rows: 5,
-        gutter: 5
+        gutter: 7
       }
     },
     computed: {
@@ -134,19 +135,36 @@
         'domains',
         'scores'
       ]),
+      gutters () {
+        const { rows, gutter } = this
+        return (rows - 1) * gutter
+      },
+      row () {
+        const { rows, gutters } = this
+        return (100 - gutters) / (rows - 0.8)
+      },
+      footer () {
+        const { row, gutters } = this
+        return 100 - gutters - row * 4
+      },
       ysPercent (state) {
-        let { rows, gutter } = this
-        let row = (100 - (rows - 1) * gutter) / rows
+        const { rows, gutter, row, footer } = this
+        console.log(rows, gutter, row, footer)
 
         let i = 0
         return _.map(new Array(rows * 2), (_, n) => {
           if (n === 0) return 0
-          i += n % 2 ? row : gutter
-          // if (n === rows * 2 - 1) {
-          //   i += row * 0.5
-          // } else {
-          //   i += n % 2 ? row : gutter
-          // }
+          if (n === 9) return 1
+          if (n === 1) {
+            i += footer
+          } else {
+            if (n % 2) {
+              i += row
+            } else {
+              i += gutter
+            }
+          }
+          // i += n % 2 ? row : gutter
           return i / 100
         })
       }
@@ -177,8 +195,7 @@
       calcLegendPlacement () {
         let labels = ['Scaled by', '▲ Population', '▲ Land Mass', '▲ Economy']
         let [width, height] = this.resolution
-        let { rows, gutter } = this
-        let row = (100 - (rows - 1) * gutter) / rows
+        let { gutter, row } = this
         this.legendPlacements = _.map(labels, (label, n) => {
           return {
             'label': label,
@@ -245,10 +262,10 @@
             let maxx = _.max(xs)
             let miny = _.min(ys)
             let maxy = _.max(ys)
-            let x = (maxx - minx) / 2 + minx
-            let y = (maxy - miny) / 2 + miny
+            let x = _.round((maxx - minx) / 2 + minx, 1)
+            let y = _.round((maxy - miny) / 2 + miny, 1)
             // console.log(corners, xs, ys, x, y)
-            placements[n] = [x, y, _.max(xs) - minx]
+            placements[n] = [x, y, maxx - minx, maxy - miny]
           }
           // console.log(placements)
           return placements
