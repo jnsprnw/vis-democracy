@@ -28,7 +28,7 @@ h2 {
 
 p {
   padding: 0 0 0.5em;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   hyphens: auto;
 }
 
@@ -57,15 +57,40 @@ h4 {
   list-style: none;
 
   li {
-    background-color: rgba(0, 0, 0, 0.05);
+    // background-color: rgba(0, 0, 0, 0.05);
     margin: 0.1em 0;
     padding-left: 0.5em;
-    border-radius: 2px;
-    font-size: 0.8em;
+    // border-radius: 2px;
+    font-size: 0.85rem;
+    color: #666;
+    cursor: pointer;
 
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.2);
+    &.active, &:hover {
+      cursor: default;
+      background-color: #EC3A4D;
+      color: #fff;
+      // border-bottom: 2px solid #EC3A4D;
     }
+
+    // &:hover {
+    //   background-color: rgba(0, 0, 0, 0.2);
+    // }
+  }
+}
+
+.btn {
+  font-size: 0.8em;
+  padding: 0.5em 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #222;
+  border: 3px solid #EC3A4D;
+
+  &:hover {
+    background-color: #EC3A4D;
+    color: #fff;
   }
 }
 
@@ -79,14 +104,21 @@ h4 {
 
   li {
     font-weight: bold;
-    color: #D1D7E8;
+    color: #999999;
     flex: 1;
-    border-bottom: 1px solid #D1D7E8;
+    border-bottom: 2px solid #fff;
     text-align: center;
+    cursor: pointer;
 
-    &.active {
-      color: #8499DA;
-      border-bottom: 1px solid #fff;
+    &:hover {
+      color: #EC3A4D;
+    }
+
+    &.active span {
+      padding: 0 5% 0.25em;
+      color: #222;
+      border-bottom: 2px solid #EC3A4D;
+      cursor: default;
     }
   }
 }

@@ -4,16 +4,17 @@
       <h2><small>Degrees of</small> Democracy</h2>
       <nav>
         <ul class="menu">
-          <li :class="{ active: activeTab === 'intro' }" v-on:click="makeActiveTab('intro')">Intro</li>
-          <li :class="{ active: activeTab === 'story' }" v-on:click="makeActiveTab('story')">Story</li>
-          <li :class="{ active: activeTab === 'scores' }" v-on:click="makeActiveTab('scores')">Scores</li>
-          <li :class="{ active: activeTab === 'groups' }" v-on:click="makeActiveTab('groups')">Groups</li>
+          <li :class="{ active: activeTab === 'intro' }" v-on:click="makeActiveTab('intro')"><span>Intro</span></li>
+          <li :class="{ active: activeTab === 'story' }" v-on:click="makeActiveTab('story')"><span>Story</span></li>
+          <li :class="{ active: activeTab === 'scores' }" v-on:click="makeActiveTab('scores')"><span>Scores</span></li>
+          <li :class="{ active: activeTab === 'groups' }" v-on:click="makeActiveTab('groups')"><span>Groups</span></li>
         </ul>
       </nav>
       <section class="tab" v-if="activeTab === 'intro'">
         <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. A full democracy usually has the following features: free and fair elections; political pluralism; respect of civil liberties and human rights; protection of minority rights; a functioning government with an effective system of checks and balances; equality before the law and an independent judiciary as well as free and diverse media.</p>
         <h3>How to read this graphic</h3>
         <p>The width illustrates the share each country has of the total population, land mass, and GDP respectively.</p>
+        <span v-on:click="makeActiveTab('story')" class="btn">Start</span>
       </section>
       <section class="tab" v-if="activeTab === 'story'">
         <h3>Population</h3>
@@ -43,12 +44,13 @@
       </section>
       <section class="tab" v-if="activeTab === 'scores'">
         <h3>Scores</h3>
-        <ul>
+        <p>Countries can be measured by a variety of indicators. The default setting colours each country according to rank within its democracy category.</p>
+        <ul class="selection">
           <li
-            v-for="score in scores"
-            v-on:mouseover="makeActiveColour(score)"
-            v-on:mouseleave="makeActiveColour('default')"
-            >{{ score }}</li>
+            v-for="(label, score) in scoresLabels"
+            :class="{ active: activeColour === score }"
+            v-on:click="makeActiveColour(score)"
+            >{{ label }}</li>
         </ul>
       </section>
     </aside>
@@ -125,7 +127,8 @@
         'activeStatus',
         'activeColour',
         'groups',
-        'activeTab'
+        'activeTab',
+        'scoresLabels'
       ]),
       ...mapGetters([
         'countries',

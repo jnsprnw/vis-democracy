@@ -41,6 +41,12 @@ const store = () => new Vuex.Store({
         'atom': 'Countries that probably have nuclear weapons',
         'apple': 'Countries that have Apple stores'
       }
+    },
+    scoresLabels: {
+      'degree': 'Economist’s categories of democracy',
+      'rank': 'Economist’s democracy rank',
+      'democracy': 'Economist’s democracy index',
+      'hdi': 'Human Development Index'
     }
   },
   getters: {
@@ -265,8 +271,9 @@ const store = () => new Vuex.Store({
     makeActiveTab ({ commit }, key) {
       commit('MAKE_ACTIVE_TAB', key)
     },
-    makeActiveColour ({ commit }, key) {
-      commit('MAKE_ACTIVE_COLOUR', key)
+    makeActiveColour ({ commit, state }, key) {
+      const value = state.activeColour === key ? 'default' : key
+      commit('MAKE_ACTIVE_COLOUR', value)
     },
     addItem ({ commit }, id) {
       commit('ADD_ITEM', id)
