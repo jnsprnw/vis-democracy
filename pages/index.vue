@@ -64,7 +64,7 @@
         >{{ item.label }}</text>
       </svg>
       <svg
-        v-if="resolution.length && Math.min(...resolution) > 900"
+        v-if="resolution.length && Math.min(...resolution) > 500"
         :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true }">
         <g
           v-for="(country, index) in countries"
@@ -92,7 +92,7 @@
           </text>
         </g>
       </svg>
-      <div class="error" v-if="Math.min(...resolution) < 900">
+      <div class="error" v-if="Math.min(...resolution) < 500">
         <div>
           <strong>Not for mobile</strong>
         </div>
