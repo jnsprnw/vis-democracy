@@ -12,6 +12,7 @@
       </nav>
       <section class="tab" v-if="activeTab === 'intro'">
         <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. A full democracy usually has the following features: free and fair elections; political pluralism; respect of civil liberties and human rights; protection of minority rights; a functioning government with an effective system of checks and balances; equality before the law and an independent judiciary as well as free and diverse media.</p>
+        <h3>How to read this graphic</h3>
         <p>The width illustrates the share each country has of the total population, land mass, and GDP respectively.</p>
       </section>
       <section class="tab" v-if="activeTab === 'story'">
@@ -23,7 +24,7 @@
         <p>Although almost equal in terms of population, India and China differ in terms of territory. This indicates a large difference in population density. While in China, there are 146 people per square kilometer of land, in India there are 441. For the United States the number is 35, and in Bangladesh it is 1,237 – one of the highest densities in the world.</p>
         <h3>Economy</h3>
         <p>When scaling countries according to their gross domestic product (GDP), it’s clear that full democracies have a bigger share of the world’s economy than corresponding to their population or land mass. While democracy might be one indicator for economic productivity, other factors such as historical and geographic conditions and the market system must also be taken into account.</p>
-        <p>While economic heavyweights China and the US match up to each other in absolute numbers, comparing the numbers per capita would draw a different picture.The GDP per capita is $55,800 in the United States, but only $14,100 in China, $6,200 in India, and a mere $3,600 in Bangladesh.</p>
+        <p>While economic heavyweights China and the US match up to each other in absolute numbers, comparing the numbers per capita would draw a different picture. The GDP per capita is $55,800 in the United States, but only $14,100 in China, $6,200 in India, and a mere $3,600 in Bangladesh.</p>
       </section>
       <section class="tab" v-if="activeTab === 'groups'">
         <h3>Groupings</h3>
@@ -134,13 +135,18 @@
         'scores'
       ]),
       ysPercent (state) {
-        let { rows, gutter } = state
-        let row = (100 - (state.rows - 1) * gutter) / rows
+        let { rows, gutter } = this
+        let row = (100 - (rows - 1) * gutter) / rows
 
         let i = 0
-        return _.map(new Array(rows * 2), (y, n) => {
+        return _.map(new Array(rows * 2), (_, n) => {
           if (n === 0) return 0
           i += n % 2 ? row : gutter
+          // if (n === rows * 2 - 1) {
+          //   i += row * 0.5
+          // } else {
+          //   i += n % 2 ? row : gutter
+          // }
           return i / 100
         })
       }
