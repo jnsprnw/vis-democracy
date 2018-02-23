@@ -11,7 +11,6 @@
         </ul>
       </nav>
       <section class="tab" v-if="activeTab === 'intro'">
-        {{ ysPercent }}
         <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. A full democracy usually has the following features: free and fair elections; political pluralism; respect of civil liberties and human rights; protection of minority rights; a functioning government with an effective system of checks and balances; equality before the law and an independent judiciary as well as free and diverse media.</p>
         <h3>How to read this graphic</h3>
         <p>The width illustrates the share each country has of the total population, land mass, and GDP respectively.</p>
