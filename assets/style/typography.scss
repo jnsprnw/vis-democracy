@@ -81,6 +81,16 @@ h4 {
   }
 }
 
+.link {
+  border-bottom: 1px solid #EC3A4D;
+  cursor: pointer;
+  font-weight: 500;
+
+  &:hover {
+    color: #EC3A4D;
+  }
+}
+
 .btn {
   font-size: 0.8em;
   padding: 0.5em 2em;
