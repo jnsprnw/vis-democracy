@@ -27,7 +27,7 @@
           /> -->
           <text
             v-for="placement in placements[index]"
-            v-if="points.length && placement[2] > 7 && placement[3] > 40"
+            v-if="points.length && placement[2] > 7 && placement[3] > 60"
             alignment-baseline="middle"
             text-anchor="middle"
             v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
