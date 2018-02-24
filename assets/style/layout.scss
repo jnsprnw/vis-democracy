@@ -1,75 +1,70 @@
-body {
+.page-body {
+  display: flex;
+  justify-content: flex-start;
 
-}
+  .page-aside {
+    width: 30vw;
+  }
 
-.page {
-  // .page-header {
-  //   height: 5vh;
-  //   width: 100vw;
-  // }
-
-  .page-body {
+  .page-content {
+    width: 70vw;
+    height: 100vh;
     display: flex;
-    justify-content: flex-start;
 
-    .page-aside {
-      width: 30vw;
+    .wrapper {
+      width: 100%;
+      height: 100%;
     }
 
-    .page-content {
-      width: 70vw;
-      height: 100vh;
-      display: flex;
+    .vis-legend {
+      height: 100%;
+      width: 3%;
+      font-size: 12px;
+      font-weight: bold;
 
-      .vis-legend {
-        width: 3%;
-        font-size: 12px;
-        font-weight: bold;
+      text:first-child {
+        font-weight: normal;
+      }
+    }
 
-        text:first-child {
-          font-weight: normal;
-        }
+    .vis-graphic {
+      width: 97%;
+      height: 100%;
+
+      path {
+        stroke: rgba(255, 255, 255, 0.4);
+        stroke-width: 0.5;
       }
 
-      .vis-graphic {
-        width: 97%;
-        height: 100%;
+      text {
+        font-family: $font-family-default;
+        fill: #fff;
+      }
 
-        path {
-          stroke: rgba(255, 255, 255, 0.4);
-          stroke-width: 0.5;
-        }
+      &.highlight {
+        g {
+          opacity: 0.1;
 
-        text {
-          font-family: $font-family-default;
-          fill: #fff;
-        }
-
-        &.highlight {
-          g {
-            opacity: 0.1;
-
-            &.active {
-              opacity: 1;
-            }
+          &.active {
+            opacity: 1;
           }
         }
       }
+    }
 
-      .error {
-        text-align: center;
+    .error {
+      text-align: center;
 
-        div {
-          span {
-            font-size: 10em;
-            line-height: 1;
-            display: block;
-          }
+      div {
+        span {
+          font-size: 10em;
+          line-height: 1;
+          display: block;
+        }
 
-          strong {
-            font-size: 5em;
-            display: block;
-          }
+        strong {
+          font-size: 5em;
+          display: block;
         }
       }
     }
