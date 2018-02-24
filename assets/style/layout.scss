@@ -4,6 +4,16 @@
 
   .page-aside {
     width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .tab {
+      margin: 0.5em 1em;
+      padding: 0.5em 0;
+      align-self: flex-start;
+    }
   }
 
   .page-content {
@@ -51,22 +61,9 @@
         }
       }
     }
-
-    .error {
-      text-align: center;
-
-      div {
-        span {
-          font-size: 10em;
-          line-height: 1;
-          display: block;
-        }
-
-        strong {
-          font-size: 5em;
-          display: block;
-        }
-      }
-    }
   }
+}
+
+.imprint {
+  margin: 0.5em 1em;
 }
