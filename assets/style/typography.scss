@@ -38,6 +38,10 @@ h3 {
   font-weight: 600;
   line-height: 1.2;
   margin: 1rem 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 h4 {
