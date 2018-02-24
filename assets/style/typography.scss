@@ -58,18 +58,20 @@ h4 {
 
   li {
     // background-color: rgba(0, 0, 0, 0.05);
-    margin: 0.1em 0;
+    margin: 0.7em 0;
     padding-left: 0.5em;
     // border-radius: 2px;
     font-size: 0.85rem;
     color: #666;
     cursor: pointer;
+    line-height: 1.2;
+    border-left: 3px solid #fff;
 
     &.active, &:hover {
       cursor: default;
-      background-color: #EC3A4D;
-      color: #fff;
-      // border-bottom: 2px solid #EC3A4D;
+      // background-color: #EC3A4D;
+      color: #EC3A4D;
+      border-color: #EC3A4D;
     }
 
     // &:hover {
