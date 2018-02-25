@@ -87,6 +87,8 @@ h4 {
 }
 
 .btn {
+  margin: 1em 0;
+  margin-left: auto;
   font-size: 0.8em;
   padding: 0.5em 2em;
   text-transform: uppercase;
@@ -95,6 +97,7 @@ h4 {
   cursor: pointer;
   color: #222;
   border: 3px solid #EC3A4D;
+  display: inline-block;
 
   &:hover {
     background-color: #EC3A4D;

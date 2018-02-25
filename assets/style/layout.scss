@@ -1,3 +1,11 @@
+body, #__nuxt, #__layout, .page, .page-body {
+  height: 100vh;
+  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
 .page-body {
   display: flex;
   justify-content: flex-start;
@@ -7,6 +15,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 
     .tab {
       margin: 0.5em 1em;

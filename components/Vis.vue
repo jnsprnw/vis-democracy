@@ -1,45 +1,45 @@
 <template>
   <div class="wrapper" ref="vis">
+    <resize-observer @notify="handleResize" />
     <svg class="vis-legend">
+      <text
+        v-for="item in legendPlacements"
+        :y="item.y"
+        :x="item.x"
+        alignment-baseline="middle"
+        text-anchor="middle"
+        :transform="'rotate(90,' + item.x + ',' + item.y + ')'"
+      >{{ item.label }}</text>
+    </svg>
+    <svg
+      v-if="resolution.length && Math.min(...resolution) > 500"
+      :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true }">
+      <g
+        v-for="(country, index) in countries"
+        :class="{ 'country': true, 'active': status[activeStatus][index] }">
+        <path
+          v-if="shapes.length"
+          :style="{ fill: country.colours[activeColour] }"
+          :d="shapes[index]" />
+<!--           <circle v-for="point in points[index]"
+          r="2"
+          :cx="point[0]"
+          :cy="point[1]"
+        /> -->
         <text
-          v-for="item in legendPlacements"
-          :y="item.y"
-          :x="item.x"
+          v-for="placement in placements[index]"
+          v-if="points.length && placement[2] > 7 && placement[3] > 60"
           alignment-baseline="middle"
           text-anchor="middle"
-          :transform="'rotate(90,' + item.x + ',' + item.y + ')'"
-        >{{ item.label }}</text>
-      </svg>
-      <svg
-        v-if="resolution.length && Math.min(...resolution) > 500"
-        :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true }">
-        <g
-          v-for="(country, index) in countries"
-          :class="{ 'country': true, 'active': status[activeStatus][index] }">
-          <path
-            v-if="shapes.length"
-            :style="{ fill: country.colours[activeColour] }"
-            :d="shapes[index]" />
-<!--           <circle v-for="point in points[index]"
-            r="2"
-            :cx="point[0]"
-            :cy="point[1]"
-          /> -->
-          <text
-            v-for="placement in placements[index]"
-            v-if="points.length && placement[2] > 7 && placement[3] > 60"
-            alignment-baseline="middle"
-            text-anchor="middle"
-            v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
-            :transform="'rotate(90,' + placement[0] + ',' + placement[1] + ')'"
-            :x="placement[0]"
-            :y="placement[1]"
-          >
-            {{ country.label }}
-          </text>
-        </g>
-      </svg>
-      <resize-observer @notify="handleResize" />
+          v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
+          :transform="'rotate(90,' + placement[0] + ',' + placement[1] + ')'"
+          :x="placement[0]"
+          :y="placement[1]"
+        >
+          {{ country.label }}
+        </text>
+      </g>
+    </svg>
   </div>
 </template>
 
@@ -222,8 +222,8 @@
           for (let n = 0; n < l; n++) {
             if (n % 2) {
               let diff = (country[n + 1][1] - country[n][1]) / 3
-              let y1 = country[n][1] + diff
-              let y2 = country[n + 1][1] - diff
+              let y1 = country[n][1] + diff * 2
+              let y2 = country[n + 1][1] - diff * 2
               curves.push('C ' + [country[n][0], y1].join(' ') + ' , ' + [country[n + 1][0], y2].join(' ') + ' , ')
             } else {
               curves.push(country[n].join(' ') + ' L ' + country[n + 1].join(' '))
