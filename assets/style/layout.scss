@@ -66,10 +66,14 @@ body, #__nuxt, #__layout, .page, .page-body {
 
       &.highlight {
         g {
-          opacity: 0.1;
+          path {
+            opacity: 0.25;
+          }
 
           &.active {
-            opacity: 1;
+            path {
+              opacity: 1;
+            }
           }
         }
       }
