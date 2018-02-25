@@ -20,7 +20,7 @@
           <span v-on:click="makeActiveTab('story')" class="btn">Start</span>
         </div>
       </section>
-      <footer class="tab" v-if="activeTab === 'intro'">
+      <footer class="tab footer" v-if="activeTab === 'intro'">
         <p>This graphic was created by Jonas Parnow in 2018. The last update was 24.2.2018. <nuxt-link to="imprint" class="link">Find out more</nuxt-link>.</p>
       </footer>
       <section class="tab" v-if="activeTab === 'story'">

@@ -6,13 +6,17 @@
     width: 30vw;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 
     .tab {
       margin: 0.5em 1em;
       padding: 0.5em 0;
-      align-self: flex-start;
+      align-self: stretch;
+    }
+
+    .footer {
+      margin-top: auto;
+      align-self: flex-end;
     }
   }
 
