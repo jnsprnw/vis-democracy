@@ -6,7 +6,7 @@
         v-for="item in legendPlacements"
         :y="item.y"
         :x="item.x"
-        alignment-baseline="middle"
+        dominant-baseline="middle"
         text-anchor="middle"
         :transform="'rotate(90,' + item.x + ',' + item.y + ')'"
       >{{ item.label }}</text>
@@ -29,7 +29,7 @@
         <text
           v-for="(placement, n) in placements[index]"
           v-if="points.length && placement[2] > 7 && placement[3] > 60"
-          alignment-baseline="middle"
+          dominant-baseline="middle"
           :text-anchor="n === 0 ? 'start' : 'middle'"
           v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
           :transform="'rotate(90,' + placement[0] + ',' + placement[1] + ')'"
