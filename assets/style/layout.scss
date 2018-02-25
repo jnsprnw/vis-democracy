@@ -59,9 +59,17 @@ body, #__nuxt, #__layout, .page, .page-body {
         stroke-width: 0.5;
       }
 
+      .categories {
+        stroke: #fff;
+      }
+
       text {
         font-family: $font-family-default;
         fill: #fff;
+
+        &.category {
+          font-size: 12px;
+        }
       }
 
       &.highlight {

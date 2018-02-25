@@ -27,10 +27,10 @@
           :cy="point[1]"
         /> -->
         <text
-          v-for="placement in placements[index]"
+          v-for="(placement, n) in placements[index]"
           v-if="points.length && placement[2] > 7 && placement[3] > 60"
           alignment-baseline="middle"
-          text-anchor="middle"
+          :text-anchor="n === 0 ? 'start' : 'middle'"
           v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
           :transform="'rotate(90,' + placement[0] + ',' + placement[1] + ')'"
           :x="placement[0]"
@@ -38,6 +38,21 @@
         >
           {{ country.label }}
         </text>
+      </g>
+      <g v-for="(line, n) in categoryPlacement">
+        <text
+          class="category"
+          :x="line.center"
+          text-anchor="middle"
+          :y="line.ys[1]">
+          {{ line.label }}
+        </text>
+        <line
+          class="categories"
+          :x1="line.xs[0]"
+          :x2="line.xs[1]"
+          :y1="line.ys[0]"
+          :y2="line.ys[0]" />
       </g>
     </svg>
   </div>
@@ -57,6 +72,7 @@
         points: [],
         placements: [],
         legendPlacements: [],
+        categoryPlacement: [],
         rows: 5,
         gutter: 7
       }
@@ -67,7 +83,8 @@
         'activeColour',
         'groups',
         'activeTab',
-        'scoresLabels'
+        'scoresLabels',
+        'colorRangesDegrees'
       ]),
       ...mapGetters([
         'countries',
@@ -128,6 +145,7 @@
         this.calcShapes()
         this.calcPoints()
         this.calcLegendPlacement()
+        this.calcCategoryPlacement()
       },
       handleResize () {
         console.log('resized')
@@ -191,20 +209,26 @@
         this.points = Object.freeze(points)
       },
       calcTextPlacement () {
-        let placements = _.map(this.points, country => {
+        const placements = _.map(this.points, country => {
           let n = country.length / 4
-          let points = _.clone(country)
-          let placements = []
+          const points = _.clone(country)
+          const placements = []
           while (n--) {
-            let corners = _.flatten([_.pullAt(points, [0, 1]), _.pullAt(points, [points.length - 2, points.length - 1])])
-            let xs = _.map(corners, '0')
-            let ys = _.map(corners, '1')
-            let minx = _.min(xs)
-            let maxx = _.max(xs)
-            let miny = _.min(ys)
-            let maxy = _.max(ys)
-            let x = _.round((maxx - minx) / 2 + minx, 1)
-            let y = _.round((maxy - miny) / 2 + miny, 1)
+            const corners = _.flatten([_.pullAt(points, [0, 1]), _.pullAt(points, [points.length - 2, points.length - 1])])
+            const xs = _.map(corners, '0')
+            const ys = _.map(corners, '1')
+            const minx = _.min(xs)
+            const maxx = _.max(xs)
+            const miny = _.min(ys)
+            const maxy = _.max(ys)
+            const x = _.round((maxx - minx) / 2 + minx, 1)
+            const y = _.round((maxy - miny) / (n === 0 ? 6 : 2) + miny, 1)
+            // const _y = n === 0 ?
+            // if (n === 0) {
+            //   const y = _.round((maxy - miny) / 6 + miny, 1)
+            // } else {
+            //   const y = _.round((maxy - miny) / 2 + miny, 1)
+            // }
             // console.log(corners, xs, ys, x, y)
             placements[n] = [x, y, maxx - minx, maxy - miny]
           }
@@ -213,6 +237,29 @@
         })
 
         this.placements = Object.freeze(placements)
+      },
+      calcCategoryPlacement () {
+        const height = this.resolution[1]
+        const y1 = (this.row / 100 / 8 * 7) * height
+        const y2 = y1 - 5
+        const ys = [y1, y2]
+
+        const ranges = _.fromPairs(_.map(_.groupBy(this.countries, 'scores.degree'), (list, key) => {
+          return [key, _.map(_.pullAt(list, [0, list.length - 1]), 'scores.rank')]
+        }))
+        const places = _.map(ranges, (range, key) => {
+          const coords = _.map(range, n => {
+            return this.points[n - 1][0][0] + (this.points[n - 1][10][0] - this.points[n - 1][0][0]) / 2
+          })
+          return {
+            'label': key,
+            'xs': coords,
+            'ys': ys,
+            'center': coords[0] + (coords[1] - coords[0]) / 2
+          }
+        })
+        this.categoryPlacement = places
+        console.log(places)
       },
       calcShapes () {
         let shapes = _.map(this.points, country => {
