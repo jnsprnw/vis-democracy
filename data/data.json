@@ -1,6 +1,7 @@
 [
   {
     "cca3" : "NOR",
+    "id" : 1,
     "label" : "Norway",
     "region" : "Europe",
     "values" : {
@@ -11,19 +12,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.944,
-      "democracy" : 9.87,
-      "rank" : 1,
-      "Electoral process and pluralism" : 10,
-      "Functioning of government" : 9.64,
-      "Political participation" : 10,
-      "Political culture" : 10,
-      "Civil liberties" : 9.71
+      "democracy" : 9.93,
+      "rank" : 1
     },
     "organisations" : {
       "eu" : false,
@@ -36,15 +31,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ISL",
+    "id" : 2,
     "label" : "Iceland",
     "region" : "Europe",
     "values" : {
@@ -55,19 +47,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.899,
-      "democracy" : 9.58,
-      "rank" : 2,
-      "Electoral process and pluralism" : 10,
-      "Functioning of government" : 9.29,
-      "Political participation" : 8.89,
-      "Political culture" : 10,
-      "Civil liberties" : 9.71
+      "democracy" : 9.5,
+      "rank" : 2
     },
     "organisations" : {
       "eu" : false,
@@ -80,15 +66,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SWE",
+    "id" : 3,
     "label" : "Sweden",
     "region" : "Europe",
     "values" : {
@@ -99,19 +82,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.907,
       "democracy" : 9.39,
-      "rank" : 3,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 9.64,
-      "Political participation" : 8.33,
-      "Political culture" : 10,
-      "Civil liberties" : 9.41
+      "rank" : 3
     },
     "organisations" : {
       "eu" : true,
@@ -124,15 +101,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "NZL",
+    "id" : 4,
     "label" : "New Zealand",
     "region" : "Oceania",
     "values" : {
@@ -143,19 +117,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.913,
       "democracy" : 9.26,
-      "rank" : 4,
-      "Electoral process and pluralism" : 10,
-      "Functioning of government" : 9.29,
-      "Political participation" : 8.89,
-      "Political culture" : 8.13,
-      "Civil liberties" : 10
+      "rank" : 4
     },
     "organisations" : {
       "eu" : false,
@@ -168,15 +136,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : true,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "DNK",
+    "id" : 5,
     "label" : "Denmark",
     "region" : "Europe",
     "values" : {
@@ -187,19 +152,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.923,
-      "democracy" : 9.22,
-      "rank" : 5,
-      "Electoral process and pluralism" : 10,
-      "Functioning of government" : 9.29,
-      "Political participation" : 8.33,
-      "Political culture" : 9.38,
-      "Civil liberties" : 9.12
+      "democracy" : 9.2,
+      "rank" : 5
     },
     "organisations" : {
       "eu" : true,
@@ -212,59 +171,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "CAN",
-    "label" : "Canada",
-    "region" : "Americas",
-    "values" : {
-      "population" : 3.5099836E7,
-      "gdp" : 1.632E12,
-      "area" : 9984670
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "parliamentary",
-      "degree" : "Full democracies",
-      "hdi" : "top"
-    },
-    "scores": {
-      "degree" : "Full democracies",
-      "hdi" : 0.913,
-      "democracy" : 9.15,
-      "rank" : 6,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 9.64,
-      "Political participation" : 7.78,
-      "Political culture" : 8.75,
-      "Civil liberties" : 10
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : true,
-      "oecd" : true,
-      "g20" : true,
-      "africa" : false,
-      "americas" : true,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "IRL",
+    "id" : 6,
     "label" : "Ireland",
     "region" : "Europe",
     "values" : {
@@ -275,19 +187,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.916,
       "democracy" : 9.15,
-      "rank" : 6,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 7.86,
-      "Political participation" : 8.33,
-      "Political culture" : 10,
-      "Civil liberties" : 10
+      "rank" : 6
     },
     "organisations" : {
       "eu" : true,
@@ -300,15 +206,47 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "CAN",
+    "id" : 7,
+    "label" : "Canada",
+    "region" : "Americas",
+    "values" : {
+      "population" : 3.5099836E7,
+      "gdp" : 1.632E12,
+      "area" : 9984670
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "parliamentary",
+      "hdi" : "top"
+    },
+    "scores": {
+      "regimeType" : "Full democracy",
+      "hdi" : 0.913,
+      "democracy" : 9.15,
+      "rank" : 6
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : true,
+      "oecd" : true,
+      "g20" : true,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "AUS",
+    "id" : 8,
     "label" : "Australia",
     "region" : "Oceania",
     "values" : {
@@ -319,19 +257,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.935,
-      "democracy" : 9.09,
-      "rank" : 8,
-      "Electoral process and pluralism" : 10,
-      "Functioning of government" : 8.93,
-      "Political participation" : 7.78,
-      "Political culture" : 8.75,
-      "Civil liberties" : 10
+      "democracy" : 9.01,
+      "rank" : 8
     },
     "organisations" : {
       "eu" : false,
@@ -344,59 +276,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : true,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
-    }
-  },
-  {
-    "cca3" : "CHE",
-    "label" : "Switzerland",
-    "region" : "Europe",
-    "values" : {
-      "population" : 8121830,
-      "gdp" : 4.823E11,
-      "area" : 41277
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "directorial",
-      "degree" : "Full democracies",
-      "hdi" : "top"
-    },
-    "scores": {
-      "degree" : "Full democracies",
-      "hdi" : 0.93,
-      "democracy" : 9.03,
-      "rank" : 9,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 9.29,
-      "Political participation" : 7.78,
-      "Political culture" : 9.38,
-      "Civil liberties" : 9.12
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : true,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : false,
-      "europe" : true,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "FIN",
+    "id" : 9,
     "label" : "Finland",
     "region" : "Europe",
     "values" : {
@@ -407,19 +292,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.883,
       "democracy" : 9.03,
-      "rank" : 9,
-      "Electoral process and pluralism" : 10,
-      "Functioning of government" : 8.93,
-      "Political participation" : 7.78,
-      "Political culture" : 8.75,
-      "Civil liberties" : 9.71
+      "rank" : 9
     },
     "organisations" : {
       "eu" : true,
@@ -432,15 +311,47 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "CHE",
+    "id" : 10,
+    "label" : "Switzerland",
+    "region" : "Europe",
+    "values" : {
+      "population" : 8121830,
+      "gdp" : 4.823E11,
+      "area" : 41277
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "directorial",
+      "hdi" : "top"
+    },
+    "scores": {
+      "regimeType" : "Full democracy",
+      "hdi" : 0.93,
+      "democracy" : 9.09,
+      "rank" : 9
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : true,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "NLD",
+    "id" : 11,
     "label" : "Netherlands",
     "region" : "Europe",
     "values" : {
@@ -451,19 +362,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.922,
-      "democracy" : 8.89,
-      "rank" : 11,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 9.29,
-      "Political participation" : 8.33,
-      "Political culture" : 8.13,
-      "Civil liberties" : 9.12
+      "democracy" : 8.8,
+      "rank" : 11
     },
     "organisations" : {
       "eu" : true,
@@ -476,15 +381,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "LUX",
+    "id" : 12,
     "label" : "Luxembourg",
     "region" : "Europe",
     "values" : {
@@ -495,19 +397,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.892,
       "democracy" : 8.81,
-      "rank" : 12,
-      "Electoral process and pluralism" : 10,
-      "Functioning of government" : 8.93,
-      "Political participation" : 6.67,
-      "Political culture" : 8.75,
-      "Civil liberties" : 9.71
+      "rank" : 12
     },
     "organisations" : {
       "eu" : true,
@@ -520,15 +416,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "DEU",
+    "id" : 13,
     "label" : "Germany",
     "region" : "Europe",
     "values" : {
@@ -539,19 +432,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.916,
-      "democracy" : 8.61,
-      "rank" : 13,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 8.21,
-      "Political participation" : 8.33,
-      "Political culture" : 7.5,
-      "Civil liberties" : 9.41
+      "democracy" : 8.63,
+      "rank" : 13
     },
     "organisations" : {
       "eu" : true,
@@ -564,15 +451,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "GBR",
+    "id" : 14,
     "label" : "United Kingdom",
     "region" : "Europe",
     "values" : {
@@ -583,19 +467,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.907,
-      "democracy" : 8.53,
-      "rank" : 14,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 7.5,
-      "Political participation" : 8.33,
-      "Political culture" : 8.13,
-      "Civil liberties" : 9.12
+      "democracy" : 8.36,
+      "rank" : 14
     },
     "organisations" : {
       "eu" : true,
@@ -608,15 +486,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "AUT",
+    "id" : 15,
     "label" : "Austria",
     "region" : "Europe",
     "values" : {
@@ -627,19 +502,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.885,
-      "democracy" : 8.42,
-      "rank" : 15,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 8.21,
-      "Political participation" : 8.33,
-      "Political culture" : 6.88,
-      "Civil liberties" : 9.12
+      "democracy" : 8.41,
+      "rank" : 15
     },
     "organisations" : {
       "eu" : true,
@@ -652,15 +521,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MUS",
+    "id" : 16,
     "label" : "Mauritius",
     "region" : "Africa",
     "values" : {
@@ -671,19 +537,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.777,
-      "democracy" : 8.22,
-      "rank" : 16,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 8.21,
-      "Political participation" : 5.56,
-      "Political culture" : 8.75,
-      "Civil liberties" : 9.41
+      "democracy" : 8.28,
+      "rank" : 16
     },
     "organisations" : {
       "eu" : false,
@@ -696,15 +556,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MLT",
+    "id" : 17,
     "label" : "Malta",
     "region" : "Europe",
     "values" : {
@@ -715,19 +572,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.839,
-      "democracy" : 8.15,
-      "rank" : 17,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 8.21,
-      "Political participation" : 6.11,
-      "Political culture" : 8.75,
-      "Civil liberties" : 8.53
+      "democracy" : 8.39,
+      "rank" : 17
     },
     "organisations" : {
       "eu" : true,
@@ -740,15 +591,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "URY",
+    "id" : 18,
     "label" : "Uruguay",
     "region" : "Americas",
     "values" : {
@@ -759,19 +607,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Full democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.793,
-      "democracy" : 8.12,
-      "rank" : 18,
-      "Electoral process and pluralism" : 10,
-      "Functioning of government" : 8.93,
-      "Political participation" : 4.44,
-      "Political culture" : 7.5,
-      "Civil liberties" : 9.71
+      "democracy" : 8.17,
+      "rank" : 18
     },
     "organisations" : {
       "eu" : false,
@@ -784,15 +626,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ESP",
+    "id" : 19,
     "label" : "Spain",
     "region" : "Europe",
     "values" : {
@@ -803,19 +642,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Full democracy",
       "hdi" : 0.876,
-      "democracy" : 8.08,
-      "rank" : 19,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 7.14,
-      "Political participation" : 7.78,
-      "Political culture" : 7.5,
-      "Civil liberties" : 8.82
+      "democracy" : 8.3,
+      "rank" : 19
     },
     "organisations" : {
       "eu" : true,
@@ -828,15 +661,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "KOR",
+    "id" : 20,
     "label" : "South Korea",
     "region" : "Asia",
     "values" : {
@@ -847,19 +677,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.898,
-      "democracy" : 8,
-      "rank" : 20,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 7.86,
-      "Political participation" : 7.22,
-      "Political culture" : 7.5,
-      "Civil liberties" : 8.24
+      "democracy" : 7.92,
+      "rank" : 20
     },
     "organisations" : {
       "eu" : false,
@@ -872,15 +696,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "USA",
+    "id" : 21,
     "label" : "United States of America",
     "region" : "Americas",
     "values" : {
@@ -891,19 +712,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.915,
       "democracy" : 7.98,
-      "rank" : 21,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 7.14,
-      "Political participation" : 7.22,
-      "Political culture" : 8.13,
-      "Civil liberties" : 8.24
+      "rank" : 21
     },
     "organisations" : {
       "eu" : false,
@@ -916,15 +731,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "ITA",
+    "id" : 22,
     "label" : "Italy",
     "region" : "Europe",
     "values" : {
@@ -935,19 +747,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.873,
       "democracy" : 7.98,
-      "rank" : 21,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 6.43,
-      "Political participation" : 7.22,
-      "Political culture" : 8.13,
-      "Civil liberties" : 8.53
+      "rank" : 21
     },
     "organisations" : {
       "eu" : true,
@@ -960,15 +766,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "JPN",
+    "id" : 23,
     "label" : "Japan",
     "region" : "Asia",
     "values" : {
@@ -979,19 +782,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.891,
-      "democracy" : 7.88,
-      "rank" : 23,
-      "Electoral process and pluralism" : 8.75,
-      "Functioning of government" : 8.21,
-      "Political participation" : 6.11,
-      "Political culture" : 7.5,
-      "Civil liberties" : 8.82
+      "democracy" : 7.99,
+      "rank" : 23
     },
     "organisations" : {
       "eu" : false,
@@ -1004,15 +801,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "CPV",
+    "id" : 24,
     "label" : "Cabo Verde",
     "region" : "Africa",
     "values" : {
@@ -1023,19 +817,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Full democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.646,
-      "democracy" : 7.88,
-      "rank" : 23,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 7.86,
-      "Political participation" : 6.67,
-      "Political culture" : 6.88,
-      "Civil liberties" : 8.82
+      "democracy" : 7.94,
+      "rank" : 23
     },
     "organisations" : {
       "eu" : false,
@@ -1048,15 +836,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "CRI",
+    "id" : 25,
     "label" : "Costa Rica",
     "region" : "Americas",
     "values" : {
@@ -1067,19 +852,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.766,
       "democracy" : 7.88,
-      "rank" : 23,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 7.14,
-      "Political participation" : 6.67,
-      "Political culture" : 6.88,
-      "Civil liberties" : 9.12
+      "rank" : 23
     },
     "organisations" : {
       "eu" : false,
@@ -1092,59 +871,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "PRT",
-    "label" : "Portugal",
-    "region" : "Europe",
-    "values" : {
-      "population" : 1.0825309E7,
-      "gdp" : 2.898E11,
-      "area" : 92090
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "degree" : "Flawed democracies",
-      "hdi" : "top"
-    },
-    "scores": {
-      "degree" : "Flawed democracies",
-      "hdi" : 0.83,
-      "democracy" : 7.84,
-      "rank" : 26,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 7.5,
-      "Political participation" : 6.11,
-      "Political culture" : 6.88,
-      "Civil liberties" : 9.12
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oecd" : true,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : false,
-      "europe" : true,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "CHL",
+    "id" : 26,
     "label" : "Chile",
     "region" : "Americas",
     "values" : {
@@ -1155,19 +887,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.832,
-      "democracy" : 7.84,
-      "rank" : 26,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 8.57,
-      "Political participation" : 4.44,
-      "Political culture" : 7.5,
-      "Civil liberties" : 9.12
+      "democracy" : 7.78,
+      "rank" : 26
     },
     "organisations" : {
       "eu" : false,
@@ -1180,15 +906,47 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "PRT",
+    "id" : 27,
+    "label" : "Portugal",
+    "region" : "Europe",
+    "values" : {
+      "population" : 1.0825309E7,
+      "gdp" : 2.898E11,
+      "area" : 92090
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "hdi" : "top"
+    },
+    "scores": {
+      "regimeType" : "Flawed democracy",
+      "hdi" : 0.83,
+      "democracy" : 7.86,
+      "rank" : 26
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
+      "oecd" : true,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "BWA",
+    "id" : 28,
     "label" : "Botswana",
     "region" : "Africa",
     "values" : {
@@ -1199,19 +957,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.698,
-      "democracy" : 7.81,
-      "rank" : 28,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 7.14,
-      "Political participation" : 6.11,
-      "Political culture" : 7.5,
-      "Civil liberties" : 9.12
+      "democracy" : 7.87,
+      "rank" : 28
     },
     "organisations" : {
       "eu" : false,
@@ -1224,15 +976,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "FRA",
+    "id" : 29,
     "label" : "France",
     "region" : "Europe",
     "values" : {
@@ -1243,19 +992,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Full democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Full democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.888,
-      "democracy" : 7.8,
-      "rank" : 29,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 7.5,
-      "Political participation" : 7.78,
-      "Political culture" : 5.63,
-      "Civil liberties" : 8.53
+      "democracy" : 7.92,
+      "rank" : 29
     },
     "organisations" : {
       "eu" : true,
@@ -1268,59 +1011,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : true
-    }
-  },
-  {
-    "cca3" : "ISR",
-    "label" : "Israel",
-    "region" : "Asia",
-    "values" : {
-      "population" : 8049314,
-      "gdp" : 2.819E11,
-      "area" : 20770
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "degree" : "Flawed democracies",
-      "hdi" : "top"
-    },
-    "scores": {
-      "degree" : "Flawed democracies",
-      "hdi" : 0.894,
-      "democracy" : 7.79,
-      "rank" : 30,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 7.5,
-      "Political participation" : 8.89,
-      "Political culture" : 7.5,
-      "Civil liberties" : 5.88
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : true,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : true,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "EST",
+    "id" : 30,
     "label" : "Estonia",
     "region" : "Europe",
     "values" : {
@@ -1331,19 +1027,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.861,
-      "democracy" : 7.79,
-      "rank" : 30,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 7.86,
-      "Political participation" : 6.11,
-      "Political culture" : 6.88,
-      "Civil liberties" : 8.53
+      "democracy" : 7.85,
+      "rank" : 30
     },
     "organisations" : {
       "eu" : true,
@@ -1356,15 +1046,47 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "ISR",
+    "id" : 31,
+    "label" : "Israel",
+    "region" : "Asia",
+    "values" : {
+      "population" : 8049314,
+      "gdp" : 2.819E11,
+      "area" : 20770
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "hdi" : "top"
+    },
+    "scores": {
+      "regimeType" : "Flawed democracy",
+      "hdi" : 0.894,
+      "democracy" : 7.85,
+      "rank" : 30
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : true,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "BEL",
+    "id" : 32,
     "label" : "Belgium",
     "region" : "Europe",
     "values" : {
@@ -1375,19 +1097,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.89,
-      "democracy" : 7.78,
-      "rank" : 32,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 8.93,
-      "Political participation" : 5,
-      "Political culture" : 6.88,
-      "Civil liberties" : 8.53
+      "democracy" : 7.77,
+      "rank" : 32
     },
     "organisations" : {
       "eu" : true,
@@ -1400,15 +1116,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "TWN",
+    "id" : 33,
     "label" : "Taiwan",
     "region" : "Asia",
     "values" : {
@@ -1419,19 +1132,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Flawed democracies",
       "hdi" : ""
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : null,
-      "democracy" : 7.73,
-      "rank" : 33,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 8.21,
-      "Political participation" : 6.11,
-      "Political culture" : 5.63,
-      "Civil liberties" : 9.12
+      "democracy" : 7.79,
+      "rank" : 33
     },
     "organisations" : {
       "eu" : false,
@@ -1444,15 +1151,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "CZE",
+    "id" : 34,
     "label" : "Czech Republic",
     "region" : "Europe",
     "values" : {
@@ -1463,19 +1167,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.87,
-      "democracy" : 7.62,
-      "rank" : 34,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 6.43,
-      "Political participation" : 6.67,
-      "Political culture" : 6.88,
-      "Civil liberties" : 8.53
+      "democracy" : 7.82,
+      "rank" : 34
     },
     "organisations" : {
       "eu" : true,
@@ -1488,15 +1186,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "CYP",
+    "id" : 35,
     "label" : "Cyprus",
     "region" : "Europe",
     "values" : {
@@ -1507,19 +1202,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.85,
-      "democracy" : 7.59,
-      "rank" : 35,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 6.43,
-      "Political participation" : 6.67,
-      "Political culture" : 6.88,
-      "Civil liberties" : 8.82
+      "democracy" : 7.65,
+      "rank" : 35
     },
     "organisations" : {
       "eu" : true,
@@ -1532,15 +1221,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SVN",
+    "id" : 36,
     "label" : "Slovenia",
     "region" : "Europe",
     "values" : {
@@ -1551,19 +1237,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.88,
-      "democracy" : 7.5,
-      "rank" : 36,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 6.79,
-      "Political participation" : 6.67,
-      "Political culture" : 6.25,
-      "Civil liberties" : 8.24
+      "democracy" : 7.51,
+      "rank" : 36
     },
     "organisations" : {
       "eu" : true,
@@ -1576,15 +1256,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "LTU",
+    "id" : 37,
     "label" : "Lithuania",
     "region" : "Europe",
     "values" : {
@@ -1595,19 +1272,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.839,
-      "democracy" : 7.41,
-      "rank" : 37,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 5.71,
-      "Political participation" : 6.11,
-      "Political culture" : 6.25,
-      "Civil liberties" : 9.41
+      "democracy" : 7.47,
+      "rank" : 37
     },
     "organisations" : {
       "eu" : true,
@@ -1620,59 +1291,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "JAM",
-    "label" : "Jamaica",
-    "region" : "Americas",
-    "values" : {
-      "population" : 2950210,
-      "gdp" : 2.465E10,
-      "area" : 10991
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "parliamentary",
-      "degree" : "Flawed democracies",
-      "hdi" : "high"
-    },
-    "scores": {
-      "degree" : "Flawed democracies",
-      "hdi" : 0.719,
-      "democracy" : 7.29,
-      "rank" : 38,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 7.14,
-      "Political participation" : 4.44,
-      "Political culture" : 6.88,
-      "Civil liberties" : 8.82
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : false,
-      "americas" : true,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "GRC",
+    "id" : 38,
     "label" : "Greece",
     "region" : "Europe",
     "values" : {
@@ -1683,19 +1307,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.865,
-      "democracy" : 7.29,
-      "rank" : 38,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 5.36,
-      "Political participation" : 6.11,
-      "Political culture" : 6.88,
-      "Civil liberties" : 8.53
+      "democracy" : 7.23,
+      "rank" : 38
     },
     "organisations" : {
       "eu" : true,
@@ -1708,15 +1326,47 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "JAM",
+    "id" : 39,
+    "label" : "Jamaica",
+    "region" : "Americas",
+    "values" : {
+      "population" : 2950210,
+      "gdp" : 2.465E10,
+      "area" : 10991
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "parliamentary",
+      "hdi" : "high"
+    },
+    "scores": {
+      "regimeType" : "Flawed democracy",
+      "hdi" : 0.719,
+      "democracy" : 7.39,
+      "rank" : 38
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "LVA",
+    "id" : 40,
     "label" : "Latvia",
     "region" : "Europe",
     "values" : {
@@ -1727,19 +1377,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.819,
-      "democracy" : 7.25,
-      "rank" : 40,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 5.71,
-      "Political participation" : 5.56,
-      "Political culture" : 6.88,
-      "Civil liberties" : 8.53
+      "democracy" : 7.31,
+      "rank" : 40
     },
     "organisations" : {
       "eu" : true,
@@ -1752,15 +1396,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ZAF",
+    "id" : 41,
     "label" : "South Africa",
     "region" : "Africa",
     "values" : {
@@ -1771,19 +1412,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.666,
-      "democracy" : 7.24,
-      "rank" : 41,
-      "Electoral process and pluralism" : 7.42,
-      "Functioning of government" : 7.5,
-      "Political participation" : 8.33,
-      "Political culture" : 5,
-      "Civil liberties" : 7.94
+      "democracy" : 7.41,
+      "rank" : 41
     },
     "organisations" : {
       "eu" : false,
@@ -1796,15 +1431,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "IND",
+    "id" : 42,
     "label" : "India",
     "region" : "Asia",
     "values" : {
@@ -1815,19 +1447,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.609,
-      "democracy" : 7.23,
-      "rank" : 42,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 6.79,
-      "Political participation" : 7.22,
-      "Political culture" : 5.63,
-      "Civil liberties" : 7.35
+      "democracy" : 7.81,
+      "rank" : 42
     },
     "organisations" : {
       "eu" : false,
@@ -1840,15 +1466,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TLS",
+    "id" : 43,
     "label" : "Timor-Leste",
     "region" : "Asia",
     "values" : {
@@ -1859,19 +1482,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.595,
-      "democracy" : 7.19,
-      "rank" : 43,
-      "Electoral process and pluralism" : 9.08,
-      "Functioning of government" : 6.79,
-      "Political participation" : 5.56,
-      "Political culture" : 6.88,
-      "Civil liberties" : 7.65
+      "democracy" : 7.24,
+      "rank" : 43
     },
     "organisations" : {
       "eu" : false,
@@ -1884,15 +1501,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : true
     }
   },
   {
     "cca3" : "SVK",
+    "id" : 44,
     "label" : "Slovakia",
     "region" : "Europe",
     "values" : {
@@ -1903,19 +1517,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.844,
-      "democracy" : 7.16,
-      "rank" : 44,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 6.79,
-      "Political participation" : 5.56,
-      "Political culture" : 5.63,
-      "Civil liberties" : 8.24
+      "democracy" : 7.29,
+      "rank" : 44
     },
     "organisations" : {
       "eu" : true,
@@ -1928,15 +1536,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "PAN",
+    "id" : 45,
     "label" : "Panama",
     "region" : "Americas",
     "values" : {
@@ -1947,19 +1552,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.78,
-      "democracy" : 7.08,
-      "rank" : 45,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 6.79,
-      "Political participation" : 6.11,
-      "Political culture" : 5,
-      "Civil liberties" : 7.94
+      "democracy" : 7.13,
+      "rank" : 45
     },
     "organisations" : {
       "eu" : false,
@@ -1972,15 +1571,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : true,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TTO",
+    "id" : 46,
     "label" : "Trinidad and Tobago",
     "region" : "Americas",
     "values" : {
@@ -1991,19 +1587,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.772,
-      "democracy" : 7.04,
-      "rank" : 46,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 7.14,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 7.94
+      "democracy" : 7.1,
+      "rank" : 46
     },
     "organisations" : {
       "eu" : false,
@@ -2016,15 +1606,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : true,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "BGR",
+    "id" : 47,
     "label" : "Bulgaria",
     "region" : "Europe",
     "values" : {
@@ -2035,19 +1622,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.782,
-      "democracy" : 7.03,
-      "rank" : 47,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 6.43,
-      "Political participation" : 7.22,
-      "Political culture" : 4.38,
-      "Civil liberties" : 7.94
+      "democracy" : 7.01,
+      "rank" : 47
     },
     "organisations" : {
       "eu" : true,
@@ -2060,15 +1641,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ARG",
+    "id" : 48,
     "label" : "Argentina",
     "region" : "Americas",
     "values" : {
@@ -2079,19 +1657,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.836,
       "democracy" : 6.96,
-      "rank" : 48,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 5,
-      "Political participation" : 6.11,
-      "Political culture" : 6.88,
-      "Civil liberties" : 7.65
+      "rank" : 48
     },
     "organisations" : {
       "eu" : false,
@@ -2104,15 +1676,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "BRA",
+    "id" : 49,
     "label" : "Brazil",
     "region" : "Americas",
     "values" : {
@@ -2123,19 +1692,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.755,
-      "democracy" : 6.86,
-      "rank" : 49,
-      "Electoral process and pluralism" : 9.58,
-      "Functioning of government" : 5.36,
-      "Political participation" : 6.11,
-      "Political culture" : 5,
-      "Civil liberties" : 8.24
+      "democracy" : 6.9,
+      "rank" : 49
     },
     "organisations" : {
       "eu" : false,
@@ -2148,15 +1711,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "SUR",
+    "id" : 50,
     "label" : "Suriname",
     "region" : "Americas",
     "values" : {
@@ -2167,19 +1727,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.714,
-      "democracy" : 6.76,
-      "rank" : 50,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 6.43,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 7.65
+      "democracy" : 6.77,
+      "rank" : 50
     },
     "organisations" : {
       "eu" : false,
@@ -2192,15 +1746,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "PHL",
+    "id" : 51,
     "label" : "Philippines",
     "region" : "Asia",
     "values" : {
@@ -2211,19 +1762,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.668,
-      "democracy" : 6.71,
-      "rank" : 51,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 5.71,
-      "Political participation" : 7.22,
-      "Political culture" : 4.38,
-      "Civil liberties" : 7.06
+      "democracy" : 6.94,
+      "rank" : 51
     },
     "organisations" : {
       "eu" : false,
@@ -2236,15 +1781,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "GHA",
+    "id" : 52,
     "label" : "Ghana",
     "region" : "Africa",
     "values" : {
@@ -2255,19 +1797,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.579,
-      "democracy" : 6.69,
-      "rank" : 52,
-      "Electoral process and pluralism" : 8.33,
-      "Functioning of government" : 5.71,
-      "Political participation" : 6.67,
-      "Political culture" : 6.25,
-      "Civil liberties" : 6.47
+      "democracy" : 6.75,
+      "rank" : 52
     },
     "organisations" : {
       "eu" : false,
@@ -2280,15 +1816,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "POL",
+    "id" : 53,
     "label" : "Poland",
     "region" : "Europe",
     "values" : {
@@ -2299,19 +1832,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.843,
-      "democracy" : 6.67,
-      "rank" : 53,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 6.07,
-      "Political participation" : 6.11,
-      "Political culture" : 4.38,
-      "Civil liberties" : 7.65
+      "democracy" : 6.83,
+      "rank" : 53
     },
     "organisations" : {
       "eu" : true,
@@ -2324,15 +1851,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "COL",
+    "id" : 54,
     "label" : "Colombia",
     "region" : "Americas",
     "values" : {
@@ -2343,19 +1867,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.72,
       "democracy" : 6.67,
-      "rank" : 53,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 6.79,
-      "Political participation" : 4.44,
-      "Political culture" : 5,
-      "Civil liberties" : 7.94
+      "rank" : 53
     },
     "organisations" : {
       "eu" : false,
@@ -2368,15 +1886,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "DOM",
+    "id" : 55,
     "label" : "Dominican Republic",
     "region" : "Americas",
     "values" : {
@@ -2387,19 +1902,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.715,
-      "democracy" : 6.66,
-      "rank" : 55,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 5.36,
-      "Political participation" : 6.11,
-      "Political culture" : 5.63,
-      "Civil liberties" : 7.06
+      "democracy" : 6.67,
+      "rank" : 55
     },
     "organisations" : {
       "eu" : false,
@@ -2412,59 +1921,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "HUN",
-    "label" : "Hungary",
-    "region" : "Europe",
-    "values" : {
-      "population" : 9897541,
-      "gdp" : 2.584E11,
-      "area" : 93028
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "degree" : "Flawed democracies",
-      "hdi" : "top"
-    },
-    "scores": {
-      "degree" : "Flawed democracies",
-      "hdi" : 0.828,
-      "democracy" : 6.64,
-      "rank" : 56,
-      "Electoral process and pluralism" : 8.75,
-      "Functioning of government" : 6.07,
-      "Political participation" : 4.44,
-      "Political culture" : 6.88,
-      "Civil liberties" : 7.06
-    },
-    "organisations" : {
-      "eu" : true,
-      "arab" : false,
-      "nato" : true,
-      "oecd" : true,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : false,
-      "europe" : true,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "LSO",
+    "id" : 56,
     "label" : "Lesotho",
     "region" : "Africa",
     "values" : {
@@ -2475,19 +1937,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.497,
-      "democracy" : 6.64,
-      "rank" : 56,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 5,
-      "Political participation" : 6.67,
-      "Political culture" : 5.63,
-      "Civil liberties" : 6.76
+      "democracy" : 6.59,
+      "rank" : 56
     },
     "organisations" : {
       "eu" : false,
@@ -2500,15 +1956,47 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "HUN",
+    "id" : 57,
+    "label" : "Hungary",
+    "region" : "Europe",
+    "values" : {
+      "population" : 9897541,
+      "gdp" : 2.584E11,
+      "area" : 93028
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "hdi" : "top"
+    },
+    "scores": {
+      "regimeType" : "Flawed democracy",
+      "hdi" : 0.828,
+      "democracy" : 6.72,
+      "rank" : 56
+    },
+    "organisations" : {
+      "eu" : true,
+      "arab" : false,
+      "nato" : true,
+      "oecd" : true,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "HRV",
+    "id" : 58,
     "label" : "Croatia",
     "region" : "Europe",
     "values" : {
@@ -2519,19 +2007,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.818,
-      "democracy" : 6.63,
-      "rank" : 58,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 6.07,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 7.35
+      "democracy" : 6.75,
+      "rank" : 58
     },
     "organisations" : {
       "eu" : true,
@@ -2544,15 +2026,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MYS",
+    "id" : 59,
     "label" : "Malaysia",
     "region" : "Asia",
     "values" : {
@@ -2563,19 +2042,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.779,
       "democracy" : 6.54,
-      "rank" : 59,
-      "Electoral process and pluralism" : 6.92,
-      "Functioning of government" : 7.86,
-      "Political participation" : 6.11,
-      "Political culture" : 6.25,
-      "Civil liberties" : 5.59
+      "rank" : 59
     },
     "organisations" : {
       "eu" : false,
@@ -2588,15 +2061,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MNG",
+    "id" : 60,
     "label" : "Mongolia",
     "region" : "Asia",
     "values" : {
@@ -2607,19 +2077,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.727,
-      "democracy" : 6.5,
-      "rank" : 60,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 5.71,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 7.06
+      "democracy" : 6.62,
+      "rank" : 60
     },
     "organisations" : {
       "eu" : false,
@@ -2632,15 +2096,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : true,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "PER",
+    "id" : 61,
     "label" : "Peru",
     "region" : "Americas",
     "values" : {
@@ -2651,19 +2112,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.734,
-      "democracy" : 6.49,
-      "rank" : 61,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 5.36,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 7.35
+      "democracy" : 6.65,
+      "rank" : 61
     },
     "organisations" : {
       "eu" : false,
@@ -2676,15 +2131,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "LKA",
+    "id" : 62,
     "label" : "Sri Lanka",
     "region" : "Asia",
     "values" : {
@@ -2695,19 +2147,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.757,
       "democracy" : 6.48,
-      "rank" : 62,
-      "Electoral process and pluralism" : 7.83,
-      "Functioning of government" : 7.14,
-      "Political participation" : 5,
-      "Political culture" : 6.25,
-      "Civil liberties" : 6.18
+      "rank" : 62
     },
     "organisations" : {
       "eu" : false,
@@ -2720,15 +2166,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : true
     }
   },
   {
     "cca3" : "GUY",
+    "id" : 63,
     "label" : "Guyana",
     "region" : "Americas",
     "values" : {
@@ -2739,19 +2182,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.636,
-      "democracy" : 6.46,
-      "rank" : 63,
-      "Electoral process and pluralism" : 8.75,
-      "Functioning of government" : 5.71,
-      "Political participation" : 6.11,
-      "Political culture" : 4.38,
-      "Civil liberties" : 7.35
+      "democracy" : 6.25,
+      "rank" : 63
     },
     "organisations" : {
       "eu" : false,
@@ -2764,15 +2201,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ROU",
+    "id" : 64,
     "label" : "Romania",
     "region" : "Europe",
     "values" : {
@@ -2783,19 +2217,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.793,
-      "democracy" : 6.44,
-      "rank" : 64,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 5.71,
-      "Political participation" : 5,
-      "Political culture" : 4.38,
-      "Civil liberties" : 7.94
+      "democracy" : 6.62,
+      "rank" : 64
     },
     "organisations" : {
       "eu" : true,
@@ -2808,15 +2236,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SLV",
+    "id" : 65,
     "label" : "El Salvador",
     "region" : "Americas",
     "values" : {
@@ -2827,19 +2252,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.666,
-      "democracy" : 6.43,
-      "rank" : 65,
-      "Electoral process and pluralism" : 9.17,
-      "Functioning of government" : 5.36,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 7.06
+      "democracy" : 6.64,
+      "rank" : 65
     },
     "organisations" : {
       "eu" : false,
@@ -2852,15 +2271,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SRB",
+    "id" : 66,
     "label" : "Serbia",
     "region" : "Europe",
     "values" : {
@@ -2871,19 +2287,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.771,
-      "democracy" : 6.41,
-      "rank" : 66,
-      "Electoral process and pluralism" : 8.25,
-      "Functioning of government" : 5.36,
-      "Political participation" : 6.11,
-      "Political culture" : 5,
-      "Civil liberties" : 7.35
+      "democracy" : 6.57,
+      "rank" : 66
     },
     "organisations" : {
       "eu" : false,
@@ -2896,15 +2306,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MEX",
+    "id" : 67,
     "label" : "Mexico",
     "region" : "Americas",
     "values" : {
@@ -2915,19 +2322,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.756,
-      "democracy" : 6.41,
-      "rank" : 66,
-      "Electoral process and pluralism" : 7.83,
-      "Functioning of government" : 6.43,
-      "Political participation" : 7.22,
-      "Political culture" : 4.38,
-      "Civil liberties" : 6.18
+      "democracy" : 6.47,
+      "rank" : 66
     },
     "organisations" : {
       "eu" : false,
@@ -2940,15 +2341,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "IDN",
+    "id" : 68,
     "label" : "Indonesia",
     "region" : "Asia",
     "values" : {
@@ -2959,19 +2357,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.684,
-      "democracy" : 6.39,
-      "rank" : 68,
-      "Electoral process and pluralism" : 6.92,
-      "Functioning of government" : 7.14,
-      "Political participation" : 6.67,
-      "Political culture" : 5.63,
-      "Civil liberties" : 5.59
+      "democracy" : 6.97,
+      "rank" : 68
     },
     "organisations" : {
       "eu" : false,
@@ -2984,15 +2376,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TUN",
+    "id" : 69,
     "label" : "Tunisia",
     "region" : "Africa",
     "values" : {
@@ -3003,19 +2392,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.721,
-      "democracy" : 6.32,
-      "rank" : 69,
-      "Electoral process and pluralism" : 6,
-      "Functioning of government" : 5.71,
-      "Political participation" : 7.78,
-      "Political culture" : 6.25,
-      "Civil liberties" : 5.88
+      "democracy" : 6.4,
+      "rank" : 69
     },
     "organisations" : {
       "eu" : false,
@@ -3028,15 +2411,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : true,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SGP",
+    "id" : 70,
     "label" : "Singapore",
     "region" : "Asia",
     "values" : {
@@ -3047,19 +2427,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.912,
-      "democracy" : 6.32,
-      "rank" : 69,
-      "Electoral process and pluralism" : 4.33,
-      "Functioning of government" : 7.86,
-      "Political participation" : 6.11,
-      "Political culture" : 6.25,
-      "Civil liberties" : 7.06
+      "democracy" : 6.38,
+      "rank" : 69
     },
     "organisations" : {
       "eu" : false,
@@ -3072,15 +2446,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "HKG",
+    "id" : 71,
     "label" : "Hong Kong",
     "region" : "Asia",
     "values" : {
@@ -3091,19 +2462,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.91,
-      "democracy" : 6.31,
-      "rank" : 71,
-      "Electoral process and pluralism" : 3.92,
-      "Functioning of government" : 6.07,
-      "Political participation" : 5.56,
-      "Political culture" : 7.5,
-      "Civil liberties" : 8.53
+      "democracy" : 6.42,
+      "rank" : 71
     },
     "organisations" : {
       "eu" : false,
@@ -3116,15 +2481,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "NAM",
+    "id" : 72,
     "label" : "Namibia",
     "region" : "Africa",
     "values" : {
@@ -3135,19 +2497,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.628,
       "democracy" : 6.31,
-      "rank" : 71,
-      "Electoral process and pluralism" : 5.67,
-      "Functioning of government" : 5.36,
-      "Political participation" : 6.67,
-      "Political culture" : 5.63,
-      "Civil liberties" : 8.24
+      "rank" : 71
     },
     "organisations" : {
       "eu" : false,
@@ -3160,15 +2516,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : true,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "PRY",
+    "id" : 73,
     "label" : "Paraguay",
     "region" : "Americas",
     "values" : {
@@ -3179,19 +2532,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.679,
-      "democracy" : 6.31,
-      "rank" : 71,
-      "Electoral process and pluralism" : 8.75,
-      "Functioning of government" : 6.07,
-      "Political participation" : 5,
-      "Political culture" : 4.38,
-      "Civil liberties" : 7.35
+      "democracy" : 6.27,
+      "rank" : 71
     },
     "organisations" : {
       "eu" : false,
@@ -3204,15 +2551,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SEN",
+    "id" : 74,
     "label" : "Senegal",
     "region" : "Africa",
     "values" : {
@@ -3223,19 +2567,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.466,
-      "democracy" : 6.15,
-      "rank" : 74,
-      "Electoral process and pluralism" : 7.5,
-      "Functioning of government" : 6.07,
-      "Political participation" : 4.44,
-      "Political culture" : 6.25,
-      "Civil liberties" : 6.47
+      "democracy" : 6.21,
+      "rank" : 74
     },
     "organisations" : {
       "eu" : false,
@@ -3248,15 +2586,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "PNG",
+    "id" : 75,
     "label" : "Papua New Guinea",
     "region" : "Oceania",
     "values" : {
@@ -3267,19 +2602,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.505,
       "democracy" : 6.03,
-      "rank" : 75,
-      "Electoral process and pluralism" : 6.92,
-      "Functioning of government" : 6.07,
-      "Political participation" : 3.89,
-      "Political culture" : 5.63,
-      "Civil liberties" : 7.65
+      "rank" : 75
     },
     "organisations" : {
       "eu" : false,
@@ -3292,15 +2621,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : true,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ECU",
+    "id" : 76,
     "label" : "Ecuador",
     "region" : "Americas",
     "values" : {
@@ -3311,19 +2637,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Flawed democracy",
       "hdi" : 0.732,
-      "democracy" : 6.02,
-      "rank" : 76,
-      "Electoral process and pluralism" : 8.75,
-      "Functioning of government" : 4.64,
-      "Political participation" : 5.56,
-      "Political culture" : 4.38,
-      "Civil liberties" : 6.76
+      "democracy" : 5.81,
+      "rank" : 76
     },
     "organisations" : {
       "eu" : false,
@@ -3336,15 +2656,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ALB",
+    "id" : 77,
     "label" : "Albania",
     "region" : "Europe",
     "values" : {
@@ -3355,19 +2672,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.733,
-      "democracy" : 5.98,
-      "rank" : 77,
-      "Electoral process and pluralism" : 7,
-      "Functioning of government" : 4.71,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 7.65
+      "democracy" : 5.91,
+      "rank" : 77
     },
     "organisations" : {
       "eu" : false,
@@ -3380,15 +2691,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MDA",
+    "id" : 78,
     "label" : "Moldova",
     "region" : "Europe",
     "values" : {
@@ -3399,19 +2707,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.693,
-      "democracy" : 5.94,
-      "rank" : 78,
-      "Electoral process and pluralism" : 7.5,
-      "Functioning of government" : 4.64,
-      "Political participation" : 6.11,
-      "Political culture" : 4.38,
-      "Civil liberties" : 7.06
+      "democracy" : 6.01,
+      "rank" : 78
     },
     "organisations" : {
       "eu" : false,
@@ -3424,15 +2726,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "GEO",
+    "id" : 79,
     "label" : "Georgia",
     "region" : "Asia",
     "values" : {
@@ -3443,19 +2742,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.754,
       "democracy" : 5.93,
-      "rank" : 79,
-      "Electoral process and pluralism" : 8.67,
-      "Functioning of government" : 4.29,
-      "Political participation" : 6.11,
-      "Political culture" : 5,
-      "Civil liberties" : 5.59
+      "rank" : 79
     },
     "organisations" : {
       "eu" : false,
@@ -3468,15 +2761,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "GTM",
+    "id" : 80,
     "label" : "Guatemala",
     "region" : "Americas",
     "values" : {
@@ -3487,19 +2777,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.627,
-      "democracy" : 5.86,
-      "rank" : 80,
-      "Electoral process and pluralism" : 7.92,
-      "Functioning of government" : 5.71,
-      "Political participation" : 3.89,
-      "Political culture" : 5,
-      "Civil liberties" : 6.76
+      "democracy" : 5.92,
+      "rank" : 80
     },
     "organisations" : {
       "eu" : false,
@@ -3512,15 +2796,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "FJI",
+    "id" : 81,
     "label" : "Fiji",
     "region" : "Oceania",
     "values" : {
@@ -3531,19 +2812,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.727,
-      "democracy" : 5.85,
-      "rank" : 81,
-      "Electoral process and pluralism" : 6.58,
-      "Functioning of government" : 5.36,
-      "Political participation" : 6.11,
-      "Political culture" : 5.63,
-      "Civil liberties" : 5.59
+      "democracy" : 5.64,
+      "rank" : 81
     },
     "organisations" : {
       "eu" : false,
@@ -3556,15 +2831,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : true,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "HND",
+    "id" : 82,
     "label" : "Honduras",
     "region" : "Americas",
     "values" : {
@@ -3575,19 +2847,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.606,
-      "democracy" : 5.72,
-      "rank" : 82,
-      "Electoral process and pluralism" : 8.25,
-      "Functioning of government" : 5.36,
-      "Political participation" : 4.44,
-      "Political culture" : 4.38,
-      "Civil liberties" : 6.18
+      "democracy" : 5.92,
+      "rank" : 82
     },
     "organisations" : {
       "eu" : false,
@@ -3600,59 +2866,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "MNE",
-    "label" : "Montenegro",
-    "region" : "Europe",
-    "values" : {
-      "population" : 647073,
-      "gdp" : 1.004E10,
-      "area" : 13812
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "degree" : "Hybrid regime",
-      "hdi" : "top"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.802,
-      "democracy" : 5.69,
-      "rank" : 83,
-      "Electoral process and pluralism" : 6.08,
-      "Functioning of government" : 5.36,
-      "Political participation" : 5.56,
-      "Political culture" : 4.38,
-      "Civil liberties" : 7.06
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : false,
-      "europe" : true,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "UKR",
+    "id" : 83,
     "label" : "Ukraine",
     "region" : "Europe",
     "values" : {
@@ -3663,19 +2882,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.747,
-      "democracy" : 5.69,
-      "rank" : 83,
-      "Electoral process and pluralism" : 6.17,
-      "Functioning of government" : 3.21,
-      "Political participation" : 6.67,
-      "Political culture" : 6.25,
-      "Civil liberties" : 6.18
+      "democracy" : 5.7,
+      "rank" : 83
     },
     "organisations" : {
       "eu" : false,
@@ -3688,15 +2901,47 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "MNE",
+    "id" : 84,
+    "label" : "Montenegro",
+    "region" : "Europe",
+    "values" : {
+      "population" : 647073,
+      "gdp" : 1.004E10,
+      "area" : 13812
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "hdi" : "top"
+    },
+    "scores": {
+      "regimeType" : "Hybrid regime",
+      "hdi" : 0.802,
+      "democracy" : 5.72,
+      "rank" : 83
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "ZMB",
+    "id" : 85,
     "label" : "Zambia",
     "region" : "Africa",
     "values" : {
@@ -3707,19 +2952,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Flawed democracies",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Flawed democracies",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.586,
-      "democracy" : 5.68,
-      "rank" : 85,
-      "Electoral process and pluralism" : 6.17,
-      "Functioning of government" : 5,
-      "Political participation" : 3.89,
-      "Political culture" : 6.88,
-      "Civil liberties" : 6.47
+      "democracy" : 5.99,
+      "rank" : 85
     },
     "organisations" : {
       "eu" : false,
@@ -3732,15 +2971,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MLI",
+    "id" : 86,
     "label" : "Mali",
     "region" : "Africa",
     "values" : {
@@ -3751,19 +2987,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.419,
-      "democracy" : 5.64,
-      "rank" : 86,
-      "Electoral process and pluralism" : 7.42,
-      "Functioning of government" : 3.93,
-      "Political participation" : 4.44,
-      "Political culture" : 6.25,
-      "Civil liberties" : 6.18
+      "democracy" : 5.7,
+      "rank" : 86
     },
     "organisations" : {
       "eu" : false,
@@ -3776,15 +3006,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "BEN",
+    "id" : 87,
     "label" : "Benin",
     "region" : "Africa",
     "values" : {
@@ -3795,19 +3022,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.48,
-      "democracy" : 5.61,
-      "rank" : 87,
-      "Electoral process and pluralism" : 6.5,
-      "Functioning of government" : 5.36,
-      "Political participation" : 5,
-      "Political culture" : 5.63,
-      "Civil liberties" : 5.59
+      "democracy" : 5.67,
+      "rank" : 87
     },
     "organisations" : {
       "eu" : false,
@@ -3820,15 +3041,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MKD",
+    "id" : 88,
     "label" : "Macedonia",
     "region" : "Europe",
     "values" : {
@@ -3839,19 +3057,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.747,
-      "democracy" : 5.57,
-      "rank" : 88,
-      "Electoral process and pluralism" : 6.5,
-      "Functioning of government" : 5,
-      "Political participation" : 5.56,
-      "Political culture" : 3.75,
-      "Civil liberties" : 7.06
+      "democracy" : 5.23,
+      "rank" : 88
     },
     "organisations" : {
       "eu" : false,
@@ -3864,15 +3076,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "BOL",
+    "id" : 89,
     "label" : "Bolivia",
     "region" : "Americas",
     "values" : {
@@ -3883,19 +3092,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.662,
-      "democracy" : 5.49,
-      "rank" : 89,
-      "Electoral process and pluralism" : 7,
-      "Functioning of government" : 4.64,
-      "Political participation" : 5,
-      "Political culture" : 3.75,
-      "Civil liberties" : 7.06
+      "democracy" : 5.63,
+      "rank" : 89
     },
     "organisations" : {
       "eu" : false,
@@ -3908,15 +3111,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MWI",
+    "id" : 90,
     "label" : "Malawi",
     "region" : "Africa",
     "values" : {
@@ -3927,19 +3127,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.445,
-      "democracy" : 5.49,
-      "rank" : 89,
-      "Electoral process and pluralism" : 6.58,
-      "Functioning of government" : 4.29,
-      "Political participation" : 4.44,
-      "Political culture" : 6.25,
-      "Civil liberties" : 5.88
+      "democracy" : 5.55,
+      "rank" : 89
     },
     "organisations" : {
       "eu" : false,
@@ -3952,15 +3146,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TZA",
+    "id" : 91,
     "label" : "Tanzania",
     "region" : "Africa",
     "values" : {
@@ -3971,19 +3162,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.521,
-      "democracy" : 5.47,
-      "rank" : 91,
-      "Electoral process and pluralism" : 7,
-      "Functioning of government" : 5,
-      "Political participation" : 5,
-      "Political culture" : 5.63,
-      "Civil liberties" : 4.71
+      "democracy" : 5.76,
+      "rank" : 91
     },
     "organisations" : {
       "eu" : false,
@@ -3996,15 +3181,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "BGD",
+    "id" : 92,
     "label" : "Bangladesh",
     "region" : "Asia",
     "values" : {
@@ -4015,19 +3197,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.57,
-      "democracy" : 5.43,
-      "rank" : 92,
-      "Electoral process and pluralism" : 7.42,
-      "Functioning of government" : 5.07,
-      "Political participation" : 5,
-      "Political culture" : 4.38,
-      "Civil liberties" : 5.29
+      "democracy" : 5.73,
+      "rank" : 92
     },
     "organisations" : {
       "eu" : false,
@@ -4040,15 +3216,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "LBR",
+    "id" : 93,
     "label" : "Liberia",
     "region" : "Africa",
     "values" : {
@@ -4059,19 +3232,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.43,
-      "democracy" : 5.23,
-      "rank" : 93,
-      "Electoral process and pluralism" : 7.42,
-      "Functioning of government" : 2.57,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 5.59
+      "democracy" : 5.31,
+      "rank" : 93
     },
     "organisations" : {
       "eu" : false,
@@ -4084,15 +3251,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "NPL",
+    "id" : 94,
     "label" : "Nepal",
     "region" : "Asia",
     "values" : {
@@ -4103,19 +3267,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.548,
-      "democracy" : 5.18,
-      "rank" : 94,
-      "Electoral process and pluralism" : 4.33,
-      "Functioning of government" : 5.36,
-      "Political participation" : 5,
-      "Political culture" : 5.63,
-      "Civil liberties" : 5.59
+      "democracy" : 4.86,
+      "rank" : 94
     },
     "organisations" : {
       "eu" : false,
@@ -4128,15 +3286,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : true
     }
   },
   {
     "cca3" : "KEN",
+    "id" : 95,
     "label" : "Kenya",
     "region" : "Africa",
     "values" : {
@@ -4147,19 +3302,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.548,
-      "democracy" : 5.11,
-      "rank" : 95,
-      "Electoral process and pluralism" : 3.5,
-      "Functioning of government" : 5.36,
-      "Political participation" : 6.67,
-      "Political culture" : 5.63,
-      "Civil liberties" : 4.41
+      "democracy" : 5.33,
+      "rank" : 95
     },
     "organisations" : {
       "eu" : false,
@@ -4172,59 +3321,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "MDG",
-    "label" : "Madagascar",
-    "region" : "Africa",
-    "values" : {
-      "population" : 2.3812681E7,
-      "gdp" : 3.544E10,
-      "area" : 587041
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "degree" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.51,
-      "democracy" : 5.11,
-      "rank" : 95,
-      "Electoral process and pluralism" : 6.08,
-      "Functioning of government" : 3.57,
-      "Political participation" : 5.56,
-      "Political culture" : 5.63,
-      "Civil liberties" : 4.71
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "KGZ",
+    "id" : 96,
     "label" : "Kyrgyz Republic",
     "region" : "Asia",
     "values" : {
@@ -4235,19 +3337,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.655,
-      "democracy" : 5.11,
-      "rank" : 95,
-      "Electoral process and pluralism" : 6.58,
-      "Functioning of government" : 2.93,
-      "Political participation" : 6.67,
-      "Political culture" : 4.38,
-      "Civil liberties" : 5
+      "democracy" : 4.93,
+      "rank" : 95
     },
     "organisations" : {
       "eu" : false,
@@ -4260,38 +3356,29 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
-    "cca3" : "UGA",
-    "label" : "Uganda",
+    "cca3" : "MDG",
+    "id" : 97,
+    "label" : "Madagascar",
     "region" : "Africa",
     "values" : {
-      "population" : 3.7101745E7,
-      "gdp" : 7.988E10,
-      "area" : 241038
+      "population" : 2.3812681E7,
+      "gdp" : 3.544E10,
+      "area" : 587041
     },
     "types": {
       "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Hybrid regime",
+      "government" : "semi-presidential",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.483,
-      "democracy" : 5.09,
-      "rank" : 98,
-      "Electoral process and pluralism" : 5.25,
-      "Functioning of government" : 3.57,
-      "Political participation" : 3.89,
-      "Political culture" : 6.88,
-      "Civil liberties" : 5.88
+      "regimeType" : "Hybrid regime",
+      "hdi" : 0.51,
+      "democracy" : 5.07,
+      "rank" : 95
     },
     "organisations" : {
       "eu" : false,
@@ -4304,15 +3391,47 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "UGA",
+    "id" : 98,
+    "label" : "Uganda",
+    "region" : "Africa",
+    "values" : {
+      "population" : 3.7101745E7,
+      "gdp" : 7.988E10,
+      "area" : 241038
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "hdi" : "low"
+    },
+    "scores": {
+      "regimeType" : "Hybrid regime",
+      "hdi" : 0.483,
+      "democracy" : 5.26,
+      "rank" : 98
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "BTN",
+    "id" : 99,
     "label" : "Bhutan",
     "region" : "Asia",
     "values" : {
@@ -4323,19 +3442,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.605,
-      "democracy" : 5.08,
-      "rank" : 99,
-      "Electoral process and pluralism" : 8.33,
-      "Functioning of government" : 6.07,
-      "Political participation" : 2.78,
-      "Political culture" : 4.38,
-      "Civil liberties" : 3.82
+      "democracy" : 4.93,
+      "rank" : 99
     },
     "organisations" : {
       "eu" : false,
@@ -4348,15 +3461,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TUR",
+    "id" : 100,
     "label" : "Turkey",
     "region" : "Asia",
     "values" : {
@@ -4367,19 +3477,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.761,
-      "democracy" : 4.88,
-      "rank" : 100,
-      "Electoral process and pluralism" : 5.33,
-      "Functioning of government" : 6.07,
-      "Political participation" : 5,
-      "Political culture" : 5.63,
-      "Civil liberties" : 2.35
+      "democracy" : 5.04,
+      "rank" : 100
     },
     "organisations" : {
       "eu" : false,
@@ -4392,59 +3496,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : true
-    }
-  },
-  {
-    "cca3" : "BIH",
-    "label" : "Bosnia and Hercegovina",
-    "region" : "Europe",
-    "values" : {
-      "population" : 3867055,
-      "gdp" : 4.053E10,
-      "area" : 51197
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "degree" : "Hybrid regime",
-      "hdi" : "high"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.733,
-      "democracy" : 4.87,
-      "rank" : 101,
-      "Electoral process and pluralism" : 6.5,
-      "Functioning of government" : 2.93,
-      "Political participation" : 5,
-      "Political culture" : 3.75,
-      "Civil liberties" : 6.18
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : false,
-      "europe" : true,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MAR",
+    "id" : 101,
     "label" : "Morocco",
     "region" : "Africa",
     "values" : {
@@ -4455,19 +3512,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.628,
-      "democracy" : 4.87,
-      "rank" : 101,
-      "Electoral process and pluralism" : 5.25,
-      "Functioning of government" : 4.64,
-      "Political participation" : 4.44,
-      "Political culture" : 5.63,
-      "Civil liberties" : 4.41
+      "democracy" : 4.77,
+      "rank" : 101
     },
     "organisations" : {
       "eu" : false,
@@ -4480,15 +3531,47 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "BIH",
+    "id" : 102,
+    "label" : "Bosnia and Hercegovina",
+    "region" : "Europe",
+    "values" : {
+      "population" : 3867055,
+      "gdp" : 4.053E10,
+      "area" : 51197
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "hdi" : "high"
+    },
+    "scores": {
+      "regimeType" : "Hybrid regime",
+      "hdi" : 0.733,
+      "democracy" : 4.87,
+      "rank" : 101
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : false,
+      "europe" : true,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "BFA",
+    "id" : 103,
     "label" : "Burkina Faso",
     "region" : "Africa",
     "values" : {
@@ -4499,19 +3582,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.402,
-      "democracy" : 4.75,
-      "rank" : 103,
-      "Electoral process and pluralism" : 4.42,
-      "Functioning of government" : 4.29,
-      "Political participation" : 4.44,
-      "Political culture" : 5.63,
-      "Civil liberties" : 5
+      "democracy" : 4.7,
+      "rank" : 103
     },
     "organisations" : {
       "eu" : false,
@@ -4524,15 +3601,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "LBN",
+    "id" : 104,
     "label" : "Lebanon",
     "region" : "Asia",
     "values" : {
@@ -4543,19 +3617,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.769,
-      "democracy" : 4.72,
-      "rank" : 104,
-      "Electoral process and pluralism" : 3.5,
-      "Functioning of government" : 2.57,
-      "Political participation" : 7.22,
-      "Political culture" : 5.63,
-      "Civil liberties" : 4.71
+      "democracy" : 4.86,
+      "rank" : 104
     },
     "organisations" : {
       "eu" : false,
@@ -4568,59 +3636,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "NIC",
-    "label" : "Nicaragua",
-    "region" : "Americas",
-    "values" : {
-      "population" : 5907881,
-      "gdp" : 3.133E10,
-      "area" : 130370
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Hybrid regime",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.631,
-      "democracy" : 4.66,
-      "rank" : 105,
-      "Electoral process and pluralism" : 3.42,
-      "Functioning of government" : 3.29,
-      "Political participation" : 3.89,
-      "Political culture" : 5.63,
-      "Civil liberties" : 7.06
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : false,
-      "americas" : true,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SLE",
+    "id" : 105,
     "label" : "Sierra Leone",
     "region" : "Africa",
     "values" : {
@@ -4631,19 +3652,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.413,
-      "democracy" : 4.66,
-      "rank" : 105,
-      "Electoral process and pluralism" : 6.58,
-      "Functioning of government" : 1.86,
-      "Political participation" : 3.33,
-      "Political culture" : 6.25,
-      "Civil liberties" : 5.29
+      "democracy" : 4.55,
+      "rank" : 105
     },
     "organisations" : {
       "eu" : false,
@@ -4656,15 +3671,47 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "NIC",
+    "id" : 106,
+    "label" : "Nicaragua",
+    "region" : "Americas",
+    "values" : {
+      "population" : 5907881,
+      "gdp" : 3.133E10,
+      "area" : 130370
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "regimeType" : "Hybrid regime",
+      "hdi" : 0.631,
+      "democracy" : 4.81,
+      "rank" : 105
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "THA",
+    "id" : 107,
     "label" : "Thailand",
     "region" : "Asia",
     "values" : {
@@ -4675,19 +3722,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.726,
-      "democracy" : 4.63,
-      "rank" : 107,
-      "Electoral process and pluralism" : 3,
-      "Functioning of government" : 4.29,
-      "Political participation" : 5,
-      "Political culture" : 5,
-      "Civil liberties" : 5.88
+      "democracy" : 4.92,
+      "rank" : 107
     },
     "organisations" : {
       "eu" : false,
@@ -4700,15 +3741,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "PSE",
+    "id" : 108,
     "label" : "Palestine",
     "region" : "Asia",
     "values" : {
@@ -4719,19 +3757,13 @@
     "types": {
       "state" : "other",
       "government" : "other",
-      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.677,
-      "democracy" : 4.46,
-      "rank" : 108,
-      "Electoral process and pluralism" : 3.83,
-      "Functioning of government" : 2.5,
-      "Political participation" : 7.78,
-      "Political culture" : 4.38,
-      "Civil liberties" : 3.82
+      "democracy" : 4.49,
+      "rank" : 108
     },
     "organisations" : {
       "eu" : false,
@@ -4744,15 +3776,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "NGA",
+    "id" : 109,
     "label" : "Nigeria",
     "region" : "Africa",
     "values" : {
@@ -4763,19 +3792,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.514,
-      "democracy" : 4.44,
-      "rank" : 109,
-      "Electoral process and pluralism" : 6.08,
-      "Functioning of government" : 4.64,
-      "Political participation" : 3.33,
-      "Political culture" : 3.75,
-      "Civil liberties" : 4.41
+      "democracy" : 4.5,
+      "rank" : 109
     },
     "organisations" : {
       "eu" : false,
@@ -4788,15 +3811,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "PAK",
+    "id" : 110,
     "label" : "Pakistan",
     "region" : "Asia",
     "values" : {
@@ -4807,19 +3827,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.538,
-      "democracy" : 4.26,
-      "rank" : 110,
-      "Electoral process and pluralism" : 6.5,
-      "Functioning of government" : 5.36,
-      "Political participation" : 2.22,
-      "Political culture" : 2.5,
-      "Civil liberties" : 4.71
+      "democracy" : 4.33,
+      "rank" : 110
     },
     "organisations" : {
       "eu" : false,
@@ -4832,15 +3846,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ARM",
+    "id" : 111,
     "label" : "Armenia",
     "region" : "Asia",
     "values" : {
@@ -4851,19 +3862,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.733,
-      "democracy" : 4.11,
-      "rank" : 111,
-      "Electoral process and pluralism" : 5.25,
-      "Functioning of government" : 2.86,
-      "Political participation" : 5,
-      "Political culture" : 1.88,
-      "Civil liberties" : 5.59
+      "democracy" : 3.88,
+      "rank" : 111
     },
     "organisations" : {
       "eu" : false,
@@ -4876,15 +3881,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "IRQ",
+    "id" : 112,
     "label" : "Iraq",
     "region" : "Asia",
     "values" : {
@@ -4895,19 +3897,13 @@
     "types": {
       "state" : "republic",
       "government" : "parliamentary",
-      "degree" : "Hybrid regime",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.654,
-      "democracy" : 4.09,
-      "rank" : 112,
-      "Electoral process and pluralism" : 4.33,
-      "Functioning of government" : 0.07,
-      "Political participation" : 7.22,
-      "Political culture" : 5,
-      "Civil liberties" : 3.82
+      "democracy" : 4.08,
+      "rank" : 112
     },
     "organisations" : {
       "eu" : false,
@@ -4920,15 +3916,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "GMB",
+    "id" : 113,
     "label" : "Gambia",
     "region" : "Africa",
     "values" : {
@@ -4939,19 +3932,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.441,
-      "democracy" : 4.06,
-      "rank" : 113,
-      "Electoral process and pluralism" : 4.48,
-      "Functioning of government" : 3.93,
-      "Political participation" : 3.33,
-      "Political culture" : 5.63,
-      "Civil liberties" : 2.94
+      "democracy" : 2.91,
+      "rank" : 113
     },
     "organisations" : {
       "eu" : false,
@@ -4964,15 +3951,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "HTI",
+    "id" : 114,
     "label" : "Haiti",
     "region" : "Americas",
     "values" : {
@@ -4983,19 +3967,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.483,
-      "democracy" : 4.03,
-      "rank" : 114,
-      "Electoral process and pluralism" : 5.17,
-      "Functioning of government" : 2.21,
-      "Political participation" : 2.22,
-      "Political culture" : 4.38,
-      "Civil liberties" : 6.18
+      "democracy" : 4.02,
+      "rank" : 114
     },
     "organisations" : {
       "eu" : false,
@@ -5008,15 +3986,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "MOZ",
+    "id" : 115,
     "label" : "Mozambique",
     "region" : "Africa",
     "values" : {
@@ -5027,19 +4002,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Hybrid regime",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Hybrid regime",
       "hdi" : 0.416,
       "democracy" : 4.02,
-      "rank" : 115,
-      "Electoral process and pluralism" : 4.42,
-      "Functioning of government" : 2.14,
-      "Political participation" : 5,
-      "Political culture" : 5,
-      "Civil liberties" : 3.53
+      "rank" : 115
     },
     "organisations" : {
       "eu" : false,
@@ -5052,15 +4021,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "CIV",
+    "id" : 116,
     "label" : "Côte d\u2019Ivoire",
     "region" : "Africa",
     "values" : {
@@ -5071,19 +4037,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.462,
-      "democracy" : 3.93,
-      "rank" : 116,
-      "Electoral process and pluralism" : 4.42,
-      "Functioning of government" : 2.14,
-      "Political participation" : 3.33,
-      "Political culture" : 5.63,
-      "Civil liberties" : 4.12
+      "democracy" : 3.81,
+      "rank" : 116
     },
     "organisations" : {
       "eu" : false,
@@ -5096,59 +4056,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "VEN",
-    "label" : "Venezuela",
-    "region" : "Americas",
-    "values" : {
-      "population" : 2.927546E7,
-      "gdp" : 5.157E11,
-      "area" : 912050
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Hybrid regime",
-      "hdi" : "high"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.762,
-      "democracy" : 3.87,
-      "rank" : 117,
-      "Electoral process and pluralism" : 2.17,
-      "Functioning of government" : 2.86,
-      "Political participation" : 6.11,
-      "Political culture" : 4.38,
-      "Civil liberties" : 3.82
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : false,
-      "americas" : true,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : true,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "JOR",
+    "id" : 117,
     "label" : "Jordan",
     "region" : "Asia",
     "values" : {
@@ -5159,19 +4072,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "degree" : "Hybrid regime",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Hybrid regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.748,
-      "democracy" : 3.87,
-      "rank" : 117,
-      "Electoral process and pluralism" : 3.58,
-      "Functioning of government" : 4.29,
-      "Political participation" : 3.89,
-      "Political culture" : 4.38,
-      "Civil liberties" : 3.24
+      "democracy" : 3.96,
+      "rank" : 117
     },
     "organisations" : {
       "eu" : false,
@@ -5184,566 +4091,29 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
-    "cca3" : "KWT",
-    "label" : "Kuwait",
-    "region" : "Asia",
-    "values" : {
-      "population" : 2788534,
-      "gdp" : 2.884E11,
-      "area" : 17818
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "constitutional",
-      "degree" : "Hybrid regime",
-      "hdi" : "top"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.816,
-      "democracy" : 3.85,
-      "rank" : 119,
-      "Electoral process and pluralism" : 3.17,
-      "Functioning of government" : 4.29,
-      "Political participation" : 3.89,
-      "Political culture" : 4.38,
-      "Civil liberties" : 3.53
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : true,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "MMR",
-    "label" : "Myanmar",
-    "region" : "Asia",
-    "values" : {
-      "population" : 5.6320206E7,
-      "gdp" : 2.835E11,
-      "area" : 676578
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "degree" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.536,
-      "democracy" : 3.83,
-      "rank" : 120,
-      "Electoral process and pluralism" : 3.67,
-      "Functioning of government" : 3.93,
-      "Political participation" : 3.89,
-      "Political culture" : 5.63,
-      "Civil liberties" : 2.06
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : true,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "MRT",
-    "label" : "Mauritania",
-    "region" : "Africa",
-    "values" : {
-      "population" : 3596702,
-      "gdp" : 1.629E10,
-      "area" : 1030700
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.506,
-      "democracy" : 3.82,
-      "rank" : 121,
-      "Electoral process and pluralism" : 3,
-      "Functioning of government" : 3.57,
-      "Political participation" : 5,
-      "Political culture" : 3.13,
-      "Civil liberties" : 4.41
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "NER",
-    "label" : "Niger",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1.81562056E8,
-      "gdp" : 1.092E12,
-      "area" : 923768
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "degree" : "Hybrid regime",
-      "hdi" : "low"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.348,
-      "democracy" : 3.76,
-      "rank" : 122,
-      "Electoral process and pluralism" : 5.25,
-      "Functioning of government" : 1.14,
-      "Political participation" : 3.33,
-      "Political culture" : 4.38,
-      "Civil liberties" : 4.71
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "COM",
-    "label" : "Comoros",
-    "region" : "Africa",
-    "values" : {
-      "population" : 780971,
-      "gdp" : 1.214E9,
-      "area" : 2235
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.503,
-      "democracy" : 3.71,
-      "rank" : 123,
-      "Electoral process and pluralism" : 4.33,
-      "Functioning of government" : 2.21,
-      "Political participation" : 4.44,
-      "Political culture" : 3.75,
-      "Civil liberties" : 3.82
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "KHM",
-    "label" : "Cambodia",
-    "region" : "Asia",
-    "values" : {
-      "population" : 1.5708756E7,
-      "gdp" : 5.421E10,
-      "area" : 181035
-    },
-    "types": {
-      "state" : "monarchy",
-      "government" : "constitutional",
-      "degree" : "Hybrid regime",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "degree" : "Hybrid regime",
-      "hdi" : 0.555,
-      "democracy" : 3.63,
-      "rank" : 124,
-      "Electoral process and pluralism" : 1.33,
-      "Functioning of government" : 5.71,
-      "Political participation" : 2.22,
-      "Political culture" : 5.63,
-      "Civil liberties" : 3.24
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : false,
-      "americas" : false,
-      "asia" : true,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "AGO",
-    "label" : "Angola",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1.9625353E7,
-      "gdp" : 1.844E11,
-      "area" : 1246700
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.532,
-      "democracy" : 3.62,
-      "rank" : 125,
-      "Electoral process and pluralism" : 1.75,
-      "Functioning of government" : 2.86,
-      "Political participation" : 5.56,
-      "Political culture" : 5,
-      "Civil liberties" : 2.94
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "GAB",
-    "label" : "Gabon",
-    "region" : "Africa",
-    "values" : {
-      "population" : 1705336,
-      "gdp" : 3.458E10,
-      "area" : 267667
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Authoritarian",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.684,
-      "democracy" : 3.61,
-      "rank" : 126,
-      "Electoral process and pluralism" : 2.58,
-      "Functioning of government" : 2.21,
-      "Political participation" : 4.44,
-      "Political culture" : 5,
-      "Civil liberties" : 3.82
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "CMR",
-    "label" : "Cameroon",
-    "region" : "Africa",
-    "values" : {
-      "population" : 2.3739218E7,
-      "gdp" : 7.264E10,
-      "area" : 475440
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.512,
-      "democracy" : 3.61,
-      "rank" : 126,
-      "Electoral process and pluralism" : 4,
-      "Functioning of government" : 2.86,
-      "Political participation" : 3.89,
-      "Political culture" : 4.38,
-      "Civil liberties" : 2.94
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "DZA",
-    "label" : "Algeria",
-    "region" : "Africa",
-    "values" : {
-      "population" : 3.9542166E7,
-      "gdp" : 5.787E11,
-      "area" : 2381741
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "semi-presidential",
-      "degree" : "Authoritarian",
-      "hdi" : "high"
-    },
-    "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.736,
-      "democracy" : 3.56,
-      "rank" : 128,
-      "Electoral process and pluralism" : 2.58,
-      "Functioning of government" : 2.21,
-      "Political participation" : 3.89,
-      "Political culture" : 5,
-      "Civil liberties" : 4.12
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : true,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "ETH",
-    "label" : "Ethiopia",
-    "region" : "Africa",
-    "values" : {
-      "population" : 9.9465819E7,
-      "gdp" : 1.616E11,
-      "area" : 1104300
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "parliamentary",
-      "degree" : "Authoritarian",
-      "hdi" : "low"
-    },
-    "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.442,
-      "democracy" : 3.42,
-      "rank" : 129,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 3.57,
-      "Political participation" : 5.56,
-      "Political culture" : 5.63,
-      "Civil liberties" : 2.35
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : false,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : true,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "EGY",
-    "label" : "Egypt",
-    "region" : "Africa",
-    "values" : {
-      "population" : 8.8487396E7,
-      "gdp" : 1.048E12,
-      "area" : 1001450
-    },
-    "types": {
-      "state" : "republic",
-      "government" : "presidential",
-      "degree" : "Authoritarian",
-      "hdi" : "medium"
-    },
-    "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.69,
-      "democracy" : 3.36,
-      "rank" : 130,
-      "Electoral process and pluralism" : 3.58,
-      "Functioning of government" : 3.21,
-      "Political participation" : 3.33,
-      "Political culture" : 3.75,
-      "Civil liberties" : 2.94
-    },
-    "organisations" : {
-      "eu" : false,
-      "arab" : true,
-      "nato" : false,
-      "oecd" : false,
-      "g20" : false,
-      "africa" : true,
-      "americas" : false,
-      "asia" : false,
-      "europe" : false,
-      "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
-    }
-  },
-  {
-    "cca3" : "CUB",
-    "label" : "Cuba",
+    "cca3" : "VEN",
+    "id" : 118,
+    "label" : "Venezuela",
     "region" : "Americas",
     "values" : {
-      "population" : 1.1031433E7,
-      "gdp" : 1.285E11,
-      "area" : 110860
+      "population" : 2.927546E7,
+      "gdp" : 5.157E11,
+      "area" : 912050
     },
     "types": {
       "state" : "republic",
-      "government" : "socialist",
-      "degree" : "Authoritarian",
+      "government" : "presidential",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.769,
-      "democracy" : 3.31,
-      "rank" : 131,
-      "Electoral process and pluralism" : 1.33,
-      "Functioning of government" : 4.29,
-      "Political participation" : 3.89,
-      "Political culture" : 4.38,
-      "Civil liberties" : 2.65
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.762,
+      "democracy" : 4.68,
+      "rank" : 117
     },
     "organisations" : {
       "eu" : false,
@@ -5756,38 +4126,134 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
-    "cca3" : "COG",
-    "label" : "Republic of the Congo",
+    "cca3" : "KWT",
+    "id" : 119,
+    "label" : "Kuwait",
+    "region" : "Asia",
+    "values" : {
+      "population" : 2788534,
+      "gdp" : 2.884E11,
+      "area" : 17818
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "constitutional",
+      "hdi" : "top"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.816,
+      "democracy" : 3.85,
+      "rank" : 119
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "MMR",
+    "id" : 120,
+    "label" : "Myanmar",
+    "region" : "Asia",
+    "values" : {
+      "population" : 5.6320206E7,
+      "gdp" : 2.835E11,
+      "area" : 676578
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "hdi" : "low"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.536,
+      "democracy" : 4.2,
+      "rank" : 120
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "MRT",
+    "id" : 121,
+    "label" : "Mauritania",
     "region" : "Africa",
     "values" : {
-      "population" : 4755097,
-      "gdp" : 2.936E10,
-      "area" : 342000
+      "population" : 3596702,
+      "gdp" : 1.629E10,
+      "area" : 1030700
     },
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
-      "hdi" : "medium"
+      "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
-      "hdi" : 0.591,
-      "democracy" : 3.25,
-      "rank" : 132,
-      "Electoral process and pluralism" : 3.17,
-      "Functioning of government" : 2.5,
-      "Political participation" : 3.89,
-      "Political culture" : 3.75,
-      "Civil liberties" : 2.94
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.506,
+      "democracy" : 3.96,
+      "rank" : 121
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "NER",
+    "id" : 122,
+    "label" : "Niger",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1.81562056E8,
+      "gdp" : 1.092E12,
+      "area" : 923768
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "hdi" : "low"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.348,
+      "democracy" : 3.96,
+      "rank" : 122
     },
     "organisations" : {
       "eu" : false,
@@ -5800,15 +4266,362 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "COM",
+    "id" : 123,
+    "label" : "Comoros",
+    "region" : "Africa",
+    "values" : {
+      "population" : 780971,
+      "gdp" : 1.214E9,
+      "area" : 2235
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "hdi" : "low"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.503,
+      "democracy" : 3.71,
+      "rank" : 123
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "KHM",
+    "id" : 124,
+    "label" : "Cambodia",
+    "region" : "Asia",
+    "values" : {
+      "population" : 1.5708756E7,
+      "gdp" : 5.421E10,
+      "area" : 181035
+    },
+    "types": {
+      "state" : "monarchy",
+      "government" : "constitutional",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.555,
+      "democracy" : 4.27,
+      "rank" : 124
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : false,
+      "americas" : false,
+      "asia" : true,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "AGO",
+    "id" : 125,
+    "label" : "Angola",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1.9625353E7,
+      "gdp" : 1.844E11,
+      "area" : 1246700
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "hdi" : "low"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.532,
+      "democracy" : 3.4,
+      "rank" : 125
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "GAB",
+    "id" : 126,
+    "label" : "Gabon",
+    "region" : "Africa",
+    "values" : {
+      "population" : 1705336,
+      "gdp" : 3.458E10,
+      "area" : 267667
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.684,
+      "democracy" : 3.74,
+      "rank" : 126
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "CMR",
+    "id" : 127,
+    "label" : "Cameroon",
+    "region" : "Africa",
+    "values" : {
+      "population" : 2.3739218E7,
+      "gdp" : 7.264E10,
+      "area" : 475440
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "hdi" : "low"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.512,
+      "democracy" : 3.46,
+      "rank" : 126
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "DZA",
+    "id" : 128,
+    "label" : "Algeria",
+    "region" : "Africa",
+    "values" : {
+      "population" : 3.9542166E7,
+      "gdp" : 5.787E11,
+      "area" : 2381741
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "semi-presidential",
+      "hdi" : "high"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.736,
+      "democracy" : 3.56,
+      "rank" : 128
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : true
+    }
+  },
+  {
+    "cca3" : "ETH",
+    "id" : 129,
+    "label" : "Ethiopia",
+    "region" : "Africa",
+    "values" : {
+      "population" : 9.9465819E7,
+      "gdp" : 1.616E11,
+      "area" : 1104300
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "parliamentary",
+      "hdi" : "low"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.442,
+      "democracy" : 3.6,
+      "rank" : 129
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : true
+    }
+  },
+  {
+    "cca3" : "EGY",
+    "id" : 130,
+    "label" : "Egypt",
+    "region" : "Africa",
+    "values" : {
+      "population" : 8.8487396E7,
+      "gdp" : 1.048E12,
+      "area" : 1001450
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.69,
+      "democracy" : 3.31,
+      "rank" : 130
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : true,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "CUB",
+    "id" : 131,
+    "label" : "Cuba",
+    "region" : "Americas",
+    "values" : {
+      "population" : 1.1031433E7,
+      "gdp" : 1.285E11,
+      "area" : 110860
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "socialist",
+      "hdi" : "high"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.769,
+      "democracy" : 3.46,
+      "rank" : 131
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : false,
+      "americas" : true,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
+    }
+  },
+  {
+    "cca3" : "COG",
+    "id" : 132,
+    "label" : "Congo (Brazzaville)",
+    "region" : "Africa",
+    "values" : {
+      "population" : 4755097,
+      "gdp" : 2.936E10,
+      "area" : 342000
+    },
+    "types": {
+      "state" : "republic",
+      "government" : "presidential",
+      "hdi" : "medium"
+    },
+    "scores": {
+      "regimeType" : "Authoritarian",
+      "hdi" : 0.591,
+      "democracy" : 2.91,
+      "rank" : 132
+    },
+    "organisations" : {
+      "eu" : false,
+      "arab" : false,
+      "nato" : false,
+      "oecd" : false,
+      "g20" : false,
+      "africa" : true,
+      "americas" : false,
+      "asia" : false,
+      "europe" : false,
+      "oceania" : false,
+      "name" : false
     }
   },
   {
     "cca3" : "QAT",
+    "id" : 133,
     "label" : "Qatar",
     "region" : "Asia",
     "values" : {
@@ -5819,19 +4632,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "absolute",
-      "degree" : "Authoritarian",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.85,
-      "democracy" : 3.19,
-      "rank" : 133,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 4.29,
-      "Political participation" : 2.22,
-      "Political culture" : 5.63,
-      "Civil liberties" : 3.82
+      "democracy" : 3.18,
+      "rank" : 133
     },
     "organisations" : {
       "eu" : false,
@@ -5844,15 +4651,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "RWA",
+    "id" : 134,
     "label" : "Rwanda",
     "region" : "Africa",
     "values" : {
@@ -5863,19 +4667,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.483,
-      "democracy" : 3.19,
-      "rank" : 133,
-      "Electoral process and pluralism" : 0.83,
-      "Functioning of government" : 5,
-      "Political participation" : 2.78,
-      "Political culture" : 4.38,
-      "Civil liberties" : 2.94
+      "democracy" : 3.07,
+      "rank" : 133
     },
     "organisations" : {
       "eu" : false,
@@ -5888,15 +4686,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "RUS",
+    "id" : 135,
     "label" : "Russia",
     "region" : "Europe",
     "values" : {
@@ -5907,19 +4702,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.798,
-      "democracy" : 3.17,
-      "rank" : 135,
-      "Electoral process and pluralism" : 2.17,
-      "Functioning of government" : 1.79,
-      "Political participation" : 5,
-      "Political culture" : 2.5,
-      "Civil liberties" : 4.41
+      "democracy" : 3.24,
+      "rank" : 135
     },
     "organisations" : {
       "eu" : false,
@@ -5932,15 +4721,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ZWE",
+    "id" : 136,
     "label" : "Zimbabwe",
     "region" : "Africa",
     "values" : {
@@ -5951,19 +4737,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.509,
-      "democracy" : 3.16,
-      "rank" : 136,
-      "Electoral process and pluralism" : 0.5,
-      "Functioning of government" : 2,
-      "Political participation" : 4.44,
-      "Political culture" : 5.63,
-      "Civil liberties" : 3.24
+      "democracy" : 3.05,
+      "rank" : 136
     },
     "organisations" : {
       "eu" : false,
@@ -5976,15 +4756,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "GIN",
+    "id" : 137,
     "label" : "Guinea",
     "region" : "Africa",
     "values" : {
@@ -5995,19 +4772,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.411,
       "democracy" : 3.14,
-      "rank" : 137,
-      "Electoral process and pluralism" : 3.5,
-      "Functioning of government" : 0.43,
-      "Political participation" : 4.44,
-      "Political culture" : 4.38,
-      "Civil liberties" : 2.94
+      "rank" : 137
     },
     "organisations" : {
       "eu" : false,
@@ -6020,15 +4791,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "BLR",
+    "id" : 138,
     "label" : "Belarus",
     "region" : "Europe",
     "values" : {
@@ -6039,19 +4807,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.798,
-      "democracy" : 3.13,
-      "rank" : 138,
-      "Electoral process and pluralism" : 0.92,
-      "Functioning of government" : 2.86,
-      "Political participation" : 3.89,
-      "Political culture" : 5.63,
-      "Civil liberties" : 2.35
+      "democracy" : 3.54,
+      "rank" : 138
     },
     "organisations" : {
       "eu" : false,
@@ -6064,15 +4826,12 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "CHN",
+    "id" : 139,
     "label" : "China",
     "region" : "Asia",
     "values" : {
@@ -6083,19 +4842,13 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.727,
-      "democracy" : 3.1,
-      "rank" : 139,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 5,
-      "Political participation" : 2.78,
-      "Political culture" : 6.25,
-      "Civil liberties" : 1.47
+      "democracy" : 3.14,
+      "rank" : 139
     },
     "organisations" : {
       "eu" : false,
@@ -6108,15 +4861,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "VNM",
+    "id" : 140,
     "label" : "Vietnam",
     "region" : "Asia",
     "values" : {
@@ -6127,19 +4877,13 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.666,
-      "democracy" : 3.08,
-      "rank" : 140,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 3.21,
-      "Political participation" : 3.89,
-      "Political culture" : 5.63,
-      "Civil liberties" : 2.65
+      "democracy" : 3.38,
+      "rank" : 140
     },
     "organisations" : {
       "eu" : false,
@@ -6152,15 +4896,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "KAZ",
+    "id" : 141,
     "label" : "Kazakhstan",
     "region" : "Asia",
     "values" : {
@@ -6171,19 +4912,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.788,
       "democracy" : 3.06,
-      "rank" : 141,
-      "Electoral process and pluralism" : 0.5,
-      "Functioning of government" : 2.14,
-      "Political participation" : 4.44,
-      "Political culture" : 4.38,
-      "Civil liberties" : 3.82
+      "rank" : 141
     },
     "organisations" : {
       "eu" : false,
@@ -6196,15 +4931,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TGO",
+    "id" : 142,
     "label" : "Togo",
     "region" : "Africa",
     "values" : {
@@ -6215,19 +4947,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.484,
-      "democracy" : 3.05,
-      "rank" : 142,
-      "Electoral process and pluralism" : 3.17,
-      "Functioning of government" : 0.79,
-      "Political participation" : 2.78,
-      "Political culture" : 5,
-      "Civil liberties" : 3.53
+      "democracy" : 3.32,
+      "rank" : 142
     },
     "organisations" : {
       "eu" : false,
@@ -6240,15 +4966,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "OMN",
+    "id" : 143,
     "label" : "Oman",
     "region" : "Asia",
     "values" : {
@@ -6259,19 +4982,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "absolute",
-      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.793,
       "democracy" : 3.04,
-      "rank" : 143,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 3.93,
-      "Political participation" : 2.78,
-      "Political culture" : 4.38,
-      "Civil liberties" : 4.12
+      "rank" : 143
     },
     "organisations" : {
       "eu" : false,
@@ -6284,15 +5001,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SWZ",
+    "id" : 144,
     "label" : "Swaziland",
     "region" : "Africa",
     "values" : {
@@ -6303,19 +5017,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "absolute",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.531,
       "democracy" : 3.03,
-      "rank" : 144,
-      "Electoral process and pluralism" : 0.92,
-      "Functioning of government" : 2.86,
-      "Political participation" : 2.22,
-      "Political culture" : 5.63,
-      "Civil liberties" : 3.53
+      "rank" : 144
     },
     "organisations" : {
       "eu" : false,
@@ -6328,15 +5036,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "DJI",
+    "id" : 145,
     "label" : "Djibouti",
     "region" : "Africa",
     "values" : {
@@ -6347,19 +5052,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.47,
-      "democracy" : 2.76,
-      "rank" : 145,
-      "Electoral process and pluralism" : 0.42,
-      "Functioning of government" : 1.79,
-      "Political participation" : 3.33,
-      "Political culture" : 5.63,
-      "Civil liberties" : 2.65
+      "democracy" : 2.83,
+      "rank" : 145
     },
     "organisations" : {
       "eu" : false,
@@ -6372,15 +5071,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "BHR",
+    "id" : 146,
     "label" : "Bahrain",
     "region" : "Asia",
     "values" : {
@@ -6391,19 +5087,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "degree" : "Authoritarian",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.824,
-      "democracy" : 2.71,
-      "rank" : 146,
-      "Electoral process and pluralism" : 0.83,
-      "Functioning of government" : 3.21,
-      "Political participation" : 2.78,
-      "Political culture" : 4.38,
-      "Civil liberties" : 2.35
+      "democracy" : 2.79,
+      "rank" : 146
     },
     "organisations" : {
       "eu" : false,
@@ -6416,15 +5106,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : true,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ARE",
+    "id" : 147,
     "label" : "United Arab Emirates",
     "region" : "Asia",
     "values" : {
@@ -6435,19 +5122,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "constitutional",
-      "degree" : "Authoritarian",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.835,
-      "democracy" : 2.69,
-      "rank" : 147,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 3.57,
-      "Political participation" : 2.22,
-      "Political culture" : 5,
-      "Civil liberties" : 2.65
+      "democracy" : 2.75,
+      "rank" : 147
     },
     "organisations" : {
       "eu" : false,
@@ -6460,15 +5141,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : true,
-      "atom" : false,
-      "apple" : true
+      "name" : false
     }
   },
   {
     "cca3" : "AZE",
+    "id" : 148,
     "label" : "Azerbaijan",
     "region" : "Asia",
     "values" : {
@@ -6479,19 +5157,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.751,
       "democracy" : 2.65,
-      "rank" : 148,
-      "Electoral process and pluralism" : 0.5,
-      "Functioning of government" : 2.14,
-      "Political participation" : 3.33,
-      "Political culture" : 3.75,
-      "Civil liberties" : 3.53
+      "rank" : 148
     },
     "organisations" : {
       "eu" : false,
@@ -6504,15 +5176,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "AFG",
+    "id" : 149,
     "label" : "Afghanistan",
     "region" : "Asia",
     "values" : {
@@ -6523,19 +5192,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.465,
       "democracy" : 2.55,
-      "rank" : 149,
-      "Electoral process and pluralism" : 2.5,
-      "Functioning of government" : 1.14,
-      "Political participation" : 2.78,
-      "Political culture" : 2.5,
-      "Civil liberties" : 3.82
+      "rank" : 149
     },
     "organisations" : {
       "eu" : false,
@@ -6548,15 +5211,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "IRN",
+    "id" : 150,
     "label" : "Iran",
     "region" : "Asia",
     "values" : {
@@ -6567,19 +5227,13 @@
     "types": {
       "state" : "republic",
       "government" : "theocratic",
-      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.766,
-      "democracy" : 2.45,
-      "rank" : 150,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 3.21,
-      "Political participation" : 4.44,
-      "Political culture" : 3.13,
-      "Civil liberties" : 1.47
+      "democracy" : 2.34,
+      "rank" : 150
     },
     "organisations" : {
       "eu" : false,
@@ -6592,15 +5246,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : true,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "ERI",
+    "id" : 151,
     "label" : "Eritrea",
     "region" : "Africa",
     "values" : {
@@ -6611,19 +5262,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.391,
       "democracy" : 2.37,
-      "rank" : 151,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 2.14,
-      "Political participation" : 1.67,
-      "Political culture" : 6.88,
-      "Civil liberties" : 1.18
+      "rank" : 151
     },
     "organisations" : {
       "eu" : false,
@@ -6636,15 +5281,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "LAO",
+    "id" : 152,
     "label" : "Laos",
     "region" : "Asia",
     "values" : {
@@ -6655,19 +5297,13 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.575,
       "democracy" : 2.37,
-      "rank" : 151,
-      "Electoral process and pluralism" : 0.83,
-      "Functioning of government" : 2.86,
-      "Political participation" : 1.67,
-      "Political culture" : 5,
-      "Civil liberties" : 1.47
+      "rank" : 151
     },
     "organisations" : {
       "eu" : false,
@@ -6680,15 +5316,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : true
     }
   },
   {
     "cca3" : "BDI",
+    "id" : 153,
     "label" : "Burundi",
     "region" : "Africa",
     "values" : {
@@ -6699,19 +5332,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.4,
-      "democracy" : 2.33,
-      "rank" : 153,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 0.43,
-      "Political participation" : 3.89,
-      "Political culture" : 5,
-      "Civil liberties" : 2.35
+      "democracy" : 2.4,
+      "rank" : 153
     },
     "organisations" : {
       "eu" : false,
@@ -6724,15 +5351,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "LBY",
+    "id" : 154,
     "label" : "Libya",
     "region" : "Africa",
     "values" : {
@@ -6743,19 +5367,13 @@
     "types": {
       "state" : "other",
       "government" : "other",
-      "degree" : "Authoritarian",
       "hdi" : "high"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.724,
-      "democracy" : 2.32,
-      "rank" : 154,
-      "Electoral process and pluralism" : 1,
-      "Functioning of government" : 0.36,
-      "Political participation" : 1.67,
-      "Political culture" : 5.63,
-      "Civil liberties" : 2.94
+      "democracy" : 2.25,
+      "rank" : 154
     },
     "organisations" : {
       "eu" : false,
@@ -6768,15 +5386,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : true,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SDN",
+    "id" : 155,
     "label" : "Sudan",
     "region" : "Africa",
     "values" : {
@@ -6787,19 +5402,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.479,
-      "democracy" : 2.15,
-      "rank" : 155,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 1.79,
-      "Political participation" : 2.78,
-      "Political culture" : 5,
-      "Civil liberties" : 1.18
+      "democracy" : 2.37,
+      "rank" : 155
     },
     "organisations" : {
       "eu" : false,
@@ -6812,15 +5421,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "YEM",
+    "id" : 156,
     "label" : "Yemen",
     "region" : "Asia",
     "values" : {
@@ -6831,19 +5437,13 @@
     "types": {
       "state" : "republic",
       "government" : "other",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.498,
       "democracy" : 2.07,
-      "rank" : 156,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 0,
-      "Political participation" : 4.44,
-      "Political culture" : 5,
-      "Civil liberties" : 0.88
+      "rank" : 156
     },
     "organisations" : {
       "eu" : false,
@@ -6856,15 +5456,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : true,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "GNB",
+    "id" : 157,
     "label" : "Guinea-Bissau",
     "region" : "Africa",
     "values" : {
@@ -6875,19 +5472,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.42,
       "democracy" : 1.98,
-      "rank" : 157,
-      "Electoral process and pluralism" : 1.67,
-      "Functioning of government" : 0,
-      "Political participation" : 2.78,
-      "Political culture" : 3.13,
-      "Civil liberties" : 2.35
+      "rank" : 157
     },
     "organisations" : {
       "eu" : false,
@@ -6900,15 +5491,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "UZB",
+    "id" : 158,
     "label" : "Uzbekistan",
     "region" : "Asia",
     "values" : {
@@ -6919,19 +5507,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.675,
       "democracy" : 1.95,
-      "rank" : 158,
-      "Electoral process and pluralism" : 0.08,
-      "Functioning of government" : 1.86,
-      "Political participation" : 2.22,
-      "Political culture" : 5,
-      "Civil liberties" : 0.59
+      "rank" : 158
     },
     "organisations" : {
       "eu" : false,
@@ -6944,15 +5526,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SAU",
+    "id" : 159,
     "label" : "Saudi Arabia",
     "region" : "Asia",
     "values" : {
@@ -6963,19 +5542,13 @@
     "types": {
       "state" : "monarchy",
       "government" : "absolute",
-      "degree" : "Authoritarian",
       "hdi" : "top"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.837,
       "democracy" : 1.93,
-      "rank" : 159,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 2.86,
-      "Political participation" : 2.22,
-      "Political culture" : 3.13,
-      "Civil liberties" : 1.47
+      "rank" : 159
     },
     "organisations" : {
       "eu" : false,
@@ -6988,15 +5561,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TJK",
+    "id" : 160,
     "label" : "Tajikistan",
     "region" : "Asia",
     "values" : {
@@ -7007,19 +5577,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.624,
-      "democracy" : 1.93,
-      "rank" : 159,
-      "Electoral process and pluralism" : 0.08,
-      "Functioning of government" : 0.79,
-      "Political participation" : 1.67,
-      "Political culture" : 6.25,
-      "Civil liberties" : 0.88
+      "democracy" : 1.89,
+      "rank" : 159
     },
     "organisations" : {
       "eu" : false,
@@ -7032,15 +5596,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "GNQ",
+    "id" : 161,
     "label" : "Equatorial Guinea",
     "region" : "Africa",
     "values" : {
@@ -7051,19 +5612,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.587,
-      "democracy" : 1.81,
-      "rank" : 161,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 0.43,
-      "Political participation" : 2.78,
-      "Political culture" : 4.38,
-      "Civil liberties" : 1.47
+      "democracy" : 1.7,
+      "rank" : 161
     },
     "organisations" : {
       "eu" : false,
@@ -7076,15 +5631,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TKM",
+    "id" : 162,
     "label" : "Turkmenistan",
     "region" : "Asia",
     "values" : {
@@ -7095,19 +5647,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.688,
-      "democracy" : 1.72,
-      "rank" : 162,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 0.79,
-      "Political participation" : 2.22,
-      "Political culture" : 5,
-      "Civil liberties" : 0.59
+      "democracy" : 1.83,
+      "rank" : 162
     },
     "organisations" : {
       "eu" : false,
@@ -7120,15 +5666,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "COD",
+    "id" : 163,
     "label" : "Democratic Republic of Congo",
     "region" : "Africa",
     "values" : {
@@ -7139,19 +5682,13 @@
     "types": {
       "state" : "republic",
       "government" : "semi-presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.433,
-      "democracy" : 1.61,
-      "rank" : 163,
-      "Electoral process and pluralism" : 0.5,
-      "Functioning of government" : 0.71,
-      "Political participation" : 2.22,
-      "Political culture" : 3.75,
-      "Civil liberties" : 0.88
+      "democracy" : 1.93,
+      "rank" : 163
     },
     "organisations" : {
       "eu" : false,
@@ -7164,15 +5701,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : true,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : true
     }
   },
   {
     "cca3" : "CAF",
+    "id" : 164,
     "label" : "Central African Republic",
     "region" : "Africa",
     "values" : {
@@ -7183,19 +5717,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.35,
-      "democracy" : 1.52,
-      "rank" : 164,
-      "Electoral process and pluralism" : 2.25,
-      "Functioning of government" : 0,
-      "Political participation" : 1.11,
-      "Political culture" : 1.88,
-      "Civil liberties" : 2.35
+      "democracy" : 1.61,
+      "rank" : 164
     },
     "organisations" : {
       "eu" : false,
@@ -7208,15 +5736,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : false,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "TCD",
+    "id" : 165,
     "label" : "Chad",
     "region" : "Africa",
     "values" : {
@@ -7227,19 +5752,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "low"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.392,
       "democracy" : 1.5,
-      "rank" : 165,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 0,
-      "Political participation" : 1.11,
-      "Political culture" : 3.75,
-      "Civil liberties" : 2.65
+      "rank" : 165
     },
     "organisations" : {
       "eu" : false,
@@ -7252,15 +5771,12 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : true,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "SYR",
+    "id" : 166,
     "label" : "Syria",
     "region" : "Asia",
     "values" : {
@@ -7271,19 +5787,13 @@
     "types": {
       "state" : "republic",
       "government" : "presidential",
-      "degree" : "Authoritarian",
       "hdi" : "medium"
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : 0.594,
       "democracy" : 1.43,
-      "rank" : 166,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 0,
-      "Political participation" : 2.78,
-      "Political culture" : 4.38,
-      "Civil liberties" : 0
+      "rank" : 166
     },
     "organisations" : {
       "eu" : false,
@@ -7296,15 +5806,12 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false,
-      "travelban" : true,
-      "blacklist" : false,
-      "atom" : false,
-      "apple" : false
+      "name" : false
     }
   },
   {
     "cca3" : "PRK",
+    "id" : 167,
     "label" : "North Korea",
     "region" : "Asia",
     "values" : {
@@ -7315,19 +5822,13 @@
     "types": {
       "state" : "republic",
       "government" : "socialist",
-      "degree" : "Authoritarian",
       "hdi" : ""
     },
     "scores": {
-      "degree" : "Authoritarian",
+      "regimeType" : "Authoritarian",
       "hdi" : null,
       "democracy" : 1.08,
-      "rank" : 167,
-      "Electoral process and pluralism" : 0,
-      "Functioning of government" : 2.5,
-      "Political participation" : 1.67,
-      "Political culture" : 1.25,
-      "Civil liberties" : 0
+      "rank" : 167
     },
     "organisations" : {
       "eu" : false,
@@ -7340,11 +5841,7 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true,
-      "travelban" : true,
-      "blacklist" : true,
-      "atom" : true,
-      "apple" : false
+      "name" : true
     }
   }
 ]

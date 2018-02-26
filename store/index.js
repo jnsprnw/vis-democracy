@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import _ from 'lodash'
 import * as data from '../data/data.json'
-// import * as d3 from 'd3-geo'
 import chroma from 'chroma-js'
 
 Vue.use(Vuex)
@@ -13,9 +12,9 @@ const store = () => new Vuex.Store({
     activeStatus: 'default',
     activeColour: 'default',
     activeTab: 'intro',
-    colorRangesDegrees: {
-      'Full democracies': ['#f4e600', '#c2d22f'],
-      'Flawed democracies': ['#7dbb45', '#329967'],
+    colorRangesRegimeType: {
+      'Full democracy': ['#f4e600', '#c2d22f'],
+      'Flawed democracy': ['#7dbb45', '#329967'],
       'Hybrid regime': ['#117575', '#415151'],
       'Authoritarian': ['#722b2c', '#a51916']
     },
@@ -43,7 +42,7 @@ const store = () => new Vuex.Store({
       }
     },
     scoresLabels: {
-      'degree': 'Economist’s categories of democracy',
+      'regimeType': 'Economist’s categories of democracy',
       'rank': 'Economist’s democracy rank',
       'democracy': 'Economist’s democracy index',
       'hdi': 'Human Development Index'
@@ -66,15 +65,15 @@ const store = () => new Vuex.Store({
     scores (state) {
       return _.keys(_.first(state.data)['scores'])
     },
-    degrees (state) {
-      return _.uniq(_.map(state.data, 'types.degree'))
+    regimeTypes (state) {
+      return _.uniq(_.map(state.data, 'scores.regimeType'))
     },
     domains (state) {
       let rankScores = _.map(state.data, 'scores.rank')
       let hdiScores = _.map(state.data, 'scores.hdi')
       let democracyScore = _.map(state.data, 'scores.democracy')
 
-      let democracyTypesGroups = _.groupBy(state.data, 'types.degree')
+      let democracyTypesGroups = _.groupBy(state.data, 'scores.regimeType')
       let democracyTypes = _.fromPairs(_.map(democracyTypesGroups, (countries, key) => {
         let values = _.map(countries, 'scores.rank')
         return [key, [_.min(values), _.max(values)]]
@@ -97,9 +96,11 @@ const store = () => new Vuex.Store({
 
       // let colorScaleDemocracy = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.democracy)
 
-      let colorScalesDegrees = _.fromPairs(_.map(getters.degrees, key => {
-        return [key, chroma.scale(state.colorRangesDegrees[key]).mode('lab').domain(getters.domains[key])]
+      const colorScalesRegimeType = _.fromPairs(_.map(getters.regimeTypes, key => {
+        return [key, chroma.scale(state.colorRangesRegimeType[key]).mode('lab').domain(getters.domains[key])]
       }))
+
+      console.log('Types', colorScalesRegimeType)
 
       let countries = _.map(state.data, (country, index) => {
         let retVal = {
@@ -109,7 +110,7 @@ const store = () => new Vuex.Store({
             'rank': colorScaleRank(country.scores.rank).css(),
             'hdi': colorScaleHDI(country.scores.hdi).css(),
             'democracy': colorScaleDemocracy(country.scores.democracy).css(),
-            'degree': colorScalesDegrees[country.types.degree](country.scores.rank).css()
+            'regimeType': colorScalesRegimeType[country.scores.regimeType](country.scores.rank).css()
           }
         }
 
@@ -151,94 +152,7 @@ const store = () => new Vuex.Store({
         })
       })
       return Object.freeze(retVal)
-    },
-    shapes (state) {
-
     }
-    // activeModel (state, getters) {
-    //   return _.fill(Array(getters.models.length), false)
-    // },
-    // types (state) {
-    //   return _.uniq(_.flatten(_.map(state.data, 'types')))
-    // },
-    // activeType (state, getters) {
-    //   return _.fill(Array(getters.types.length), false)
-    // },
-    // propertyKeys (state) {
-    //   return _.uniq(_.flatten(_.map(state.data, datum => {
-    //     return _.keys(datum['properties'])
-    //   })))
-    // },
-    // activeProperty (state, getters) {
-    //   return _.fromPairs(_.map(getters.propertyKeys, key => {
-    //     return [key, false]
-    //   }))
-    // },
-    // properties (state, getters) {
-    //   return _.fromPairs(_.map(getters.propertyKeys, key => {
-    //     let retVal = _.uniq(_.flatten(_.map(state.data, datum => {
-    //       return datum['properties'][key]
-    //     })))
-    //     return [key, retVal]
-    //   }))
-    // },
-    // modelsAccess (state, getters) {
-    //   return _.fromPairs(_.map(getters.models, model => {
-    //     let retVal = {
-    //       'types': _.map(getters.types, type => {
-    //         return _.indexOf(model['types'], type) >= 0
-    //       }),
-    //       'properties': _.fromPairs(_.map(getters.propertyKeys, propertyKey => {
-    //         let retVal
-
-    //         if (_.has(model['properties'], propertyKey)) {
-    //           retVal = _.map(getters.properties[propertyKey], value => {
-    //             return _.indexOf(model['properties'][propertyKey], value) >= 0
-    //           })
-    //         } else {
-    //           retVal = _.fill(Array(getters.properties[propertyKey].length), false)
-    //         }
-
-    //         return [propertyKey, retVal]
-    //       }))
-    //     }
-    //     return [model.id, retVal]
-    //   }))
-    // },
-    // typesAccess (state, getters) {
-    //   return _.fromPairs(_.map(getters.types, type => {
-    //     let retVal = {
-    //       'models': _.map(getters.models, model => {
-    //         return _.indexOf(model['types'], type) >= 0
-    //       }),
-    //       'properties': _.fromPairs(_.map(getters.propertyKeys, propertyKey => {
-    //         let retVal = _.fill(Array(getters.properties[propertyKey].length), false)
-    //         return [propertyKey, retVal]
-    //       }))
-    //     }
-    //     return [type, retVal]
-    //   }))
-    // },
-    // propertiesAccess (state, getters) {
-    //   return _.fromPairs(_.map(getters.properties, (property, key) => {
-    //     let pairs = _.map(property, datum => {
-    //       let retWal = {
-    //         'models': _.map(getters.models, model => {
-    //           return _.indexOf(model['properties'][key], datum) >= 0
-    //         }),
-    //         'types': _.fill(Array(getters.types.length), false)
-    //       }
-    //       return [datum, retWal]
-    //     })
-    //     return [key, _.fromPairs(pairs)]
-    //   }))
-    // }
-    // activeTodos (state) {
-    //   return state.todos.filter(todo => !todo.completed)
-    // },
-    // completedTodos (state) {
-    //   return state.todos.filter(todo => todo.completed)
-    // }
   },
   mutations: {
     MAKE_ACTIVE_STATUS (state, key) {
@@ -252,16 +166,6 @@ const store = () => new Vuex.Store({
     MAKE_ACTIVE_COLOUR (state, key) {
       // console.log('SET_ACTIVE_MODEL')
       state.activeColour = key
-    },
-    ADD_ITEM (state, itemID) {
-      // console.log('SET_ACTIVE_MODEL')
-      state.comparedItems.push(itemID)
-    },
-    REMOVE_ITEM (state, index) {
-      // console.log('SET_ACTIVE_TYPE')
-      let arr = state.comparedItems
-      arr.splice(index, 1)
-      state.comparedItems = arr
     }
   },
   actions: {

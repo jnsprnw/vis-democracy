@@ -158,7 +158,7 @@
             {{ country.region }}
           </td>
           <td>
-            {{ country.scores.degree }}
+            {{ country.scores.regimeType }}
           </td>
           <td>
             {{ country.scores.hdi }}

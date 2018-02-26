@@ -223,16 +223,8 @@
             const maxy = _.max(ys)
             const x = _.round((maxx - minx) / 2 + minx, 1)
             const y = _.round((maxy - miny) / (n === 0 ? 6 : 2) + miny, 1)
-            // const _y = n === 0 ?
-            // if (n === 0) {
-            //   const y = _.round((maxy - miny) / 6 + miny, 1)
-            // } else {
-            //   const y = _.round((maxy - miny) / 2 + miny, 1)
-            // }
-            // console.log(corners, xs, ys, x, y)
             placements[n] = [x, y, maxx - minx, maxy - miny]
           }
-          // console.log(placements)
           return placements
         })
 
@@ -244,7 +236,7 @@
         const y2 = y1 - 5
         const ys = [y1, y2]
 
-        const ranges = _.fromPairs(_.map(_.groupBy(this.countries, 'scores.degree'), (list, key) => {
+        const ranges = _.fromPairs(_.map(_.groupBy(this.countries, 'scores.regimeType'), (list, key) => {
           return [key, _.map(_.pullAt(list, [0, list.length - 1]), 'scores.rank')]
         }))
         const places = _.map(ranges, (range, key) => {
