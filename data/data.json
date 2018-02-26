@@ -17,8 +17,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.944,
-      "democracy" : 9.93,
-      "rank" : 1
+      "rank" : 1,
+      "rank12" : 1,
+      "rank06" : 4,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 3,
+      "score" : 9.87,
+      "score12" : 9.93,
+      "score06" : 9.55,
+      "scoreDiff1712" : 0.06,
+      "scoreDiff1706" : -0.32
     },
     "organisations" : {
       "eu" : false,
@@ -52,8 +60,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.899,
-      "democracy" : 9.5,
-      "rank" : 2
+      "rank" : 2,
+      "rank12" : 3,
+      "rank06" : 2,
+      "rankDiff1712" : 1,
+      "rankDiff1706" : 0,
+      "score" : 9.58,
+      "score12" : 9.65,
+      "score06" : 9.71,
+      "scoreDiff1712" : 0.07,
+      "scoreDiff1706" : 0.13
     },
     "organisations" : {
       "eu" : false,
@@ -87,8 +103,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.907,
-      "democracy" : 9.39,
-      "rank" : 3
+      "rank" : 3,
+      "rank12" : 2,
+      "rank06" : 1,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : -2,
+      "score" : 9.39,
+      "score12" : 9.73,
+      "score06" : 9.88,
+      "scoreDiff1712" : 0.34,
+      "scoreDiff1706" : 0.49
     },
     "organisations" : {
       "eu" : true,
@@ -122,8 +146,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.913,
-      "democracy" : 9.26,
-      "rank" : 4
+      "rank" : 4,
+      "rank12" : 5,
+      "rank06" : 11,
+      "rankDiff1712" : 1,
+      "rankDiff1706" : 7,
+      "score" : 9.26,
+      "score12" : 9.26,
+      "score06" : 9.01,
+      "scoreDiff1712" : 0,
+      "scoreDiff1706" : -0.25
     },
     "organisations" : {
       "eu" : false,
@@ -157,8 +189,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.923,
-      "democracy" : 9.2,
-      "rank" : 5
+      "rank" : 5,
+      "rank12" : 4,
+      "rank06" : 5,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : 0,
+      "score" : 9.22,
+      "score12" : 9.52,
+      "score06" : 9.52,
+      "scoreDiff1712" : 0.3,
+      "scoreDiff1706" : 0.3
     },
     "organisations" : {
       "eu" : true,
@@ -192,8 +232,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.916,
-      "democracy" : 9.15,
-      "rank" : 6
+      "rank" : 6,
+      "rank12" : 13,
+      "rank06" : 11,
+      "rankDiff1712" : 7,
+      "rankDiff1706" : 5,
+      "score" : 9.15,
+      "score12" : 8.56,
+      "score06" : 9.01,
+      "scoreDiff1712" : -0.59,
+      "scoreDiff1706" : -0.14
     },
     "organisations" : {
       "eu" : true,
@@ -227,8 +275,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.913,
-      "democracy" : 9.15,
-      "rank" : 6
+      "rank" : 6,
+      "rank12" : 8,
+      "rank06" : 9,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : 3,
+      "score" : 9.15,
+      "score12" : 9.08,
+      "score06" : 9.07,
+      "scoreDiff1712" : -0.07,
+      "scoreDiff1706" : -0.08
     },
     "organisations" : {
       "eu" : false,
@@ -262,8 +318,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.935,
-      "democracy" : 9.01,
-      "rank" : 8
+      "rank" : 8,
+      "rank12" : 6,
+      "rank06" : 8,
+      "rankDiff1712" : -2,
+      "rankDiff1706" : 0,
+      "score" : 9.09,
+      "score12" : 9.22,
+      "score06" : 9.09,
+      "scoreDiff1712" : 0.13,
+      "scoreDiff1706" : 0
     },
     "organisations" : {
       "eu" : false,
@@ -297,8 +361,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.883,
-      "democracy" : 9.03,
-      "rank" : 9
+      "rank" : 9,
+      "rank12" : 9,
+      "rank06" : 6,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : -3,
+      "score" : 9.03,
+      "score12" : 9.06,
+      "score06" : 9.25,
+      "scoreDiff1712" : 0.03,
+      "scoreDiff1706" : 0.22
     },
     "organisations" : {
       "eu" : true,
@@ -332,8 +404,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.93,
-      "democracy" : 9.09,
-      "rank" : 9
+      "rank" : 9,
+      "rank12" : 7,
+      "rank06" : 10,
+      "rankDiff1712" : -2,
+      "rankDiff1706" : 1,
+      "score" : 9.03,
+      "score12" : 9.09,
+      "score06" : 9.02,
+      "scoreDiff1712" : 0.06,
+      "scoreDiff1706" : -0.01
     },
     "organisations" : {
       "eu" : false,
@@ -367,8 +447,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.922,
-      "democracy" : 8.8,
-      "rank" : 11
+      "rank" : 11,
+      "rank12" : 10,
+      "rank06" : 3,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : -8,
+      "score" : 8.89,
+      "score12" : 8.99,
+      "score06" : 9.66,
+      "scoreDiff1712" : 0.1,
+      "scoreDiff1706" : 0.77
     },
     "organisations" : {
       "eu" : true,
@@ -402,8 +490,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.892,
-      "democracy" : 8.81,
-      "rank" : 12
+      "rank" : 12,
+      "rank12" : 11,
+      "rank06" : 7,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : -5,
+      "score" : 8.81,
+      "score12" : 8.88,
+      "score06" : 9.1,
+      "scoreDiff1712" : 0.07,
+      "scoreDiff1706" : 0.29
     },
     "organisations" : {
       "eu" : true,
@@ -437,8 +533,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.916,
-      "democracy" : 8.63,
-      "rank" : 13
+      "rank" : 13,
+      "rank12" : 14,
+      "rank06" : 13,
+      "rankDiff1712" : 1,
+      "rankDiff1706" : 0,
+      "score" : 8.61,
+      "score12" : 8.34,
+      "score06" : 8.82,
+      "scoreDiff1712" : -0.27,
+      "scoreDiff1706" : 0.21
     },
     "organisations" : {
       "eu" : true,
@@ -472,8 +576,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.907,
-      "democracy" : 8.36,
-      "rank" : 14
+      "rank" : 14,
+      "rank12" : 16,
+      "rank06" : 8.08,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : -5.92,
+      "score" : 8.53,
+      "score12" : 8.21,
+      "score06" : 23,
+      "scoreDiff1712" : -0.32,
+      "scoreDiff1706" : 14.47
     },
     "organisations" : {
       "eu" : true,
@@ -507,8 +619,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.885,
-      "democracy" : 8.41,
-      "rank" : 15
+      "rank" : 15,
+      "rank12" : 12,
+      "rank06" : 14,
+      "rankDiff1712" : -3,
+      "rankDiff1706" : -1,
+      "score" : 8.42,
+      "score12" : 8.62,
+      "score06" : 8.69,
+      "scoreDiff1712" : 0.2,
+      "scoreDiff1706" : 0.27
     },
     "organisations" : {
       "eu" : true,
@@ -542,8 +662,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.777,
-      "democracy" : 8.28,
-      "rank" : 16
+      "rank" : 16,
+      "rank12" : 18,
+      "rank06" : 25,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : 9,
+      "score" : 8.22,
+      "score12" : 8.17,
+      "score06" : 8.04,
+      "scoreDiff1712" : -0.05,
+      "scoreDiff1706" : -0.18
     },
     "organisations" : {
       "eu" : false,
@@ -577,8 +705,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.839,
-      "democracy" : 8.39,
-      "rank" : 17
+      "rank" : 17,
+      "rank12" : 15,
+      "rank06" : 15,
+      "rankDiff1712" : -2,
+      "rankDiff1706" : -2,
+      "score" : 8.15,
+      "score12" : 8.28,
+      "score06" : 8.39,
+      "scoreDiff1712" : 0.13,
+      "scoreDiff1706" : 0.24
     },
     "organisations" : {
       "eu" : true,
@@ -612,8 +748,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.793,
-      "democracy" : 8.17,
-      "rank" : 18
+      "rank" : 18,
+      "rank12" : 18,
+      "rank06" : 27,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 9,
+      "score" : 8.12,
+      "score12" : 8.17,
+      "score06" : 7.96,
+      "scoreDiff1712" : 0.05,
+      "scoreDiff1706" : -0.16
     },
     "organisations" : {
       "eu" : false,
@@ -647,8 +791,16 @@
     "scores": {
       "regimeType" : "Full democracy",
       "hdi" : 0.876,
-      "democracy" : 8.3,
-      "rank" : 19
+      "rank" : 19,
+      "rank12" : 25,
+      "rank06" : 16,
+      "rankDiff1712" : 6,
+      "rankDiff1706" : -3,
+      "score" : 8.08,
+      "score12" : 8.02,
+      "score06" : 8.34,
+      "scoreDiff1712" : -0.06,
+      "scoreDiff1706" : 0.26
     },
     "organisations" : {
       "eu" : true,
@@ -682,8 +834,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.898,
-      "democracy" : 7.92,
-      "rank" : 20
+      "rank" : 20,
+      "rank12" : 20,
+      "rank06" : 31,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 11,
+      "score" : 8,
+      "score12" : 8.13,
+      "score06" : 7.88,
+      "scoreDiff1712" : 0.13,
+      "scoreDiff1706" : -0.12
     },
     "organisations" : {
       "eu" : false,
@@ -717,8 +877,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.915,
-      "democracy" : 7.98,
-      "rank" : 21
+      "rank" : 21,
+      "rank12" : 21,
+      "rank06" : 8.22,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : -12.78,
+      "score" : 7.98,
+      "score12" : 8.11,
+      "score06" : 17,
+      "scoreDiff1712" : 0.13,
+      "scoreDiff1706" : 9.02
     },
     "organisations" : {
       "eu" : false,
@@ -752,8 +920,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.873,
-      "democracy" : 7.98,
-      "rank" : 21
+      "rank" : 21,
+      "rank12" : 32,
+      "rank06" : 34,
+      "rankDiff1712" : 11,
+      "rankDiff1706" : 13,
+      "score" : 7.98,
+      "score12" : 7.74,
+      "score06" : 7.73,
+      "scoreDiff1712" : -0.24,
+      "scoreDiff1706" : -0.25
     },
     "organisations" : {
       "eu" : true,
@@ -787,8 +963,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.891,
-      "democracy" : 7.99,
-      "rank" : 23
+      "rank" : 23,
+      "rank12" : 23,
+      "rank06" : 20,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : -3,
+      "score" : 7.88,
+      "score12" : 8.08,
+      "score06" : 8.15,
+      "scoreDiff1712" : 0.2,
+      "scoreDiff1706" : 0.27
     },
     "organisations" : {
       "eu" : false,
@@ -822,8 +1006,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.646,
-      "democracy" : 7.94,
-      "rank" : 23
+      "rank" : 23,
+      "rank12" : 7.92,
+      "rank06" : 7.43,
+      "rankDiff1712" : -15.08,
+      "rankDiff1706" : -15.57,
+      "score" : 7.88,
+      "score12" : 26,
+      "score06" : 39,
+      "scoreDiff1712" : 18.12,
+      "scoreDiff1706" : 31.12
     },
     "organisations" : {
       "eu" : false,
@@ -857,8 +1049,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.766,
-      "democracy" : 7.88,
-      "rank" : 23
+      "rank" : 23,
+      "rank12" : 22,
+      "rank06" : 25,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : 2,
+      "score" : 7.88,
+      "score12" : 8.1,
+      "score06" : 8.04,
+      "scoreDiff1712" : 0.22,
+      "scoreDiff1706" : 0.16
     },
     "organisations" : {
       "eu" : false,
@@ -892,8 +1092,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.832,
-      "democracy" : 7.78,
-      "rank" : 26
+      "rank" : 26,
+      "rank12" : 36,
+      "rank06" : 30,
+      "rankDiff1712" : 10,
+      "rankDiff1706" : 4,
+      "score" : 7.84,
+      "score12" : 7.54,
+      "score06" : 7.89,
+      "scoreDiff1712" : -0.3,
+      "scoreDiff1706" : 0.05
     },
     "organisations" : {
       "eu" : false,
@@ -927,8 +1135,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.83,
-      "democracy" : 7.86,
-      "rank" : 26
+      "rank" : 26,
+      "rank12" : 26,
+      "rank06" : 19,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : -7,
+      "score" : 7.84,
+      "score12" : 7.92,
+      "score06" : 8.16,
+      "scoreDiff1712" : 0.08,
+      "scoreDiff1706" : 0.32
     },
     "organisations" : {
       "eu" : true,
@@ -962,8 +1178,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.698,
-      "democracy" : 7.87,
-      "rank" : 28
+      "rank" : 28,
+      "rank12" : 30,
+      "rank06" : 36,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : 8,
+      "score" : 7.81,
+      "score12" : 7.85,
+      "score06" : 7.6,
+      "scoreDiff1712" : 0.04,
+      "scoreDiff1706" : -0.21
     },
     "organisations" : {
       "eu" : false,
@@ -997,8 +1221,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.888,
-      "democracy" : 7.92,
-      "rank" : 29
+      "rank" : 29,
+      "rank12" : 28,
+      "rank06" : 24,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : -5,
+      "score" : 7.8,
+      "score12" : 7.88,
+      "score06" : 8.07,
+      "scoreDiff1712" : 0.08,
+      "scoreDiff1706" : 0.27
     },
     "organisations" : {
       "eu" : true,
@@ -1032,8 +1264,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.861,
-      "democracy" : 7.85,
-      "rank" : 30
+      "rank" : 30,
+      "rank12" : 34,
+      "rank06" : 33,
+      "rankDiff1712" : 4,
+      "rankDiff1706" : 3,
+      "score" : 7.79,
+      "score12" : 7.61,
+      "score06" : 7.74,
+      "scoreDiff1712" : -0.18,
+      "scoreDiff1706" : -0.05
     },
     "organisations" : {
       "eu" : true,
@@ -1067,8 +1307,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.894,
-      "democracy" : 7.85,
-      "rank" : 30
+      "rank" : 30,
+      "rank12" : 37,
+      "rank06" : 47,
+      "rankDiff1712" : 7,
+      "rankDiff1706" : 17,
+      "score" : 7.79,
+      "score12" : 7.53,
+      "score06" : 7.28,
+      "scoreDiff1712" : -0.26,
+      "scoreDiff1706" : -0.51
     },
     "organisations" : {
       "eu" : false,
@@ -1102,8 +1350,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.89,
-      "democracy" : 7.77,
-      "rank" : 32
+      "rank" : 32,
+      "rank12" : 24,
+      "rank06" : 20,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : -12,
+      "score" : 7.78,
+      "score12" : 8.05,
+      "score06" : 8.15,
+      "scoreDiff1712" : 0.27,
+      "scoreDiff1706" : 0.37
     },
     "organisations" : {
       "eu" : true,
@@ -1137,8 +1393,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : null,
-      "democracy" : 7.79,
-      "rank" : 33
+      "rank" : 33,
+      "rank12" : 35,
+      "rank06" : 32,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : -1,
+      "score" : 7.73,
+      "score12" : 7.57,
+      "score06" : 7.82,
+      "scoreDiff1712" : -0.16,
+      "scoreDiff1706" : 0.09
     },
     "organisations" : {
       "eu" : false,
@@ -1172,8 +1436,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.87,
-      "democracy" : 7.82,
-      "rank" : 34
+      "rank" : 34,
+      "rank12" : 17,
+      "rank06" : 18,
+      "rankDiff1712" : -17,
+      "rankDiff1706" : -16,
+      "score" : 7.62,
+      "score12" : 8.19,
+      "score06" : 8.17,
+      "scoreDiff1712" : 0.57,
+      "scoreDiff1706" : 0.55
     },
     "organisations" : {
       "eu" : true,
@@ -1207,8 +1479,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.85,
-      "democracy" : 7.65,
-      "rank" : 35
+      "rank" : 35,
+      "rank12" : 41,
+      "rank06" : 36,
+      "rankDiff1712" : 6,
+      "rankDiff1706" : 1,
+      "score" : 7.59,
+      "score12" : 7.29,
+      "score06" : 7.6,
+      "scoreDiff1712" : -0.3,
+      "scoreDiff1706" : 0.01
     },
     "organisations" : {
       "eu" : true,
@@ -1242,8 +1522,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.88,
-      "democracy" : 7.51,
-      "rank" : 36
+      "rank" : 36,
+      "rank12" : 28,
+      "rank06" : 27,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : -9,
+      "score" : 7.5,
+      "score12" : 7.88,
+      "score06" : 7.96,
+      "scoreDiff1712" : 0.38,
+      "scoreDiff1706" : 0.46
     },
     "organisations" : {
       "eu" : true,
@@ -1277,8 +1565,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.839,
-      "democracy" : 7.47,
-      "rank" : 37
+      "rank" : 37,
+      "rank12" : 42,
+      "rank06" : 39,
+      "rankDiff1712" : 5,
+      "rankDiff1706" : 2,
+      "score" : 7.41,
+      "score12" : 7.24,
+      "score06" : 7.43,
+      "scoreDiff1712" : -0.17,
+      "scoreDiff1706" : 0.02
     },
     "organisations" : {
       "eu" : true,
@@ -1312,8 +1608,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.865,
-      "democracy" : 7.23,
-      "rank" : 38
+      "rank" : 38,
+      "rank12" : 33,
+      "rank06" : 22,
+      "rankDiff1712" : -5,
+      "rankDiff1706" : -16,
+      "score" : 7.29,
+      "score12" : 7.65,
+      "score06" : 8.13,
+      "scoreDiff1712" : 0.36,
+      "scoreDiff1706" : 0.84
     },
     "organisations" : {
       "eu" : true,
@@ -1347,8 +1651,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.719,
-      "democracy" : 7.39,
-      "rank" : 38
+      "rank" : 38,
+      "rank12" : 39,
+      "rank06" : 45,
+      "rankDiff1712" : 1,
+      "rankDiff1706" : 7,
+      "score" : 7.29,
+      "score12" : 7.39,
+      "score06" : 7.34,
+      "scoreDiff1712" : 0.1,
+      "scoreDiff1706" : 0.05
     },
     "organisations" : {
       "eu" : false,
@@ -1382,8 +1694,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.819,
-      "democracy" : 7.31,
-      "rank" : 40
+      "rank" : 40,
+      "rank12" : 47,
+      "rank06" : 43,
+      "rankDiff1712" : 7,
+      "rankDiff1706" : 3,
+      "score" : 7.25,
+      "score12" : 7.05,
+      "score06" : 7.37,
+      "scoreDiff1712" : -0.2,
+      "scoreDiff1706" : 0.12
     },
     "organisations" : {
       "eu" : true,
@@ -1417,8 +1737,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.666,
-      "democracy" : 7.41,
-      "rank" : 41
+      "rank" : 41,
+      "rank12" : 31,
+      "rank06" : 29,
+      "rankDiff1712" : -10,
+      "rankDiff1706" : -12,
+      "score" : 7.24,
+      "score12" : 7.79,
+      "score06" : 7.91,
+      "scoreDiff1712" : 0.55,
+      "scoreDiff1706" : 0.67
     },
     "organisations" : {
       "eu" : false,
@@ -1452,8 +1780,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.609,
-      "democracy" : 7.81,
-      "rank" : 42
+      "rank" : 42,
+      "rank12" : 38,
+      "rank06" : 35,
+      "rankDiff1712" : -4,
+      "rankDiff1706" : -7,
+      "score" : 7.23,
+      "score12" : 7.52,
+      "score06" : 7.68,
+      "scoreDiff1712" : 0.29,
+      "scoreDiff1706" : 0.45
     },
     "organisations" : {
       "eu" : false,
@@ -1487,8 +1823,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.595,
-      "democracy" : 7.24,
-      "rank" : 43
+      "rank" : 43,
+      "rank12" : 43,
+      "rank06" : 6.41,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : -36.59,
+      "score" : 7.19,
+      "score12" : 7.16,
+      "score06" : 65,
+      "scoreDiff1712" : -0.03,
+      "scoreDiff1706" : 57.81
     },
     "organisations" : {
       "eu" : false,
@@ -1522,8 +1866,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.844,
-      "democracy" : 7.29,
-      "rank" : 44
+      "rank" : 44,
+      "rank12" : 40,
+      "rank06" : 41,
+      "rankDiff1712" : -4,
+      "rankDiff1706" : -3,
+      "score" : 7.16,
+      "score12" : 7.35,
+      "score06" : 7.4,
+      "scoreDiff1712" : 0.19,
+      "scoreDiff1706" : 0.24
     },
     "organisations" : {
       "eu" : true,
@@ -1557,8 +1909,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.78,
-      "democracy" : 7.13,
-      "rank" : 45
+      "rank" : 45,
+      "rank12" : 46,
+      "rank06" : 44,
+      "rankDiff1712" : 1,
+      "rankDiff1706" : -1,
+      "score" : 7.08,
+      "score12" : 7.08,
+      "score06" : 7.35,
+      "scoreDiff1712" : 0,
+      "scoreDiff1706" : 0.27
     },
     "organisations" : {
       "eu" : false,
@@ -1592,8 +1952,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.772,
-      "democracy" : 7.1,
-      "rank" : 46
+      "rank" : 46,
+      "rank12" : 48,
+      "rank06" : 48,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : 2,
+      "score" : 7.04,
+      "score12" : 6.99,
+      "score06" : 7.18,
+      "scoreDiff1712" : -0.05,
+      "scoreDiff1706" : 0.14
     },
     "organisations" : {
       "eu" : false,
@@ -1627,8 +1995,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.782,
-      "democracy" : 7.01,
-      "rank" : 47
+      "rank" : 47,
+      "rank12" : 54,
+      "rank06" : 49,
+      "rankDiff1712" : 7,
+      "rankDiff1706" : 2,
+      "score" : 7.03,
+      "score12" : 6.72,
+      "score06" : 7.1,
+      "scoreDiff1712" : -0.31,
+      "scoreDiff1706" : 0.07
     },
     "organisations" : {
       "eu" : true,
@@ -1662,8 +2038,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.836,
-      "democracy" : 6.96,
-      "rank" : 48
+      "rank" : 48,
+      "rank12" : 52,
+      "rank06" : 54,
+      "rankDiff1712" : 4,
+      "rankDiff1706" : 6,
+      "score" : 6.96,
+      "score12" : 6.84,
+      "score06" : 6.63,
+      "scoreDiff1712" : -0.12,
+      "scoreDiff1706" : -0.33
     },
     "organisations" : {
       "eu" : false,
@@ -1697,8 +2081,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.755,
-      "democracy" : 6.9,
-      "rank" : 49
+      "rank" : 49,
+      "rank12" : 44,
+      "rank06" : 42,
+      "rankDiff1712" : -5,
+      "rankDiff1706" : -7,
+      "score" : 6.86,
+      "score12" : 7.12,
+      "score06" : 7.38,
+      "scoreDiff1712" : 0.26,
+      "scoreDiff1706" : 0.52
     },
     "organisations" : {
       "eu" : false,
@@ -1732,8 +2124,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.714,
-      "democracy" : 6.77,
-      "rank" : 50
+      "rank" : 50,
+      "rank12" : 56,
+      "rank06" : 61,
+      "rankDiff1712" : 6,
+      "rankDiff1706" : 11,
+      "score" : 6.76,
+      "score12" : 6.65,
+      "score06" : 6.52,
+      "scoreDiff1712" : -0.11,
+      "scoreDiff1706" : -0.24
     },
     "organisations" : {
       "eu" : false,
@@ -1767,8 +2167,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.668,
-      "democracy" : 6.94,
-      "rank" : 51
+      "rank" : 51,
+      "rank12" : 69,
+      "rank06" : 63,
+      "rankDiff1712" : 18,
+      "rankDiff1706" : 12,
+      "score" : 6.71,
+      "score12" : 6.3,
+      "score06" : 6.48,
+      "scoreDiff1712" : -0.41,
+      "scoreDiff1706" : -0.23
     },
     "organisations" : {
       "eu" : false,
@@ -1802,8 +2210,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.579,
-      "democracy" : 6.75,
-      "rank" : 52
+      "rank" : 52,
+      "rank12" : 78,
+      "rank06" : 95,
+      "rankDiff1712" : 26,
+      "rankDiff1706" : 43,
+      "score" : 6.69,
+      "score12" : 6.02,
+      "score06" : 5.35,
+      "scoreDiff1712" : -0.67,
+      "scoreDiff1706" : -1.34
     },
     "organisations" : {
       "eu" : false,
@@ -1837,8 +2253,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.843,
-      "democracy" : 6.83,
-      "rank" : 53
+      "rank" : 53,
+      "rank12" : 44,
+      "rank06" : 46,
+      "rankDiff1712" : -9,
+      "rankDiff1706" : -7,
+      "score" : 6.67,
+      "score12" : 7.12,
+      "score06" : 7.3,
+      "scoreDiff1712" : 0.45,
+      "scoreDiff1706" : 0.63
     },
     "organisations" : {
       "eu" : true,
@@ -1872,8 +2296,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.72,
-      "democracy" : 6.67,
-      "rank" : 53
+      "rank" : 53,
+      "rank12" : 57,
+      "rank06" : 67,
+      "rankDiff1712" : 4,
+      "rankDiff1706" : 14,
+      "score" : 6.67,
+      "score12" : 6.63,
+      "score06" : 6.4,
+      "scoreDiff1712" : -0.04,
+      "scoreDiff1706" : -0.27
     },
     "organisations" : {
       "eu" : false,
@@ -1907,8 +2339,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.715,
-      "democracy" : 6.67,
-      "rank" : 55
+      "rank" : 55,
+      "rank12" : 60,
+      "rank06" : 6.13,
+      "rankDiff1712" : 5,
+      "rankDiff1706" : -48.87,
+      "score" : 6.66,
+      "score12" : 6.49,
+      "score06" : 74,
+      "scoreDiff1712" : -0.17,
+      "scoreDiff1706" : 67.34
     },
     "organisations" : {
       "eu" : false,
@@ -1942,8 +2382,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.497,
-      "democracy" : 6.59,
-      "rank" : 56
+      "rank" : 56,
+      "rank12" : 55,
+      "rank06" : 63,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : 7,
+      "score" : 6.64,
+      "score12" : 6.66,
+      "score06" : 6.48,
+      "scoreDiff1712" : 0.02,
+      "scoreDiff1706" : -0.16
     },
     "organisations" : {
       "eu" : false,
@@ -1977,8 +2425,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.828,
-      "democracy" : 6.72,
-      "rank" : 56
+      "rank" : 56,
+      "rank12" : 49,
+      "rank06" : 38,
+      "rankDiff1712" : -7,
+      "rankDiff1706" : -18,
+      "score" : 6.64,
+      "score12" : 6.96,
+      "score06" : 7.53,
+      "scoreDiff1712" : 0.32,
+      "scoreDiff1706" : 0.89
     },
     "organisations" : {
       "eu" : true,
@@ -2012,8 +2468,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.818,
-      "democracy" : 6.75,
-      "rank" : 58
+      "rank" : 58,
+      "rank12" : 50,
+      "rank06" : 51,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : -7,
+      "score" : 6.63,
+      "score12" : 6.93,
+      "score06" : 7.04,
+      "scoreDiff1712" : 0.3,
+      "scoreDiff1706" : 0.41
     },
     "organisations" : {
       "eu" : true,
@@ -2047,8 +2511,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.779,
-      "democracy" : 6.54,
-      "rank" : 59
+      "rank" : 59,
+      "rank12" : 64,
+      "rank06" : 81,
+      "rankDiff1712" : 5,
+      "rankDiff1706" : 22,
+      "score" : 6.54,
+      "score12" : 6.41,
+      "score06" : 5.98,
+      "scoreDiff1712" : -0.13,
+      "scoreDiff1706" : -0.56
     },
     "organisations" : {
       "eu" : false,
@@ -2082,8 +2554,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.727,
-      "democracy" : 6.62,
-      "rank" : 60
+      "rank" : 60,
+      "rank12" : 65,
+      "rank06" : 56,
+      "rankDiff1712" : 5,
+      "rankDiff1706" : -4,
+      "score" : 6.5,
+      "score12" : 6.35,
+      "score06" : 6.6,
+      "scoreDiff1712" : -0.15,
+      "scoreDiff1706" : 0.1
     },
     "organisations" : {
       "eu" : false,
@@ -2117,8 +2597,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.734,
-      "democracy" : 6.65,
-      "rank" : 61
+      "rank" : 61,
+      "rank12" : 61,
+      "rank06" : 75,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 14,
+      "score" : 6.49,
+      "score12" : 6.47,
+      "score06" : 6.11,
+      "scoreDiff1712" : -0.02,
+      "scoreDiff1706" : -0.38
     },
     "organisations" : {
       "eu" : false,
@@ -2152,8 +2640,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.757,
-      "democracy" : 6.48,
-      "rank" : 62
+      "rank" : 62,
+      "rank12" : 89,
+      "rank06" : 57,
+      "rankDiff1712" : 27,
+      "rankDiff1706" : -5,
+      "score" : 6.48,
+      "score12" : 5.75,
+      "score06" : 6.58,
+      "scoreDiff1712" : -0.73,
+      "scoreDiff1706" : 0.1
     },
     "organisations" : {
       "eu" : false,
@@ -2187,8 +2683,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.636,
-      "democracy" : 6.25,
-      "rank" : 63
+      "rank" : 63,
+      "rank12" : 76,
+      "rank06" : 73,
+      "rankDiff1712" : 13,
+      "rankDiff1706" : 10,
+      "score" : 6.46,
+      "score12" : 6.05,
+      "score06" : 6.15,
+      "scoreDiff1712" : -0.41,
+      "scoreDiff1706" : -0.31
     },
     "organisations" : {
       "eu" : false,
@@ -2222,8 +2726,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.793,
-      "democracy" : 6.62,
-      "rank" : 64
+      "rank" : 64,
+      "rank12" : 59,
+      "rank06" : 50,
+      "rankDiff1712" : -5,
+      "rankDiff1706" : -14,
+      "score" : 6.44,
+      "score12" : 6.54,
+      "score06" : 7.06,
+      "scoreDiff1712" : 0.1,
+      "scoreDiff1706" : 0.62
     },
     "organisations" : {
       "eu" : true,
@@ -2257,8 +2769,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.666,
-      "democracy" : 6.64,
-      "rank" : 65
+      "rank" : 65,
+      "rank12" : 61,
+      "rank06" : 70,
+      "rankDiff1712" : -4,
+      "rankDiff1706" : 5,
+      "score" : 6.43,
+      "score12" : 6.47,
+      "score06" : 6.22,
+      "scoreDiff1712" : 0.04,
+      "scoreDiff1706" : -0.21
     },
     "organisations" : {
       "eu" : false,
@@ -2292,8 +2812,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.771,
-      "democracy" : 6.57,
-      "rank" : 66
+      "rank" : 66,
+      "rank12" : 66,
+      "rank06" : 55,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : -11,
+      "score" : 6.41,
+      "score12" : 6.33,
+      "score06" : 6.62,
+      "scoreDiff1712" : -0.08,
+      "scoreDiff1706" : 0.21
     },
     "organisations" : {
       "eu" : false,
@@ -2327,8 +2855,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.756,
-      "democracy" : 6.47,
-      "rank" : 66
+      "rank" : 66,
+      "rank12" : 51,
+      "rank06" : 53,
+      "rankDiff1712" : -15,
+      "rankDiff1706" : -13,
+      "score" : 6.41,
+      "score12" : 6.9,
+      "score06" : 6.67,
+      "scoreDiff1712" : 0.49,
+      "scoreDiff1706" : 0.26
     },
     "organisations" : {
       "eu" : false,
@@ -2362,8 +2898,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.684,
-      "democracy" : 6.97,
-      "rank" : 68
+      "rank" : 68,
+      "rank12" : 53,
+      "rank06" : 65,
+      "rankDiff1712" : -15,
+      "rankDiff1706" : -3,
+      "score" : 6.39,
+      "score12" : 6.76,
+      "score06" : 6.41,
+      "scoreDiff1712" : 0.37,
+      "scoreDiff1706" : 0.02
     },
     "organisations" : {
       "eu" : false,
@@ -2397,8 +2941,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.721,
-      "democracy" : 6.4,
-      "rank" : 69
+      "rank" : 69,
+      "rank12" : 90,
+      "rank06" : 135,
+      "rankDiff1712" : 21,
+      "rankDiff1706" : 66,
+      "score" : 6.32,
+      "score12" : 5.67,
+      "score06" : 3.06,
+      "scoreDiff1712" : -0.65,
+      "scoreDiff1706" : -3.26
     },
     "organisations" : {
       "eu" : false,
@@ -2432,8 +2984,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.912,
-      "democracy" : 6.38,
-      "rank" : 69
+      "rank" : 69,
+      "rank12" : 81,
+      "rank06" : 84,
+      "rankDiff1712" : 12,
+      "rankDiff1706" : 15,
+      "score" : 6.32,
+      "score12" : 5.88,
+      "score06" : 5.89,
+      "scoreDiff1712" : -0.44,
+      "scoreDiff1706" : -0.43
     },
     "organisations" : {
       "eu" : false,
@@ -2467,8 +3027,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.91,
-      "democracy" : 6.42,
-      "rank" : 71
+      "rank" : 71,
+      "rank12" : 63,
+      "rank06" : 78,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : 7,
+      "score" : 6.31,
+      "score12" : 6.42,
+      "score06" : 6.03,
+      "scoreDiff1712" : 0.11,
+      "scoreDiff1706" : -0.28
     },
     "organisations" : {
       "eu" : false,
@@ -2502,8 +3070,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.628,
-      "democracy" : 6.31,
-      "rank" : 71
+      "rank" : 71,
+      "rank12" : 72,
+      "rank06" : 59,
+      "rankDiff1712" : 1,
+      "rankDiff1706" : -12,
+      "score" : 6.31,
+      "score12" : 6.24,
+      "score06" : 6.54,
+      "scoreDiff1712" : -0.07,
+      "scoreDiff1706" : 0.23
     },
     "organisations" : {
       "eu" : false,
@@ -2537,8 +3113,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.679,
-      "democracy" : 6.27,
-      "rank" : 71
+      "rank" : 71,
+      "rank12" : 70,
+      "rank06" : 71,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : 0,
+      "score" : 6.31,
+      "score12" : 6.26,
+      "score06" : 6.16,
+      "scoreDiff1712" : -0.05,
+      "scoreDiff1706" : -0.15
     },
     "organisations" : {
       "eu" : false,
@@ -2572,8 +3156,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.466,
-      "democracy" : 6.21,
-      "rank" : 74
+      "rank" : 74,
+      "rank12" : 74,
+      "rank06" : 94,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 20,
+      "score" : 6.15,
+      "score12" : 6.09,
+      "score06" : 5.37,
+      "scoreDiff1712" : -0.06,
+      "scoreDiff1706" : -0.78
     },
     "organisations" : {
       "eu" : false,
@@ -2607,8 +3199,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.505,
-      "democracy" : 6.03,
-      "rank" : 75
+      "rank" : 75,
+      "rank12" : 67,
+      "rank06" : 59,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : -16,
+      "score" : 6.03,
+      "score12" : 6.32,
+      "score06" : 6.54,
+      "scoreDiff1712" : 0.29,
+      "scoreDiff1706" : 0.51
     },
     "organisations" : {
       "eu" : false,
@@ -2642,8 +3242,16 @@
     "scores": {
       "regimeType" : "Flawed democracy",
       "hdi" : 0.732,
-      "democracy" : 5.81,
-      "rank" : 76
+      "rank" : 76,
+      "rank12" : 87,
+      "rank06" : 92,
+      "rankDiff1712" : 11,
+      "rankDiff1706" : 16,
+      "score" : 6.02,
+      "score12" : 5.78,
+      "score06" : 5.64,
+      "scoreDiff1712" : -0.24,
+      "scoreDiff1706" : -0.38
     },
     "organisations" : {
       "eu" : false,
@@ -2677,8 +3285,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.733,
-      "democracy" : 5.91,
-      "rank" : 77
+      "rank" : 77,
+      "rank12" : 90,
+      "rank06" : 83,
+      "rankDiff1712" : 13,
+      "rankDiff1706" : 6,
+      "score" : 5.98,
+      "score12" : 5.67,
+      "score06" : 5.91,
+      "scoreDiff1712" : -0.31,
+      "scoreDiff1706" : -0.07
     },
     "organisations" : {
       "eu" : false,
@@ -2712,8 +3328,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.693,
-      "democracy" : 6.01,
-      "rank" : 78
+      "rank" : 78,
+      "rank12" : 67,
+      "rank06" : 62,
+      "rankDiff1712" : -11,
+      "rankDiff1706" : -16,
+      "score" : 5.94,
+      "score12" : 6.32,
+      "score06" : 6.5,
+      "scoreDiff1712" : 0.38,
+      "scoreDiff1706" : 0.56
     },
     "organisations" : {
       "eu" : false,
@@ -2747,8 +3371,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.754,
-      "democracy" : 5.93,
-      "rank" : 79
+      "rank" : 79,
+      "rank12" : 93,
+      "rank06" : 104,
+      "rankDiff1712" : 14,
+      "rankDiff1706" : 25,
+      "score" : 5.93,
+      "score12" : 5.53,
+      "score06" : 4.9,
+      "scoreDiff1712" : -0.4,
+      "scoreDiff1706" : -1.03
     },
     "organisations" : {
       "eu" : false,
@@ -2782,8 +3414,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.627,
-      "democracy" : 5.92,
-      "rank" : 80
+      "rank" : 80,
+      "rank12" : 81,
+      "rank06" : 77,
+      "rankDiff1712" : 1,
+      "rankDiff1706" : -3,
+      "score" : 5.86,
+      "score12" : 5.88,
+      "score06" : 6.07,
+      "scoreDiff1712" : 0.02,
+      "scoreDiff1706" : 0.21
     },
     "organisations" : {
       "eu" : false,
@@ -2817,8 +3457,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.727,
-      "democracy" : 5.64,
-      "rank" : 81
+      "rank" : 81,
+      "rank12" : 124,
+      "rank06" : 91,
+      "rankDiff1712" : 43,
+      "rankDiff1706" : 10,
+      "score" : 5.85,
+      "score12" : 3.67,
+      "score06" : 5.66,
+      "scoreDiff1712" : -2.18,
+      "scoreDiff1706" : -0.19
     },
     "organisations" : {
       "eu" : false,
@@ -2852,8 +3500,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.606,
-      "democracy" : 5.92,
-      "rank" : 82
+      "rank" : 82,
+      "rank12" : 85,
+      "rank06" : 69,
+      "rankDiff1712" : 3,
+      "rankDiff1706" : -13,
+      "score" : 5.72,
+      "score12" : 5.84,
+      "score06" : 6.25,
+      "scoreDiff1712" : 0.12,
+      "scoreDiff1706" : 0.53
     },
     "organisations" : {
       "eu" : false,
@@ -2887,8 +3543,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.747,
-      "democracy" : 5.7,
-      "rank" : 83
+      "rank" : 83,
+      "rank12" : 80,
+      "rank06" : 52,
+      "rankDiff1712" : -3,
+      "rankDiff1706" : -31,
+      "score" : 5.69,
+      "score12" : 5.91,
+      "score06" : 6.94,
+      "scoreDiff1712" : 0.22,
+      "scoreDiff1706" : 1.25
     },
     "organisations" : {
       "eu" : false,
@@ -2922,8 +3586,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.802,
-      "democracy" : 5.72,
-      "rank" : 83
+      "rank" : 83,
+      "rank12" : 76,
+      "rank06" : 58,
+      "rankDiff1712" : -7,
+      "rankDiff1706" : -25,
+      "score" : 5.69,
+      "score12" : 6.05,
+      "score06" : 6.57,
+      "scoreDiff1712" : 0.36,
+      "scoreDiff1706" : 0.88
     },
     "organisations" : {
       "eu" : false,
@@ -2957,8 +3629,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.586,
-      "democracy" : 5.99,
-      "rank" : 85
+      "rank" : 85,
+      "rank12" : 70,
+      "rank06" : 97,
+      "rankDiff1712" : -15,
+      "rankDiff1706" : 12,
+      "score" : 5.68,
+      "score12" : 6.26,
+      "score06" : 5.25,
+      "scoreDiff1712" : 0.58,
+      "scoreDiff1706" : -0.43
     },
     "organisations" : {
       "eu" : false,
@@ -2992,8 +3672,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.419,
-      "democracy" : 5.7,
-      "rank" : 86
+      "rank" : 86,
+      "rank12" : 97,
+      "rank06" : 80,
+      "rankDiff1712" : 11,
+      "rankDiff1706" : -6,
+      "score" : 5.64,
+      "score12" : 5.12,
+      "score06" : 5.99,
+      "scoreDiff1712" : -0.52,
+      "scoreDiff1706" : 0.35
     },
     "organisations" : {
       "eu" : false,
@@ -3027,8 +3715,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.48,
-      "democracy" : 5.67,
-      "rank" : 87
+      "rank" : 87,
+      "rank12" : 79,
+      "rank06" : 71,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : -16,
+      "score" : 5.61,
+      "score12" : 6,
+      "score06" : 6.16,
+      "scoreDiff1712" : 0.39,
+      "scoreDiff1706" : 0.55
     },
     "organisations" : {
       "eu" : false,
@@ -3062,8 +3758,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.747,
-      "democracy" : 5.23,
-      "rank" : 88
+      "rank" : 88,
+      "rank12" : 73,
+      "rank06" : 68,
+      "rankDiff1712" : -15,
+      "rankDiff1706" : -20,
+      "score" : 5.57,
+      "score12" : 6.16,
+      "score06" : 6.33,
+      "scoreDiff1712" : 0.59,
+      "scoreDiff1706" : 0.76
     },
     "organisations" : {
       "eu" : false,
@@ -3097,8 +3801,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.662,
-      "democracy" : 5.63,
-      "rank" : 89
+      "rank" : 89,
+      "rank12" : 85,
+      "rank06" : 81,
+      "rankDiff1712" : -4,
+      "rankDiff1706" : -8,
+      "score" : 5.49,
+      "score12" : 5.84,
+      "score06" : 5.98,
+      "scoreDiff1712" : 0.35,
+      "scoreDiff1706" : 0.49
     },
     "organisations" : {
       "eu" : false,
@@ -3132,8 +3844,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.445,
-      "democracy" : 5.55,
-      "rank" : 89
+      "rank" : 89,
+      "rank12" : 75,
+      "rank06" : 103,
+      "rankDiff1712" : -14,
+      "rankDiff1706" : 14,
+      "score" : 5.49,
+      "score12" : 6.08,
+      "score06" : 4.97,
+      "scoreDiff1712" : 0.59,
+      "scoreDiff1706" : -0.52
     },
     "organisations" : {
       "eu" : false,
@@ -3167,8 +3887,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.521,
-      "democracy" : 5.76,
-      "rank" : 91
+      "rank" : 91,
+      "rank12" : 81,
+      "rank06" : 99,
+      "rankDiff1712" : -10,
+      "rankDiff1706" : 8,
+      "score" : 5.47,
+      "score12" : 5.88,
+      "score06" : 5.18,
+      "scoreDiff1712" : 0.41,
+      "scoreDiff1706" : -0.29
     },
     "organisations" : {
       "eu" : false,
@@ -3202,8 +3930,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.57,
-      "democracy" : 5.73,
-      "rank" : 92
+      "rank" : 92,
+      "rank12" : 84,
+      "rank06" : 75,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : -17,
+      "score" : 5.43,
+      "score12" : 5.86,
+      "score06" : 6.11,
+      "scoreDiff1712" : 0.43,
+      "scoreDiff1706" : 0.68
     },
     "organisations" : {
       "eu" : false,
@@ -3237,8 +3973,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.43,
-      "democracy" : 5.31,
-      "rank" : 93
+      "rank" : 93,
+      "rank12" : 101,
+      "rank06" : 98,
+      "rankDiff1712" : 8,
+      "rankDiff1706" : 5,
+      "score" : 5.23,
+      "score12" : 4.95,
+      "score06" : 5.22,
+      "scoreDiff1712" : -0.28,
+      "scoreDiff1706" : -0.01
     },
     "organisations" : {
       "eu" : false,
@@ -3272,8 +4016,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.548,
-      "democracy" : 4.86,
-      "rank" : 94
+      "rank" : 94,
+      "rank12" : 111,
+      "rank06" : 126,
+      "rankDiff1712" : 17,
+      "rankDiff1706" : 32,
+      "score" : 5.18,
+      "score12" : 4.16,
+      "score06" : 3.42,
+      "scoreDiff1712" : -1.02,
+      "scoreDiff1706" : -1.76
     },
     "organisations" : {
       "eu" : false,
@@ -3307,8 +4059,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.548,
-      "democracy" : 5.33,
-      "rank" : 95
+      "rank" : 95,
+      "rank12" : 104,
+      "rank06" : 101,
+      "rankDiff1712" : 9,
+      "rankDiff1706" : 6,
+      "score" : 5.11,
+      "score12" : 4.71,
+      "score06" : 5.08,
+      "scoreDiff1712" : -0.4,
+      "scoreDiff1706" : -0.03
     },
     "organisations" : {
       "eu" : false,
@@ -3342,8 +4102,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.655,
-      "democracy" : 4.93,
-      "rank" : 95
+      "rank" : 95,
+      "rank12" : 106,
+      "rank06" : 4.08,
+      "rankDiff1712" : 11,
+      "rankDiff1706" : -90.92,
+      "score" : 5.11,
+      "score12" : 4.69,
+      "score06" : 111,
+      "scoreDiff1712" : -0.42,
+      "scoreDiff1706" : 105.89
     },
     "organisations" : {
       "eu" : false,
@@ -3377,8 +4145,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.51,
-      "democracy" : 5.07,
-      "rank" : 95
+      "rank" : 95,
+      "rank12" : 117,
+      "rank06" : 85,
+      "rankDiff1712" : 22,
+      "rankDiff1706" : -10,
+      "score" : 5.11,
+      "score12" : 3.93,
+      "score06" : 5.82,
+      "scoreDiff1712" : -1.18,
+      "scoreDiff1706" : 0.71
     },
     "organisations" : {
       "eu" : false,
@@ -3412,8 +4188,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.483,
-      "democracy" : 5.26,
-      "rank" : 98
+      "rank" : 98,
+      "rank12" : 94,
+      "rank06" : 100,
+      "rankDiff1712" : -4,
+      "rankDiff1706" : 2,
+      "score" : 5.09,
+      "score12" : 5.16,
+      "score06" : 5.14,
+      "scoreDiff1712" : 0.07,
+      "scoreDiff1706" : 0.05
     },
     "organisations" : {
       "eu" : false,
@@ -3447,8 +4231,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.605,
-      "democracy" : 4.93,
-      "rank" : 99
+      "rank" : 99,
+      "rank12" : 107,
+      "rank06" : 147,
+      "rankDiff1712" : 8,
+      "rankDiff1706" : 48,
+      "score" : 5.08,
+      "score12" : 4.65,
+      "score06" : 2.62,
+      "scoreDiff1712" : -0.43,
+      "scoreDiff1706" : -2.46
     },
     "organisations" : {
       "eu" : false,
@@ -3482,8 +4274,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.761,
-      "democracy" : 5.04,
-      "rank" : 100
+      "rank" : 100,
+      "rank12" : 88,
+      "rank06" : 88,
+      "rankDiff1712" : -12,
+      "rankDiff1706" : -12,
+      "score" : 4.88,
+      "score12" : 5.76,
+      "score06" : 5.7,
+      "scoreDiff1712" : 0.88,
+      "scoreDiff1706" : 0.82
     },
     "organisations" : {
       "eu" : false,
@@ -3517,8 +4317,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.628,
-      "democracy" : 4.77,
-      "rank" : 101
+      "rank" : 101,
+      "rank12" : 115,
+      "rank06" : 115,
+      "rankDiff1712" : 14,
+      "rankDiff1706" : 14,
+      "score" : 4.87,
+      "score12" : 4.07,
+      "score06" : 3.9,
+      "scoreDiff1712" : -0.8,
+      "scoreDiff1706" : -0.97
     },
     "organisations" : {
       "eu" : false,
@@ -3552,8 +4360,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.733,
-      "democracy" : 4.87,
-      "rank" : 101
+      "rank" : 101,
+      "rank12" : 98,
+      "rank06" : 87,
+      "rankDiff1712" : -3,
+      "rankDiff1706" : -14,
+      "score" : 4.87,
+      "score12" : 5.11,
+      "score06" : 5.78,
+      "scoreDiff1712" : 0.24,
+      "scoreDiff1706" : 0.91
     },
     "organisations" : {
       "eu" : false,
@@ -3587,8 +4403,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.402,
-      "democracy" : 4.7,
-      "rank" : 103
+      "rank" : 103,
+      "rank12" : 127,
+      "rank06" : 119,
+      "rankDiff1712" : 24,
+      "rankDiff1706" : 16,
+      "score" : 4.75,
+      "score12" : 3.52,
+      "score06" : 3.72,
+      "scoreDiff1712" : -1.23,
+      "scoreDiff1706" : -1.03
     },
     "organisations" : {
       "eu" : false,
@@ -3622,8 +4446,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.769,
-      "democracy" : 4.86,
-      "rank" : 104
+      "rank" : 104,
+      "rank12" : 99,
+      "rank06" : 85,
+      "rankDiff1712" : -5,
+      "rankDiff1706" : -19,
+      "score" : 4.72,
+      "score12" : 5.05,
+      "score06" : 5.82,
+      "scoreDiff1712" : 0.33,
+      "scoreDiff1706" : 1.1
     },
     "organisations" : {
       "eu" : false,
@@ -3657,8 +4489,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.413,
-      "democracy" : 4.55,
-      "rank" : 105
+      "rank" : 105,
+      "rank12" : 104,
+      "rank06" : 121,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : 16,
+      "score" : 4.66,
+      "score12" : 4.71,
+      "score06" : 3.57,
+      "scoreDiff1712" : 0.05,
+      "scoreDiff1706" : -1.09
     },
     "organisations" : {
       "eu" : false,
@@ -3692,8 +4532,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.631,
-      "democracy" : 4.81,
-      "rank" : 105
+      "rank" : 105,
+      "rank12" : 92,
+      "rank06" : 89,
+      "rankDiff1712" : -13,
+      "rankDiff1706" : -16,
+      "score" : 4.66,
+      "score12" : 5.56,
+      "score06" : 5.68,
+      "scoreDiff1712" : 0.9,
+      "scoreDiff1706" : 1.02
     },
     "organisations" : {
       "eu" : false,
@@ -3727,8 +4575,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.726,
-      "democracy" : 4.92,
-      "rank" : 107
+      "rank" : 107,
+      "rank12" : 58,
+      "rank06" : 90,
+      "rankDiff1712" : -49,
+      "rankDiff1706" : -17,
+      "score" : 4.63,
+      "score12" : 6.55,
+      "score06" : 5.67,
+      "scoreDiff1712" : 1.92,
+      "scoreDiff1706" : 1.04
     },
     "organisations" : {
       "eu" : false,
@@ -3762,8 +4618,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.677,
-      "democracy" : 4.49,
-      "rank" : 108
+      "rank" : 108,
+      "rank12" : 103,
+      "rank06" : 79,
+      "rankDiff1712" : -5,
+      "rankDiff1706" : -29,
+      "score" : 4.46,
+      "score12" : 4.8,
+      "score06" : 6.01,
+      "scoreDiff1712" : 0.34,
+      "scoreDiff1706" : 1.55
     },
     "organisations" : {
       "eu" : false,
@@ -3797,8 +4661,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.514,
-      "democracy" : 4.5,
-      "rank" : 109
+      "rank" : 109,
+      "rank12" : 120,
+      "rank06" : 124,
+      "rankDiff1712" : 11,
+      "rankDiff1706" : 15,
+      "score" : 4.44,
+      "score12" : 3.77,
+      "score06" : 3.52,
+      "scoreDiff1712" : -0.67,
+      "scoreDiff1706" : -0.92
     },
     "organisations" : {
       "eu" : false,
@@ -3832,8 +4704,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.538,
-      "democracy" : 4.33,
-      "rank" : 110
+      "rank" : 110,
+      "rank12" : 108,
+      "rank06" : 113,
+      "rankDiff1712" : -2,
+      "rankDiff1706" : 3,
+      "score" : 4.26,
+      "score12" : 4.57,
+      "score06" : 3.92,
+      "scoreDiff1712" : 0.31,
+      "scoreDiff1706" : -0.34
     },
     "organisations" : {
       "eu" : false,
@@ -3867,8 +4747,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.733,
-      "democracy" : 3.88,
-      "rank" : 111
+      "rank" : 111,
+      "rank12" : 114,
+      "rank06" : 110,
+      "rankDiff1712" : 3,
+      "rankDiff1706" : -1,
+      "score" : 4.11,
+      "score12" : 4.09,
+      "score06" : 4.15,
+      "scoreDiff1712" : -0.02,
+      "scoreDiff1706" : 0.04
     },
     "organisations" : {
       "eu" : false,
@@ -3902,8 +4790,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.654,
-      "democracy" : 4.08,
-      "rank" : 112
+      "rank" : 112,
+      "rank12" : 113,
+      "rank06" : 112,
+      "rankDiff1712" : 1,
+      "rankDiff1706" : 0,
+      "score" : 4.09,
+      "score12" : 4.1,
+      "score06" : 4.01,
+      "scoreDiff1712" : 0.01,
+      "scoreDiff1706" : -0.08
     },
     "organisations" : {
       "eu" : false,
@@ -3937,8 +4833,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.441,
-      "democracy" : 2.91,
-      "rank" : 113
+      "rank" : 113,
+      "rank12" : 134,
+      "rank06" : 108,
+      "rankDiff1712" : 21,
+      "rankDiff1706" : -5,
+      "score" : 4.06,
+      "score12" : 3.31,
+      "score06" : 4.39,
+      "scoreDiff1712" : -0.75,
+      "scoreDiff1706" : 0.33
     },
     "organisations" : {
       "eu" : false,
@@ -3972,8 +4876,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.483,
-      "democracy" : 4.02,
-      "rank" : 114
+      "rank" : 114,
+      "rank12" : 116,
+      "rank06" : 109,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : -5,
+      "score" : 4.03,
+      "score12" : 3.96,
+      "score06" : 4.19,
+      "scoreDiff1712" : -0.07,
+      "scoreDiff1706" : 0.16
     },
     "organisations" : {
       "eu" : false,
@@ -4007,8 +4919,16 @@
     "scores": {
       "regimeType" : "Hybrid regime",
       "hdi" : 0.416,
-      "democracy" : 4.02,
-      "rank" : 115
+      "rank" : 115,
+      "rank12" : 102,
+      "rank06" : 96,
+      "rankDiff1712" : -13,
+      "rankDiff1706" : -19,
+      "score" : 4.02,
+      "score12" : 4.88,
+      "score06" : 5.28,
+      "scoreDiff1712" : 0.86,
+      "scoreDiff1706" : 1.26
     },
     "organisations" : {
       "eu" : false,
@@ -4042,8 +4962,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.462,
-      "democracy" : 3.81,
-      "rank" : 116
+      "rank" : 116,
+      "rank12" : 136,
+      "rank06" : 127,
+      "rankDiff1712" : 20,
+      "rankDiff1706" : 11,
+      "score" : 3.93,
+      "score12" : 3.25,
+      "score06" : 3.38,
+      "scoreDiff1712" : -0.68,
+      "scoreDiff1706" : -0.55
     },
     "organisations" : {
       "eu" : false,
@@ -4077,8 +5005,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.748,
-      "democracy" : 3.96,
-      "rank" : 117
+      "rank" : 117,
+      "rank12" : 121,
+      "rank06" : 113,
+      "rankDiff1712" : 4,
+      "rankDiff1706" : -4,
+      "score" : 3.87,
+      "score12" : 3.76,
+      "score06" : 3.92,
+      "scoreDiff1712" : -0.11,
+      "scoreDiff1706" : 0.05
     },
     "organisations" : {
       "eu" : false,
@@ -4112,8 +5048,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.762,
-      "democracy" : 4.68,
-      "rank" : 117
+      "rank" : 117,
+      "rank12" : 95,
+      "rank06" : 93,
+      "rankDiff1712" : -22,
+      "rankDiff1706" : -24,
+      "score" : 3.87,
+      "score12" : 5.15,
+      "score06" : 5.42,
+      "scoreDiff1712" : 1.28,
+      "scoreDiff1706" : 1.55
     },
     "organisations" : {
       "eu" : false,
@@ -4147,8 +5091,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.816,
-      "democracy" : 3.85,
-      "rank" : 119
+      "rank" : 119,
+      "rank12" : 119,
+      "rank06" : 134,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 15,
+      "score" : 3.85,
+      "score12" : 3.78,
+      "score06" : 3.09,
+      "scoreDiff1712" : -0.07,
+      "scoreDiff1706" : -0.76
     },
     "organisations" : {
       "eu" : false,
@@ -4182,8 +5134,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.536,
-      "democracy" : 4.2,
-      "rank" : 120
+      "rank" : 120,
+      "rank12" : 155,
+      "rank06" : 163,
+      "rankDiff1712" : 35,
+      "rankDiff1706" : 43,
+      "score" : 3.83,
+      "score12" : 2.35,
+      "score06" : 1.77,
+      "scoreDiff1712" : -1.48,
+      "scoreDiff1706" : -2.06
     },
     "organisations" : {
       "eu" : false,
@@ -4217,8 +5177,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.506,
-      "democracy" : 3.96,
-      "rank" : 121
+      "rank" : 121,
+      "rank12" : 110,
+      "rank06" : 133,
+      "rankDiff1712" : -11,
+      "rankDiff1706" : 12,
+      "score" : 3.82,
+      "score12" : 4.17,
+      "score06" : 3.12,
+      "scoreDiff1712" : 0.35,
+      "scoreDiff1706" : -0.7
     },
     "organisations" : {
       "eu" : false,
@@ -4252,8 +5220,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.348,
-      "democracy" : 3.96,
-      "rank" : 122
+      "rank" : 122,
+      "rank12" : 111,
+      "rank06" : 122,
+      "rankDiff1712" : -11,
+      "rankDiff1706" : 0,
+      "score" : 3.76,
+      "score12" : 4.16,
+      "score06" : 3.54,
+      "scoreDiff1712" : 0.4,
+      "scoreDiff1706" : -0.22
     },
     "organisations" : {
       "eu" : false,
@@ -4287,8 +5263,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.503,
-      "democracy" : 3.71,
-      "rank" : 123
+      "rank" : 123,
+      "rank12" : 127,
+      "rank06" : 115,
+      "rankDiff1712" : 4,
+      "rankDiff1706" : -8,
+      "score" : 3.71,
+      "score12" : 3.52,
+      "score06" : 3.9,
+      "scoreDiff1712" : -0.19,
+      "scoreDiff1706" : 0.19
     },
     "organisations" : {
       "eu" : false,
@@ -4322,8 +5306,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.555,
-      "democracy" : 4.27,
-      "rank" : 124
+      "rank" : 124,
+      "rank12" : 100,
+      "rank06" : 105,
+      "rankDiff1712" : -24,
+      "rankDiff1706" : -19,
+      "score" : 3.63,
+      "score12" : 4.96,
+      "score06" : 4.77,
+      "scoreDiff1712" : 1.33,
+      "scoreDiff1706" : 1.14
     },
     "organisations" : {
       "eu" : false,
@@ -4357,8 +5349,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.532,
-      "democracy" : 3.4,
-      "rank" : 125
+      "rank" : 125,
+      "rank12" : 133,
+      "rank06" : 151,
+      "rankDiff1712" : 8,
+      "rankDiff1706" : 26,
+      "score" : 3.62,
+      "score12" : 3.35,
+      "score06" : 2.41,
+      "scoreDiff1712" : -0.27,
+      "scoreDiff1706" : -1.21
     },
     "organisations" : {
       "eu" : false,
@@ -4392,8 +5392,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.684,
-      "democracy" : 3.74,
-      "rank" : 126
+      "rank" : 126,
+      "rank12" : 126,
+      "rank06" : 146,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 20,
+      "score" : 3.61,
+      "score12" : 3.56,
+      "score06" : 2.72,
+      "scoreDiff1712" : -0.05,
+      "scoreDiff1706" : -0.89
     },
     "organisations" : {
       "eu" : false,
@@ -4427,8 +5435,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.512,
-      "democracy" : 3.46,
-      "rank" : 126
+      "rank" : 126,
+      "rank12" : 131,
+      "rank06" : 130,
+      "rankDiff1712" : 5,
+      "rankDiff1706" : 4,
+      "score" : 3.61,
+      "score12" : 3.44,
+      "score06" : 3.27,
+      "scoreDiff1712" : -0.17,
+      "scoreDiff1706" : -0.34
     },
     "organisations" : {
       "eu" : false,
@@ -4462,8 +5478,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.736,
-      "democracy" : 3.56,
-      "rank" : 128
+      "rank" : 128,
+      "rank12" : 118,
+      "rank06" : 132,
+      "rankDiff1712" : -10,
+      "rankDiff1706" : 4,
+      "score" : 3.56,
+      "score12" : 3.83,
+      "score06" : 3.17,
+      "scoreDiff1712" : 0.27,
+      "scoreDiff1706" : -0.39
     },
     "organisations" : {
       "eu" : false,
@@ -4497,8 +5521,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.442,
-      "democracy" : 3.6,
-      "rank" : 129
+      "rank" : 129,
+      "rank12" : 123,
+      "rank06" : 106,
+      "rankDiff1712" : -6,
+      "rankDiff1706" : -23,
+      "score" : 3.42,
+      "score12" : 3.72,
+      "score06" : 4.72,
+      "scoreDiff1712" : 0.3,
+      "scoreDiff1706" : 1.3
     },
     "organisations" : {
       "eu" : false,
@@ -4532,8 +5564,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.69,
-      "democracy" : 3.31,
-      "rank" : 130
+      "rank" : 130,
+      "rank12" : 109,
+      "rank06" : 115,
+      "rankDiff1712" : -21,
+      "rankDiff1706" : -15,
+      "score" : 3.36,
+      "score12" : 4.56,
+      "score06" : 3.9,
+      "scoreDiff1712" : 1.2,
+      "scoreDiff1706" : 0.54
     },
     "organisations" : {
       "eu" : false,
@@ -4567,8 +5607,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.769,
-      "democracy" : 3.46,
-      "rank" : 131
+      "rank" : 131,
+      "rank12" : 127,
+      "rank06" : 124,
+      "rankDiff1712" : -4,
+      "rankDiff1706" : -7,
+      "score" : 3.31,
+      "score12" : 3.52,
+      "score06" : 3.52,
+      "scoreDiff1712" : 0.21,
+      "scoreDiff1706" : 0.21
     },
     "organisations" : {
       "eu" : false,
@@ -4602,8 +5650,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.591,
-      "democracy" : 2.91,
-      "rank" : 132
+      "rank" : 132,
+      "rank12" : 144,
+      "rank06" : 3.19,
+      "rankDiff1712" : 12,
+      "rankDiff1706" : -128.81,
+      "score" : 3.25,
+      "score12" : 2.89,
+      "score06" : 131,
+      "scoreDiff1712" : -0.36,
+      "scoreDiff1706" : 127.75
     },
     "organisations" : {
       "eu" : false,
@@ -4637,8 +5693,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.85,
-      "democracy" : 3.18,
-      "rank" : 133
+      "rank" : 133,
+      "rank12" : 138,
+      "rank06" : 142,
+      "rankDiff1712" : 5,
+      "rankDiff1706" : 9,
+      "score" : 3.19,
+      "score12" : 3.18,
+      "score06" : 2.78,
+      "scoreDiff1712" : -0.01,
+      "scoreDiff1706" : -0.41
     },
     "organisations" : {
       "eu" : false,
@@ -4672,8 +5736,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.483,
-      "democracy" : 3.07,
-      "rank" : 133
+      "rank" : 133,
+      "rank12" : 132,
+      "rank06" : 118,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : -15,
+      "score" : 3.19,
+      "score12" : 3.36,
+      "score06" : 3.82,
+      "scoreDiff1712" : 0.17,
+      "scoreDiff1706" : 0.63
     },
     "organisations" : {
       "eu" : false,
@@ -4707,8 +5779,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.798,
-      "democracy" : 3.24,
-      "rank" : 135
+      "rank" : 135,
+      "rank12" : 122,
+      "rank06" : 102,
+      "rankDiff1712" : -13,
+      "rankDiff1706" : -33,
+      "score" : 3.17,
+      "score12" : 3.74,
+      "score06" : 5.02,
+      "scoreDiff1712" : 0.57,
+      "scoreDiff1706" : 1.85
     },
     "organisations" : {
       "eu" : false,
@@ -4742,8 +5822,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.509,
-      "democracy" : 3.05,
-      "rank" : 136
+      "rank" : 136,
+      "rank12" : 148,
+      "rank06" : 147,
+      "rankDiff1712" : 12,
+      "rankDiff1706" : 11,
+      "score" : 3.16,
+      "score12" : 2.67,
+      "score06" : 2.62,
+      "scoreDiff1712" : -0.49,
+      "scoreDiff1706" : -0.54
     },
     "organisations" : {
       "eu" : false,
@@ -4777,8 +5865,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.411,
-      "democracy" : 3.14,
-      "rank" : 137
+      "rank" : 137,
+      "rank12" : 146,
+      "rank06" : 157,
+      "rankDiff1712" : 9,
+      "rankDiff1706" : 20,
+      "score" : 3.14,
+      "score12" : 2.79,
+      "score06" : 2.02,
+      "scoreDiff1712" : -0.35,
+      "scoreDiff1706" : -1.12
     },
     "organisations" : {
       "eu" : false,
@@ -4812,8 +5908,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.798,
-      "democracy" : 3.54,
-      "rank" : 138
+      "rank" : 138,
+      "rank12" : 141,
+      "rank06" : 128,
+      "rankDiff1712" : 3,
+      "rankDiff1706" : -10,
+      "score" : 3.13,
+      "score12" : 3.04,
+      "score06" : 3.34,
+      "scoreDiff1712" : -0.09,
+      "scoreDiff1706" : 0.21
     },
     "organisations" : {
       "eu" : false,
@@ -4847,8 +5951,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.727,
-      "democracy" : 3.14,
-      "rank" : 139
+      "rank" : 139,
+      "rank12" : 142,
+      "rank06" : 138,
+      "rankDiff1712" : 3,
+      "rankDiff1706" : -1,
+      "score" : 3.1,
+      "score12" : 3,
+      "score06" : 2.97,
+      "scoreDiff1712" : -0.1,
+      "scoreDiff1706" : -0.13
     },
     "organisations" : {
       "eu" : false,
@@ -4882,8 +5994,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.666,
-      "democracy" : 3.38,
-      "rank" : 140
+      "rank" : 140,
+      "rank12" : 144,
+      "rank06" : 145,
+      "rankDiff1712" : 4,
+      "rankDiff1706" : 5,
+      "score" : 3.08,
+      "score12" : 2.89,
+      "score06" : 2.75,
+      "scoreDiff1712" : -0.19,
+      "scoreDiff1706" : -0.33
     },
     "organisations" : {
       "eu" : false,
@@ -4917,8 +6037,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.788,
-      "democracy" : 3.06,
-      "rank" : 141
+      "rank" : 141,
+      "rank12" : 143,
+      "rank06" : 120,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : -21,
+      "score" : 3.06,
+      "score12" : 2.95,
+      "score06" : 3.62,
+      "scoreDiff1712" : -0.11,
+      "scoreDiff1706" : 0.56
     },
     "organisations" : {
       "eu" : false,
@@ -4952,8 +6080,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.484,
-      "democracy" : 3.32,
-      "rank" : 142
+      "rank" : 142,
+      "rank12" : 130,
+      "rank06" : 164,
+      "rankDiff1712" : -12,
+      "rankDiff1706" : 22,
+      "score" : 3.05,
+      "score12" : 3.45,
+      "score06" : 1.75,
+      "scoreDiff1712" : 0.4,
+      "scoreDiff1706" : -1.3
     },
     "organisations" : {
       "eu" : false,
@@ -4987,8 +6123,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.793,
-      "democracy" : 3.04,
-      "rank" : 143
+      "rank" : 143,
+      "rank12" : 135,
+      "rank06" : 143,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : 0,
+      "score" : 3.04,
+      "score12" : 3.26,
+      "score06" : 2.77,
+      "scoreDiff1712" : 0.22,
+      "scoreDiff1706" : -0.27
     },
     "organisations" : {
       "eu" : false,
@@ -5022,8 +6166,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.531,
-      "democracy" : 3.03,
-      "rank" : 144
+      "rank" : 144,
+      "rank12" : 137,
+      "rank06" : 139,
+      "rankDiff1712" : -7,
+      "rankDiff1706" : -5,
+      "score" : 3.03,
+      "score12" : 3.2,
+      "score06" : 2.93,
+      "scoreDiff1712" : 0.17,
+      "scoreDiff1706" : -0.1
     },
     "organisations" : {
       "eu" : false,
@@ -5057,8 +6209,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.47,
-      "democracy" : 2.83,
-      "rank" : 145
+      "rank" : 145,
+      "rank12" : 147,
+      "rank06" : 152,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : 7,
+      "score" : 2.76,
+      "score12" : 2.74,
+      "score06" : 2.37,
+      "scoreDiff1712" : -0.02,
+      "scoreDiff1706" : -0.39
     },
     "organisations" : {
       "eu" : false,
@@ -5092,8 +6252,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.824,
-      "democracy" : 2.79,
-      "rank" : 146
+      "rank" : 146,
+      "rank12" : 150,
+      "rank06" : 123,
+      "rankDiff1712" : 4,
+      "rankDiff1706" : -23,
+      "score" : 2.71,
+      "score12" : 2.53,
+      "score06" : 3.53,
+      "scoreDiff1712" : -0.18,
+      "scoreDiff1706" : 0.82
     },
     "organisations" : {
       "eu" : false,
@@ -5127,8 +6295,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.835,
-      "democracy" : 2.75,
-      "rank" : 147
+      "rank" : 147,
+      "rank12" : 149,
+      "rank06" : 2.42,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : -144.58,
+      "score" : 2.69,
+      "score12" : 2.58,
+      "score06" : 150,
+      "scoreDiff1712" : -0.11,
+      "scoreDiff1706" : 147.31
     },
     "organisations" : {
       "eu" : false,
@@ -5162,8 +6338,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.751,
-      "democracy" : 2.65,
-      "rank" : 148
+      "rank" : 148,
+      "rank12" : 139,
+      "rank06" : 129,
+      "rankDiff1712" : -9,
+      "rankDiff1706" : -19,
+      "score" : 2.65,
+      "score12" : 3.15,
+      "score06" : 3.31,
+      "scoreDiff1712" : 0.5,
+      "scoreDiff1706" : 0.66
     },
     "organisations" : {
       "eu" : false,
@@ -5197,8 +6381,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.465,
-      "democracy" : 2.55,
-      "rank" : 149
+      "rank" : 149,
+      "rank12" : 152,
+      "rank06" : 135,
+      "rankDiff1712" : 3,
+      "rankDiff1706" : -14,
+      "score" : 2.55,
+      "score12" : 2.48,
+      "score06" : 3.06,
+      "scoreDiff1712" : -0.07,
+      "scoreDiff1706" : 0.51
     },
     "organisations" : {
       "eu" : false,
@@ -5232,8 +6424,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.766,
-      "democracy" : 2.34,
-      "rank" : 150
+      "rank" : 150,
+      "rank12" : 158,
+      "rank06" : 139,
+      "rankDiff1712" : 8,
+      "rankDiff1706" : -11,
+      "score" : 2.45,
+      "score12" : 1.98,
+      "score06" : 2.93,
+      "scoreDiff1712" : -0.47,
+      "scoreDiff1706" : 0.48
     },
     "organisations" : {
       "eu" : false,
@@ -5267,8 +6467,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.391,
-      "democracy" : 2.37,
-      "rank" : 151
+      "rank" : 151,
+      "rank12" : 153,
+      "rank06" : 154,
+      "rankDiff1712" : 2,
+      "rankDiff1706" : 3,
+      "score" : 2.37,
+      "score12" : 2.4,
+      "score06" : 2.31,
+      "scoreDiff1712" : 0.03,
+      "scoreDiff1706" : -0.06
     },
     "organisations" : {
       "eu" : false,
@@ -5302,8 +6510,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.575,
-      "democracy" : 2.37,
-      "rank" : 151
+      "rank" : 151,
+      "rank12" : 156,
+      "rank06" : 155,
+      "rankDiff1712" : 5,
+      "rankDiff1706" : 4,
+      "score" : 2.37,
+      "score12" : 2.32,
+      "score06" : 2.1,
+      "scoreDiff1712" : -0.05,
+      "scoreDiff1706" : -0.27
     },
     "organisations" : {
       "eu" : false,
@@ -5337,8 +6553,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.4,
-      "democracy" : 2.4,
-      "rank" : 153
+      "rank" : 153,
+      "rank12" : 125,
+      "rank06" : 107,
+      "rankDiff1712" : -28,
+      "rankDiff1706" : -46,
+      "score" : 2.33,
+      "score12" : 3.6,
+      "score06" : 4.51,
+      "scoreDiff1712" : 1.27,
+      "scoreDiff1706" : 2.18
     },
     "organisations" : {
       "eu" : false,
@@ -5372,8 +6596,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.724,
-      "democracy" : 2.25,
-      "rank" : 154
+      "rank" : 154,
+      "rank12" : 95,
+      "rank06" : 161,
+      "rankDiff1712" : -59,
+      "rankDiff1706" : 7,
+      "score" : 2.32,
+      "score12" : 5.15,
+      "score06" : 1.84,
+      "scoreDiff1712" : 2.83,
+      "scoreDiff1706" : -0.48
     },
     "organisations" : {
       "eu" : false,
@@ -5407,8 +6639,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.479,
-      "democracy" : 2.37,
-      "rank" : 155
+      "rank" : 155,
+      "rank12" : 154,
+      "rank06" : 141,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : -14,
+      "score" : 2.15,
+      "score12" : 2.38,
+      "score06" : 2.9,
+      "scoreDiff1712" : 0.23,
+      "scoreDiff1706" : 0.75
     },
     "organisations" : {
       "eu" : false,
@@ -5442,8 +6682,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.498,
-      "democracy" : 2.07,
-      "rank" : 156
+      "rank" : 156,
+      "rank12" : 140,
+      "rank06" : 137,
+      "rankDiff1712" : -16,
+      "rankDiff1706" : -19,
+      "score" : 2.07,
+      "score12" : 3.12,
+      "score06" : 2.98,
+      "scoreDiff1712" : 1.05,
+      "scoreDiff1706" : 0.91
     },
     "organisations" : {
       "eu" : false,
@@ -5477,8 +6725,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.42,
-      "democracy" : 1.98,
-      "rank" : 157
+      "rank" : 157,
+      "rank12" : 166,
+      "rank06" : 158,
+      "rankDiff1712" : 9,
+      "rankDiff1706" : 1,
+      "score" : 1.98,
+      "score12" : 1.43,
+      "score06" : 2,
+      "scoreDiff1712" : -0.55,
+      "scoreDiff1706" : 0.02
     },
     "organisations" : {
       "eu" : false,
@@ -5512,8 +6768,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.675,
-      "democracy" : 1.95,
-      "rank" : 158
+      "rank" : 158,
+      "rank12" : 161,
+      "rank06" : 160,
+      "rankDiff1712" : 3,
+      "rankDiff1706" : 2,
+      "score" : 1.95,
+      "score12" : 1.72,
+      "score06" : 1.85,
+      "scoreDiff1712" : -0.23,
+      "scoreDiff1706" : -0.1
     },
     "organisations" : {
       "eu" : false,
@@ -5547,8 +6811,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.837,
-      "democracy" : 1.93,
-      "rank" : 159
+      "rank" : 159,
+      "rank12" : 163,
+      "rank06" : 159,
+      "rankDiff1712" : 4,
+      "rankDiff1706" : 0,
+      "score" : 1.93,
+      "score12" : 1.71,
+      "score06" : 1.92,
+      "scoreDiff1712" : -0.22,
+      "scoreDiff1706" : -0.01
     },
     "organisations" : {
       "eu" : false,
@@ -5582,8 +6854,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.624,
-      "democracy" : 1.89,
-      "rank" : 159
+      "rank" : 159,
+      "rank12" : 151,
+      "rank06" : 149,
+      "rankDiff1712" : -8,
+      "rankDiff1706" : -10,
+      "score" : 1.93,
+      "score12" : 2.51,
+      "score06" : 2.45,
+      "scoreDiff1712" : 0.58,
+      "scoreDiff1706" : 0.52
     },
     "organisations" : {
       "eu" : false,
@@ -5617,8 +6897,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.587,
-      "democracy" : 1.7,
-      "rank" : 161
+      "rank" : 161,
+      "rank12" : 160,
+      "rank06" : 156,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : -5,
+      "score" : 1.81,
+      "score12" : 1.83,
+      "score06" : 2.09,
+      "scoreDiff1712" : 0.02,
+      "scoreDiff1706" : 0.28
     },
     "organisations" : {
       "eu" : false,
@@ -5652,8 +6940,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.688,
-      "democracy" : 1.83,
-      "rank" : 162
+      "rank" : 162,
+      "rank12" : 161,
+      "rank06" : 162,
+      "rankDiff1712" : -1,
+      "rankDiff1706" : 0,
+      "score" : 1.72,
+      "score12" : 1.72,
+      "score06" : 1.83,
+      "scoreDiff1712" : 0,
+      "scoreDiff1706" : 0.11
     },
     "organisations" : {
       "eu" : false,
@@ -5687,8 +6983,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.433,
-      "democracy" : 1.93,
-      "rank" : 163
+      "rank" : 163,
+      "rank12" : 159,
+      "rank06" : 144,
+      "rankDiff1712" : -4,
+      "rankDiff1706" : -19,
+      "score" : 1.61,
+      "score12" : 1.92,
+      "score06" : 2.76,
+      "scoreDiff1712" : 0.31,
+      "scoreDiff1706" : 1.15
     },
     "organisations" : {
       "eu" : false,
@@ -5722,8 +7026,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.35,
-      "democracy" : 1.61,
-      "rank" : 164
+      "rank" : 164,
+      "rank12" : 157,
+      "rank06" : 1.61,
+      "rankDiff1712" : -7,
+      "rankDiff1706" : -162.39,
+      "score" : 1.52,
+      "score12" : 1.99,
+      "score06" : 166,
+      "scoreDiff1712" : 0.47,
+      "scoreDiff1706" : 164.48
     },
     "organisations" : {
       "eu" : false,
@@ -5757,8 +7069,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.392,
-      "democracy" : 1.5,
-      "rank" : 165
+      "rank" : 165,
+      "rank12" : 165,
+      "rank06" : 165,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 0,
+      "score" : 1.5,
+      "score12" : 1.62,
+      "score06" : 1.65,
+      "scoreDiff1712" : 0.12,
+      "scoreDiff1706" : 0.15
     },
     "organisations" : {
       "eu" : false,
@@ -5792,8 +7112,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : 0.594,
-      "democracy" : 1.43,
-      "rank" : 166
+      "rank" : 166,
+      "rank12" : 164,
+      "rank06" : 153,
+      "rankDiff1712" : -2,
+      "rankDiff1706" : -13,
+      "score" : 1.43,
+      "score12" : 1.63,
+      "score06" : 2.36,
+      "scoreDiff1712" : 0.2,
+      "scoreDiff1706" : 0.93
     },
     "organisations" : {
       "eu" : false,
@@ -5827,8 +7155,16 @@
     "scores": {
       "regimeType" : "Authoritarian",
       "hdi" : null,
-      "democracy" : 1.08,
-      "rank" : 167
+      "rank" : 167,
+      "rank12" : 167,
+      "rank06" : 167,
+      "rankDiff1712" : 0,
+      "rankDiff1706" : 0,
+      "score" : 1.08,
+      "score12" : 1.08,
+      "score06" : 1.03,
+      "scoreDiff1712" : 0,
+      "scoreDiff1706" : -0.05
     },
     "organisations" : {
       "eu" : false,
