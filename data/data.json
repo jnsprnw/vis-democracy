@@ -583,9 +583,9 @@
       "rankDiff1706" : -5.92,
       "score" : 8.53,
       "score12" : 8.21,
-      "score06" : 23,
+      "score06" : 8.08,
       "scoreDiff1712" : -0.32,
-      "scoreDiff1706" : 14.47
+      "scoreDiff1706" : -0.45
     },
     "organisations" : {
       "eu" : true,
@@ -884,9 +884,9 @@
       "rankDiff1706" : -12.78,
       "score" : 7.98,
       "score12" : 8.11,
-      "score06" : 17,
+      "score06" : 8.22,
       "scoreDiff1712" : 0.13,
-      "scoreDiff1706" : 9.02
+      "scoreDiff1706" : 0.24
     },
     "organisations" : {
       "eu" : false,
@@ -1012,10 +1012,10 @@
       "rankDiff1712" : -15.08,
       "rankDiff1706" : -15.57,
       "score" : 7.88,
-      "score12" : 26,
-      "score06" : 39,
-      "scoreDiff1712" : 18.12,
-      "scoreDiff1706" : 31.12
+      "score12" : 7.92,
+      "score06" : 7.43,
+      "scoreDiff1712" : 0.04,
+      "scoreDiff1706" : -0.45
     },
     "organisations" : {
       "eu" : false,
@@ -1830,9 +1830,9 @@
       "rankDiff1706" : -36.59,
       "score" : 7.19,
       "score12" : 7.16,
-      "score06" : 65,
+      "score06" : 6.41,
       "scoreDiff1712" : -0.03,
-      "scoreDiff1706" : 57.81
+      "scoreDiff1706" : -0.78
     },
     "organisations" : {
       "eu" : false,
@@ -2346,9 +2346,9 @@
       "rankDiff1706" : -48.87,
       "score" : 6.66,
       "score12" : 6.49,
-      "score06" : 74,
+      "score06" : 6.13,
       "scoreDiff1712" : -0.17,
-      "scoreDiff1706" : 67.34
+      "scoreDiff1706" : -0.53
     },
     "organisations" : {
       "eu" : false,
@@ -4109,9 +4109,9 @@
       "rankDiff1706" : -90.92,
       "score" : 5.11,
       "score12" : 4.69,
-      "score06" : 111,
+      "score06" : 4.08,
       "scoreDiff1712" : -0.42,
-      "scoreDiff1706" : 105.89
+      "scoreDiff1706" : -1.03
     },
     "organisations" : {
       "eu" : false,
@@ -5657,9 +5657,9 @@
       "rankDiff1706" : -128.81,
       "score" : 3.25,
       "score12" : 2.89,
-      "score06" : 131,
+      "score06" : 3.19,
       "scoreDiff1712" : -0.36,
-      "scoreDiff1706" : 127.75
+      "scoreDiff1706" : -0.06
     },
     "organisations" : {
       "eu" : false,
@@ -6302,9 +6302,9 @@
       "rankDiff1706" : -144.58,
       "score" : 2.69,
       "score12" : 2.58,
-      "score06" : 150,
+      "score06" : 2.42,
       "scoreDiff1712" : -0.11,
-      "scoreDiff1706" : 147.31
+      "scoreDiff1706" : -0.27
     },
     "organisations" : {
       "eu" : false,
@@ -7033,9 +7033,9 @@
       "rankDiff1706" : -162.39,
       "score" : 1.52,
       "score12" : 1.99,
-      "score06" : 166,
+      "score06" : 1.61,
       "scoreDiff1712" : 0.47,
-      "scoreDiff1706" : 164.48
+      "scoreDiff1706" : 0.09
     },
     "organisations" : {
       "eu" : false,
