@@ -6,11 +6,18 @@ import chroma from 'chroma-js'
 
 Vue.use(Vuex)
 
+function getMinMax (arr, zero = false) {
+  if (zero) {
+    return [_.min(arr), 0, _.max(arr)]
+  }
+  return [_.min(arr), _.max(arr)]
+}
+
 const store = () => new Vuex.Store({
   state: {
     data: data,
     activeStatus: 'default',
-    activeColour: 'default',
+    activeColour: 'regimeType',
     activeTab: 'intro',
     colorRangesRegimeType: {
       'Full democracy': ['#f4e600', '#c2d22f'],
@@ -42,9 +49,17 @@ const store = () => new Vuex.Store({
       }
     },
     scoresLabels: {
-      'regimeType': 'Economist’s categories of democracy',
-      'rank': 'Economist’s democracy rank',
-      'democracy': 'Economist’s democracy index',
+      'regimeType': 'Economist’s categories of democracy 2017',
+      'rank': 'Economist’s democracy rank 2017',
+      'rank12': 'Economist’s democracy rank 2012',
+      'rank06': 'Economist’s democracy rank 2006',
+      'rankDiff1712': 'Economist’s democracy rank difference 2017–2012',
+      'rankDiff1706': 'Economist’s democracy rank difference 2017–2006',
+      'score': 'Economist’s democracy overall score 2017',
+      'score12': 'Economist’s democracy overall score 2012',
+      'score06': 'Economist’s democracy overall score 2006',
+      'scoreDiff1712': 'Economist’s democracy overall score difference 2017–2012',
+      'scoreDiff1706': 'Economist’s democracy overall score difference 2017–2006',
       'hdi': 'Human Development Index'
     }
   },
@@ -69,20 +84,42 @@ const store = () => new Vuex.Store({
       return _.uniq(_.map(state.data, 'scores.regimeType'))
     },
     domains (state) {
-      let rankScores = _.map(state.data, 'scores.rank')
-      let hdiScores = _.map(state.data, 'scores.hdi')
-      let democracyScore = _.map(state.data, 'scores.democracy')
+      // Ranks
+      let democracyRank17 = _.map(state.data, 'scores.rank')
+      let democracyRank12 = _.map(state.data, 'scores.rank12')
+      let democracyRank06 = _.map(state.data, 'scores.rank06')
+      let democracyRankDiff1712 = _.map(state.data, 'scores.rankDiff1712')
+      let democracyRankDiff1706 = _.map(state.data, 'scores.rankDiff1706')
+
+      // Scores
+      let democracyScore17 = _.map(state.data, 'scores.score')
+      let democracyScore12 = _.map(state.data, 'scores.score12')
+      let democracyScore06 = _.map(state.data, 'scores.score06')
+      let democracyScoreDiff1712 = _.map(state.data, 'scores.scoreDiff1712')
+      let democracyScoreDiff1706 = _.map(state.data, 'scores.scoreDiff1706')
+
+      console.log(getMinMax(democracyScore12), getMinMax(democracyScore06))
 
       let democracyTypesGroups = _.groupBy(state.data, 'scores.regimeType')
       let democracyTypes = _.fromPairs(_.map(democracyTypesGroups, (countries, key) => {
         let values = _.map(countries, 'scores.rank')
-        return [key, [_.min(values), _.max(values)]]
+        return [key, getMinMax(values)]
       }))
 
+      let hdiScores = _.map(state.data, 'scores.hdi')
+
       let retVal = {
-        'rank': [_.min(rankScores), _.max(rankScores)],
-        'hdi': [_.min(hdiScores), _.max(hdiScores)],
-        'democracy': [_.min(democracyScore), _.max(democracyScore)],
+        'rank': getMinMax(democracyRank17),
+        'rank12': getMinMax(democracyRank12),
+        'rank06': getMinMax(democracyRank06),
+        'rankDiff1712': getMinMax(democracyRankDiff1712, true),
+        'rankDiff1706': getMinMax(democracyRankDiff1706, true),
+        'score': getMinMax(democracyScore17),
+        'score12': getMinMax(democracyScore12),
+        'score06': getMinMax(democracyScore06),
+        'scoreDiff1712': getMinMax(democracyScoreDiff1712, true),
+        'scoreDiff1706': getMinMax(democracyScoreDiff1706, true),
+        'hdi': getMinMax(hdiScores),
         ...democracyTypes
       }
 
@@ -91,8 +128,18 @@ const store = () => new Vuex.Store({
     countries (state, getters) {
       let numberCountries = state.data.length
       let colorScaleRank = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank)
+      let colorScaleRank12 = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank12)
+      let colorScaleRank06 = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank06)
+      let colorScaleRankDiff1712 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1712)
+      let colorScaleRankDiff1706 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1706)
+
+      let colorScaleScore = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.score)
+      let colorScaleScore12 = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.score12)
+      let colorScaleScore06 = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.score06)
+      let colorScaleScoreDiff1712 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1712)
+      let colorScaleScoreDiff1706 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1706)
+
       let colorScaleHDI = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.hdi)
-      let colorScaleDemocracy = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.democracy)
 
       // let colorScaleDemocracy = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.democracy)
 
@@ -100,17 +147,22 @@ const store = () => new Vuex.Store({
         return [key, chroma.scale(state.colorRangesRegimeType[key]).mode('lab').domain(getters.domains[key])]
       }))
 
-      console.log('Types', colorScalesRegimeType)
-
       let countries = _.map(state.data, (country, index) => {
         let retVal = {
           ...country,
           'colours': {
-            'default': colorScaleRank(country.scores.rank).css(),
+            'regimeType': colorScalesRegimeType[country.scores.regimeType](country.scores.rank).css(),
             'rank': colorScaleRank(country.scores.rank).css(),
-            'hdi': colorScaleHDI(country.scores.hdi).css(),
-            'democracy': colorScaleDemocracy(country.scores.democracy).css(),
-            'regimeType': colorScalesRegimeType[country.scores.regimeType](country.scores.rank).css()
+            'rank12': colorScaleRank12(country.scores.rank12).css(),
+            'rank06': colorScaleRank06(country.scores.rank06).css(),
+            'rankDiff1712': colorScaleRankDiff1712(country.scores.rankDiff1712).css(),
+            'rankDiff1706': colorScaleRankDiff1706(country.scores.rankDiff1706).css(),
+            'score': colorScaleScore(country.scores.score).css(),
+            'score12': colorScaleScore12(country.scores.score12).css(),
+            'score06': colorScaleScore06(country.scores.score06).css(),
+            'scoreDiff1712': colorScaleScoreDiff1712(country.scores.scoreDiff1712).css(),
+            'scoreDiff1706': colorScaleScoreDiff1706(country.scores.scoreDiff1706).css(),
+            'hdi': colorScaleHDI(country.scores.hdi).css()
           }
         }
 
@@ -176,7 +228,7 @@ const store = () => new Vuex.Store({
       commit('MAKE_ACTIVE_TAB', key)
     },
     makeActiveColour ({ commit, state }, key) {
-      const value = state.activeColour === key ? 'default' : key
+      const value = state.activeColour === key ? 'regimeType' : key
       commit('MAKE_ACTIVE_COLOUR', value)
     },
     addItem ({ commit }, id) {
