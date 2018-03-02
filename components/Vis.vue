@@ -1,6 +1,10 @@
 <template>
   <div class="wrapper" ref="vis">
     <resize-observer @notify="handleResize" />
+    <Tooltip
+      v-if="hoverCountry"
+      :dimensions="resolution"
+      :country="hoverCountry" />
     <svg class="vis-legend">
       <text
         v-for="item in legendPlacements"
@@ -14,32 +18,37 @@
     <svg
       v-if="resolution.length && Math.min(...resolution) > 500"
       :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true }">
-      <g
-        v-for="(country, index) in countries"
-        :class="{ 'country': true, 'active': status[activeStatus][index] }">
-        <path
-          v-if="shapes.length"
-          :style="{ fill: country.colours[activeColour] }"
-          :d="shapes[index]" />
-<!--           <circle v-for="point in points[index]"
-          r="2"
-          :cx="point[0]"
-          :cy="point[1]"
-        /> -->
-        <text
-          v-for="(placement, n) in placements[index]"
-          v-if="points.length && placement[2] > 7 && placement[3] > 60"
-          dominant-baseline="middle"
-          :text-anchor="n === 0 ? 'start' : 'middle'"
-          v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
-          :transform="'rotate(90,' + placement[0] + ',' + placement[1] + ')'"
-          :x="placement[0]"
-          :y="placement[1]"
-        >
-          {{ country.label }}
-        </text>
+      <g v-on:mouseleave="makeHoverCountry(false)">
+        <g
+          v-for="(country, index) in countries"
+          :class="{ 'country': true, 'active': status[activeStatus][index] }"
+          v-on:mouseover="makeHoverCountry({ country: country, placement: placements[index] })">
+          <path
+            v-if="shapes.length"
+            :style="{ fill: country.colours[activeColour] }"
+            :d="shapes[index]" />
+  <!--           <circle v-for="point in points[index]"
+            r="2"
+            :cx="point[0]"
+            :cy="point[1]"
+          /> -->
+          <text
+            v-for="(placement, n) in placements[index]"
+            v-if="points.length && placement[2] > 7 && placement[3] > 60"
+            dominant-baseline="middle"
+            :text-anchor="n === 0 ? 'start' : 'middle'"
+            v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
+            :transform="'rotate(90,' + placement[0] + ',' + placement[1] + ')'"
+            :x="placement[0]"
+            :y="placement[1]"
+          >
+            {{ country.label }}
+          </text>
+        </g>
       </g>
-      <g v-for="(line, n) in categoryPlacement">
+      <g
+        v-for="(line, n) in categoryPlacement"
+        class="categoryPlacements">
         <text
           class="category"
           :x="line.center"
@@ -61,6 +70,7 @@
 <script>
   import { mapGetters, mapState, mapActions } from 'vuex'
   import { ResizeObserver } from 'vue-resize'
+  import Tooltip from '~/components/Tooltip.vue'
   import _ from 'lodash'
 
   export default {
@@ -84,7 +94,8 @@
         'groups',
         'activeTab',
         'scoresLabels',
-        'colorRangesDegrees'
+        'colorRangesDegrees',
+        'hoverCountry'
       ]),
       ...mapGetters([
         'countries',
@@ -107,7 +118,6 @@
       },
       ysPercent (state) {
         const { rows, gutter, row, footer } = this
-        console.log(rows, gutter, row, footer)
 
         let i = 0
         return _.map(new Array(rows * 2), (_, n) => {
@@ -122,7 +132,6 @@
               i += gutter
             }
           }
-          // i += n % 2 ? row : gutter
           return i / 100
         })
       }
@@ -137,18 +146,17 @@
       ...mapActions([
         'makeActiveStatus',
         'makeActiveColour',
-        'makeActiveTab'
+        'makeActiveTab',
+        'makeHoverCountry'
       ]),
       getResolution () {
         this.resolution = [this.$refs.vis.clientWidth, this.$refs.vis.clientHeight]
-        // console.log(this.resolution)
         this.calcShapes()
         this.calcPoints()
         this.calcLegendPlacement()
         this.calcCategoryPlacement()
       },
       handleResize () {
-        console.log('resized')
         this.getResolution()
       },
       calcLegendPlacement () {
@@ -199,9 +207,6 @@
             points.push([x, ys[(rows * 2 - 1) - n]])
           })
 
-          // console.log(_.round(rightsideXs[1] - left[1], 1))
-          // console.log(points)
-
           prevXs = rightsideXs
           return points
         })
@@ -236,9 +241,12 @@
         const y2 = y1 - 5
         const ys = [y1, y2]
 
+        // Move to store
         const ranges = _.fromPairs(_.map(_.groupBy(this.countries, 'scores.regimeType'), (list, key) => {
           return [key, _.map(_.pullAt(list, [0, list.length - 1]), 'scores.rank')]
         }))
+        // Move to store end
+
         const places = _.map(ranges, (range, key) => {
           const coords = _.map(range, n => {
             return this.points[n - 1][0][0] + (this.points[n - 1][10][0] - this.points[n - 1][0][0]) / 2
@@ -251,7 +259,6 @@
           }
         })
         this.categoryPlacement = places
-        console.log(places)
       },
       calcShapes () {
         let shapes = _.map(this.points, country => {
@@ -269,28 +276,18 @@
             }
           }
 
-          // console.log('M ' + curves.join(' ') + ' Z')
-
           return 'M ' + curves.join(' ') + ' Z'
         })
 
         this.shapes = Object.freeze(shapes)
-
-        // this.shapi = _.map(this.points, country => {
-        //   let shape = _.map(country, point => {
-        //     return point.join(' ')
-        //   })
-
-        //   return 'M ' + shape.join(' L ') + ' Z'
-        // })
       }
     },
     components: {
-      'resize-observer': ResizeObserver
+      'resize-observer': ResizeObserver,
+      Tooltip
     },
     mounted () {
       this.getResolution()
-      // console.log(this.countries)
     }
   }
 </script>

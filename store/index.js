@@ -19,6 +19,7 @@ const store = () => new Vuex.Store({
     activeStatus: 'default',
     activeColour: 'regimeType',
     activeTab: 'intro',
+    hoverCountry: false,
     colorRangesRegimeType: {
       'Full democracy': ['#f4e600', '#c2d22f'],
       'Flawed democracy': ['#7dbb45', '#329967'],
@@ -208,21 +209,24 @@ const store = () => new Vuex.Store({
   },
   mutations: {
     MAKE_ACTIVE_STATUS (state, key) {
-      // console.log('SET_ACTIVE_MODEL')
       state.activeStatus = key
     },
     MAKE_ACTIVE_TAB (state, key) {
-      // console.log('SET_ACTIVE_MODEL')
       state.activeTab = key
     },
     MAKE_ACTIVE_COLOUR (state, key) {
-      // console.log('SET_ACTIVE_MODEL')
       state.activeColour = key
+    },
+    MAKE_HOVER_COUNTRY (state, country) {
+      state.hoverCountry = country
     }
   },
   actions: {
     makeActiveStatus ({ commit }, key) {
       commit('MAKE_ACTIVE_STATUS', key)
+    },
+    makeHoverCountry ({ commit }, country) {
+      commit('MAKE_HOVER_COUNTRY', country)
     },
     makeActiveTab ({ commit }, key) {
       commit('MAKE_ACTIVE_TAB', key)

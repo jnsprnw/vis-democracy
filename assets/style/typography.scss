@@ -33,7 +33,6 @@ p {
 }
 
 h3 {
-  font-weight: normal;
   font-size: 1em;
   font-weight: 600;
   line-height: 1.2;
@@ -45,11 +44,16 @@ h3 {
 }
 
 h4 {
-  font-weight: normal;
   font-size: 0.9em;
   font-weight: 600;
   line-height: 1.2;
   margin: 1rem 0;
+}
+
+h5 {
+  font-size: 0.9em;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .selection {
@@ -136,6 +140,7 @@ h4 {
 table {
   width: 100%;
   font-size: 0.8rem;
+  border-collapse: collapse;
 
   thead {
     * {
