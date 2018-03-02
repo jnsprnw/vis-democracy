@@ -4,7 +4,7 @@
     <nuxt-link to="/" class="btn">Back to the graphic</nuxt-link>
     <h3>Imprint</h3>
     <h4>About the graphic</h4>
-    <p>This graphic was created by <a href="http://jonasparnow.de">Jonas Parnow</a> first as a print graphic in the magazine <a href="http://ingraphics.info">InGraphics</a> Vol. 9 at the <a href="http://infographics.group">Infographics Group</a> in 2017. The graphic was created under the Creative Direction of Jan Schochow and the Art Direction of Klaas Neumann. The interactive, extended version was created in 2018 with updated data and additional aspects soley by Jonas Parnow.</p>
+    <p>This graphic was created by <a href="http://jonasparnow.de">Jonas Parnow</a> and Annick Ehmann first as a print graphic in the magazine <a href="http://ingraphics.info">InGraphics</a> Vol. 9 at the <a href="http://infographics.group">Infographics Group</a> in 2017. The graphic was created under the Creative Direction of Jan Schochow and the Art Direction of Klaas Neumann. The interactive, extended version was created in 2018 with updated data and additional aspects soley by Jonas Parnow.</p>
     <p>Jonas Parnow is a designer for information and data. Find out more about him and see other projects at <a href="http://visualising.systems">visualising.systems</a>.
     <p>The source code of this website can be found on <a href="#">Github</a>.
     <h4>About the data</h4>

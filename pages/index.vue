@@ -21,7 +21,7 @@
         </div>
       </section>
       <footer class="tab footer" v-if="activeTab === 'intro'">
-        <p>This graphic was created by Jonas Parnow in 2018. The last update was 24.2.2018. <nuxt-link to="imprint" class="link">Find out more</nuxt-link>.</p>
+        <p>This graphic was created by Jonas Parnow in 2018. <nuxt-link to="imprint" class="link">Find out more</nuxt-link>.</p>
       </footer>
       <section class="tab" v-if="activeTab === 'story'">
         <h3>Population</h3>
