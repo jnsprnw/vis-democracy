@@ -16,7 +16,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.944,
+      "hdi" : 0.949,
       "rank" : 1,
       "rank12" : 1,
       "rank06" : 4,
@@ -39,7 +39,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -59,7 +63,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.899,
+      "hdi" : 0.921,
       "rank" : 2,
       "rank12" : 3,
       "rank06" : 2,
@@ -82,7 +86,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -102,7 +110,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.907,
+      "hdi" : 0.913,
       "rank" : 3,
       "rank12" : 2,
       "rank06" : 1,
@@ -125,7 +133,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -145,7 +157,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.913,
+      "hdi" : 0.915,
       "rank" : 4,
       "rank12" : 5,
       "rank06" : 11,
@@ -168,7 +180,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : true,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -188,7 +204,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.923,
+      "hdi" : 0.925,
       "rank" : 5,
       "rank12" : 4,
       "rank06" : 5,
@@ -211,7 +227,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -231,7 +251,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.916,
+      "hdi" : 0.923,
       "rank" : 6,
       "rank12" : 13,
       "rank06" : 11,
@@ -254,7 +274,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -274,7 +298,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.913,
+      "hdi" : 0.92,
       "rank" : 6,
       "rank12" : 8,
       "rank06" : 9,
@@ -297,7 +321,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -317,7 +345,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.935,
+      "hdi" : 0.939,
       "rank" : 8,
       "rank12" : 6,
       "rank06" : 8,
@@ -340,7 +368,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : true,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -360,7 +392,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.883,
+      "hdi" : 0.895,
       "rank" : 9,
       "rank12" : 9,
       "rank06" : 6,
@@ -383,7 +415,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -403,7 +439,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.93,
+      "hdi" : 0.939,
       "rank" : 9,
       "rank12" : 7,
       "rank06" : 10,
@@ -426,7 +462,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -446,7 +486,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.922,
+      "hdi" : 0.924,
       "rank" : 11,
       "rank12" : 10,
       "rank06" : 3,
@@ -469,7 +509,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -489,7 +533,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.892,
+      "hdi" : 0.898,
       "rank" : 12,
       "rank12" : 11,
       "rank06" : 7,
@@ -512,7 +556,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -532,7 +580,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.916,
+      "hdi" : 0.926,
       "rank" : 13,
       "rank12" : 14,
       "rank06" : 13,
@@ -555,7 +603,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -575,7 +627,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.907,
+      "hdi" : 0.91,
       "rank" : 14,
       "rank12" : 16,
       "rank06" : 23,
@@ -598,7 +650,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -618,7 +674,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.885,
+      "hdi" : 0.893,
       "rank" : 15,
       "rank12" : 12,
       "rank06" : 14,
@@ -641,7 +697,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -661,7 +721,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.777,
+      "hdi" : 0.781,
       "rank" : 16,
       "rank12" : 18,
       "rank06" : 25,
@@ -684,7 +744,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -704,7 +768,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.839,
+      "hdi" : 0.856,
       "rank" : 17,
       "rank12" : 15,
       "rank06" : 15,
@@ -727,7 +791,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -747,7 +815,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.793,
+      "hdi" : 0.795,
       "rank" : 18,
       "rank12" : 18,
       "rank06" : 27,
@@ -770,7 +838,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -790,7 +862,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.876,
+      "hdi" : 0.884,
       "rank" : 19,
       "rank12" : 25,
       "rank06" : 16,
@@ -813,7 +885,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -833,7 +909,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.898,
+      "hdi" : 0.901,
       "rank" : 20,
       "rank12" : 20,
       "rank06" : 31,
@@ -856,7 +932,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -876,7 +956,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.915,
+      "hdi" : 0.92,
       "rank" : 21,
       "rank12" : 21,
       "rank06" : 17,
@@ -899,7 +979,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -919,7 +1003,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.873,
+      "hdi" : 0.887,
       "rank" : 21,
       "rank12" : 32,
       "rank06" : 34,
@@ -942,7 +1026,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -962,7 +1050,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.891,
+      "hdi" : 0.903,
       "rank" : 23,
       "rank12" : 23,
       "rank06" : 20,
@@ -985,7 +1073,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -1005,7 +1097,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.646,
+      "hdi" : 0.648,
       "rank" : 23,
       "rank12" : 26,
       "rank06" : 39,
@@ -1028,7 +1120,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1048,7 +1144,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.766,
+      "hdi" : 0.776,
       "rank" : 23,
       "rank12" : 22,
       "rank06" : 25,
@@ -1071,7 +1167,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1091,7 +1191,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.832,
+      "hdi" : 0.847,
       "rank" : 26,
       "rank12" : 36,
       "rank06" : 30,
@@ -1114,7 +1214,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1134,7 +1238,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.83,
+      "hdi" : 0.843,
       "rank" : 26,
       "rank12" : 26,
       "rank06" : 19,
@@ -1157,7 +1261,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1200,7 +1308,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1220,7 +1332,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.888,
+      "hdi" : 0.897,
       "rank" : 29,
       "rank12" : 28,
       "rank06" : 24,
@@ -1243,7 +1355,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -1263,7 +1379,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.861,
+      "hdi" : 0.865,
       "rank" : 30,
       "rank12" : 34,
       "rank06" : 33,
@@ -1286,7 +1402,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1306,7 +1426,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.894,
+      "hdi" : 0.899,
       "rank" : 30,
       "rank12" : 37,
       "rank06" : 47,
@@ -1329,7 +1449,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1349,7 +1473,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.89,
+      "hdi" : 0.896,
       "rank" : 32,
       "rank12" : 24,
       "rank06" : 20,
@@ -1372,7 +1496,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -1415,7 +1543,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1435,7 +1567,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.87,
+      "hdi" : 0.878,
       "rank" : 34,
       "rank12" : 17,
       "rank06" : 18,
@@ -1458,7 +1590,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1478,7 +1614,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.85,
+      "hdi" : 0.856,
       "rank" : 35,
       "rank12" : 41,
       "rank06" : 36,
@@ -1501,7 +1637,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1521,7 +1661,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.88,
+      "hdi" : 0.89,
       "rank" : 36,
       "rank12" : 28,
       "rank06" : 27,
@@ -1544,7 +1684,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1564,7 +1708,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.839,
+      "hdi" : 0.848,
       "rank" : 37,
       "rank12" : 42,
       "rank06" : 39,
@@ -1587,7 +1731,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1607,7 +1755,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.865,
+      "hdi" : 0.866,
       "rank" : 38,
       "rank12" : 33,
       "rank06" : 22,
@@ -1630,7 +1778,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1650,7 +1802,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.719,
+      "hdi" : 0.73,
       "rank" : 38,
       "rank12" : 39,
       "rank06" : 45,
@@ -1673,7 +1825,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1693,7 +1849,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.819,
+      "hdi" : 0.83,
       "rank" : 40,
       "rank12" : 47,
       "rank06" : 43,
@@ -1716,7 +1872,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1759,7 +1919,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1779,7 +1943,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.609,
+      "hdi" : 0.624,
       "rank" : 42,
       "rank12" : 38,
       "rank06" : 35,
@@ -1802,7 +1966,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1822,7 +1990,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.595,
+      "hdi" : 0.606,
       "rank" : 43,
       "rank12" : 43,
       "rank06" : 65,
@@ -1845,7 +2013,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true
+      "name" : true,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1865,7 +2037,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.844,
+      "hdi" : 0.845,
       "rank" : 44,
       "rank12" : 40,
       "rank06" : 41,
@@ -1888,7 +2060,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1908,7 +2084,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.78,
+      "hdi" : 0.788,
       "rank" : 45,
       "rank12" : 46,
       "rank06" : 44,
@@ -1931,7 +2107,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : true,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1951,7 +2131,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.772,
+      "hdi" : 0.78,
       "rank" : 46,
       "rank12" : 48,
       "rank06" : 48,
@@ -1974,7 +2154,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : true,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -1994,7 +2178,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.782,
+      "hdi" : 0.794,
       "rank" : 47,
       "rank12" : 54,
       "rank06" : 49,
@@ -2017,7 +2201,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2037,7 +2225,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.836,
+      "hdi" : 0.827,
       "rank" : 48,
       "rank12" : 52,
       "rank06" : 54,
@@ -2060,7 +2248,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2080,7 +2272,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.755,
+      "hdi" : 0.754,
       "rank" : 49,
       "rank12" : 44,
       "rank06" : 42,
@@ -2103,7 +2295,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -2123,7 +2319,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.714,
+      "hdi" : 0.725,
       "rank" : 50,
       "rank12" : 56,
       "rank06" : 61,
@@ -2146,7 +2342,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2166,7 +2366,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.668,
+      "hdi" : 0.682,
       "rank" : 51,
       "rank12" : 69,
       "rank06" : 63,
@@ -2189,7 +2389,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2232,7 +2436,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2252,7 +2460,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.843,
+      "hdi" : 0.855,
       "rank" : 53,
       "rank12" : 44,
       "rank06" : 46,
@@ -2275,7 +2483,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2295,7 +2507,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.72,
+      "hdi" : 0.727,
       "rank" : 53,
       "rank12" : 57,
       "rank06" : 67,
@@ -2318,7 +2530,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2338,7 +2554,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.715,
+      "hdi" : 0.722,
       "rank" : 55,
       "rank12" : 60,
       "rank06" : 74,
@@ -2361,7 +2577,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2404,7 +2624,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2424,7 +2648,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.828,
+      "hdi" : 0.836,
       "rank" : 56,
       "rank12" : 49,
       "rank06" : 38,
@@ -2447,7 +2671,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2467,7 +2695,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.818,
+      "hdi" : 0.827,
       "rank" : 58,
       "rank12" : 50,
       "rank06" : 51,
@@ -2490,7 +2718,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2510,7 +2742,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.779,
+      "hdi" : 0.789,
       "rank" : 59,
       "rank12" : 64,
       "rank06" : 81,
@@ -2533,7 +2765,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2553,7 +2789,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.727,
+      "hdi" : 0.735,
       "rank" : 60,
       "rank12" : 65,
       "rank06" : 56,
@@ -2576,7 +2812,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : true,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2596,7 +2836,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.734,
+      "hdi" : 0.74,
       "rank" : 61,
       "rank12" : 61,
       "rank06" : 75,
@@ -2619,7 +2859,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2639,7 +2883,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.757,
+      "hdi" : 0.766,
       "rank" : 62,
       "rank12" : 89,
       "rank06" : 57,
@@ -2662,7 +2906,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true
+      "name" : true,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2682,7 +2930,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.636,
+      "hdi" : 0.638,
       "rank" : 63,
       "rank12" : 76,
       "rank06" : 73,
@@ -2705,7 +2953,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2725,7 +2977,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.793,
+      "hdi" : 0.802,
       "rank" : 64,
       "rank12" : 59,
       "rank06" : 50,
@@ -2748,7 +3000,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2768,7 +3024,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.666,
+      "hdi" : 0.68,
       "rank" : 65,
       "rank12" : 61,
       "rank06" : 70,
@@ -2791,7 +3047,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2811,7 +3071,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.771,
+      "hdi" : 0.776,
       "rank" : 66,
       "rank12" : 66,
       "rank06" : 55,
@@ -2834,7 +3094,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2854,7 +3118,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.756,
+      "hdi" : 0.762,
       "rank" : 66,
       "rank12" : 51,
       "rank06" : 53,
@@ -2877,7 +3141,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2897,7 +3165,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.684,
+      "hdi" : 0.689,
       "rank" : 68,
       "rank12" : 53,
       "rank06" : 65,
@@ -2920,7 +3188,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2940,7 +3212,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.721,
+      "hdi" : 0.725,
       "rank" : 69,
       "rank12" : 90,
       "rank06" : 135,
@@ -2963,7 +3235,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : true,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -2983,7 +3259,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.912,
+      "hdi" : 0.925,
       "rank" : 69,
       "rank12" : 81,
       "rank06" : 84,
@@ -3006,7 +3282,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3026,7 +3306,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.91,
+      "hdi" : 0.917,
       "rank" : 71,
       "rank12" : 63,
       "rank06" : 78,
@@ -3049,7 +3329,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -3069,7 +3353,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.628,
+      "hdi" : 0.64,
       "rank" : 71,
       "rank12" : 72,
       "rank06" : 59,
@@ -3092,7 +3376,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : true,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3112,7 +3400,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.679,
+      "hdi" : 0.693,
       "rank" : 71,
       "rank12" : 70,
       "rank06" : 71,
@@ -3135,7 +3423,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3155,7 +3447,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.466,
+      "hdi" : 0.494,
       "rank" : 74,
       "rank12" : 74,
       "rank06" : 94,
@@ -3178,7 +3470,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3198,7 +3494,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.505,
+      "hdi" : 0.516,
       "rank" : 75,
       "rank12" : 67,
       "rank06" : 59,
@@ -3221,7 +3517,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : true,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3241,7 +3541,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.732,
+      "hdi" : 0.739,
       "rank" : 76,
       "rank12" : 87,
       "rank06" : 92,
@@ -3264,7 +3564,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3284,7 +3588,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.733,
+      "hdi" : 0.764,
       "rank" : 77,
       "rank12" : 90,
       "rank06" : 83,
@@ -3307,7 +3611,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3327,7 +3635,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.693,
+      "hdi" : 0.699,
       "rank" : 78,
       "rank12" : 67,
       "rank06" : 62,
@@ -3350,7 +3658,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3370,7 +3682,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.754,
+      "hdi" : 0.769,
       "rank" : 79,
       "rank12" : 93,
       "rank06" : 104,
@@ -3393,7 +3705,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3413,7 +3729,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.627,
+      "hdi" : 0.64,
       "rank" : 80,
       "rank12" : 81,
       "rank06" : 77,
@@ -3436,7 +3752,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3456,7 +3776,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.727,
+      "hdi" : 0.736,
       "rank" : 81,
       "rank12" : 124,
       "rank06" : 91,
@@ -3479,7 +3799,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : true,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3499,7 +3823,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.606,
+      "hdi" : 0.625,
       "rank" : 82,
       "rank12" : 85,
       "rank06" : 69,
@@ -3522,7 +3846,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3542,7 +3870,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.747,
+      "hdi" : 0.743,
       "rank" : 83,
       "rank12" : 80,
       "rank06" : 52,
@@ -3565,7 +3893,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3585,7 +3917,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.802,
+      "hdi" : 0.807,
       "rank" : 83,
       "rank12" : 76,
       "rank06" : 58,
@@ -3608,7 +3940,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3628,7 +3964,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.586,
+      "hdi" : 0.579,
       "rank" : 85,
       "rank12" : 70,
       "rank06" : 97,
@@ -3651,7 +3987,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3671,7 +4011,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.419,
+      "hdi" : 0.442,
       "rank" : 86,
       "rank12" : 97,
       "rank06" : 80,
@@ -3694,7 +4034,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3714,7 +4058,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.48,
+      "hdi" : 0.485,
       "rank" : 87,
       "rank12" : 79,
       "rank06" : 71,
@@ -3737,7 +4081,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3757,7 +4105,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.747,
+      "hdi" : 0.748,
       "rank" : 88,
       "rank12" : 73,
       "rank06" : 68,
@@ -3780,7 +4128,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3800,7 +4152,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.662,
+      "hdi" : 0.674,
       "rank" : 89,
       "rank12" : 85,
       "rank06" : 81,
@@ -3823,7 +4175,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3843,7 +4199,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.445,
+      "hdi" : 0.476,
       "rank" : 89,
       "rank12" : 75,
       "rank06" : 103,
@@ -3866,7 +4222,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3886,7 +4246,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.521,
+      "hdi" : 0.531,
       "rank" : 91,
       "rank12" : 81,
       "rank06" : 99,
@@ -3909,7 +4269,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3929,7 +4293,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.57,
+      "hdi" : 0.579,
       "rank" : 92,
       "rank12" : 84,
       "rank06" : 75,
@@ -3952,7 +4316,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -3972,7 +4340,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.43,
+      "hdi" : 0.427,
       "rank" : 93,
       "rank12" : 101,
       "rank06" : 98,
@@ -3995,7 +4363,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4015,7 +4387,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.548,
+      "hdi" : 0.558,
       "rank" : 94,
       "rank12" : 111,
       "rank06" : 126,
@@ -4038,7 +4410,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true
+      "name" : true,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4058,7 +4434,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.548,
+      "hdi" : 0.555,
       "rank" : 95,
       "rank12" : 104,
       "rank06" : 101,
@@ -4081,7 +4457,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4101,7 +4481,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.655,
+      "hdi" : 0.664,
       "rank" : 95,
       "rank12" : 106,
       "rank06" : 111,
@@ -4124,7 +4504,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4144,7 +4528,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.51,
+      "hdi" : 0.512,
       "rank" : 95,
       "rank12" : 117,
       "rank06" : 85,
@@ -4167,7 +4551,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4187,7 +4575,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.483,
+      "hdi" : 0.493,
       "rank" : 98,
       "rank12" : 94,
       "rank06" : 100,
@@ -4210,7 +4598,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4230,7 +4622,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.605,
+      "hdi" : 0.607,
       "rank" : 99,
       "rank12" : 107,
       "rank06" : 147,
@@ -4253,7 +4645,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4273,7 +4669,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.761,
+      "hdi" : 0.767,
       "rank" : 100,
       "rank12" : 88,
       "rank06" : 88,
@@ -4296,7 +4692,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -4316,7 +4716,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.628,
+      "hdi" : 0.647,
       "rank" : 101,
       "rank12" : 115,
       "rank06" : 115,
@@ -4339,7 +4739,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4359,7 +4763,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.733,
+      "hdi" : 0.75,
       "rank" : 101,
       "rank12" : 98,
       "rank06" : 87,
@@ -4382,7 +4786,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4425,7 +4833,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4445,7 +4857,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.769,
+      "hdi" : 0.763,
       "rank" : 104,
       "rank12" : 99,
       "rank06" : 85,
@@ -4468,7 +4880,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4488,7 +4904,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.413,
+      "hdi" : 0.42,
       "rank" : 105,
       "rank12" : 104,
       "rank06" : 121,
@@ -4511,7 +4927,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4531,7 +4951,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.631,
+      "hdi" : 0.645,
       "rank" : 105,
       "rank12" : 92,
       "rank06" : 89,
@@ -4554,7 +4974,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4574,7 +4998,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.726,
+      "hdi" : 0.74,
       "rank" : 107,
       "rank12" : 58,
       "rank06" : 90,
@@ -4597,7 +5021,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4617,7 +5045,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.677,
+      "hdi" : 0.684,
       "rank" : 108,
       "rank12" : 103,
       "rank06" : 79,
@@ -4640,7 +5068,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4660,7 +5092,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.514,
+      "hdi" : 0.527,
       "rank" : 109,
       "rank12" : 120,
       "rank06" : 124,
@@ -4683,7 +5115,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4703,7 +5139,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.538,
+      "hdi" : 0.55,
       "rank" : 110,
       "rank12" : 108,
       "rank06" : 113,
@@ -4726,7 +5162,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4746,7 +5186,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.733,
+      "hdi" : 0.743,
       "rank" : 111,
       "rank12" : 114,
       "rank06" : 110,
@@ -4769,7 +5209,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4789,7 +5233,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.654,
+      "hdi" : 0.649,
       "rank" : 112,
       "rank12" : 113,
       "rank06" : 112,
@@ -4812,7 +5256,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4832,7 +5280,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.441,
+      "hdi" : 0.452,
       "rank" : 113,
       "rank12" : 134,
       "rank06" : 108,
@@ -4855,7 +5303,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4875,7 +5327,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.483,
+      "hdi" : 0.493,
       "rank" : 114,
       "rank12" : 116,
       "rank06" : 109,
@@ -4898,7 +5350,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4918,7 +5374,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.416,
+      "hdi" : 0.418,
       "rank" : 115,
       "rank12" : 102,
       "rank06" : 96,
@@ -4941,7 +5397,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -4961,7 +5421,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.462,
+      "hdi" : 0.474,
       "rank" : 116,
       "rank12" : 136,
       "rank06" : 127,
@@ -4984,7 +5444,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5004,7 +5468,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.748,
+      "hdi" : 0.742,
       "rank" : 117,
       "rank12" : 121,
       "rank06" : 113,
@@ -5027,7 +5491,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5047,7 +5515,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.762,
+      "hdi" : 0.767,
       "rank" : 117,
       "rank12" : 95,
       "rank06" : 93,
@@ -5070,7 +5538,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : true
     }
   },
   {
@@ -5090,7 +5562,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.816,
+      "hdi" : 0.8,
       "rank" : 119,
       "rank12" : 119,
       "rank06" : 134,
@@ -5113,7 +5585,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5133,7 +5609,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.536,
+      "hdi" : 0.556,
       "rank" : 120,
       "rank12" : 155,
       "rank06" : 163,
@@ -5156,7 +5632,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5176,7 +5656,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.506,
+      "hdi" : 0.513,
       "rank" : 121,
       "rank12" : 110,
       "rank06" : 133,
@@ -5199,7 +5679,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5219,7 +5703,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.348,
+      "hdi" : 0.353,
       "rank" : 122,
       "rank12" : 111,
       "rank06" : 122,
@@ -5242,7 +5726,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5262,7 +5750,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.503,
+      "hdi" : 0.498,
       "rank" : 123,
       "rank12" : 127,
       "rank06" : 115,
@@ -5285,7 +5773,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5305,7 +5797,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.555,
+      "hdi" : 0.563,
       "rank" : 124,
       "rank12" : 100,
       "rank06" : 105,
@@ -5328,7 +5820,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5348,7 +5844,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.532,
+      "hdi" : 0.533,
       "rank" : 125,
       "rank12" : 133,
       "rank06" : 151,
@@ -5371,7 +5867,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5391,7 +5891,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.684,
+      "hdi" : 0.697,
       "rank" : 126,
       "rank12" : 126,
       "rank06" : 146,
@@ -5414,7 +5914,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5434,7 +5938,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.512,
+      "hdi" : 0.518,
       "rank" : 126,
       "rank12" : 131,
       "rank06" : 130,
@@ -5457,7 +5961,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5477,7 +5985,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.736,
+      "hdi" : 0.745,
       "rank" : 128,
       "rank12" : 118,
       "rank06" : 132,
@@ -5500,7 +6008,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : true
+      "name" : true,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5520,7 +6032,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.442,
+      "hdi" : 0.448,
       "rank" : 129,
       "rank12" : 123,
       "rank06" : 106,
@@ -5543,7 +6055,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : true
+      "name" : true,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5563,7 +6079,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.69,
+      "hdi" : 0.691,
       "rank" : 130,
       "rank12" : 109,
       "rank06" : 115,
@@ -5586,7 +6102,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5606,7 +6126,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.769,
+      "hdi" : 0.775,
       "rank" : 131,
       "rank12" : 127,
       "rank06" : 124,
@@ -5629,7 +6149,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5649,7 +6173,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.591,
+      "hdi" : 0.592,
       "rank" : 132,
       "rank12" : 144,
       "rank06" : 131,
@@ -5672,7 +6196,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5692,7 +6220,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.85,
+      "hdi" : 0.856,
       "rank" : 133,
       "rank12" : 138,
       "rank06" : 142,
@@ -5715,7 +6243,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5735,7 +6267,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.483,
+      "hdi" : 0.498,
       "rank" : 133,
       "rank12" : 132,
       "rank06" : 118,
@@ -5758,7 +6290,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5778,7 +6314,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.798,
+      "hdi" : 0.804,
       "rank" : 135,
       "rank12" : 122,
       "rank06" : 102,
@@ -5801,7 +6337,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5821,7 +6361,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.509,
+      "hdi" : 0.516,
       "rank" : 136,
       "rank12" : 148,
       "rank06" : 147,
@@ -5844,7 +6384,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5864,7 +6408,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.411,
+      "hdi" : 0.414,
       "rank" : 137,
       "rank12" : 146,
       "rank06" : 157,
@@ -5887,7 +6431,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5907,7 +6455,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.798,
+      "hdi" : 0.796,
       "rank" : 138,
       "rank12" : 141,
       "rank06" : 128,
@@ -5930,7 +6478,11 @@
       "asia" : false,
       "europe" : true,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -5950,7 +6502,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.727,
+      "hdi" : 0.738,
       "rank" : 139,
       "rank12" : 142,
       "rank06" : 138,
@@ -5973,7 +6525,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -5993,7 +6549,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.666,
+      "hdi" : 0.683,
       "rank" : 140,
       "rank12" : 144,
       "rank06" : 145,
@@ -6016,7 +6572,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6036,7 +6596,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.788,
+      "hdi" : 0.794,
       "rank" : 141,
       "rank12" : 143,
       "rank06" : 120,
@@ -6059,7 +6619,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6079,7 +6643,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.484,
+      "hdi" : 0.487,
       "rank" : 142,
       "rank12" : 130,
       "rank06" : 164,
@@ -6102,7 +6666,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6122,7 +6690,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.793,
+      "hdi" : 0.796,
       "rank" : 143,
       "rank12" : 135,
       "rank06" : 143,
@@ -6145,7 +6713,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6165,7 +6737,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.531,
+      "hdi" : 0.541,
       "rank" : 144,
       "rank12" : 137,
       "rank06" : 139,
@@ -6188,7 +6760,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6208,7 +6784,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.47,
+      "hdi" : 0.473,
       "rank" : 145,
       "rank12" : 147,
       "rank06" : 152,
@@ -6231,7 +6807,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6274,7 +6854,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : true,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6294,7 +6878,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.835,
+      "hdi" : 0.84,
       "rank" : 147,
       "rank12" : 149,
       "rank06" : 150,
@@ -6317,7 +6901,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : true,
+      "atom" : false,
+      "apple" : true,
+      "travelban" : false
     }
   },
   {
@@ -6337,7 +6925,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.751,
+      "hdi" : 0.759,
       "rank" : 148,
       "rank12" : 139,
       "rank06" : 129,
@@ -6360,7 +6948,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6380,7 +6972,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.465,
+      "hdi" : 0.479,
       "rank" : 149,
       "rank12" : 152,
       "rank06" : 135,
@@ -6403,7 +6995,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6423,7 +7019,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.766,
+      "hdi" : 0.774,
       "rank" : 150,
       "rank12" : 158,
       "rank06" : 139,
@@ -6446,7 +7042,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : false,
+      "travelban" : true
     }
   },
   {
@@ -6466,7 +7066,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.391,
+      "hdi" : 0.42,
       "rank" : 151,
       "rank12" : 153,
       "rank06" : 154,
@@ -6489,7 +7089,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6509,7 +7113,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.575,
+      "hdi" : 0.586,
       "rank" : 151,
       "rank12" : 156,
       "rank06" : 155,
@@ -6532,7 +7136,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true
+      "name" : true,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6552,7 +7160,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.4,
+      "hdi" : 0.404,
       "rank" : 153,
       "rank12" : 125,
       "rank06" : 107,
@@ -6575,7 +7183,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6595,7 +7207,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.724,
+      "hdi" : 0.716,
       "rank" : 154,
       "rank12" : 95,
       "rank06" : 161,
@@ -6618,7 +7230,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : true
     }
   },
   {
@@ -6638,7 +7254,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.479,
+      "hdi" : 0.49,
       "rank" : 155,
       "rank12" : 154,
       "rank06" : 141,
@@ -6661,7 +7277,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6681,7 +7301,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.498,
+      "hdi" : 0.482,
       "rank" : 156,
       "rank12" : 140,
       "rank06" : 137,
@@ -6704,7 +7324,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : true
     }
   },
   {
@@ -6724,7 +7348,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.42,
+      "hdi" : 0.424,
       "rank" : 157,
       "rank12" : 166,
       "rank06" : 158,
@@ -6747,7 +7371,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6767,7 +7395,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.675,
+      "hdi" : 0.701,
       "rank" : 158,
       "rank12" : 161,
       "rank06" : 160,
@@ -6790,7 +7418,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6810,7 +7442,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.837,
+      "hdi" : 0.847,
       "rank" : 159,
       "rank12" : 163,
       "rank06" : 159,
@@ -6833,7 +7465,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : true,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6853,7 +7489,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.624,
+      "hdi" : 0.627,
       "rank" : 159,
       "rank12" : 151,
       "rank06" : 149,
@@ -6876,7 +7512,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6896,7 +7536,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.587,
+      "hdi" : 0.592,
       "rank" : 161,
       "rank12" : 160,
       "rank06" : 156,
@@ -6919,7 +7559,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6939,7 +7583,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.688,
+      "hdi" : 0.692,
       "rank" : 162,
       "rank12" : 161,
       "rank06" : 162,
@@ -6962,7 +7606,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -6982,7 +7630,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.433,
+      "hdi" : 0.435,
       "rank" : 163,
       "rank12" : 159,
       "rank06" : 144,
@@ -7005,7 +7653,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : true
+      "name" : true,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -7025,7 +7677,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.35,
+      "hdi" : 0.352,
       "rank" : 164,
       "rank12" : 157,
       "rank06" : 166,
@@ -7048,7 +7700,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : false
     }
   },
   {
@@ -7068,7 +7724,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.392,
+      "hdi" : 0.396,
       "rank" : 165,
       "rank12" : 165,
       "rank06" : 165,
@@ -7091,7 +7747,11 @@
       "asia" : false,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : true
     }
   },
   {
@@ -7111,7 +7771,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.594,
+      "hdi" : 0.536,
       "rank" : 166,
       "rank12" : 164,
       "rank06" : 153,
@@ -7134,7 +7794,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : false
+      "name" : false,
+      "blacklist" : false,
+      "atom" : false,
+      "apple" : false,
+      "travelban" : true
     }
   },
   {
@@ -7177,7 +7841,11 @@
       "asia" : true,
       "europe" : false,
       "oceania" : false,
-      "name" : true
+      "name" : true,
+      "blacklist" : true,
+      "atom" : true,
+      "apple" : false,
+      "travelban" : true
     }
   }
 ]
