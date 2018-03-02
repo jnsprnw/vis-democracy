@@ -59,6 +59,7 @@ body, #__nuxt, #__layout, .page, .page-body {
 
         td:last-child {
           text-align: right;
+          padding-left: 10px;
         }
       }
     }
@@ -92,7 +93,6 @@ body, #__nuxt, #__layout, .page, .page-body {
       }
 
       text {
-        font-family: $font-family-default;
         fill: #fff;
 
         &.category {
@@ -100,9 +100,16 @@ body, #__nuxt, #__layout, .page, .page-body {
         }
       }
 
-      g.country:hover {
+      &.negative {
+        text {
+          fill: #000 !important;
+        }
+      }
+
+      g.country:hover, g.country.active {
         path {
           fill: #fff !important;
+          stroke: rgba(0, 0, 0, 0.2);
         }
 
         text {
@@ -116,7 +123,7 @@ body, #__nuxt, #__layout, .page, .page-body {
             opacity: 0.25;
           }
 
-          &.active {
+          &.highlight {
             path {
               opacity: 1;
             }

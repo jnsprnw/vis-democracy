@@ -17,11 +17,11 @@
     </svg>
     <svg
       v-if="resolution.length && Math.min(...resolution) > 500"
-      :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true }">
+      :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true, 'negative': activeColour === 'rankDiff1712' || activeColour === 'rankDiff1706' || activeColour === 'scoreDiff1712' || activeColour === 'scoreDiff1706' }">
       <g v-on:mouseleave="makeHoverCountry(false)">
         <g
           v-for="(country, index) in countries"
-          :class="{ 'country': true, 'active': status[activeStatus][index] }"
+          :class="{ 'country': true, 'hightlight': status[activeStatus][index], 'active': checkActive(activeCountry, country) }"
           v-on:mouseover="makeHoverCountry({ country: country, placement: placements[index] })">
           <path
             v-if="shapes.length"
@@ -95,7 +95,8 @@
         'activeTab',
         'scoresLabels',
         'colorRangesDegrees',
-        'hoverCountry'
+        'hoverCountry',
+        'activeCountry'
       ]),
       ...mapGetters([
         'countries',
@@ -280,6 +281,10 @@
         })
 
         this.shapes = Object.freeze(shapes)
+      },
+      checkActive (activeCountry, country) {
+        if (!activeCountry.length) return false
+        return _.get(country, activeCountry[0]) === activeCountry[1]
       }
     },
     components: {

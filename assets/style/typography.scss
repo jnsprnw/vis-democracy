@@ -90,6 +90,14 @@ h5 {
   }
 }
 
+.link-hover {
+  border-bottom: 1px dotted #EC3A4D;
+
+  &:hover {
+    border-color: #222;
+  }
+}
+
 .btn {
   margin: 1em 0;
   font-size: 0.8em;

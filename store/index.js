@@ -20,6 +20,7 @@ const store = () => new Vuex.Store({
     activeColour: 'regimeType',
     activeTab: 'intro',
     hoverCountry: false,
+    activeCountry: false,
     colorRangesRegimeType: {
       'Full democracy': ['#f4e600', '#c2d22f'],
       'Flawed democracy': ['#7dbb45', '#329967'],
@@ -134,13 +135,13 @@ const store = () => new Vuex.Store({
       let colorScaleRankDiff1712 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1712)
       let colorScaleRankDiff1706 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1706)
 
-      let colorScaleScore = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.score)
-      let colorScaleScore12 = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.score12)
-      let colorScaleScore06 = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.score06)
-      let colorScaleScoreDiff1712 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1712)
-      let colorScaleScoreDiff1706 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1706)
+      let colorScaleScore = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score)
+      let colorScaleScore12 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score12)
+      let colorScaleScore06 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score06)
+      let colorScaleScoreDiff1712 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.scoreDiff1712)
+      let colorScaleScoreDiff1706 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.scoreDiff1706)
 
-      let colorScaleHDI = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.hdi)
+      let colorScaleHDI = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.hdi)
 
       // let colorScaleDemocracy = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.democracy)
 
@@ -219,6 +220,9 @@ const store = () => new Vuex.Store({
     },
     MAKE_HOVER_COUNTRY (state, country) {
       state.hoverCountry = country
+    },
+    MAKE_ACTIVE_COUNTRY (state, id) {
+      state.activeCountry = id
     }
   },
   actions: {
@@ -227,6 +231,9 @@ const store = () => new Vuex.Store({
     },
     makeHoverCountry ({ commit }, country) {
       commit('MAKE_HOVER_COUNTRY', country)
+    },
+    makeActiveCountry ({ commit }, id) {
+      commit('MAKE_ACTIVE_COUNTRY', id)
     },
     makeActiveTab ({ commit }, key) {
       commit('MAKE_ACTIVE_TAB', key)

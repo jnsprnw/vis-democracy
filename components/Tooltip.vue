@@ -17,6 +17,14 @@
         <td>GDP</td>
         <td>{{ value.gdp }}&#8239;%</td>
       </tr>
+      <tr>
+        <td>Rank&nbsp;<small>('17,&#8239'12,&#8239'06)</small></td>
+        <td>{{ country.country.scores.rank }},&#8239{{ country.country.scores.rank12 }},&#8239{{ country.country.scores.rank06 }}</td>
+      </tr>
+      <tr>
+        <td>Score&nbsp;<small>('17,&#8239'12,&#8239'06)</small></td>
+        <td>{{ country.country.scores.score }},&#8239{{ country.country.scores.score12 }},&#8239{{ country.country.scores.score06 }}</td>
+      </tr>
     </table>
   </div>
 </template>
@@ -50,16 +58,13 @@
       }
     },
     watch: {
-      country: function () { // watch it
+      country: function () {
         this.reposition = false
-        // this.getResolution()
       }
     },
     methods: {
       getResolution () {
         this.resolution = [this.$refs.tooltip.clientWidth, this.$refs.tooltip.clientHeight]
-        // const { country } = this
-        // console.log(country.country.label, this.$refs.tooltip.innerHTML)
         const { placement } = this.country
         const [width] = this.dimensions
         const total = width * 0.97
@@ -73,20 +78,15 @@
         }
 
         this.placements = [x, placement[0][1] - 10]
-        // this.$refs.tooltip.offsetLeft
-        console.log(end, total, end > total, start, start < 0)
         this.reposition = true
       }
     },
     components: {
     },
     mounted () {
-      // this.getResolution()
     },
     updated () {
-      const { country } = this
       if (!this.reposition) {
-        console.log(country.country.label, this.$refs.tooltip.firstChild.innerHTML, this.reposition)
         this.getResolution()
       }
     }
