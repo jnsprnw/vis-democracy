@@ -13,7 +13,7 @@
       <thead>
         <tr>
           <th>
-            index
+            ID
           </th>
           <th>
             CCA3
@@ -25,13 +25,37 @@
             Region
           </th>
           <th>
-            Category
+            Regime Type
+          </th>
+          <th>
+            Rank '17
+          </th>
+          <th>
+            Rank '12
+          </th>
+          <th>
+            Rank '06
+          </th>
+          <th>
+            Score '17'
+          </th>
+          <th>
+            Score '12
+          </th>
+          <th>
+            Score '06
+          </th>
+          <th>
+            Population
+          </th>
+          <th>
+            Land mass
+          </th>
+          <th>
+            Gross domestic product
           </th>
           <th>
             HDI
-          </th>
-          <th>
-            Democracy
           </th>
           <th>
             EU
@@ -61,42 +85,65 @@
             Oceania
           </th>
           <th>
-            Name
+            Democratic Name
           </th>
           <th>
-            Travelban
+            US Travelban
           </th>
           <th>
-            Blacklist
+            EU’s Blacklist
           </th>
           <th>
-            Atom
+            Nuclear weapons
           </th>
           <th>
-            Apple
+            Apple Store
           </th>
         </tr>
         <tr class="source">
           <th>
-            
           </th>
           <th>
-            ISO 8929-XX
+            <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3">ISO 3166-1</a>
           </th>
           <th>
-            Economist’s report
+            report
           </th>
           <th>
             Region
           </th>
           <th>
-            Economist’s report
+            report
           </th>
           <th>
-            HDI
+            report
           </th>
           <th>
-            Democracy
+            report
+          </th>
+          <th>
+            report
+          </th>
+          <th>
+            report
+          </th>
+          <th>
+            report
+          </th>
+          <th>
+            report
+          </th>
+          <th>
+            Population
+          </th>
+          <th>
+            Land mass
+          </th>
+          <th>
+            GDP
+          </th>
+          <th>
+            2015, <a href="http://hdr.undp.org/en/data">S</a>
           </th>
           <th>
             EU
@@ -126,7 +173,7 @@
             Oceania
           </th>
           <th>
-            Name
+            2015, <a href="https://petervojtek.github.io/diy/2015/05/19/countries-with-democracy-in-name.html">S</a>
           </th>
           <th>
             Travelban
@@ -135,10 +182,10 @@
             Blacklist
           </th>
           <th>
-            Atom
+            2018, <a href="https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons">S</a>
           </th>
           <th>
-            Apple
+            2017, <a href="https://www.thebalance.com/apple-retail-stores-global-locations-2892925">S</a>
           </th>
         </tr>
       </thead>
@@ -161,10 +208,34 @@
             {{ country.scores.regimeType }}
           </td>
           <td>
-            {{ country.scores.hdi }}
+            {{ country.scores.rank }}
           </td>
           <td>
-            {{ country.scores.democracy }}
+            {{ country.scores.rank12 }}
+          </td>
+          <td>
+            {{ country.scores.rank06 }}
+          </td>
+          <td>
+            {{ country.scores.score }}
+          </td>
+          <td>
+            {{ country.scores.score12 }}
+          </td>
+          <td>
+            {{ country.scores.score06 }}
+          </td>
+          <td>
+            {{ country.values.population.value }}
+          </td>
+          <td>
+            {{ country.values.area.value }}
+          </td>
+          <td>
+            {{ country.values.gdp.value }}
+          </td>
+          <td>
+            {{ country.scores.hdi }}
           </td>
           <td>
             {{ country.organisations.eu }}
