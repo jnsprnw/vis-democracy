@@ -21,7 +21,7 @@
       <g v-on:mouseleave="makeHoverCountry(false)">
         <g
           v-for="(country, index) in countries"
-          :class="{ 'country': true, 'hightlight': status[activeStatus][index], 'active': checkActive(activeCountry, country) }"
+          :class="{ 'country': true, 'highlight': status[activeStatus][index], 'active': checkActive(activeCountry, country) }"
           v-on:mouseover="makeHoverCountry({ country: country, placement: placements[index] })">
           <path
             v-if="shapes.length"
