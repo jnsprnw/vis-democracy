@@ -43,10 +43,10 @@ const store = () => new Vuex.Store({
         'oceania': 'Countries on the Oceanian continent'
       },
       'Other groups': {
-        'name': 'Countries with »Democracy« in their name',
+        'name': 'Countries with »Democracy« in their official name',
         'travelban': 'Trump’s »Travelban« countries',
         'blacklist': 'EU’s tax watch-/black-list',
-        'atom': 'Countries that probably have nuclear weapons',
+        'atom': 'Countries that (probably) have nuclear weapons',
         'apple': 'Countries that have Apple stores'
       }
     },
