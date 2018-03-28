@@ -63,32 +63,6 @@ html {
   }
 }
 
-a, .a {
-  color: $brand-color;
-  text-decoration: none;
-  cursor: pointer;
-
-  &[href^='#'], &:not([href]) {
-    color: $brand-color;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: $text-color;
-  }
-
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
-  &.nuxt-link-active {
-    color: $color-active;
-  }
-
-  &:hover, &:focus {
-    color: darken($color-active, 10%);
-  }
-}
-
 input {
   user-select: none;
   vertical-align: middle;

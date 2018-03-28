@@ -2,6 +2,38 @@
   margin-top: 0 !important;
 }
 
+a, .a, .link {
+  color: $brand-color;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+
+  &[href^='#'], &:not([href]) {
+    color: $brand-color;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $text-color;
+  }
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &.nuxt-link-active {
+    color: $color-active;
+  }
+
+  &:hover, &:focus {
+    border-bottom: 1px solid $brand-color;
+    color: darken($brand-color, 10%);
+  }
+}
+
+.link-hover {
+  border-bottom: 1px dashed $brand-color;
+}
+
 h1 {
   font-size: 0.8rem;
   font-weight: normal;
@@ -26,10 +58,14 @@ h2 {
   }
 }
 
-p {
+p, small {
   padding: 0 0 0.5em;
   font-size: 0.85rem;
   hyphens: auto;
+}
+
+small {
+  font-size: 0.7rem;
 }
 
 h3 {
@@ -80,30 +116,13 @@ h5 {
   }
 }
 
-.link {
-  border-bottom: 1px solid #EC3A4D;
-  cursor: pointer;
-  font-weight: 500;
-
-  &:hover {
-    color: #EC3A4D;
-  }
-}
-
-.link-hover {
-  border-bottom: 1px dotted #EC3A4D;
-
-  &:hover {
-    border-color: #222;
-  }
-}
-
 .btn {
-  margin: 1em 0;
+  margin: 2em 0;
   font-size: 0.8em;
   padding: 0.5em 2em;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  text-align: center;
   font-weight: bold;
   cursor: pointer;
   color: #222;
@@ -114,6 +133,12 @@ h5 {
     background-color: #EC3A4D;
     color: #fff;
   }
+}
+
+.center {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu {
