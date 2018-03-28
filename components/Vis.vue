@@ -21,17 +21,13 @@
       <g v-on:mouseleave="makeHoverCountry(false)">
         <g
           v-for="(country, index) in countries"
+          :key="country.cca3"
           :class="{ 'country': true, 'highlight': status[activeStatus][index], 'active': checkActive(activeCountry, country) }"
           v-on:mouseover="makeHoverCountry({ country: country, placement: placements[index] })">
           <path
             v-if="shapes.length"
             :style="{ fill: country.colours[activeColour] }"
             :d="shapes[index]" />
-  <!--           <circle v-for="point in points[index]"
-            r="2"
-            :cx="point[0]"
-            :cy="point[1]"
-          /> -->
           <text
             v-for="(placement, n) in placements[index]"
             v-if="points.length && placement[2] > 7 && placement[3] > 60"
