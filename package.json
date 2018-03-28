@@ -5,7 +5,7 @@
   "author": "Jonas <jonasparnow@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "PORT=3009 nuxt",
+    "dev": "PORT=3030 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
