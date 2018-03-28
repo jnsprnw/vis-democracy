@@ -55,6 +55,7 @@ h2 {
     font-weight: 400;
     font-size: 0.5em;
     text-align: center;
+    padding-bottom: 0;
   }
 }
 
@@ -173,7 +174,17 @@ h5 {
 table {
   width: 100%;
   font-size: 0.8rem;
+  line-height: 1.2em;
   border-collapse: collapse;
+
+  td, th {
+    padding: 0.8em 0.3em;
+    vertical-align: top;
+
+    &.right {
+      text-align: right;
+    }
+  }
 
   thead {
     * {
@@ -186,6 +197,10 @@ table {
 
         th {
           font-weight: 400;
+
+          sup {
+            font-weight: 400;
+          }
         }
       }
 
