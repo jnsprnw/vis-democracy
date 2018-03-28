@@ -14,14 +14,14 @@
       </header>
       <section class="tab intro" v-if="activeTab === 'intro'">
         <div class="content">
-          <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. A full democracy usually has the following features: free and fair elections; political pluralism; respect of civil liberties and human rights; protection of minority rights; a functioning government with an effective system of checks and balances; equality before the law and an independent judiciary as well as free and diverse media.</p>
-          <h3>How to read this graphic</h3>
-          <p>Each country that is included in the Economist’s index has one slice in the graphic. The width illustrates the share each country has of the cummulative population, land mass, and GDP respectively. <LinkHover path="cca3" value="CHN" label="China" />, for example, has ~&#8239;19&#8239;% of world’s population, holds ~&#8239;7&#8239;% of the land’s surface and produces ~&#8239;17&#8239;% of the total GDP. The colours indicate the categories <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" />, <LinkHover path="scores.regimeType" value="Flawed democracy" label="flawed democracy" />, <LinkHover path="scores.regimeType" value="Hybrid regime" label="hybrid regime" /> and <LinkHover path="scores.regimeType" value="Authoritarian" label="authoritarian" />.</p>
-          <span v-on:click="makeActiveTab('story')" class="btn">Start</span>
+          <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. According to the index, a full democracy has the following features: free and fair elections; political pluralism; respect of civil liberties and human rights; protection of minority rights; a functioning government with an effective system of checks and balances; equality before the law and an independent judiciary as well as free and diverse media.</p>
+          <h3>How to read the graphic</h3>
+          <p>Each country that is included in the Economist’s index has one slice in the graphic. The width illustrates the share each country has of the cummulative population, land mass, and GDP respectively. <LinkHover path="cca3" value="CHN" label="China" />, for example, is home to ~&#8239;19&#8239;% of world’s population, covers ~&#8239;7&#8239;% of the land’s surface and produces ~&#8239;17&#8239;% of the total GDP. The colours indicate the categories <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" />, <LinkHover path="scores.regimeType" value="Flawed democracy" label="flawed democracy" />, <LinkHover path="scores.regimeType" value="Hybrid regime" label="hybrid regime" /> and <LinkHover path="scores.regimeType" value="Authoritarian" label="authoritarian" />.</p>
+          <span v-on:click="makeActiveTab('story')" class="btn center">Explore</span>
         </div>
       </section>
       <footer class="tab footer" v-if="activeTab === 'intro'">
-        <p>This graphic was created by Jonas Parnow in 2018. <nuxt-link to="imprint" class="link">Find out more</nuxt-link>.</p>
+        <small>This website was created by Jonas Parnow in 2018. <nuxt-link to="imprint" class="link">Click for details</nuxt-link></small>
       </footer>
       <section class="tab" v-if="activeTab === 'story'">
         <h3>Population</h3>
