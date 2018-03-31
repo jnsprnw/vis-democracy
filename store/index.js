@@ -138,8 +138,8 @@ const store = () => new Vuex.Store({
       let colorScaleScore = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score)
       let colorScaleScore12 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score12)
       let colorScaleScore06 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score06)
-      let colorScaleScoreDiff1712 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.scoreDiff1712)
-      let colorScaleScoreDiff1706 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.scoreDiff1706)
+      let colorScaleScoreDiff1712 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1712)
+      let colorScaleScoreDiff1706 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1706)
 
       let colorScaleHDI = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.hdi)
 
