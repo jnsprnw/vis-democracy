@@ -22,7 +22,7 @@ const store = () => new Vuex.Store({
     hoverCountry: false,
     activeCountry: false,
     colorRangesRegimeType: {
-      'Full democracy': ['#f4e600', '#c2d22f'],
+      'Full democracy': ['#CCC200', '#c2d22f'],
       'Flawed democracy': ['#7dbb45', '#329967'],
       'Hybrid regime': ['#117575', '#415151'],
       'Authoritarian': ['#722b2c', '#a51916']
