@@ -10,7 +10,8 @@
     <h3>About the data</h3>
     <p>The data is mostly based on the Economist <a href="https://www.eiu.com/topic/democracy-index">Intelligence Unit’s Democracy Index 2017</a>. Please note that this list only contains 167 countries. Most notably countries like Greenland, Somalia, South Sudan and Western Sahara are missing. Because of this the percentage values are only relative to the included countries. Most dramatically, the land mass of Antartica is missing. Find out more about their methodology and the data in their <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">free report</a>. Additional data is gathered from various sources.</p>
     <p><sup>[1]</sup> Palestine’s population and landmass is combined from the Gaza Strip and the West Bank respectively.<br />
-    <sup>[2]</sup> Taiwan’s GDP is …</p>
+    <sup>[2]</sup> Taiwan’s GDP is …<br />
+    <sup>[3]</sup> Eritrea is technically listed as a observer instead of member.</p>
     <table>
       <thead>
         <tr>
@@ -143,7 +144,7 @@
             EU
           </th>
           <th>
-            Arab
+            2018, <a href="http://www.nationsonline.org/oneworld/arab_league.htm">source</a> <sup>[3]</sup>
           </th>
           <th>
             Nato
