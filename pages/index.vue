@@ -111,5 +111,7 @@
 </script>
 
 <style lang="scss">
-
+  .page-body {
+    overflow: hidden;
+  }
 </style>
