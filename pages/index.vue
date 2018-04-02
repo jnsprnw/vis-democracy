@@ -35,7 +35,7 @@
         <p>While economic heavyweights <LinkHover path="cca3" value="CHN" label="China" /> and the <LinkHover path="cca3" value="USA" label="US" /> match up to each other in absolute numbers, comparing the numbers per capita would draw a different picture. The GDP per capita is $&#8239;55,800 in the <LinkHover path="cca3" value="USA" label="United States" />, but only $&#8239;14,100 in <LinkHover path="cca3" value="CHN" label="China" />, $&#8239;6,200 in <LinkHover path="cca3" value="IND" label="India" />, and a mere $&#8239;3,600 in <LinkHover path="cca3" value="BGD" label="Bangladesh" />.</p>
       </section>
       <section class="tab" v-if="activeTab === 'groups'">
-        <p>In order to defend their own interestes, wield power, or make peace, countries enter alliances and form coalitions. Other country constellations emerge because of their geographical position or their belongingness to an assigned category.</p>
+        <p>In order to defend their own interests, wield power, or make peace, countries enter alliances and form coalitions. Other country constellations emerge because of their geographical position or their belongingness to an assigned category.</p>
         <div class="list">
           <section v-for="(list, section) in groups">
             <h4>{{ section }}</h4>
