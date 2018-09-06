@@ -1,8 +1,8 @@
 {
   "name": "vis-country-compare",
-  "version": "1.0.0",
-  "description": "Compare countries",
-  "author": "Jonas <jonasparnow@gmail.com>",
+  "version": "1.0.1",
+  "description": "Compare countries with the democracy index",
+  "author": "Jonas <jonas@parnow.de>",
   "private": true,
   "scripts": {
     "dev": "PORT=3030 nuxt",
