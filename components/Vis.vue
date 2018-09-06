@@ -18,47 +18,8 @@
     <svg
       v-if="resolution.length && Math.min(...resolution) > 500"
       :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true, 'negative': activeColour === 'rankDiff1712' || activeColour === 'rankDiff1706' || activeColour === 'scoreDiff1712' || activeColour === 'scoreDiff1706' }">
-      <g v-on:mouseleave="makeHoverCountry(false)">
-        <g
-          v-for="(country, index) in countries"
-          :key="country.cca3"
-          :class="{ 'country': true, 'highlight': status[activeStatus][index], 'active': checkActive(activeCountry, country) }"
-          v-on:mouseover="makeHoverCountry({ country: country, placement: placements[index] })">
-          <path
-            v-if="shapes.length"
-            :style="{ fill: country.colours[activeColour] }"
-            :d="shapes[index]" />
-          <text
-            v-for="(placement, n) in placements[index]"
-            v-if="points.length && placement[2] > 7 && placement[3] > 60"
-            dominant-baseline="middle"
-            :text-anchor="n === 0 ? 'start' : 'middle'"
-            v-bind:style="{ fontSize: placement[2] > 10 ? '10px' : '7.5px' }"
-            :transform="'rotate(90,' + placement[0] + ',' + placement[1] + ')'"
-            :x="placement[0]"
-            :y="placement[1]"
-          >
-            {{ country.label }}
-          </text>
-        </g>
-      </g>
-      <g
-        v-for="(line, n) in categoryPlacement"
-        class="categoryPlacements">
-        <text
-          class="category"
-          :x="line.center"
-          text-anchor="middle"
-          :y="line.ys[1]">
-          {{ line.label }}
-        </text>
-        <line
-          class="categories"
-          :x1="line.xs[0]"
-          :x2="line.xs[1]"
-          :y1="line.ys[0]"
-          :y2="line.ys[0]" />
-      </g>
+      <VisCountries :countries="countries" :placements="placements" :shapes="shapes" :points="points" />
+      <VisCategories :categoryPlacement="categoryPlacement" />
     </svg>
   </div>
 </template>
@@ -67,6 +28,8 @@
   import { mapGetters, mapState, mapActions } from 'vuex'
   import { ResizeObserver } from 'vue-resize'
   import Tooltip from '~/components/Tooltip.vue'
+  import VisCategories from '~/components/VisCategories.vue'
+  import VisCountries from '~/components/VisCountries.vue'
   import _ from 'lodash'
 
   export default {
@@ -285,7 +248,9 @@
     },
     components: {
       'resize-observer': ResizeObserver,
-      Tooltip
+      Tooltip,
+      VisCategories,
+      VisCountries
     },
     mounted () {
       this.getResolution()

@@ -83,6 +83,7 @@ body, #__nuxt, #__layout, .page, .page-body {
       path {
         stroke: rgba(255, 255, 255, 0.4);
         stroke-width: 0.5;
+        backface-visibility: hidden;
       }
 
       .categoryPlacements {
@@ -104,6 +105,12 @@ body, #__nuxt, #__layout, .page, .page-body {
       &.negative {
         text {
           fill: #000 !important;
+        }
+      }
+
+      g.country {
+        path {
+          will-change: transform;
         }
       }
 
