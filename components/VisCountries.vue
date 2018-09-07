@@ -22,7 +22,6 @@
     computed: {
       ...mapState([
         'activeStatus',
-        'activeColour',
         'activeCountry'
       ]),
       ...mapGetters([
