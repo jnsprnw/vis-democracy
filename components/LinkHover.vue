@@ -44,32 +44,25 @@
     &.full-democracy {
       font-weight: bold;
       color: darken(#c2d22f, 10%);
-      // border-bottom: 2px solid #c2d22f;
       border-color: #c2d22f;
     }
+
     &.flawed-democracy {
-      // font-weight: bold;
-      // color: #CCC200;
       font-weight: bold;
       color: #329967;
       border-color: #7dbb45;
-      // border-bottom: 2px solid #7dbb45;
     }
+
     &.hybrid-regime {
       font-weight: bold;
       color: #117575;
       border-color: #117575;
-      // font-weight: bold;
-      // color: #CCC200;
-      // border-bottom: 2px solid #117575;
     }
+
     &.authoritarian {
       font-weight: bold;
       color: #a51916;
       border-color: #a51916;
-      // font-weight: bold;
-      // color: #CCC200;
-      // border-bottom: 2px solid #a51916;
     }
   }
 </style>
