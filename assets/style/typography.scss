@@ -30,15 +30,6 @@ a, .a, .link {
   }
 }
 
-.link-hover {
-  border-bottom: 1px dashed $brand-color;
-
-  &:hover, &:focus {
-    border-bottom-style: solid;
-    color: $brand-color;
-  }
-}
-
 h1 {
   font-size: 0.8rem;
   font-weight: normal;
