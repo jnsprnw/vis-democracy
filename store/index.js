@@ -100,8 +100,6 @@ const store = () => new Vuex.Store({
       let democracyScoreDiff1712 = _.map(state.data, 'scores.scoreDiff1712')
       let democracyScoreDiff1706 = _.map(state.data, 'scores.scoreDiff1706')
 
-      console.log(getMinMax(democracyScore12), getMinMax(democracyScore06))
-
       let democracyTypesGroups = _.groupBy(state.data, 'scores.regimeType')
       let democracyTypes = _.fromPairs(_.map(democracyTypesGroups, (countries, key) => {
         let values = _.map(countries, 'scores.rank')
@@ -129,19 +127,19 @@ const store = () => new Vuex.Store({
     },
     countries (state, getters) {
       let numberCountries = state.data.length
-      let colorScaleRank = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank)
-      let colorScaleRank12 = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank12)
-      let colorScaleRank06 = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank06)
-      let colorScaleRankDiff1712 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1712)
-      let colorScaleRankDiff1706 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1706)
+      const colorScaleRank = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank)
+      const colorScaleRank12 = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank12)
+      const colorScaleRank06 = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank06)
+      const colorScaleRankDiff1712 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1712)
+      const colorScaleRankDiff1706 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1706)
 
-      let colorScaleScore = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score)
-      let colorScaleScore12 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score12)
-      let colorScaleScore06 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score06)
-      let colorScaleScoreDiff1712 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1712)
-      let colorScaleScoreDiff1706 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1706)
+      const colorScaleScore = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score)
+      const colorScaleScore12 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score12)
+      const colorScaleScore06 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score06)
+      const colorScaleScoreDiff1712 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1712)
+      const colorScaleScoreDiff1706 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1706)
 
-      let colorScaleHDI = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.hdi)
+      const colorScaleHDI = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.hdi)
 
       // let colorScaleDemocracy = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.democracy)
 
@@ -198,6 +196,7 @@ const store = () => new Vuex.Store({
       return Object.freeze(_.keys(_.first(state.data)['organisations']))
     },
     status (state, getters) {
+      // Creates an object of arrays with true or false wether each country is highlighter for each group.
       let retVal = {}
       retVal[state.activeStatus] = _.fill(Array(state.data.length), false)
       _.each(getters.organisations, organisation => {
