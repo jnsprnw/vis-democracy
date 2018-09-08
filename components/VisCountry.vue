@@ -1,7 +1,7 @@
 <template>
   <g
     :class="{ 'country': true, 'highlight': highlight, 'active': active }"
-    v-on:mouseover="makeHoverCountry({ country: country, placement: placement })">
+    v-on:mouseover="makeHoverCountry({ country, placement, shape })">
     <path
       v-if="shape"
       :style="{ fill: country.colours[activeColour] }"
