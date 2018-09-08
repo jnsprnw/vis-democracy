@@ -6,7 +6,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 5207689,
-      "gdp" : 3.562E11,
+      "gdp" : 396.457,
       "area" : 323802
     },
     "types": {
@@ -53,7 +53,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 331918,
-      "gdp" : 1.515E10,
+      "gdp" : 23.909,
       "area" : 103000
     },
     "types": {
@@ -100,7 +100,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 9801616,
-      "gdp" : 4.734E11,
+      "gdp" : 538.575,
       "area" : 450295
     },
     "types": {
@@ -147,7 +147,7 @@
     "region" : "Oceania",
     "values" : {
       "population" : 4438393,
-      "gdp" : 1.682E11,
+      "gdp" : 201.485,
       "area" : 268838
     },
     "types": {
@@ -194,7 +194,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 5581503,
-      "gdp" : 2.587E11,
+      "gdp" : 324.484,
       "area" : 43094
     },
     "types": {
@@ -241,7 +241,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 4892305,
-      "gdp" : 2.574E11,
+      "gdp" : 333.994,
       "area" : 70273
     },
     "types": {
@@ -288,7 +288,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 3.5099836E7,
-      "gdp" : 1.632E12,
+      "gdp" : 1652.412,
       "area" : 9984670
     },
     "types": {
@@ -335,7 +335,7 @@
     "region" : "Oceania",
     "values" : {
       "population" : 2.2751014E7,
-      "gdp" : 1.489E12,
+      "gdp" : 1379.548,
       "area" : 7741220
     },
     "types": {
@@ -382,7 +382,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 5476922,
-      "gdp" : 2.25E11,
+      "gdp" : 253.244,
       "area" : 338145
     },
     "types": {
@@ -429,7 +429,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 8121830,
-      "gdp" : 4.823E11,
+      "gdp" : 678.575,
       "area" : 41277
     },
     "types": {
@@ -476,7 +476,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1.6947904E7,
-      "gdp" : 8.326E11,
+      "gdp" : 825.745,
       "area" : 41543
     },
     "types": {
@@ -523,7 +523,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 570252,
-      "gdp" : 5.573E10,
+      "gdp" : 62.393,
       "area" : 2586
     },
     "types": {
@@ -570,7 +570,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 8.0854408E7,
-      "gdp" : 3.841E12,
+      "gdp" : 3684.816,
       "area" : 357022
     },
     "types": {
@@ -617,7 +617,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 6.4088222E7,
-      "gdp" : 2.679E12,
+      "gdp" : 2624.529,
       "area" : 243610
     },
     "types": {
@@ -664,7 +664,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 8665550,
-      "gdp" : 4.043E11,
+      "gdp" : 416.845,
       "area" : 83871
     },
     "types": {
@@ -711,7 +711,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1339827,
-      "gdp" : 2.457E10,
+      "gdp" : 12.428,
       "area" : 2040
     },
     "types": {
@@ -758,7 +758,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 413965,
-      "gdp" : 1.538E10,
+      "gdp" : 12.543,
       "area" : 316
     },
     "types": {
@@ -805,7 +805,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 3341893,
-      "gdp" : 7.143E10,
+      "gdp" : 58.415,
       "area" : 176215
     },
     "types": {
@@ -852,7 +852,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 4.8146134E7,
-      "gdp" : 1.615E12,
+      "gdp" : 1313.951,
       "area" : 505370
     },
     "types": {
@@ -899,7 +899,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 4.9115196E7,
-      "gdp" : 1.849E12,
+      "gdp" : 1538.03,
       "area" : 99720
     },
     "types": {
@@ -946,7 +946,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 3.21368864E8,
-      "gdp" : 1.795E13,
+      "gdp" : 19390.6,
       "area" : 9833517
     },
     "types": {
@@ -993,7 +993,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 6.185512E7,
-      "gdp" : 2.171E12,
+      "gdp" : 1937.894,
       "area" : 301340
     },
     "types": {
@@ -1040,7 +1040,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.26919659E8,
-      "gdp" : 4.83E12,
+      "gdp" : 4872.135,
       "area" : 377915
     },
     "types": {
@@ -1087,7 +1087,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 545993,
-      "gdp" : 3.423E9,
+      "gdp" : 1.741,
       "area" : 4033
     },
     "types": {
@@ -1134,7 +1134,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 4814144,
-      "gdp" : 7.489E10,
+      "gdp" : 58.056,
       "area" : 51100
     },
     "types": {
@@ -1181,7 +1181,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1.750826E7,
-      "gdp" : 4.224E11,
+      "gdp" : 277.042,
       "area" : 756102
     },
     "types": {
@@ -1228,7 +1228,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1.0825309E7,
-      "gdp" : 2.898E11,
+      "gdp" : 218.064,
       "area" : 92090
     },
     "types": {
@@ -1275,7 +1275,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 2182719,
-      "gdp" : 3.484E10,
+      "gdp" : 17.168,
       "area" : 581730
     },
     "types": {
@@ -1322,7 +1322,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 6.6553766E7,
-      "gdp" : 2.647E12,
+      "gdp" : 2583.56,
       "area" : 643801
     },
     "types": {
@@ -1369,7 +1369,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1265420,
-      "gdp" : 3.755E10,
+      "gdp" : 25.973,
       "area" : 45228
     },
     "types": {
@@ -1416,7 +1416,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 8049314,
-      "gdp" : 2.819E11,
+      "gdp" : 350.609,
       "area" : 20770
     },
     "types": {
@@ -1463,7 +1463,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1.1323973E7,
-      "gdp" : 4.941E11,
+      "gdp" : 494.733,
       "area" : 30528
     },
     "types": {
@@ -1510,7 +1510,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2.3415126E7,
-      "gdp" : 1.099E12,
+      "gdp" : 579.302,
       "area" : 35980
     },
     "types": {
@@ -1520,7 +1520,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : null,
+      "hdi" : 0.885,
       "rank" : 33,
       "rank12" : 35,
       "rank06" : 32,
@@ -1557,7 +1557,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1.0644842E7,
-      "gdp" : 3.325E11,
+      "gdp" : 213.189,
       "area" : 78867
     },
     "types": {
@@ -1604,7 +1604,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1189197,
-      "gdp" : 2.806E10,
+      "gdp" : 21.31,
       "area" : 9251
     },
     "types": {
@@ -1651,7 +1651,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1983412,
-      "gdp" : 6.396E10,
+      "gdp" : 48.868,
       "area" : 20273
     },
     "types": {
@@ -1698,7 +1698,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 2884433,
-      "gdp" : 8.236E10,
+      "gdp" : 47.263,
       "area" : 65300
     },
     "types": {
@@ -1745,7 +1745,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1.0775643E7,
-      "gdp" : 2.86E11,
+      "gdp" : 200.69,
       "area" : 131957
     },
     "types": {
@@ -1792,7 +1792,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 2950210,
-      "gdp" : 2.465E10,
+      "gdp" : 14.359,
       "area" : 10991
     },
     "types": {
@@ -1839,7 +1839,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1986705,
-      "gdp" : 4.908E10,
+      "gdp" : 30.319,
       "area" : 64589
     },
     "types": {
@@ -1886,7 +1886,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 5.3675563E7,
-      "gdp" : 7.235E11,
+      "gdp" : 349.299,
       "area" : 1219090
     },
     "types": {
@@ -1933,7 +1933,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.251695584E9,
-      "gdp" : 7.965E12,
+      "gdp" : 2611.012,
       "area" : 3287263
     },
     "types": {
@@ -1980,7 +1980,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1231116,
-      "gdp" : 6.57E9,
+      "gdp" : 2.61,
       "area" : 14874
     },
     "types": {
@@ -2027,7 +2027,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 5445027,
-      "gdp" : 1.61E11,
+      "gdp" : 95.938,
       "area" : 49035
     },
     "types": {
@@ -2074,7 +2074,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 3657024,
-      "gdp" : 8.72E10,
+      "gdp" : 61.838,
       "area" : 75420
     },
     "types": {
@@ -2121,7 +2121,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1222363,
-      "gdp" : 4.431E10,
+      "gdp" : 21.624,
       "area" : 5128
     },
     "types": {
@@ -2168,7 +2168,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 7186893,
-      "gdp" : 1.339E11,
+      "gdp" : 56.943,
       "area" : 110879
     },
     "types": {
@@ -2215,7 +2215,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 4.3431886E7,
-      "gdp" : 9.72E11,
+      "gdp" : 637.717,
       "area" : 2780400
     },
     "types": {
@@ -2262,7 +2262,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 2.04259812E8,
-      "gdp" : 3.192E12,
+      "gdp" : 2054.969,
       "area" : 8515770
     },
     "types": {
@@ -2309,7 +2309,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 579633,
-      "gdp" : 9.09E9,
+      "gdp" : 3.347,
       "area" : 163820
     },
     "types": {
@@ -2356,7 +2356,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.00998376E8,
-      "gdp" : 7.41E11,
+      "gdp" : 313.419,
       "area" : 300000
     },
     "types": {
@@ -2403,7 +2403,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 2.6327649E7,
-      "gdp" : 1.147E11,
+      "gdp" : 47.032,
       "area" : 238533
     },
     "types": {
@@ -2450,7 +2450,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 3.8562189E7,
-      "gdp" : 1.005E12,
+      "gdp" : 524.886,
       "area" : 312685
     },
     "types": {
@@ -2497,7 +2497,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 4.6736728E7,
-      "gdp" : 6.674E11,
+      "gdp" : 309.197,
       "area" : 1138910
     },
     "types": {
@@ -2544,7 +2544,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1.0478756E7,
-      "gdp" : 1.497E11,
+      "gdp" : 75.018,
       "area" : 48670
     },
     "types": {
@@ -2591,7 +2591,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1947701,
-      "gdp" : 5.77E9,
+      "gdp" : 2.768,
       "area" : 30355
     },
     "types": {
@@ -2638,7 +2638,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 9897541,
-      "gdp" : 2.584E11,
+      "gdp" : 152.284,
       "area" : 93028
     },
     "types": {
@@ -2685,7 +2685,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 4464844,
-      "gdp" : 9.11E10,
+      "gdp" : 54.516,
       "area" : 56594
     },
     "types": {
@@ -2732,7 +2732,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 3.0513848E7,
-      "gdp" : 8.156E11,
+      "gdp" : 314.497,
       "area" : 329847
     },
     "types": {
@@ -2779,7 +2779,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2992908,
-      "gdp" : 3.607E10,
+      "gdp" : 11.135,
       "area" : 1564116
     },
     "types": {
@@ -2826,7 +2826,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 3.0444999E7,
-      "gdp" : 3.891E11,
+      "gdp" : 215.224,
       "area" : 1285216
     },
     "types": {
@@ -2873,7 +2873,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2.2053488E7,
-      "gdp" : 2.23E11,
+      "gdp" : 87.591,
       "area" : 65610
     },
     "types": {
@@ -2920,7 +2920,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 735222,
-      "gdp" : 5.759E9,
+      "gdp" : 3.628,
       "area" : 214969
     },
     "types": {
@@ -2967,7 +2967,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 2.166635E7,
-      "gdp" : 4.138E11,
+      "gdp" : 211.315,
       "area" : 238391
     },
     "types": {
@@ -3014,7 +3014,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 6141350,
-      "gdp" : 5.295E10,
+      "gdp" : 28.023,
       "area" : 21041
     },
     "types": {
@@ -3061,7 +3061,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 7176794,
-      "gdp" : 9.75E10,
+      "gdp" : 41.471,
       "area" : 77474
     },
     "types": {
@@ -3108,7 +3108,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1.21736809E8,
-      "gdp" : 2.227E12,
+      "gdp" : 1149.236,
       "area" : 1964375
     },
     "types": {
@@ -3155,7 +3155,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2.55993674E8,
-      "gdp" : 2.842E12,
+      "gdp" : 1015.411,
       "area" : 1904569
     },
     "types": {
@@ -3202,7 +3202,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.1037225E7,
-      "gdp" : 1.27E11,
+      "gdp" : 40.275,
       "area" : 163610
     },
     "types": {
@@ -3249,7 +3249,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 5674472,
-      "gdp" : 4.719E11,
+      "gdp" : 323.902,
       "area" : 697
     },
     "types": {
@@ -3296,7 +3296,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 7141106,
-      "gdp" : 4.146E11,
+      "gdp" : 341.659,
       "area" : 1108
     },
     "types": {
@@ -3343,7 +3343,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 2212307,
-      "gdp" : 2.534E10,
+      "gdp" : 12.687,
       "area" : 824292
     },
     "types": {
@@ -3390,7 +3390,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 6783272,
-      "gdp" : 6.098E10,
+      "gdp" : 29.619,
       "area" : 406752
     },
     "types": {
@@ -3437,7 +3437,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.3975834E7,
-      "gdp" : 3.669E10,
+      "gdp" : 16.463,
       "area" : 196722
     },
     "types": {
@@ -3484,7 +3484,7 @@
     "region" : "Oceania",
     "values" : {
       "population" : 6672429,
-      "gdp" : 2.047E10,
+      "gdp" : 23.617,
       "area" : 462840
     },
     "types": {
@@ -3531,7 +3531,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1.5868396E7,
-      "gdp" : 1.834E11,
+      "gdp" : 102.311,
       "area" : 283561
     },
     "types": {
@@ -3578,7 +3578,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 3029278,
-      "gdp" : 3.265E10,
+      "gdp" : 13.181,
       "area" : 28748
     },
     "types": {
@@ -3625,7 +3625,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 3546847,
-      "gdp" : 1.779E10,
+      "gdp" : 8.085,
       "area" : 33851
     },
     "types": {
@@ -3672,7 +3672,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 4931226,
-      "gdp" : 3.56E10,
+      "gdp" : 15.139,
       "area" : 69700
     },
     "types": {
@@ -3719,7 +3719,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1.4918999E7,
-      "gdp" : 1.259E11,
+      "gdp" : 75.661,
       "area" : 108889
     },
     "types": {
@@ -3766,7 +3766,7 @@
     "region" : "Oceania",
     "values" : {
       "population" : 909389,
-      "gdp" : 8.048E9,
+      "gdp" : 5.079,
       "area" : 18274
     },
     "types": {
@@ -3813,7 +3813,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 8746673,
-      "gdp" : 4.106E10,
+      "gdp" : 22.975,
       "area" : 112090
     },
     "types": {
@@ -3860,7 +3860,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 4.4429471E7,
-      "gdp" : 3.395E11,
+      "gdp" : 109.321,
       "area" : 603550
     },
     "types": {
@@ -3907,7 +3907,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 647073,
-      "gdp" : 1.004E10,
+      "gdp" : 4.764,
       "area" : 13812
     },
     "types": {
@@ -3954,7 +3954,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.5066266E7,
-      "gdp" : 6.271E10,
+      "gdp" : 25.504,
       "area" : 752618
     },
     "types": {
@@ -4001,7 +4001,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.6955536E7,
-      "gdp" : 3.583E10,
+      "gdp" : 15.318,
       "area" : 1240192
     },
     "types": {
@@ -4048,7 +4048,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.0448647E7,
-      "gdp" : 2.295E10,
+      "gdp" : 9.238,
       "area" : 112622
     },
     "types": {
@@ -4095,7 +4095,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 2096015,
-      "gdp" : 2.904E10,
+      "gdp" : 11.366,
       "area" : 25713
     },
     "types": {
@@ -4142,7 +4142,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1.0800882E7,
-      "gdp" : 7.439E10,
+      "gdp" : 37.122,
       "area" : 1098581
     },
     "types": {
@@ -4189,7 +4189,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.7964697E7,
-      "gdp" : 2.036E10,
+      "gdp" : 6.206,
       "area" : 118484
     },
     "types": {
@@ -4236,7 +4236,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 5.1045882E7,
-      "gdp" : 1.385E11,
+      "gdp" : 51.725,
       "area" : 947300
     },
     "types": {
@@ -4283,7 +4283,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.68957745E8,
-      "gdp" : 5.77E11,
+      "gdp" : 261.374,
       "area" : 148460
     },
     "types": {
@@ -4330,7 +4330,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 4195666,
-      "gdp" : 3.749E9,
+      "gdp" : 3.285,
       "area" : 111369
     },
     "types": {
@@ -4377,7 +4377,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 3.1551305E7,
-      "gdp" : 7.009E10,
+      "gdp" : 24.472,
       "area" : 147181
     },
     "types": {
@@ -4424,7 +4424,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 4.5925301E7,
-      "gdp" : 1.419E11,
+      "gdp" : 79.511,
       "area" : 580367
     },
     "types": {
@@ -4471,7 +4471,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 5664939,
-      "gdp" : 2.01E10,
+      "gdp" : 7.163,
       "area" : 199951
     },
     "types": {
@@ -4518,7 +4518,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 2.3812681E7,
-      "gdp" : 3.544E10,
+      "gdp" : 11.463,
       "area" : 587041
     },
     "types": {
@@ -4565,7 +4565,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 3.7101745E7,
-      "gdp" : 7.988E10,
+      "gdp" : 26.349,
       "area" : 241038
     },
     "types": {
@@ -4612,7 +4612,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 741919,
-      "gdp" : 6.385E9,
+      "gdp" : 2.334,
       "area" : 38394
     },
     "types": {
@@ -4659,7 +4659,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 7.9414269E7,
-      "gdp" : 1.589E12,
+      "gdp" : 849.48,
       "area" : 783562
     },
     "types": {
@@ -4706,7 +4706,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 3.3322699E7,
-      "gdp" : 2.735E11,
+      "gdp" : 109.824,
       "area" : 446550
     },
     "types": {
@@ -4753,7 +4753,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 3867055,
-      "gdp" : 4.053E10,
+      "gdp" : 18.058,
       "area" : 51197
     },
     "types": {
@@ -4800,7 +4800,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.8931686E7,
-      "gdp" : 3.088E10,
+      "gdp" : 12.569,
       "area" : 274200
     },
     "types": {
@@ -4847,7 +4847,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 6184701,
-      "gdp" : 8.306E10,
+      "gdp" : 51.457,
       "area" : 10400
     },
     "types": {
@@ -4894,7 +4894,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 5879098,
-      "gdp" : 9.966E9,
+      "gdp" : 3.641,
       "area" : 71740
     },
     "types": {
@@ -4941,7 +4941,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 5907881,
-      "gdp" : 3.133E10,
+      "gdp" : 13.727,
       "area" : 130370
     },
     "types": {
@@ -4988,7 +4988,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 6.7976405E7,
-      "gdp" : 1.108E12,
+      "gdp" : 455.378,
       "area" : 513120
     },
     "types": {
@@ -5035,7 +5035,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 4654421,
-      "gdp" : 21220000000,
+      "gdp" : 12.766,
       "area" : 6220
     },
     "types": {
@@ -5082,7 +5082,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.8045729E7,
-      "gdp" : 1.905E10,
+      "gdp" : 376.284,
       "area" : 1267000
     },
     "types": {
@@ -5129,7 +5129,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.99085847E8,
-      "gdp" : 9.31E11,
+      "gdp" : 303.993,
       "area" : 796095
     },
     "types": {
@@ -5176,7 +5176,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 3056382,
-      "gdp" : 2.532E10,
+      "gdp" : 11.548,
       "area" : 29743
     },
     "types": {
@@ -5223,7 +5223,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 3.7056169E7,
-      "gdp" : 5.441E11,
+      "gdp" : 197.699,
       "area" : 438317
     },
     "types": {
@@ -5270,7 +5270,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1967709,
-      "gdp" : 3.261E9,
+      "gdp" : 1.009,
       "area" : 11300
     },
     "types": {
@@ -5317,7 +5317,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1.0110019E7,
-      "gdp" : 1.875E10,
+      "gdp" : 8.608,
       "area" : 27750
     },
     "types": {
@@ -5364,7 +5364,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 2.5303113E7,
-      "gdp" : 3.319E10,
+      "gdp" : 12.681,
       "area" : 799380
     },
     "types": {
@@ -5411,7 +5411,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 2.3295302E7,
-      "gdp" : 7.862E10,
+      "gdp" : 40.36,
       "area" : 322463
     },
     "types": {
@@ -5458,7 +5458,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 8117564,
-      "gdp" : 8.273E10,
+      "gdp" : 40.487,
       "area" : 89342
     },
     "types": {
@@ -5505,7 +5505,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 2.927546E7,
-      "gdp" : 5.157E11,
+      "gdp" : 210.085,
       "area" : 912050
     },
     "types": {
@@ -5552,7 +5552,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2788534,
-      "gdp" : 2.884E11,
+      "gdp" : 120.351,
       "area" : 17818
     },
     "types": {
@@ -5599,7 +5599,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 5.6320206E7,
-      "gdp" : 2.835E11,
+      "gdp" : 66.537,
       "area" : 676578
     },
     "types": {
@@ -5646,7 +5646,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 3596702,
-      "gdp" : 1.629E10,
+      "gdp" : 5.116,
       "area" : 1030700
     },
     "types": {
@@ -5693,7 +5693,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.81562056E8,
-      "gdp" : 1.092E12,
+      "gdp" : 8.253,
       "area" : 923768
     },
     "types": {
@@ -5740,7 +5740,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 780971,
-      "gdp" : 1.214E9,
+      "gdp" : 0.652,
       "area" : 2235
     },
     "types": {
@@ -5787,7 +5787,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.5708756E7,
-      "gdp" : 5.421E10,
+      "gdp" : 22.252,
       "area" : 181035
     },
     "types": {
@@ -5834,7 +5834,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.9625353E7,
-      "gdp" : 1.844E11,
+      "gdp" : 124.209,
       "area" : 1246700
     },
     "types": {
@@ -5881,7 +5881,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1705336,
-      "gdp" : 3.458E10,
+      "gdp" : 15.206,
       "area" : 267667
     },
     "types": {
@@ -5928,7 +5928,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 2.3739218E7,
-      "gdp" : 7.264E10,
+      "gdp" : 34.006,
       "area" : 475440
     },
     "types": {
@@ -5975,7 +5975,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 3.9542166E7,
-      "gdp" : 5.787E11,
+      "gdp" : 178.287,
       "area" : 2381741
     },
     "types": {
@@ -6022,7 +6022,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 9.9465819E7,
-      "gdp" : 1.616E11,
+      "gdp" : 80.874,
       "area" : 1104300
     },
     "types": {
@@ -6069,7 +6069,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 8.8487396E7,
-      "gdp" : 1.048E12,
+      "gdp" : 237.073,
       "area" : 1001450
     },
     "types": {
@@ -6116,7 +6116,7 @@
     "region" : "Americas",
     "values" : {
       "population" : 1.1031433E7,
-      "gdp" : 1.285E11,
+      "gdp" : 89.689,
       "area" : 110860
     },
     "types": {
@@ -6163,7 +6163,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 4755097,
-      "gdp" : 2.936E10,
+      "gdp" : 8.513,
       "area" : 342000
     },
     "types": {
@@ -6210,7 +6210,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2194817,
-      "gdp" : 3.198E11,
+      "gdp" : 166.326,
       "area" : 11586
     },
     "types": {
@@ -6257,7 +6257,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.2661733E7,
-      "gdp" : 2.042E10,
+      "gdp" : 9.137,
       "area" : 26338
     },
     "types": {
@@ -6304,7 +6304,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 1.42423773E8,
-      "gdp" : 3.718E12,
+      "gdp" : 1527.469,
       "area" : 1.7098242E7
     },
     "types": {
@@ -6351,7 +6351,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.4229541E7,
-      "gdp" : 2.81E10,
+      "gdp" : 17.491,
       "area" : 390757
     },
     "types": {
@@ -6398,7 +6398,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.1780162E7,
-      "gdp" : 1.498E10,
+      "gdp" : 9.721,
       "area" : 245857
     },
     "types": {
@@ -6445,7 +6445,7 @@
     "region" : "Europe",
     "values" : {
       "population" : 9589689,
-      "gdp" : 1.677E11,
+      "gdp" : 54.436,
       "area" : 207600
     },
     "types": {
@@ -6492,7 +6492,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.367485388E9,
-      "gdp" : 1.939E13,
+      "gdp" : 12014.61,
       "area" : 9596960
     },
     "types": {
@@ -6539,7 +6539,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 9.4348835E7,
-      "gdp" : 5.523E11,
+      "gdp" : 220.408,
       "area" : 331210
     },
     "types": {
@@ -6586,7 +6586,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.8157122E7,
-      "gdp" : 4.291E11,
+      "gdp" : 160.839,
       "area" : 2724900
     },
     "types": {
@@ -6633,7 +6633,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 7552318,
-      "gdp" : 1.085E10,
+      "gdp" : 4.767,
       "area" : 56785
     },
     "types": {
@@ -6680,7 +6680,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 3286936,
-      "gdp" : 1.714E11,
+      "gdp" : 74.274,
       "area" : 309500
     },
     "types": {
@@ -6727,7 +6727,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1435613,
-      "gdp" : 1.085E10,
+      "gdp" : 4.491,
       "area" : 17364
     },
     "types": {
@@ -6774,7 +6774,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 828324,
-      "gdp" : 3.094E9,
+      "gdp" : 2.029,
       "area" : 23200
     },
     "types": {
@@ -6821,7 +6821,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1346613,
-      "gdp" : 6.48E10,
+      "gdp" : 34.895,
       "area" : 760
     },
     "types": {
@@ -6868,7 +6868,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 5779760,
-      "gdp" : 6.478E11,
+      "gdp" : 377.435,
       "area" : 83600
     },
     "types": {
@@ -6915,7 +6915,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 9780780,
-      "gdp" : 1.694E11,
+      "gdp" : 40.67,
       "area" : 86600
     },
     "types": {
@@ -6962,7 +6962,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 3.2564342E7,
-      "gdp" : 6.232E10,
+      "gdp" : 20.889,
       "area" : 652230
     },
     "types": {
@@ -7009,7 +7009,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 8.182427E7,
-      "gdp" : 1.371E12,
+      "gdp" : 431.92,
       "area" : 1648195
     },
     "types": {
@@ -7056,7 +7056,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 6527689,
-      "gdp" : 8.713E9,
+      "gdp" : 5.813,
       "area" : 117600
     },
     "types": {
@@ -7080,7 +7080,7 @@
     },
     "organisations" : {
       "eu" : false,
-      "arab" : false,
+      "arab" : true,
       "nato" : false,
       "oecd" : false,
       "g20" : false,
@@ -7103,7 +7103,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 6911544,
-      "gdp" : 3.732E10,
+      "gdp" : 11.749,
       "area" : 236800
     },
     "types": {
@@ -7150,7 +7150,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.0742276E7,
-      "gdp" : 7.711E9,
+      "gdp" : 3.396,
       "area" : 27830
     },
     "types": {
@@ -7197,7 +7197,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 6411776,
-      "gdp" : 9.261E10,
+      "gdp" : 31.331,
       "area" : 1759540
     },
     "types": {
@@ -7244,7 +7244,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 3.6108853E7,
-      "gdp" : 1.67E11,
+      "gdp" : 58.239,
       "area" : 1861484
     },
     "types": {
@@ -7291,7 +7291,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2.6737317E7,
-      "gdp" : 7.554E10,
+      "gdp" : 16.511,
       "area" : 527968
     },
     "types": {
@@ -7338,7 +7338,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1726170,
-      "gdp" : 2.68E9,
+      "gdp" : 1.35,
       "area" : 36125
     },
     "types": {
@@ -7385,7 +7385,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2.9199942E7,
-      "gdp" : 1.879E11,
+      "gdp" : 47.883,
       "area" : 447400
     },
     "types": {
@@ -7432,7 +7432,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2.7752316E7,
-      "gdp" : 1.683E12,
+      "gdp" : 683.827,
       "area" : 2149690
     },
     "types": {
@@ -7479,7 +7479,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 8191958,
-      "gdp" : 2.331E10,
+      "gdp" : 7.279,
       "area" : 144100
     },
     "types": {
@@ -7526,7 +7526,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 740743,
-      "gdp" : 2.539E10,
+      "gdp" : 10.725,
       "area" : 28051
     },
     "types": {
@@ -7573,7 +7573,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 5231422,
-      "gdp" : 8.86E10,
+      "gdp" : 37.926,
       "area" : 488100
     },
     "types": {
@@ -7620,7 +7620,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 7.9375136E7,
-      "gdp" : 6.287E10,
+      "gdp" : 41.441,
       "area" : 2344858
     },
     "types": {
@@ -7667,7 +7667,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 5391539,
-      "gdp" : 3.018E9,
+      "gdp" : 1.928,
       "area" : 622984
     },
     "types": {
@@ -7714,7 +7714,7 @@
     "region" : "Africa",
     "values" : {
       "population" : 1.1631456E7,
-      "gdp" : 3.047E10,
+      "gdp" : 9.872,
       "area" : 1284000
     },
     "types": {
@@ -7761,7 +7761,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 1.7064854E7,
-      "gdp" : 5.58E10,
+      "gdp" : 77.46,
       "area" : 185180
     },
     "types": {
@@ -7808,7 +7808,7 @@
     "region" : "Asia",
     "values" : {
       "population" : 2.4983205E7,
-      "gdp" : 4.0E10,
+      "gdp" : 17.396,
       "area" : 120538
     },
     "types": {
