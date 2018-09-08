@@ -16,7 +16,7 @@
         <div class="content">
           <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. According to the index, a full democracy has the following features: free and fair elections, political pluralism, respect of civil liberties and human rights, protection of minority rights, a functioning govern&shy;ment with an effective system of checks and balances, equality before the law and an inde&shy;pendent judiciary as well as free and diverse media.</p>
           <h3>How to read the graphic</h3>
-          <p>Each country that is included in the Economist’s index constitutes one slice in the graphic. The width illustrates the share each country has of the cummulative world population, land mass, and GDP respectively. <LinkHover path="cca3" value="CHN" label="China" />, for example, is home to ~&#8239;19&#8239;% of the world’s population, covers ~&#8239;7&#8239;% of the planet’s land surface and produces ~&#8239;17&#8239;% of the total GDP. The colours indicate the categories <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" />, <LinkHover path="scores.regimeType" value="Flawed democracy" label="flawed democracy" />, <LinkHover path="scores.regimeType" value="Hybrid regime" label="hybrid regime" /> and <LinkHover path="scores.regimeType" value="Authoritarian" label="authoritarian regime" />.</p>
+          <p>Each country that is included in the Economist’s index constitutes one slice in the graphic. The countries are ordered by their democracy rank: the more left a country is place the more democratic it is. The width illustrates the share each country has of the cummulative world population, land mass, and GDP respectively. <LinkHover path="cca3" value="CHN" label="China" />, for example, is home to ~&#8239;19&#8239;% of the world’s population, covers ~&#8239;7&#8239;% of the planet’s land surface and produces ~&#8239;17&#8239;% of the total GDP. The colours indicate the categories <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" />, <LinkHover path="scores.regimeType" value="Flawed democracy" label="flawed democracy" />, <LinkHover path="scores.regimeType" value="Hybrid regime" label="hybrid regime" /> and <LinkHover path="scores.regimeType" value="Authoritarian" label="authoritarian regime" />.</p>
           <span v-on:click="makeActiveTab('story')" class="btn center">Explore</span>
         </div>
       </section>
@@ -53,11 +53,12 @@
         <p>Countries can be measured by a variety of indicators. The default setting colours each country according to rank within its democracy category.</p>
         <ul class="selection">
           <li
-            v-for="(label, score) in scoresLabels"
-            :class="{ active: activeColour === score }"
-            v-on:click="makeActiveColour(score)"
-            >{{ label }}</li>
+            v-for="(score, key) in scores"
+            :class="{ active: activeColour === key }"
+            v-on:click="makeActiveColour(key)"
+            >{{ score.label }}</li>
         </ul>
+        <Legend />
       </section>
     </aside>
     <div class="page-content page-vis">
@@ -70,6 +71,7 @@
   import { mapGetters, mapState, mapActions } from 'vuex'
   import Vis from '~/components/Vis.vue'
   import LinkHover from '~/components/LinkHover.vue'
+  import Legend from '~/components/Legend.vue'
 
   export default {
     data: function () {
@@ -82,17 +84,14 @@
         'activeColour',
         'groups',
         'activeTab',
-        'scoresLabels'
+        'scores'
       ]),
       ...mapGetters([
         'countries',
         'status',
         'organisations',
-        'domains',
-        'scores'
+        'domains'
       ])
-    },
-    watch: {
     },
     methods: {
       ...mapActions([
@@ -103,7 +102,8 @@
     },
     components: {
       Vis,
-      LinkHover
+      LinkHover,
+      Legend
     },
     mounted () {
     }

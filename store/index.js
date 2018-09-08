@@ -63,6 +63,85 @@ const store = () => new Vuex.Store({
       'scoreDiff1712': 'Economist’s democracy overall score difference 2017–2012',
       'scoreDiff1706': 'Economist’s democracy overall score difference 2017–2006',
       'hdi': 'Human Development Index'
+    },
+    scores: {
+      'rank': {
+        'label': 'Economist’s democracy rank 2017',
+        'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
+        'revert': false,
+        'zero': false,
+        'text': '<- More democratic'
+      },
+      'rank12': {
+        'label': 'Economist’s democracy rank 2012',
+        'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
+        'revert': false,
+        'zero': false,
+        'text': '<- More democratic'
+      },
+      'rank06': {
+        'label': 'Economist’s democracy rank 2006',
+        'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
+        'revert': false,
+        'zero': false,
+        'text': '<- More democratic'
+      },
+      'rankDiff1712': {
+        'label': 'Economist’s democracy rank difference 2017–2012',
+        'colors': ['#EC3A4D', '#fff', '#1B70E0'],
+        'revert': false,
+        'zero': true,
+        'text': '<- More democratic'
+      },
+      'rankDiff1706': {
+        'label': 'Economist’s democracy rank difference 2017–2006',
+        'colors': ['#EC3A4D', '#fff', '#1B70E0'],
+        'revert': false,
+        'zero': true,
+        'text': '<- More democratic'
+      },
+      'score': {
+        'label': 'Economist’s democracy overall score 2017',
+        'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
+        'revert': false,
+        'zero': false,
+        'text': '<- More democratic'
+      },
+      'score12': {
+        'label': 'Economist’s democracy overall score 2012',
+        'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
+        'revert': false,
+        'zero': false,
+        'text': '<- More democratic'
+      },
+      'score06': {
+        'label': 'Economist’s democracy overall score 2006',
+        'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
+        'revert': false,
+        'zero': false,
+        'text': '<- More democratic'
+      },
+      'scoreDiff1712': {
+        'label': 'Economist’s democracy overall score difference 2017–2012',
+        'colors': ['#1B70E0', '#fff', '#EC3A4D'],
+        'revert': false,
+        'zero': true,
+        'text': '<- More democratic'
+      },
+      'scoreDiff1706': {
+        'label': 'Economist’s democracy overall score difference 2017–2006',
+        'colors': ['#1B70E0', '#fff', '#EC3A4D'],
+        'revert': false,
+        'zero': true,
+        'text': '<- More democratic'
+      },
+      'hdi': {
+        'label': 'Human Development Index',
+        'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
+        'revert': false,
+        'zero': false,
+        'text': '<- More democratic'
+      }
     }
   },
   getters: {
@@ -79,90 +158,53 @@ const store = () => new Vuex.Store({
       })
       return values
     },
-    scores (state) {
-      return _.keys(_.first(state.data)['scores'])
-    },
     regimeTypes (state) {
       return _.uniq(_.map(state.data, 'scores.regimeType'))
     },
     domains (state) {
-      // Ranks
-      let democracyRank17 = _.map(state.data, 'scores.rank')
-      let democracyRank12 = _.map(state.data, 'scores.rank12')
-      let democracyRank06 = _.map(state.data, 'scores.rank06')
-      let democracyRankDiff1712 = _.map(state.data, 'scores.rankDiff1712')
-      let democracyRankDiff1706 = _.map(state.data, 'scores.rankDiff1706')
-
-      // Scores
-      let democracyScore17 = _.map(state.data, 'scores.score')
-      let democracyScore12 = _.map(state.data, 'scores.score12')
-      let democracyScore06 = _.map(state.data, 'scores.score06')
-      let democracyScoreDiff1712 = _.map(state.data, 'scores.scoreDiff1712')
-      let democracyScoreDiff1706 = _.map(state.data, 'scores.scoreDiff1706')
-
+      const { scores, data } = state
       let democracyTypesGroups = _.groupBy(state.data, 'scores.regimeType')
       let democracyTypes = _.fromPairs(_.map(democracyTypesGroups, (countries, key) => {
         let values = _.map(countries, 'scores.rank')
         return [key, getMinMax(values)]
       }))
 
-      let hdiScores = _.map(state.data, 'scores.hdi')
+      const domains = _.fromPairs(_.map(scores, (score, key) => {
+        return [key, getMinMax(_.map(data, 'scores.' + key), score.zero)]
+      }))
 
-      let retVal = {
-        'rank': getMinMax(democracyRank17),
-        'rank12': getMinMax(democracyRank12),
-        'rank06': getMinMax(democracyRank06),
-        'rankDiff1712': getMinMax(democracyRankDiff1712, true),
-        'rankDiff1706': getMinMax(democracyRankDiff1706, true),
-        'score': getMinMax(democracyScore17),
-        'score12': getMinMax(democracyScore12),
-        'score06': getMinMax(democracyScore06),
-        'scoreDiff1712': getMinMax(democracyScoreDiff1712, true),
-        'scoreDiff1706': getMinMax(democracyScoreDiff1706, true),
-        'hdi': getMinMax(hdiScores),
+      return {
+        ...domains,
         ...democracyTypes
       }
+    },
+    colorScales (state, getters) {
+      const { scores } = state
+      const { domains } = getters
+      const colorScales = _.fromPairs(_.map(scores, (score, key) => {
+        return [key, chroma.scale(score.colors).mode('lab').domain(domains[key])]
+      }))
 
-      return retVal
+      return colorScales
     },
     countries (state, getters) {
+      const { scores } = state
+      const { colorScales } = getters
       let numberCountries = state.data.length
-      const colorScaleRank = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank)
-      const colorScaleRank12 = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank12)
-      const colorScaleRank06 = chroma.scale(['#1B70E0', '#D17000', '#EC3A4D']).mode('lab').domain(getters.domains.rank06)
-      const colorScaleRankDiff1712 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1712)
-      const colorScaleRankDiff1706 = chroma.scale(['#EC3A4D', '#fff', '#1B70E0']).mode('lab').domain(getters.domains.rankDiff1706)
-
-      const colorScaleScore = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score)
-      const colorScaleScore12 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score12)
-      const colorScaleScore06 = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.score06)
-      const colorScaleScoreDiff1712 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1712)
-      const colorScaleScoreDiff1706 = chroma.scale(['#1B70E0', '#fff', '#EC3A4D']).mode('lab').domain(getters.domains.scoreDiff1706)
-
-      const colorScaleHDI = chroma.scale(['#EC3A4D', '#D17000', '#1B70E0']).mode('lab').domain(getters.domains.hdi)
-
-      // let colorScaleDemocracy = chroma.scale(['red', 'green']).mode('lab').domain(getters.domains.democracy)
 
       const colorScalesRegimeType = _.fromPairs(_.map(getters.regimeTypes, key => {
         return [key, chroma.scale(state.colorRangesRegimeType[key]).mode('lab').domain(getters.domains[key])]
       }))
 
       let countries = _.map(state.data, (country, index) => {
+        const colours = _.fromPairs(_.map(scores, (score, key) => {
+          return [key, colorScales[key](country.scores[key]).css()]
+        }))
         let retVal = {
           ...country,
           'colours': {
             'regimeType': colorScalesRegimeType[country.scores.regimeType](country.scores.rank).css(),
-            'rank': colorScaleRank(country.scores.rank).css(),
-            'rank12': colorScaleRank12(country.scores.rank12).css(),
-            'rank06': colorScaleRank06(country.scores.rank06).css(),
-            'rankDiff1712': colorScaleRankDiff1712(country.scores.rankDiff1712).css(),
-            'rankDiff1706': colorScaleRankDiff1706(country.scores.rankDiff1706).css(),
-            'score': colorScaleScore(country.scores.score).css(),
-            'score12': colorScaleScore12(country.scores.score12).css(),
-            'score06': colorScaleScore06(country.scores.score06).css(),
-            'scoreDiff1712': colorScaleScoreDiff1712(country.scores.scoreDiff1712).css(),
-            'scoreDiff1706': colorScaleScoreDiff1706(country.scores.scoreDiff1706).css(),
-            'hdi': colorScaleHDI(country.scores.hdi).css()
+            ...colours
           }
         }
 

@@ -30,6 +30,7 @@
   import Tooltip from '~/components/Tooltip.vue'
   import VisCategories from '~/components/VisCategories.vue'
   import VisCountries from '~/components/VisCountries.vue'
+  import VisCountry from '~/components/VisCountry.vue'
   import _ from 'lodash'
 
   export default {
@@ -250,7 +251,8 @@
       'resize-observer': ResizeObserver,
       Tooltip,
       VisCategories,
-      VisCountries
+      VisCountries,
+      VisCountry
     },
     mounted () {
       this.getResolution()
