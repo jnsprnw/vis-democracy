@@ -188,7 +188,7 @@
             const miny = _.min(ys)
             const maxy = _.max(ys)
             const x = _.round((maxx - minx) / 2 + minx, 1)
-            const y = _.round((maxy - miny) / (n === 0 ? 6 : 2) + miny, 1)
+            const y = _.round((maxy - miny) / (n === 0 ? 5 : 2) + miny, 1)
             placements[n] = [x, y, maxx - minx, maxy - miny]
           }
           return placements
@@ -198,7 +198,7 @@
       },
       calcCategoryPlacement () {
         const height = this.resolution[1]
-        const y1 = (this.row / 100 / 8 * 7) * height
+        const y1 = (this.row / 100 / 8 * 1) * height
         const y2 = y1 - 5
         const ys = [y1, y2]
 
