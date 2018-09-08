@@ -36,11 +36,13 @@ const store = () => new Vuex.Store({
         'g20': 'Members of the G20'
       },
       'Geographical': {
-        'africa': 'Countries on the African continent',
-        'americas': 'Countries on the American continent',
-        'asia': 'Countries on the Asian continent',
-        'europe': 'Countries on the European continent',
-        'oceania': 'Countries on the Oceanian continent'
+        'asiaAustralia': 'Asia & Australasia',
+        'easternEurope': 'Eastern Europe',
+        'latinCarribean': 'Latin America & the Caribbean',
+        'middleNorth': 'Middle East & North Africa',
+        'northAmerica': 'North America',
+        'subAfrica': 'Sub-Saharan Africa',
+        'westernEurope': 'Western Europe'
       },
       'Other groups': {
         'name': 'Countries with »Democracy« in their official name',
