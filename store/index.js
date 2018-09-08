@@ -216,7 +216,7 @@ const store = () => new Vuex.Store({
           'population': {
             'value': population,
             'percent': 100 / getters.total.population * population,
-            'label': population + ' Menschen'
+            'label': population + ' People'
           },
           'gdp': {
             'value': gdp,
