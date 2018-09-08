@@ -7,34 +7,40 @@
     <table>
       <tr>
         <td>Population</td>
-        <td>{{ value.population }}&#8239;%</td>
+        <td>{{ value.population }}</td>
+        <td>{{ percent.population }}&#8239;%</td>
       </tr>
       <tr>
         <td>Land Mass</td>
-        <td>{{ value.area }}&#8239;%</td>
+        <td>{{ value.area }} m<sup>3</sup></td>
+        <td>{{ percent.area }}&#8239;%</td>
       </tr>
       <tr>
         <td>GDP</td>
-        <td>{{ value.gdp }}&#8239;%</td>
+        <td>{{ value.gdp }} Billion US-Dollar</td>
+        <td>{{ percent.gdp }}&#8239;%</td>
       </tr>
       <tr>
         <td>Rank&nbsp;<small>('17,&#8239'12,&#8239'06)</small></td>
-        <td>{{ country.country.scores.rank }},&#8239{{ country.country.scores.rank12 }},&#8239{{ country.country.scores.rank06 }}</td>
+        <td colspan="2">{{ country.country.scores.rank }},&#8239{{ country.country.scores.rank12 }},&#8239{{ country.country.scores.rank06 }}</td>
       </tr>
       <tr>
         <td>Score&nbsp;<small>('17,&#8239'12,&#8239'06)</small></td>
-        <td>{{ country.country.scores.score }},&#8239{{ country.country.scores.score12 }},&#8239{{ country.country.scores.score06 }}</td>
+        <td colspan="2">{{ country.country.scores.score }},&#8239{{ country.country.scores.score12 }},&#8239{{ country.country.scores.score06 }}</td>
       </tr>
     </table>
   </div>
 </template>
 
 <script>
-  function formatValue (value) {
+  function formatValue (value, n = 0) {
     if (value < 0.01) {
       return '< 0.01'
     } else {
-      return (Math.round(value * 100) / 100).toFixed(2)
+      // https://stackoverflow.com/questions/149055/how-can-i-format-numbers-as-dollars-currency-string-in-javascript
+      const x = 3 // length of sections
+      const re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')'
+      return value.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,')
     }
   }
 
@@ -51,9 +57,17 @@
       value () {
         const { population, area, gdp } = this.country.country.values
         return {
-          population: formatValue(population.percent),
-          area: formatValue(area.percent),
-          gdp: formatValue(gdp.percent)
+          population: formatValue(population.value),
+          area: formatValue(area.value),
+          gdp: formatValue(gdp.value)
+        }
+      },
+      percent () {
+        const { population, area, gdp } = this.country.country.values
+        return {
+          population: formatValue(population.percent, 2),
+          area: formatValue(area.percent, 2),
+          gdp: formatValue(gdp.percent, 2)
         }
       }
     },
