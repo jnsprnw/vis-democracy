@@ -55,9 +55,17 @@ h2 {
   }
 }
 
-p, small {
+p, small, .imprint ul {
   padding: 0 0 0.5em;
   font-size: 0.85rem;
+}
+
+.imprint ul {
+  list-style: none;
+
+  sup {
+    font-size: 0.6rem;
+  }
 }
 
 small {
