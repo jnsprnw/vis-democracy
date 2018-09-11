@@ -1,35 +1,31 @@
+const { favicon, msapplication } = require('./assets/js/favicon.js')
+const { seo } = require('./assets/js/seo.js')
+const { config } = require('./config.js')
+const { links } = require('./assets/js/head.js')
+
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
-    title: 'Country Democracy Compare',
+    title: config.page.title,
+    htmlAttrs: {
+      lang: config.page.lang,
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Country Democracy Compare' }
+      ...seo(config),
+      ...msapplication(config.page.url)
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ...favicon(config.page.url),
+      ...links(config)
     ]
   },
   css: [
-    // Load a node module directly (here it's a SASS file)
     'normalize-scss',
-    // CSS file in the project
     '@/assets/style/base.scss'
   ],
-  /*
-  ** Customize the progress bar color
-  */
-  loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
+  loading: { color: config.page.color },
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, ctx) {
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
