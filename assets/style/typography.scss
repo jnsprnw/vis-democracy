@@ -21,7 +21,7 @@ a, .a, .link {
   }
 
   &.nuxt-link-active {
-    color: $color-active;
+    color: #222;
   }
 
   &:hover, &:focus {
@@ -136,6 +136,7 @@ h5 {
   display: inline-block;
 
   &:hover {
+    border-bottom: 3px solid $brand-color;
     background-color: #EC3A4D;
     color: #fff;
   }
