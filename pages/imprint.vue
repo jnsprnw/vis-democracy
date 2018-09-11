@@ -67,7 +67,7 @@
             EU
           </th>
           <th>
-            Arab
+            Arab League
           </th>
           <th>
             Nato
@@ -77,18 +77,6 @@
           </th>
           <th>
             G20
-          </th>
-          <th>
-            Americas
-          </th>
-          <th>
-            Asia
-          </th>
-          <th>
-            Europe
-          </th>
-          <th>
-            Oceania
           </th>
           <th>
             Democratic Name
@@ -113,8 +101,10 @@
           <th>
           </th>
           <th>
+            2018, <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">source</a>
           </th>
           <th>
+            2018, <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">source</a>
           </th>
           <th>
             2018, <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">source</a>
@@ -160,18 +150,6 @@
           </th>
           <th>
             G20
-          </th>
-          <th>
-            2018, <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">source</a>
-          </th>
-          <th>
-            2018, <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">source</a>
-          </th>
-          <th>
-            2018, <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">source</a>
-          </th>
-          <th>
-            2018, <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">source</a>
           </th>
           <th>
             2015, <a href="https://petervojtek.github.io/diy/2015/05/19/countries-with-democracy-in-name.html">source</a>
@@ -249,18 +227,6 @@
           </td>
           <td>
             {{ country.organisations.g20 }}
-          </td>
-          <td>
-            {{ country.organisations.americas }}
-          </td>
-          <td>
-            {{ country.organisations.asia }}
-          </td>
-          <td>
-            {{ country.organisations.europe }}
-          </td>
-          <td>
-            {{ country.organisations.oceania }}
           </td>
           <td>
             {{ country.organisations.name }}
