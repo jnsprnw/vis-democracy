@@ -27,6 +27,7 @@ module.exports = {
 			[ 'og:image', 'page.image.og', 'property' ],
 			[ 'og:image:width', 'page.image.width', 'property' ],
 			[ 'og:image:height', 'page.image.height', 'property' ],
+			[ 'og:url', 'page.url', 'property' ],
 			// Twitter
 			[ 'twitter:card', 'page.card', 'name' ],
 			[ 'twitter:site', 'contact.twitter', 'name' ],
