@@ -1,6 +1,6 @@
-# Country Democracy compare
+# Degrees of Democracy
 
-[democracy.visualising.systems](https://democracy.visualising.systems/)
+[https://democracy.visualising.systems](https://democracy.visualising.systems/)
 
 ![Screenshot](screenshot.jpg)
 
