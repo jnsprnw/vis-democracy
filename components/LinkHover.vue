@@ -20,7 +20,6 @@
         } else if (value === 'Authoritarian') {
           cls += ' authoritarian'
         }
-        console.log(this.value)
         return cls
       }
     },
