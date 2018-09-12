@@ -14,7 +14,7 @@ module.exports = {
       image: {
         og: 'https://democracy.visualising.systems/preview-og.jpg',
         width: 1200,
-        height: 6300,
+        height: 630,
         tc: 'https://democracy.visualising.systems/preview-tc.jpg'
       }
     },
