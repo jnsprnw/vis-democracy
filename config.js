@@ -10,7 +10,13 @@ module.exports = {
       color: '#EC3A4D',
       card: 'summary',
       type: 'website',
-      imprint: '/imprint'
+      imprint: '/imprint',
+      image: {
+        og: 'https://democracy.visualising.systems/preview-og.jpg',
+        width: 1200,
+        height: 6300,
+        tc: 'https://democracy.visualising.systems/preview-tc.jpg'
+      }
     },
     contact: {
       twitter: '@zeto'

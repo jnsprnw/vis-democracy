@@ -24,12 +24,16 @@ module.exports = {
 			[ 'og:title', 'page.title', 'property' ],
 			[ 'og:description', 'page.description', 'property' ],
 			[ 'og:site_name', 'page.title', 'property' ],
+			[ 'og:image', 'page.image.og', 'property' ],
+			[ 'og:image:width', 'page.image.width', 'property' ],
+			[ 'og:image:height', 'page.image.height', 'property' ],
 			// Twitter
 			[ 'twitter:card', 'page.card', 'name' ],
 			[ 'twitter:site', 'contact.twitter', 'name' ],
 			[ 'twitter:creator', 'contact.twitter', 'name' ],
 			[ 'twitter:title', 'page.title', 'name' ],
 			[ 'twitter:description', 'page.description', 'name' ],
+			[ 'twitter:image', 'page.image.tc', 'name' ],
 			// Others
 			[ 'application-name', 'page.title', 'property' ]
 		]
