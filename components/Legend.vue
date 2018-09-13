@@ -82,11 +82,16 @@
           return ['Democracy', 'Flawd', 'Hybrid', 'Autho']
         }
         const [min, max] = scale.domain()
-        const steps = 2
-        const labels = _.times(steps + 1, n => {
-          const i = min + n * (max - min) / steps
-          return Math.round(i)
-        })
+        let labels
+        if (score.zero) {
+          labels = [min, 0, max]
+        } else {
+          const steps = 2
+          labels = _.times(steps + 1, n => {
+            const i = min + n * (max - min) / steps
+            return Math.round(i)
+          })
+        }
         return score.revert ? _.reverse(labels) : labels
       },
       textElements () {
@@ -124,13 +129,14 @@
   ul {
     list-style: none;
     display: flex;
+    font-size: 0.75rem;
 
     &.texts {
       li:first-child::before {
-        content: '←';
+        content: '← ';
       }
       li:last-child::after {
-        content: '→';
+        content: ' →';
       }
     }
 
