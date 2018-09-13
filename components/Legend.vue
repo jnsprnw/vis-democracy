@@ -31,12 +31,19 @@
       ...mapGetters([
         'colorScales'
       ]),
-      text () {
+      score () {
         const { scores, activeColour } = this
         if (activeColour === 'regimeType') {
           return false
         }
-        return scores[activeColour].text
+        return scores[activeColour]
+      },
+      text () {
+        const { score } = this
+        if (score) {
+          return false
+        }
+        return score.text
       },
       scale () {
         const { colorScales, activeColour } = this
@@ -46,7 +53,7 @@
         return colorScales[activeColour]
       },
       elements () {
-        const { activeColour, scale } = this
+        const { activeColour, scale, score } = this
         if (activeColour === 'regimeType') {
           return ['Democracy', 'Flawd', 'Hybrid', 'Autho']
         }
@@ -59,7 +66,7 @@
           return {
             width: width + '%',
             height: '12px',
-            x: width * n + '%',
+            x: width * (score.revert ? stepsAmount - n : n) + '%',
             y: '0',
             color: scale(i).hex(),
             label: i
@@ -68,19 +75,17 @@
         return colors
       },
       labels () {
-        const { activeColour, scale } = this
+        const { activeColour, scale, score } = this
         if (activeColour === 'regimeType') {
           return ['Democracy', 'Flawd', 'Hybrid', 'Autho']
         }
-
         const [min, max] = scale.domain()
-        console.log(scale.domain())
         const steps = 2
         const labels = _.times(steps + 1, n => {
           const i = min + n * (max - min) / steps
           return Math.round(i)
         })
-        return labels
+        return score.revert ? _.reverse(labels) : labels
       }
     },
     methods: {
@@ -97,7 +102,6 @@
         } else {
           arr = [...this.evenSteps(min, 0, steps / 2), ...this.evenSteps(0, max, steps / 2), max]
         }
-        console.log(domain, arr, arr.length)
         return arr
       }
     }

@@ -96,7 +96,7 @@ const store = () => new Vuex.Store({
       'score': {
         'label': 'Democracy overall score 2017',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
-        'revert': false,
+        'revert': true,
         'zero': false,
         'text': '<- More democratic',
         'type': 'Score'
@@ -104,7 +104,7 @@ const store = () => new Vuex.Store({
       'score12': {
         'label': 'Democracy overall score 2012',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
-        'revert': false,
+        'revert': true,
         'zero': false,
         'text': '<- More democratic',
         'type': 'Score'
@@ -112,7 +112,7 @@ const store = () => new Vuex.Store({
       'score06': {
         'label': 'Democracy overall score 2006',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
-        'revert': false,
+        'revert': true,
         'zero': false,
         'text': '<- More democratic',
         'type': 'Score'
@@ -120,7 +120,7 @@ const store = () => new Vuex.Store({
       'scoreDiff1712': {
         'label': 'Democracy overall score difference 2017–2012',
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
-        'revert': false,
+        'revert': true,
         'zero': true,
         'text': '<- More democratic',
         'type': 'Score'
@@ -128,7 +128,7 @@ const store = () => new Vuex.Store({
       'scoreDiff1706': {
         'label': 'Democracy overall score difference 2017–2006',
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
-        'revert': false,
+        'revert': true,
         'zero': true,
         'text': '<- More democratic',
         'type': 'Score'
