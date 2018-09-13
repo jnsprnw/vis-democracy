@@ -126,7 +126,8 @@ const store = () => new Vuex.Store({
       'hdi': {
         'label': 'Human Development Index',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
-        'revert': false,
+        'revert': true,
+        'texts': ['Lower developed', 'Higher developed'],
         'zero': false,
         'type': 'Other'
       }
