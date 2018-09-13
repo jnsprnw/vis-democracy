@@ -1,7 +1,9 @@
 <template>
   <section>
     <h4>Legend</h4>
-    {{ text }}
+    <ul class="texts">
+      <li v-for="text in textElements" v-html="text" />
+    </ul>
     <svg>
       <rect
         v-for="el in elements"
@@ -86,6 +88,11 @@
           return Math.round(i)
         })
         return score.revert ? _.reverse(labels) : labels
+      },
+      textElements () {
+        const { score } = this
+        const texts = ['More democratic', 'More authorian']
+        return score.revert ? _.reverse(texts) : texts
       }
     },
     methods: {
@@ -117,6 +124,15 @@
   ul {
     list-style: none;
     display: flex;
+
+    &.texts {
+      li:first-child::before {
+        content: '←';
+      }
+      li:last-child::after {
+        content: '→';
+      }
+    }
 
     li {
       flex: 1;

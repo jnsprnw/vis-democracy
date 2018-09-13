@@ -58,7 +58,6 @@ const store = () => new Vuex.Store({
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
-        'text': '← More democratic',
         'type': 'Rank'
       },
       'rank12': {
@@ -66,7 +65,6 @@ const store = () => new Vuex.Store({
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic',
         'type': 'Rank'
       },
       'rank06': {
@@ -74,7 +72,6 @@ const store = () => new Vuex.Store({
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic',
         'type': 'Rank'
       },
       'rankDiff1712': {
@@ -82,7 +79,6 @@ const store = () => new Vuex.Store({
         'colors': ['#EC3A4D', '#fff', '#1B70E0'],
         'revert': false,
         'zero': true,
-        'text': '<- More democratic',
         'type': 'Rank'
       },
       'rankDiff1706': {
@@ -90,7 +86,6 @@ const store = () => new Vuex.Store({
         'colors': ['#EC3A4D', '#fff', '#1B70E0'],
         'revert': false,
         'zero': true,
-        'text': '<- More democratic',
         'type': 'Rank'
       },
       'score': {
@@ -98,7 +93,6 @@ const store = () => new Vuex.Store({
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': true,
         'zero': false,
-        'text': '<- More democratic',
         'type': 'Score'
       },
       'score12': {
@@ -106,7 +100,6 @@ const store = () => new Vuex.Store({
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': true,
         'zero': false,
-        'text': '<- More democratic',
         'type': 'Score'
       },
       'score06': {
@@ -114,7 +107,6 @@ const store = () => new Vuex.Store({
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': true,
         'zero': false,
-        'text': '<- More democratic',
         'type': 'Score'
       },
       'scoreDiff1712': {
@@ -122,7 +114,6 @@ const store = () => new Vuex.Store({
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
         'revert': true,
         'zero': true,
-        'text': '<- More democratic',
         'type': 'Score'
       },
       'scoreDiff1706': {
@@ -130,7 +121,6 @@ const store = () => new Vuex.Store({
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
         'revert': true,
         'zero': true,
-        'text': '<- More democratic',
         'type': 'Score'
       },
       'hdi': {
@@ -138,7 +128,6 @@ const store = () => new Vuex.Store({
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic',
         'type': 'Other'
       }
     }
