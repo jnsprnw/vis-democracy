@@ -96,8 +96,8 @@
       },
       textElements () {
         const { score } = this
-        const texts = score.texts ? score.texts : ['More democratic', 'More authorian']
-        return score.revert ? _.reverse(texts) : texts
+        const texts = score.texts ? score.texts : ['More democratic', 'More authoritarian']
+        return texts
       }
     },
     methods: {
