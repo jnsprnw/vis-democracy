@@ -8,9 +8,9 @@ Vue.use(Vuex)
 
 function getMinMax (arr, zero = false) {
   if (zero) {
-    return [_.min(arr), 0, _.max(arr)]
+    return [Math.round(_.min(arr)), 0, Math.round(_.max(arr))]
   }
-  return [_.min(arr), _.max(arr)]
+  return [Math.round(_.min(arr)), Math.round(_.max(arr))]
 }
 
 const store = () => new Vuex.Store({
@@ -77,14 +77,14 @@ const store = () => new Vuex.Store({
       'rankDiff1712': {
         'label': 'Democracy rank difference 2017–2012',
         'colors': ['#EC3A4D', '#fff', '#1B70E0'],
-        'revert': false,
+        'revert': true,
         'zero': true,
         'type': 'Rank'
       },
       'rankDiff1706': {
         'label': 'Democracy rank difference 2017–2006',
         'colors': ['#EC3A4D', '#fff', '#1B70E0'],
-        'revert': false,
+        'revert': true,
         'zero': true,
         'type': 'Rank'
       },
@@ -112,14 +112,14 @@ const store = () => new Vuex.Store({
       'scoreDiff1712': {
         'label': 'Democracy overall score difference 2017–2012',
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
-        'revert': true,
+        'revert': false,
         'zero': true,
         'type': 'Score'
       },
       'scoreDiff1706': {
         'label': 'Democracy overall score difference 2017–2006',
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
-        'revert': true,
+        'revert': false,
         'zero': true,
         'type': 'Score'
       },
@@ -127,7 +127,7 @@ const store = () => new Vuex.Store({
         'label': 'Human Development Index',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': true,
-        'texts': ['Lower developed', 'Higher developed'],
+        'texts': ['Higher developed', 'Lower developed'],
         'zero': false,
         'type': 'Other'
       }
