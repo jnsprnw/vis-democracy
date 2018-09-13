@@ -16,7 +16,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.949,
+      "hdi" : 9.49,
       "rank" : 1,
       "rank12" : 1,
       "rank06" : 4,
@@ -65,7 +65,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.921,
+      "hdi" : 9.21,
       "rank" : 2,
       "rank12" : 3,
       "rank06" : 2,
@@ -114,7 +114,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.913,
+      "hdi" : 9.13,
       "rank" : 3,
       "rank12" : 2,
       "rank06" : 1,
@@ -163,7 +163,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.915,
+      "hdi" : 9.15,
       "rank" : 4,
       "rank12" : 5,
       "rank06" : 11,
@@ -212,7 +212,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.925,
+      "hdi" : 9.25,
       "rank" : 5,
       "rank12" : 4,
       "rank06" : 5,
@@ -261,7 +261,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.923,
+      "hdi" : 9.23,
       "rank" : 6,
       "rank12" : 13,
       "rank06" : 11,
@@ -310,7 +310,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.92,
+      "hdi" : 9.200000000000001,
       "rank" : 6,
       "rank12" : 8,
       "rank06" : 9,
@@ -359,7 +359,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.939,
+      "hdi" : 9.389999999999999,
       "rank" : 8,
       "rank12" : 6,
       "rank06" : 8,
@@ -408,7 +408,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.895,
+      "hdi" : 8.95,
       "rank" : 9,
       "rank12" : 9,
       "rank06" : 6,
@@ -457,7 +457,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.939,
+      "hdi" : 9.389999999999999,
       "rank" : 9,
       "rank12" : 7,
       "rank06" : 10,
@@ -506,7 +506,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.924,
+      "hdi" : 9.24,
       "rank" : 11,
       "rank12" : 10,
       "rank06" : 3,
@@ -555,7 +555,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.898,
+      "hdi" : 8.98,
       "rank" : 12,
       "rank12" : 11,
       "rank06" : 7,
@@ -604,7 +604,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.926,
+      "hdi" : 9.26,
       "rank" : 13,
       "rank12" : 14,
       "rank06" : 13,
@@ -653,7 +653,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.91,
+      "hdi" : 9.1,
       "rank" : 14,
       "rank12" : 16,
       "rank06" : 23,
@@ -702,7 +702,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.893,
+      "hdi" : 8.93,
       "rank" : 15,
       "rank12" : 12,
       "rank06" : 14,
@@ -751,7 +751,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.781,
+      "hdi" : 7.8100000000000005,
       "rank" : 16,
       "rank12" : 18,
       "rank06" : 25,
@@ -800,7 +800,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.856,
+      "hdi" : 8.56,
       "rank" : 17,
       "rank12" : 15,
       "rank06" : 15,
@@ -849,7 +849,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.795,
+      "hdi" : 7.95,
       "rank" : 18,
       "rank12" : 18,
       "rank06" : 27,
@@ -898,7 +898,7 @@
     },
     "scores": {
       "regimeType" : "Full democracy",
-      "hdi" : 0.884,
+      "hdi" : 8.84,
       "rank" : 19,
       "rank12" : 25,
       "rank06" : 16,
@@ -947,7 +947,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.901,
+      "hdi" : 9.01,
       "rank" : 20,
       "rank12" : 20,
       "rank06" : 31,
@@ -996,7 +996,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.92,
+      "hdi" : 9.200000000000001,
       "rank" : 21,
       "rank12" : 21,
       "rank06" : 17,
@@ -1045,7 +1045,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.887,
+      "hdi" : 8.870000000000001,
       "rank" : 21,
       "rank12" : 32,
       "rank06" : 34,
@@ -1094,7 +1094,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.903,
+      "hdi" : 9.030000000000001,
       "rank" : 23,
       "rank12" : 23,
       "rank06" : 20,
@@ -1143,7 +1143,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.648,
+      "hdi" : 6.48,
       "rank" : 23,
       "rank12" : 26,
       "rank06" : 39,
@@ -1192,7 +1192,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.776,
+      "hdi" : 7.76,
       "rank" : 23,
       "rank12" : 22,
       "rank06" : 25,
@@ -1241,7 +1241,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.847,
+      "hdi" : 8.469999999999999,
       "rank" : 26,
       "rank12" : 36,
       "rank06" : 30,
@@ -1290,7 +1290,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.843,
+      "hdi" : 8.43,
       "rank" : 26,
       "rank12" : 26,
       "rank06" : 19,
@@ -1339,7 +1339,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.698,
+      "hdi" : 6.9799999999999995,
       "rank" : 28,
       "rank12" : 30,
       "rank06" : 36,
@@ -1388,7 +1388,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.897,
+      "hdi" : 8.97,
       "rank" : 29,
       "rank12" : 28,
       "rank06" : 24,
@@ -1437,7 +1437,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.865,
+      "hdi" : 8.65,
       "rank" : 30,
       "rank12" : 34,
       "rank06" : 33,
@@ -1486,7 +1486,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.899,
+      "hdi" : 8.99,
       "rank" : 30,
       "rank12" : 37,
       "rank06" : 47,
@@ -1535,7 +1535,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.896,
+      "hdi" : 8.96,
       "rank" : 32,
       "rank12" : 24,
       "rank06" : 20,
@@ -1584,7 +1584,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.885,
+      "hdi" : 8.85,
       "rank" : 33,
       "rank12" : 35,
       "rank06" : 32,
@@ -1633,7 +1633,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.878,
+      "hdi" : 8.78,
       "rank" : 34,
       "rank12" : 17,
       "rank06" : 18,
@@ -1682,7 +1682,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.856,
+      "hdi" : 8.56,
       "rank" : 35,
       "rank12" : 41,
       "rank06" : 36,
@@ -1731,7 +1731,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.89,
+      "hdi" : 8.9,
       "rank" : 36,
       "rank12" : 28,
       "rank06" : 27,
@@ -1780,7 +1780,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.848,
+      "hdi" : 8.48,
       "rank" : 37,
       "rank12" : 42,
       "rank06" : 39,
@@ -1829,7 +1829,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.866,
+      "hdi" : 8.66,
       "rank" : 38,
       "rank12" : 33,
       "rank06" : 22,
@@ -1878,7 +1878,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.73,
+      "hdi" : 7.3,
       "rank" : 38,
       "rank12" : 39,
       "rank06" : 45,
@@ -1927,7 +1927,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.83,
+      "hdi" : 8.299999999999999,
       "rank" : 40,
       "rank12" : 47,
       "rank06" : 43,
@@ -1976,7 +1976,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.666,
+      "hdi" : 6.66,
       "rank" : 41,
       "rank12" : 31,
       "rank06" : 29,
@@ -2025,7 +2025,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.624,
+      "hdi" : 6.24,
       "rank" : 42,
       "rank12" : 38,
       "rank06" : 35,
@@ -2074,7 +2074,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.606,
+      "hdi" : 6.06,
       "rank" : 43,
       "rank12" : 43,
       "rank06" : 65,
@@ -2123,7 +2123,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.845,
+      "hdi" : 8.45,
       "rank" : 44,
       "rank12" : 40,
       "rank06" : 41,
@@ -2172,7 +2172,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.788,
+      "hdi" : 7.880000000000001,
       "rank" : 45,
       "rank12" : 46,
       "rank06" : 44,
@@ -2221,7 +2221,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.78,
+      "hdi" : 7.800000000000001,
       "rank" : 46,
       "rank12" : 48,
       "rank06" : 48,
@@ -2270,7 +2270,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.794,
+      "hdi" : 7.94,
       "rank" : 47,
       "rank12" : 54,
       "rank06" : 49,
@@ -2319,7 +2319,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.827,
+      "hdi" : 8.27,
       "rank" : 48,
       "rank12" : 52,
       "rank06" : 54,
@@ -2368,7 +2368,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.754,
+      "hdi" : 7.54,
       "rank" : 49,
       "rank12" : 44,
       "rank06" : 42,
@@ -2417,7 +2417,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.725,
+      "hdi" : 7.25,
       "rank" : 50,
       "rank12" : 56,
       "rank06" : 61,
@@ -2466,7 +2466,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.682,
+      "hdi" : 6.82,
       "rank" : 51,
       "rank12" : 69,
       "rank06" : 63,
@@ -2515,7 +2515,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.579,
+      "hdi" : 5.789999999999999,
       "rank" : 52,
       "rank12" : 78,
       "rank06" : 95,
@@ -2564,7 +2564,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.855,
+      "hdi" : 8.55,
       "rank" : 53,
       "rank12" : 44,
       "rank06" : 46,
@@ -2613,7 +2613,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.727,
+      "hdi" : 7.27,
       "rank" : 53,
       "rank12" : 57,
       "rank06" : 67,
@@ -2662,7 +2662,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.722,
+      "hdi" : 7.22,
       "rank" : 55,
       "rank12" : 60,
       "rank06" : 74,
@@ -2711,7 +2711,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.497,
+      "hdi" : 4.97,
       "rank" : 56,
       "rank12" : 55,
       "rank06" : 63,
@@ -2760,7 +2760,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.836,
+      "hdi" : 8.36,
       "rank" : 56,
       "rank12" : 49,
       "rank06" : 38,
@@ -2809,7 +2809,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.827,
+      "hdi" : 8.27,
       "rank" : 58,
       "rank12" : 50,
       "rank06" : 51,
@@ -2858,7 +2858,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.789,
+      "hdi" : 7.890000000000001,
       "rank" : 59,
       "rank12" : 64,
       "rank06" : 81,
@@ -2907,7 +2907,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.735,
+      "hdi" : 7.35,
       "rank" : 60,
       "rank12" : 65,
       "rank06" : 56,
@@ -2956,7 +2956,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.74,
+      "hdi" : 7.4,
       "rank" : 61,
       "rank12" : 61,
       "rank06" : 75,
@@ -3005,7 +3005,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.766,
+      "hdi" : 7.66,
       "rank" : 62,
       "rank12" : 89,
       "rank06" : 57,
@@ -3054,7 +3054,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.638,
+      "hdi" : 6.38,
       "rank" : 63,
       "rank12" : 76,
       "rank06" : 73,
@@ -3103,7 +3103,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.802,
+      "hdi" : 8.02,
       "rank" : 64,
       "rank12" : 59,
       "rank06" : 50,
@@ -3152,7 +3152,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.68,
+      "hdi" : 6.800000000000001,
       "rank" : 65,
       "rank12" : 61,
       "rank06" : 70,
@@ -3201,7 +3201,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.776,
+      "hdi" : 7.76,
       "rank" : 66,
       "rank12" : 66,
       "rank06" : 55,
@@ -3250,7 +3250,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.762,
+      "hdi" : 7.62,
       "rank" : 66,
       "rank12" : 51,
       "rank06" : 53,
@@ -3299,7 +3299,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.689,
+      "hdi" : 6.89,
       "rank" : 68,
       "rank12" : 53,
       "rank06" : 65,
@@ -3348,7 +3348,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.725,
+      "hdi" : 7.25,
       "rank" : 69,
       "rank12" : 90,
       "rank06" : 135,
@@ -3397,7 +3397,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.925,
+      "hdi" : 9.25,
       "rank" : 69,
       "rank12" : 81,
       "rank06" : 84,
@@ -3446,7 +3446,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.917,
+      "hdi" : 9.17,
       "rank" : 71,
       "rank12" : 63,
       "rank06" : 78,
@@ -3495,7 +3495,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.64,
+      "hdi" : 6.4,
       "rank" : 71,
       "rank12" : 72,
       "rank06" : 59,
@@ -3544,7 +3544,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.693,
+      "hdi" : 6.93,
       "rank" : 71,
       "rank12" : 70,
       "rank06" : 71,
@@ -3593,7 +3593,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.494,
+      "hdi" : 4.9399999999999995,
       "rank" : 74,
       "rank12" : 74,
       "rank06" : 94,
@@ -3642,7 +3642,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.516,
+      "hdi" : 5.16,
       "rank" : 75,
       "rank12" : 67,
       "rank06" : 59,
@@ -3691,7 +3691,7 @@
     },
     "scores": {
       "regimeType" : "Flawed democracy",
-      "hdi" : 0.739,
+      "hdi" : 7.39,
       "rank" : 76,
       "rank12" : 87,
       "rank06" : 92,
@@ -3740,7 +3740,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.764,
+      "hdi" : 7.640000000000001,
       "rank" : 77,
       "rank12" : 90,
       "rank06" : 83,
@@ -3789,7 +3789,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.699,
+      "hdi" : 6.989999999999999,
       "rank" : 78,
       "rank12" : 67,
       "rank06" : 62,
@@ -3838,7 +3838,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.769,
+      "hdi" : 7.69,
       "rank" : 79,
       "rank12" : 93,
       "rank06" : 104,
@@ -3887,7 +3887,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.64,
+      "hdi" : 6.4,
       "rank" : 80,
       "rank12" : 81,
       "rank06" : 77,
@@ -3936,7 +3936,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.736,
+      "hdi" : 7.359999999999999,
       "rank" : 81,
       "rank12" : 124,
       "rank06" : 91,
@@ -3985,7 +3985,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.625,
+      "hdi" : 6.25,
       "rank" : 82,
       "rank12" : 85,
       "rank06" : 69,
@@ -4034,7 +4034,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.743,
+      "hdi" : 7.43,
       "rank" : 83,
       "rank12" : 80,
       "rank06" : 52,
@@ -4083,7 +4083,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.807,
+      "hdi" : 8.07,
       "rank" : 83,
       "rank12" : 76,
       "rank06" : 58,
@@ -4132,7 +4132,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.579,
+      "hdi" : 5.789999999999999,
       "rank" : 85,
       "rank12" : 70,
       "rank06" : 97,
@@ -4181,7 +4181,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.442,
+      "hdi" : 4.42,
       "rank" : 86,
       "rank12" : 97,
       "rank06" : 80,
@@ -4230,7 +4230,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.485,
+      "hdi" : 4.85,
       "rank" : 87,
       "rank12" : 79,
       "rank06" : 71,
@@ -4279,7 +4279,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.748,
+      "hdi" : 7.48,
       "rank" : 88,
       "rank12" : 73,
       "rank06" : 68,
@@ -4328,7 +4328,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.674,
+      "hdi" : 6.74,
       "rank" : 89,
       "rank12" : 85,
       "rank06" : 81,
@@ -4377,7 +4377,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.476,
+      "hdi" : 4.76,
       "rank" : 89,
       "rank12" : 75,
       "rank06" : 103,
@@ -4426,7 +4426,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.531,
+      "hdi" : 5.3100000000000005,
       "rank" : 91,
       "rank12" : 81,
       "rank06" : 99,
@@ -4475,7 +4475,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.579,
+      "hdi" : 5.789999999999999,
       "rank" : 92,
       "rank12" : 84,
       "rank06" : 75,
@@ -4524,7 +4524,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.427,
+      "hdi" : 4.27,
       "rank" : 93,
       "rank12" : 101,
       "rank06" : 98,
@@ -4573,7 +4573,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.558,
+      "hdi" : 5.58,
       "rank" : 94,
       "rank12" : 111,
       "rank06" : 126,
@@ -4622,7 +4622,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.555,
+      "hdi" : 5.550000000000001,
       "rank" : 95,
       "rank12" : 104,
       "rank06" : 101,
@@ -4671,7 +4671,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.664,
+      "hdi" : 6.640000000000001,
       "rank" : 95,
       "rank12" : 106,
       "rank06" : 111,
@@ -4720,7 +4720,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.512,
+      "hdi" : 5.12,
       "rank" : 95,
       "rank12" : 117,
       "rank06" : 85,
@@ -4769,7 +4769,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.493,
+      "hdi" : 4.93,
       "rank" : 98,
       "rank12" : 94,
       "rank06" : 100,
@@ -4818,7 +4818,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.607,
+      "hdi" : 6.07,
       "rank" : 99,
       "rank12" : 107,
       "rank06" : 147,
@@ -4867,7 +4867,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.767,
+      "hdi" : 7.67,
       "rank" : 100,
       "rank12" : 88,
       "rank06" : 88,
@@ -4916,7 +4916,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.647,
+      "hdi" : 6.470000000000001,
       "rank" : 101,
       "rank12" : 115,
       "rank06" : 115,
@@ -4965,7 +4965,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.75,
+      "hdi" : 7.5,
       "rank" : 101,
       "rank12" : 98,
       "rank06" : 87,
@@ -5014,7 +5014,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.402,
+      "hdi" : 4.0200000000000005,
       "rank" : 103,
       "rank12" : 127,
       "rank06" : 119,
@@ -5063,7 +5063,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.763,
+      "hdi" : 7.63,
       "rank" : 104,
       "rank12" : 99,
       "rank06" : 85,
@@ -5112,7 +5112,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.42,
+      "hdi" : 4.2,
       "rank" : 105,
       "rank12" : 104,
       "rank06" : 121,
@@ -5161,7 +5161,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.645,
+      "hdi" : 6.45,
       "rank" : 105,
       "rank12" : 92,
       "rank06" : 89,
@@ -5210,7 +5210,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.74,
+      "hdi" : 7.4,
       "rank" : 107,
       "rank12" : 58,
       "rank06" : 90,
@@ -5259,7 +5259,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.684,
+      "hdi" : 6.840000000000001,
       "rank" : 108,
       "rank12" : 103,
       "rank06" : 79,
@@ -5308,7 +5308,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.527,
+      "hdi" : 5.2700000000000005,
       "rank" : 109,
       "rank12" : 120,
       "rank06" : 124,
@@ -5357,7 +5357,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.55,
+      "hdi" : 5.5,
       "rank" : 110,
       "rank12" : 108,
       "rank06" : 113,
@@ -5406,7 +5406,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.743,
+      "hdi" : 7.43,
       "rank" : 111,
       "rank12" : 114,
       "rank06" : 110,
@@ -5455,7 +5455,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.649,
+      "hdi" : 6.49,
       "rank" : 112,
       "rank12" : 113,
       "rank06" : 112,
@@ -5504,7 +5504,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.452,
+      "hdi" : 4.5200000000000005,
       "rank" : 113,
       "rank12" : 134,
       "rank06" : 108,
@@ -5553,7 +5553,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.493,
+      "hdi" : 4.93,
       "rank" : 114,
       "rank12" : 116,
       "rank06" : 109,
@@ -5602,7 +5602,7 @@
     },
     "scores": {
       "regimeType" : "Hybrid regime",
-      "hdi" : 0.418,
+      "hdi" : 4.18,
       "rank" : 115,
       "rank12" : 102,
       "rank06" : 96,
@@ -5651,7 +5651,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.474,
+      "hdi" : 4.74,
       "rank" : 116,
       "rank12" : 136,
       "rank06" : 127,
@@ -5700,7 +5700,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.742,
+      "hdi" : 7.42,
       "rank" : 117,
       "rank12" : 121,
       "rank06" : 113,
@@ -5749,7 +5749,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.767,
+      "hdi" : 7.67,
       "rank" : 117,
       "rank12" : 95,
       "rank06" : 93,
@@ -5798,7 +5798,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.8,
+      "hdi" : 8,
       "rank" : 119,
       "rank12" : 119,
       "rank06" : 134,
@@ -5847,7 +5847,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.556,
+      "hdi" : 5.5600000000000005,
       "rank" : 120,
       "rank12" : 155,
       "rank06" : 163,
@@ -5896,7 +5896,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.513,
+      "hdi" : 5.13,
       "rank" : 121,
       "rank12" : 110,
       "rank06" : 133,
@@ -5945,7 +5945,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.353,
+      "hdi" : 3.53,
       "rank" : 122,
       "rank12" : 111,
       "rank06" : 122,
@@ -5994,7 +5994,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.498,
+      "hdi" : 4.98,
       "rank" : 123,
       "rank12" : 127,
       "rank06" : 115,
@@ -6043,7 +6043,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.563,
+      "hdi" : 5.629999999999999,
       "rank" : 124,
       "rank12" : 100,
       "rank06" : 105,
@@ -6092,7 +6092,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.533,
+      "hdi" : 5.33,
       "rank" : 125,
       "rank12" : 133,
       "rank06" : 151,
@@ -6141,7 +6141,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.697,
+      "hdi" : 6.97,
       "rank" : 126,
       "rank12" : 126,
       "rank06" : 146,
@@ -6190,7 +6190,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.518,
+      "hdi" : 5.18,
       "rank" : 126,
       "rank12" : 131,
       "rank06" : 130,
@@ -6239,7 +6239,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.745,
+      "hdi" : 7.45,
       "rank" : 128,
       "rank12" : 118,
       "rank06" : 132,
@@ -6288,7 +6288,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.448,
+      "hdi" : 4.48,
       "rank" : 129,
       "rank12" : 123,
       "rank06" : 106,
@@ -6337,7 +6337,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.691,
+      "hdi" : 6.909999999999999,
       "rank" : 130,
       "rank12" : 109,
       "rank06" : 115,
@@ -6386,7 +6386,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.775,
+      "hdi" : 7.75,
       "rank" : 131,
       "rank12" : 127,
       "rank06" : 124,
@@ -6435,7 +6435,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.592,
+      "hdi" : 5.92,
       "rank" : 132,
       "rank12" : 144,
       "rank06" : 131,
@@ -6484,7 +6484,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.856,
+      "hdi" : 8.56,
       "rank" : 133,
       "rank12" : 138,
       "rank06" : 142,
@@ -6533,7 +6533,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.498,
+      "hdi" : 4.98,
       "rank" : 133,
       "rank12" : 132,
       "rank06" : 118,
@@ -6582,7 +6582,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.804,
+      "hdi" : 8.040000000000001,
       "rank" : 135,
       "rank12" : 122,
       "rank06" : 102,
@@ -6631,7 +6631,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.516,
+      "hdi" : 5.16,
       "rank" : 136,
       "rank12" : 148,
       "rank06" : 147,
@@ -6680,7 +6680,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.414,
+      "hdi" : 4.14,
       "rank" : 137,
       "rank12" : 146,
       "rank06" : 157,
@@ -6729,7 +6729,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.796,
+      "hdi" : 7.960000000000001,
       "rank" : 138,
       "rank12" : 141,
       "rank06" : 128,
@@ -6778,7 +6778,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.738,
+      "hdi" : 7.38,
       "rank" : 139,
       "rank12" : 142,
       "rank06" : 138,
@@ -6827,7 +6827,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.683,
+      "hdi" : 6.83,
       "rank" : 140,
       "rank12" : 144,
       "rank06" : 145,
@@ -6876,7 +6876,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.794,
+      "hdi" : 7.94,
       "rank" : 141,
       "rank12" : 143,
       "rank06" : 120,
@@ -6925,7 +6925,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.487,
+      "hdi" : 4.87,
       "rank" : 142,
       "rank12" : 130,
       "rank06" : 164,
@@ -6974,7 +6974,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.796,
+      "hdi" : 7.960000000000001,
       "rank" : 143,
       "rank12" : 135,
       "rank06" : 143,
@@ -7023,7 +7023,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.541,
+      "hdi" : 5.41,
       "rank" : 144,
       "rank12" : 137,
       "rank06" : 139,
@@ -7072,7 +7072,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.473,
+      "hdi" : 4.7299999999999995,
       "rank" : 145,
       "rank12" : 147,
       "rank06" : 152,
@@ -7121,7 +7121,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.824,
+      "hdi" : 8.24,
       "rank" : 146,
       "rank12" : 150,
       "rank06" : 123,
@@ -7170,7 +7170,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.84,
+      "hdi" : 8.4,
       "rank" : 147,
       "rank12" : 149,
       "rank06" : 150,
@@ -7219,7 +7219,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.759,
+      "hdi" : 7.59,
       "rank" : 148,
       "rank12" : 139,
       "rank06" : 129,
@@ -7268,7 +7268,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.479,
+      "hdi" : 4.79,
       "rank" : 149,
       "rank12" : 152,
       "rank06" : 135,
@@ -7317,7 +7317,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.774,
+      "hdi" : 7.74,
       "rank" : 150,
       "rank12" : 158,
       "rank06" : 139,
@@ -7366,7 +7366,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.42,
+      "hdi" : 4.2,
       "rank" : 151,
       "rank12" : 153,
       "rank06" : 154,
@@ -7415,7 +7415,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.586,
+      "hdi" : 5.859999999999999,
       "rank" : 151,
       "rank12" : 156,
       "rank06" : 155,
@@ -7464,7 +7464,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.404,
+      "hdi" : 4.04,
       "rank" : 153,
       "rank12" : 125,
       "rank06" : 107,
@@ -7513,7 +7513,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.716,
+      "hdi" : 7.16,
       "rank" : 154,
       "rank12" : 95,
       "rank06" : 161,
@@ -7562,7 +7562,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.49,
+      "hdi" : 4.9,
       "rank" : 155,
       "rank12" : 154,
       "rank06" : 141,
@@ -7611,7 +7611,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.482,
+      "hdi" : 4.82,
       "rank" : 156,
       "rank12" : 140,
       "rank06" : 137,
@@ -7660,7 +7660,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.424,
+      "hdi" : 4.24,
       "rank" : 157,
       "rank12" : 166,
       "rank06" : 158,
@@ -7709,7 +7709,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.701,
+      "hdi" : 7.01,
       "rank" : 158,
       "rank12" : 161,
       "rank06" : 160,
@@ -7758,7 +7758,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.847,
+      "hdi" : 8.469999999999999,
       "rank" : 159,
       "rank12" : 163,
       "rank06" : 159,
@@ -7807,7 +7807,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.627,
+      "hdi" : 6.27,
       "rank" : 159,
       "rank12" : 151,
       "rank06" : 149,
@@ -7856,7 +7856,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.592,
+      "hdi" : 5.92,
       "rank" : 161,
       "rank12" : 160,
       "rank06" : 156,
@@ -7905,7 +7905,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.692,
+      "hdi" : 6.92,
       "rank" : 162,
       "rank12" : 161,
       "rank06" : 162,
@@ -7954,7 +7954,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.435,
+      "hdi" : 4.35,
       "rank" : 163,
       "rank12" : 159,
       "rank06" : 144,
@@ -8003,7 +8003,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.352,
+      "hdi" : 3.5199999999999996,
       "rank" : 164,
       "rank12" : 157,
       "rank06" : 166,
@@ -8052,7 +8052,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.396,
+      "hdi" : 3.96,
       "rank" : 165,
       "rank12" : 165,
       "rank06" : 165,
@@ -8101,7 +8101,7 @@
     },
     "scores": {
       "regimeType" : "Authoritarian",
-      "hdi" : 0.536,
+      "hdi" : 5.36,
       "rank" : 166,
       "rank12" : 164,
       "rank06" : 153,
