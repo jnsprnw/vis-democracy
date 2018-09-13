@@ -72,81 +72,112 @@ const store = () => new Vuex.Store({
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Rank'
       },
       'rank12': {
         'label': 'Economist’s democracy rank 2012',
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Rank'
       },
       'rank06': {
         'label': 'Economist’s democracy rank 2006',
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Rank'
       },
       'rankDiff1712': {
         'label': 'Economist’s democracy rank difference 2017–2012',
         'colors': ['#EC3A4D', '#fff', '#1B70E0'],
         'revert': false,
         'zero': true,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Rank'
       },
       'rankDiff1706': {
         'label': 'Economist’s democracy rank difference 2017–2006',
         'colors': ['#EC3A4D', '#fff', '#1B70E0'],
         'revert': false,
         'zero': true,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Rank'
       },
       'score': {
         'label': 'Economist’s democracy overall score 2017',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Score'
       },
       'score12': {
         'label': 'Economist’s democracy overall score 2012',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Score'
       },
       'score06': {
         'label': 'Economist’s democracy overall score 2006',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Score'
       },
       'scoreDiff1712': {
         'label': 'Economist’s democracy overall score difference 2017–2012',
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
         'revert': false,
         'zero': true,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Score'
       },
       'scoreDiff1706': {
         'label': 'Economist’s democracy overall score difference 2017–2006',
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
         'revert': false,
         'zero': true,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Score'
       },
       'hdi': {
         'label': 'Human Development Index',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic'
+        'text': '<- More democratic',
+        'type': 'Other'
       }
     }
   },
   getters: {
+    scoresGroups (state) {
+      const { scores } = state
+      const scoresArray = _.map(scores, (score, key) => {
+        return {
+          key,
+          ...score
+        }
+      })
+      const ret = {
+        'Category': [
+          {
+            key: 'regimeType',
+            label: 'Economist’s categories of democracy 2017'
+          }
+        ],
+        ..._.groupBy(scoresArray, 'type')
+      }
+      console.log(ret)
+      return ret
+    },
     total (state) {
       let values = {
         'population': 0,

@@ -51,13 +51,18 @@
       </section>
       <section class="tab" v-if="activeTab === 'scores'">
         <p>Countries can be measured by a variety of indicators. The default setting colours each country according to rank within its democracy category.</p>
-        <ul class="selection">
-          <li
-            v-for="(score, key) in scores"
-            :class="{ active: activeColour === key }"
-            v-on:click="makeActiveColour(key)"
-            >{{ score.label }}</li>
-        </ul>
+        <div class="list">
+          <section v-for="(list, section) in scoresGroups">
+            <h4>{{ section }}</h4>
+            <ul class="selection">
+              <li
+                v-for="score in list"
+                :class="{ active: activeColour === score.key }"
+                v-on:click="makeActiveColour(score.key)"
+                >{{ score.label }}</li>
+            </ul>
+          </section>
+        </div>
         <Legend />
       </section>
     </aside>
@@ -83,14 +88,14 @@
         'activeStatus',
         'activeColour',
         'groups',
-        'activeTab',
-        'scores'
+        'activeTab'
       ]),
       ...mapGetters([
         'countries',
         'status',
         'organisations',
-        'domains'
+        'domains',
+        'scoresGroups'
       ])
     },
     methods: {
