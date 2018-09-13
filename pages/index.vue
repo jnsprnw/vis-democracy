@@ -63,8 +63,8 @@
             </ul>
           </section>
         </div>
-        <Legend />
       </section>
+      <Legend v-if="activeTab === 'scores'" />
     </aside>
     <div class="page-content page-vis">
       <Vis />
