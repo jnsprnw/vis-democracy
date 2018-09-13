@@ -52,31 +52,17 @@ const store = () => new Vuex.Store({
         'apple': 'Countries that have Apple stores'
       }
     },
-    scoresLabels: {
-      'regimeType': 'Economist’s categories of democracy 2017',
-      'rank': 'Economist’s democracy rank 2017',
-      'rank12': 'Economist’s democracy rank 2012',
-      'rank06': 'Economist’s democracy rank 2006',
-      'rankDiff1712': 'Economist’s democracy rank difference 2017–2012',
-      'rankDiff1706': 'Economist’s democracy rank difference 2017–2006',
-      'score': 'Economist’s democracy overall score 2017',
-      'score12': 'Economist’s democracy overall score 2012',
-      'score06': 'Economist’s democracy overall score 2006',
-      'scoreDiff1712': 'Economist’s democracy overall score difference 2017–2012',
-      'scoreDiff1706': 'Economist’s democracy overall score difference 2017–2006',
-      'hdi': 'Human Development Index'
-    },
     scores: {
       'rank': {
-        'label': 'Economist’s democracy rank 2017',
+        'label': 'Democracy rank 2017',
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
-        'text': '<- More democratic',
+        'text': '← More democratic',
         'type': 'Rank'
       },
       'rank12': {
-        'label': 'Economist’s democracy rank 2012',
+        'label': 'Democracy rank 2012',
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
@@ -84,7 +70,7 @@ const store = () => new Vuex.Store({
         'type': 'Rank'
       },
       'rank06': {
-        'label': 'Economist’s democracy rank 2006',
+        'label': 'Democracy rank 2006',
         'colors': ['#1B70E0', '#D17000', '#EC3A4D'],
         'revert': false,
         'zero': false,
@@ -92,7 +78,7 @@ const store = () => new Vuex.Store({
         'type': 'Rank'
       },
       'rankDiff1712': {
-        'label': 'Economist’s democracy rank difference 2017–2012',
+        'label': 'Democracy rank difference 2017–2012',
         'colors': ['#EC3A4D', '#fff', '#1B70E0'],
         'revert': false,
         'zero': true,
@@ -100,7 +86,7 @@ const store = () => new Vuex.Store({
         'type': 'Rank'
       },
       'rankDiff1706': {
-        'label': 'Economist’s democracy rank difference 2017–2006',
+        'label': 'Democracy rank difference 2017–2006',
         'colors': ['#EC3A4D', '#fff', '#1B70E0'],
         'revert': false,
         'zero': true,
@@ -108,7 +94,7 @@ const store = () => new Vuex.Store({
         'type': 'Rank'
       },
       'score': {
-        'label': 'Economist’s democracy overall score 2017',
+        'label': 'Democracy overall score 2017',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': false,
         'zero': false,
@@ -116,7 +102,7 @@ const store = () => new Vuex.Store({
         'type': 'Score'
       },
       'score12': {
-        'label': 'Economist’s democracy overall score 2012',
+        'label': 'Democracy overall score 2012',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': false,
         'zero': false,
@@ -124,7 +110,7 @@ const store = () => new Vuex.Store({
         'type': 'Score'
       },
       'score06': {
-        'label': 'Economist’s democracy overall score 2006',
+        'label': 'Democracy overall score 2006',
         'colors': ['#EC3A4D', '#D17000', '#1B70E0'],
         'revert': false,
         'zero': false,
@@ -132,7 +118,7 @@ const store = () => new Vuex.Store({
         'type': 'Score'
       },
       'scoreDiff1712': {
-        'label': 'Economist’s democracy overall score difference 2017–2012',
+        'label': 'Democracy overall score difference 2017–2012',
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
         'revert': false,
         'zero': true,
@@ -140,7 +126,7 @@ const store = () => new Vuex.Store({
         'type': 'Score'
       },
       'scoreDiff1706': {
-        'label': 'Economist’s democracy overall score difference 2017–2006',
+        'label': 'Democracy overall score difference 2017–2006',
         'colors': ['#1B70E0', '#fff', '#EC3A4D'],
         'revert': false,
         'zero': true,
