@@ -121,6 +121,9 @@ body, #__nuxt, #__layout, .page, .page-body {
         text {
           fill: #000 !important;
         }
+        .categories {
+          stroke: #000;
+        }
       }
 
       g.country {
