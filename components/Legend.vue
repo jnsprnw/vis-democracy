@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <h4>Legend</h4>
+  <section class="tab legend">
+    <h3>Legend</h3>
     <ul class="texts">
       <li v-for="text in textElements" v-html="text" />
     </ul>
@@ -89,14 +89,14 @@
           const steps = 2
           labels = _.times(steps + 1, n => {
             const i = min + n * (max - min) / steps
-            return Math.round(i)
+            return Math.round(i * 10) / 10
           })
         }
         return score.revert ? _.reverse(labels) : labels
       },
       textElements () {
         const { score } = this
-        const texts = ['More democratic', 'More authorian']
+        const texts = score.texts ? score.texts : ['More democratic', 'More authorian']
         return score.revert ? _.reverse(texts) : texts
       }
     },
@@ -121,35 +121,39 @@
 </script>
 
 <style lang="scss" scoped>
-  svg {
-    height: 12px;
-    width: 100%;
-  }
+  .legend {
+    margin-top: auto !important;
 
-  ul {
-    list-style: none;
-    display: flex;
-    font-size: 0.75rem;
-
-    &.texts {
-      li:first-child::before {
-        content: '← ';
-      }
-      li:last-child::after {
-        content: ' →';
-      }
+    svg {
+      height: 12px;
+      width: 100%;
     }
 
-    li {
-      flex: 1;
-      text-align: center;
+    ul {
+      list-style: none;
+      display: flex;
+      font-size: 0.75rem;
 
-      &:first-child {
-        text-align: left;
+      &.texts {
+        li:first-child::before {
+          content: '← ';
+        }
+        li:last-child::after {
+          content: ' →';
+        }
       }
 
-      &:last-child {
-        text-align: right;
+      li {
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+          text-align: left;
+        }
+
+        &:last-child {
+          text-align: right;
+        }
       }
     }
   }
