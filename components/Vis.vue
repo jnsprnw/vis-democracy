@@ -169,7 +169,14 @@
           })
 
           prevXs = rightsideXs
-          return points
+
+          const _points = _.map(points, point => {
+            return _.map(point, n => {
+              return Math.floor(n * 10) / 10
+            })
+          })
+
+          return _points
         })
 
         this.points = Object.freeze(points)
@@ -228,15 +235,14 @@
           let l = country.length - 1
           for (let n = 0; n < l; n++) {
             if (n % 2) {
-              let diff = (country[n + 1][1] - country[n][1]) / 3
-              let y1 = country[n][1] + diff * 2
-              let y2 = country[n + 1][1] - diff * 2
+              let diff = Math.round(((country[n + 1][1] - country[n][1]) / 3) * 10) / 10
+              let y1 = Math.round((country[n][1] + diff * 2) * 10) / 10
+              let y2 = Math.round((country[n + 1][1] - diff * 2) * 10) / 10
               curves.push('C ' + [country[n][0], y1].join(' ') + ' , ' + [country[n + 1][0], y2].join(' ') + ' , ')
             } else {
               curves.push(country[n].join(' ') + ' L ' + country[n + 1].join(' '))
             }
           }
-
           return 'M ' + curves.join(' ') + ' Z'
         })
 
