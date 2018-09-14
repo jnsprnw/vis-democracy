@@ -160,7 +160,7 @@ body, #__nuxt, #__layout, .page, .page-body {
 
       @include media-query($on-desktop) {
         & {
-          font-size: 12px;
+          font-size: 13px;
         }
       }
     }
@@ -204,7 +204,7 @@ body, #__nuxt, #__layout, .page, .page-body {
 
           @include media-query($on-desktop) {
             & {
-              font-size: 12px;
+              font-size: 13px;
             }
           }
         }
