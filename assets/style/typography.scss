@@ -79,17 +79,17 @@ h2 {
 
 p, small, .imprint ul {
   padding: 0 0 0.5em;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 
   @include media-query($on-tablet-landscape) {
     & {
-      font-size: 0.7rem;
+      font-size: 0.81rem;
     }
   }
 
   @include media-query($on-laptop) {
     & {
-      font-size: 0.8rem;
+      font-size: 0.83rem;
     }
   }
 
