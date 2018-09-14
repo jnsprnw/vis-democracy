@@ -33,6 +33,7 @@
       <li><sup>[5]</sup> More on Taiwan’s HDI index on <a href="https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index#cite_note-15">Wikipedia</a></li>
       <li><sup>[6]</sup> More on North Korea’s HDI index on <a href="https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index#cite_note-UN_Escap-9">Wikipedia</a></li>
       <li><sup>[7]</sup> Eritrea is technically listed as an observer instead of member.</li>
+      <li><sup>[8]</sup> Macao has two Apple stores but is not included in the Democracy Index.</li>
     </ul>
     <table>
       <thead>
@@ -180,7 +181,7 @@
             2018, <a href="https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons">source</a>
           </th>
           <th>
-            2017, <a href="https://www.thebalance.com/apple-retail-stores-global-locations-2892925">source</a>
+            2018, <a href="https://www.apple.com/retail/storelist/">source</a> <sup>[8]</sup>
           </th>
         </tr>
       </thead>
