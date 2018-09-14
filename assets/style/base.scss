@@ -53,13 +53,13 @@ html {
   color: $text-color;
 }
 
-.table-invisible {
+.tablet-invisible {
 	visibility: hidden;
   display: none !important;
 }
 
-@include media-query($on-desktop) {
-  .table-invisible {
+@include media-query($on-laptop) {
+  .tablet-invisible {
     visibility: visible;
     display: table !important;
   }
