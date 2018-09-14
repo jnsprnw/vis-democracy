@@ -142,7 +142,7 @@ const store = () => new Vuex.Store({
           ...score
         }
       })
-      const ret = {
+      return {
         'Category': [
           {
             key: 'regimeType',
@@ -151,8 +151,6 @@ const store = () => new Vuex.Store({
         ],
         ..._.groupBy(scoresArray, 'type')
       }
-      console.log(ret)
-      return ret
     },
     total (state) {
       let values = {
@@ -193,17 +191,19 @@ const store = () => new Vuex.Store({
       const colorScales = _.fromPairs(_.map(scores, (score, key) => {
         return [key, chroma.scale(score.colors).mode('lab').domain(domains[key])]
       }))
-
       return colorScales
+    },
+    colorScalesRegimeType (state, getters) {
+      const { colorRangesRegimeType } = state
+      const { regimeTypes, domains } = getters
+      return _.fromPairs(_.map(regimeTypes, key => {
+        return [key, chroma.scale(colorRangesRegimeType[key]).mode('lab').domain(domains[key])]
+      }))
     },
     countries (state, getters) {
       const { scores } = state
-      const { colorScales } = getters
+      const { colorScales, colorScalesRegimeType } = getters
       let numberCountries = state.data.length
-
-      const colorScalesRegimeType = _.fromPairs(_.map(getters.regimeTypes, key => {
-        return [key, chroma.scale(state.colorRangesRegimeType[key]).mode('lab').domain(getters.domains[key])]
-      }))
 
       let countries = _.map(state.data, (country, index) => {
         const colours = _.fromPairs(_.map(scores, (score, key) => {

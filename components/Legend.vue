@@ -31,7 +31,9 @@
         'scores'
       ]),
       ...mapGetters([
-        'colorScales'
+        'colorScales',
+        'regimeTypes',
+        'colorScalesRegimeType'
       ]),
       score () {
         const { scores, activeColour } = this
@@ -55,31 +57,35 @@
         return colorScales[activeColour]
       },
       elements () {
-        const { activeColour, scale, score } = this
-        if (activeColour === 'regimeType') {
-          return ['Democracy', 'Flawd', 'Hybrid', 'Autho']
-        }
+        const { activeColour, score, regimeTypes, colorScalesRegimeType, colorScales } = this
 
-        const stepsAmount = 12
-        const width = 100 / (stepsAmount + 1)
-        const steps = this.getSteps(scale.domain(), stepsAmount)
+        const scales = activeColour === 'regimeType' ? regimeTypes : ['']
 
-        const colors = _.map(steps, (i, n) => {
-          return {
-            width: width + '%',
-            height: '12px',
-            x: width * (score.revert ? stepsAmount - n : n) + '%',
-            y: '0',
-            color: scale(i).hex(),
-            label: i
-          }
+        const colors = _.map(scales, (scale, s) => {
+          const currentScale = activeColour === 'regimeType' ? colorScalesRegimeType[scale] : colorScales[activeColour]
+          const stepsAmount = 12
+          const single = scales.length > 1 ? 100 / scales.length : 0
+          const width = (100 / (stepsAmount + 1)) / scales.length
+          const steps = this.getSteps(currentScale.domain(), stepsAmount)
+
+          return _.map(steps, (i, n) => {
+            return {
+              width: width + '%',
+              height: '12px',
+              x: s * single + width * (score.revert ? stepsAmount - n : n) + '%',
+              y: '0',
+              color: currentScale(i).hex(),
+              label: i
+            }
+          })
         })
-        return colors
+
+        return _.flatten(colors)
       },
       labels () {
-        const { activeColour, scale, score } = this
+        const { activeColour, scale, score, regimeTypes } = this
         if (activeColour === 'regimeType') {
-          return ['Democracy', 'Flawd', 'Hybrid', 'Autho']
+          return regimeTypes
         }
         const [min, max] = scale.domain()
         let labels
@@ -133,6 +139,7 @@
       list-style: none;
       display: flex;
       font-size: 0.75rem;
+      line-height: 1.1;
 
       &.texts {
         li:first-child::before {
