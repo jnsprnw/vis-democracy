@@ -7,6 +7,22 @@
     <p>The idea of the graphic is to give a different perspective on countries. Usually, we compare countries on a <a href="https://infographics.economist.com/2018/DemocracyIndex/">map</a>. This is reasonable as their geographical position and shape is often a <a href="https://www.arte.tv/en/videos/RC-014036/mapping-the-world/">dominant cultural and economic driver</a>. On the other hand, arbitrary shapes are hard to compare, map projections are always trade-offs and the impact of globalisation and digital communication demand <a href="http://passim.paulheinicker.com/">post-spacial perspectives</a>.</p>
     <p>Jonas Parnow is a designer for information and data. Find out more about him at <a href="http://jonasparnow.com">jonasparnow.com</a> and see other projects at <a href="http://visualising.systems">visualising.systems</a>.
     <p>The source code of this website can be found on <a href="https://github.com/z3to/vis-democracy">Github</a>. I’m happy for any pull-request enhancing the performance of the graphic.
+    <h3>Definitions</h3>
+    <p>
+      The categories of democracy are directly taken from the <a href="https://www.eiu.com/topic/democracy-index">Democracy Index 2017 Report</a>:
+    </p>
+    <p>
+      <strong>Full democracies</strong>: Countries in which not only basic political freedoms and civil liberties are respected, but which also tend to be underpinned by a political culture conducive to the flourishing of democracy. The functioning of government is satisfactory. Media are independent and diverse. There is an effective system of checks and balances. The judiciary is independent and judicial decisions are enforced. There are only limited problems in the functioning of democracies.
+    </p>
+    <p>
+      <strong>Flawed democracies</strong>: These countries also have free and fair elections and, even if there are problems (such as infringements on media freedom), basic civil liberties are respected. However, there are significant weaknesses in other aspects of democracy, including problems in governance, an underdeveloped political culture and low levels of political participation.
+    </p>
+    <p>
+      <strong>Hybrid regimes</strong>: Elections have substantial irregularities that often prevent them from being both free and fair. Government pressure on opposition parties and candidates may be common. Serious weaknesses are more prevalent than in flawed democracies—in political culture, functioning of government and political participation. Corruption tends to be widespread and the rule of law is weak. Civil society is weak. Typically, there is harassment of and pressure on journalists, and the judiciary is not independent.
+    </p>
+    <p>
+      <strong>Authoritarian regimes</strong>: In these states, state political pluralism is absent or heavily circumscribed. Many countries in this category are outright dictatorships. Some formal institutions of democracy may exist, but these have little substance. Elections, if they do occur, are not free and fair. There is disregard for abuses and infringements of civil liberties. Media are typically state-owned or controlled by groups connected to the ruling regime. There is repression of criticism of the government and pervasive censorship. There is no independent judiciary.
+    </p>
     <h3>About the data</h3>
     <p>The data is mostly based on The Economist <a href="https://www.eiu.com/topic/democracy-index">Intelligence Unit’s Democracy Index 2017</a>. Please note that this list only contains 167 countries. Most notably countries like Greenland, Somalia, South Sudan and Western Sahara are missing. Because of this, the percentage values are only relative to the included countries. Most dramatically, the land mass of Antartica is missing. Find out more about their methodology and the data in their <a href="https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2017">free report</a>. Additional data is gathered from various sources. Find the data below or on <a href="https://github.com/z3to/vis-democracy/blob/master/data/data.json">Github</a>.</p>
     <ul>
