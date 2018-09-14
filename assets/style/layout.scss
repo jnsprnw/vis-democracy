@@ -12,29 +12,11 @@ body, #__nuxt, #__layout, .page, .page-body {
   justify-content: flex-start;
 
   .page-aside {
-    width: 40vw;
+    width: 30vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: scroll;
-
-    @include media-query($on-tablet-landscape) {
-      & {
-        width: 40vw;
-      }
-    }
-
-    @include media-query($on-laptop) {
-      & {
-        width: 35vw;
-      }
-    }
-
-    @include media-query($on-desktop) {
-      & {
-        width: 30vw;
-      }
-    }
 
     .tab {
       margin: 0.2em 1em;
@@ -69,27 +51,9 @@ body, #__nuxt, #__layout, .page, .page-body {
   }
 
   .page-content {
-    width: 60vw;
+    width: 70vw;
     height: 100vh;
     display: flex;
-
-    @include media-query($on-tablet-landscape) {
-      & {
-        width: 60vw;
-      }
-    }
-
-    @include media-query($on-laptop) {
-      & {
-        width: 65vw;
-      }
-    }
-
-    @include media-query($on-desktop) {
-      & {
-        width: 70vw;
-      }
-    }
 
     .wrapper {
       width: 100%;
