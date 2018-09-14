@@ -99,12 +99,6 @@
             Democratic Name
           </th>
           <th>
-            US Travelban
-          </th>
-          <th>
-            EU’s Blacklist
-          </th>
-          <th>
             Nuclear weapons
           </th>
           <th>
@@ -170,12 +164,6 @@
           </th>
           <th>
             2015, <a href="https://petervojtek.github.io/diy/2015/05/19/countries-with-democracy-in-name.html">source</a>
-          </th>
-          <th>
-            Travelban
-          </th>
-          <th>
-            Blacklist
           </th>
           <th>
             2018, <a href="https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons">source</a>
@@ -247,12 +235,6 @@
           </td>
           <td>
             {{ country.organisations.name }}
-          </td>
-          <td>
-            {{ country.organisations.travelban }}
-          </td>
-          <td>
-            {{ country.organisations.blacklist }}
           </td>
           <td>
             {{ country.organisations.atom }}

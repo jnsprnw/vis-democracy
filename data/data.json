@@ -42,10 +42,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -91,10 +89,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -140,10 +136,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -189,10 +183,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -238,10 +230,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -287,10 +277,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -336,10 +324,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -385,10 +371,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -434,10 +418,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -483,10 +465,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -532,10 +512,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -581,10 +559,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -630,10 +606,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -679,10 +653,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : true,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -728,10 +700,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -777,10 +747,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -826,10 +794,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -875,10 +841,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -924,10 +888,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -973,10 +935,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -1022,10 +982,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : true,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -1071,10 +1029,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -1120,10 +1076,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -1169,10 +1123,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1218,10 +1170,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1267,10 +1217,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1316,10 +1264,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1365,10 +1311,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1414,10 +1358,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : true,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -1463,10 +1405,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1512,10 +1452,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : true,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1561,10 +1499,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -1610,10 +1546,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -1659,10 +1593,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1708,10 +1640,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1757,10 +1687,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1806,10 +1734,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1855,10 +1781,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1904,10 +1828,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -1953,10 +1875,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2002,10 +1922,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2051,10 +1969,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : true,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2100,10 +2016,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : true,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2149,10 +2063,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2198,10 +2110,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : true,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2247,10 +2157,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : true,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2296,10 +2204,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2345,10 +2251,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2394,10 +2298,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -2443,10 +2345,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2492,10 +2392,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2541,10 +2439,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2590,10 +2486,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2639,10 +2533,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2688,10 +2580,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2737,10 +2627,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2786,10 +2674,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2835,10 +2721,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2884,10 +2768,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2933,10 +2815,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : true,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -2982,10 +2862,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3031,10 +2909,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : true,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3080,10 +2956,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3129,10 +3003,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3178,10 +3050,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3227,10 +3097,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3276,10 +3144,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -3325,10 +3191,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3374,10 +3238,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : true,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3423,10 +3285,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -3472,10 +3332,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -3521,10 +3379,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : true,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3570,10 +3426,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3619,10 +3473,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3668,10 +3520,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3717,10 +3567,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3766,10 +3614,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3815,10 +3661,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3864,10 +3708,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3913,10 +3755,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -3962,10 +3802,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4011,10 +3849,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4060,10 +3896,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4109,10 +3943,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4158,10 +3990,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4207,10 +4037,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4256,10 +4084,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4305,10 +4131,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4354,10 +4178,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4403,10 +4225,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4452,10 +4272,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4501,10 +4319,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4550,10 +4366,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4599,10 +4413,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : true,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4648,10 +4460,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4697,10 +4507,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4746,10 +4554,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4795,10 +4601,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4844,10 +4648,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4893,10 +4695,8 @@
       "subAfrica" : false,
       "westernEurope" : true,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -4942,10 +4742,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -4991,10 +4789,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5040,10 +4836,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5089,10 +4883,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5138,10 +4930,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5187,10 +4977,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5236,10 +5024,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5285,10 +5071,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5334,10 +5118,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5383,10 +5165,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : true,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5432,10 +5212,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5481,10 +5259,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5530,10 +5306,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5579,10 +5353,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5628,10 +5400,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5650,7 +5420,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.74,
       "rank" : 116,
       "rank12" : 136,
@@ -5677,10 +5447,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5699,7 +5467,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.42,
       "rank" : 117,
       "rank12" : 121,
@@ -5726,10 +5494,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5748,7 +5514,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.67,
       "rank" : 117,
       "rank12" : 95,
@@ -5775,10 +5541,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : true
+      "apple" : false
     }
   },
   {
@@ -5797,7 +5561,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 8,
       "rank" : 119,
       "rank12" : 119,
@@ -5824,10 +5588,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5846,7 +5608,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.5600000000000005,
       "rank" : 120,
       "rank12" : 155,
@@ -5873,10 +5635,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5895,7 +5655,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.13,
       "rank" : 121,
       "rank12" : 110,
@@ -5922,10 +5682,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5944,7 +5702,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 3.53,
       "rank" : 122,
       "rank12" : 111,
@@ -5971,10 +5729,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -5993,7 +5749,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.98,
       "rank" : 123,
       "rank12" : 127,
@@ -6020,10 +5776,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6042,7 +5796,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.629999999999999,
       "rank" : 124,
       "rank12" : 100,
@@ -6069,10 +5823,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6091,7 +5843,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.33,
       "rank" : 125,
       "rank12" : 133,
@@ -6118,10 +5870,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6140,7 +5890,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 6.97,
       "rank" : 126,
       "rank12" : 126,
@@ -6167,10 +5917,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6189,7 +5937,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.18,
       "rank" : 126,
       "rank12" : 131,
@@ -6216,10 +5964,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6238,7 +5984,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.45,
       "rank" : 128,
       "rank12" : 118,
@@ -6265,10 +6011,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : true,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6287,7 +6031,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.48,
       "rank" : 129,
       "rank12" : 123,
@@ -6314,10 +6058,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : true,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6336,7 +6078,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 6.909999999999999,
       "rank" : 130,
       "rank12" : 109,
@@ -6363,10 +6105,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6385,7 +6125,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.75,
       "rank" : 131,
       "rank12" : 127,
@@ -6412,10 +6152,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6434,7 +6172,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.92,
       "rank" : 132,
       "rank12" : 144,
@@ -6461,10 +6199,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6483,7 +6219,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 8.56,
       "rank" : 133,
       "rank12" : 138,
@@ -6510,10 +6246,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6532,7 +6266,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.98,
       "rank" : 133,
       "rank12" : 132,
@@ -6559,10 +6293,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6581,7 +6313,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 8.040000000000001,
       "rank" : 135,
       "rank12" : 122,
@@ -6608,10 +6340,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : true,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6630,7 +6360,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.16,
       "rank" : 136,
       "rank12" : 148,
@@ -6657,10 +6387,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6679,7 +6407,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.14,
       "rank" : 137,
       "rank12" : 146,
@@ -6706,10 +6434,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6728,7 +6454,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.960000000000001,
       "rank" : 138,
       "rank12" : 141,
@@ -6755,10 +6481,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6777,7 +6501,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.38,
       "rank" : 139,
       "rank12" : 142,
@@ -6804,10 +6528,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : true,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -6826,7 +6548,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 6.83,
       "rank" : 140,
       "rank12" : 144,
@@ -6853,10 +6575,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6875,7 +6595,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.94,
       "rank" : 141,
       "rank12" : 143,
@@ -6902,10 +6622,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6924,7 +6642,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.87,
       "rank" : 142,
       "rank12" : 130,
@@ -6951,10 +6669,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -6973,7 +6689,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.960000000000001,
       "rank" : 143,
       "rank12" : 135,
@@ -7000,10 +6716,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7022,7 +6736,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.41,
       "rank" : 144,
       "rank12" : 137,
@@ -7049,10 +6763,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7071,7 +6783,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.7299999999999995,
       "rank" : 145,
       "rank12" : 147,
@@ -7098,10 +6810,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7120,7 +6830,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 8.24,
       "rank" : 146,
       "rank12" : 150,
@@ -7147,10 +6857,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : true,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7169,7 +6877,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 8.4,
       "rank" : 147,
       "rank12" : 149,
@@ -7196,10 +6904,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : true,
       "atom" : false,
-      "apple" : true,
-      "travelban" : false
+      "apple" : true
     }
   },
   {
@@ -7218,7 +6924,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.59,
       "rank" : 148,
       "rank12" : 139,
@@ -7245,10 +6951,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7267,7 +6971,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.79,
       "rank" : 149,
       "rank12" : 152,
@@ -7294,10 +6998,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7316,7 +7018,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.74,
       "rank" : 150,
       "rank12" : 158,
@@ -7343,10 +7045,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : false,
-      "travelban" : true
+      "atom" : false,
+      "apple" : false
     }
   },
   {
@@ -7365,7 +7065,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.2,
       "rank" : 151,
       "rank12" : 153,
@@ -7392,10 +7092,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7414,7 +7112,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.859999999999999,
       "rank" : 151,
       "rank12" : 156,
@@ -7441,10 +7139,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : true,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7463,7 +7159,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.04,
       "rank" : 153,
       "rank12" : 125,
@@ -7490,10 +7186,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7512,7 +7206,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.16,
       "rank" : 154,
       "rank12" : 95,
@@ -7539,10 +7233,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : true
+      "apple" : false
     }
   },
   {
@@ -7561,7 +7253,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.9,
       "rank" : 155,
       "rank12" : 154,
@@ -7588,10 +7280,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7610,7 +7300,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.82,
       "rank" : 156,
       "rank12" : 140,
@@ -7637,10 +7327,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : true
+      "apple" : false
     }
   },
   {
@@ -7659,7 +7347,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.24,
       "rank" : 157,
       "rank12" : 166,
@@ -7686,10 +7374,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7708,7 +7394,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 7.01,
       "rank" : 158,
       "rank12" : 161,
@@ -7735,10 +7421,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7757,7 +7441,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 8.469999999999999,
       "rank" : 159,
       "rank12" : 163,
@@ -7784,10 +7468,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
-      "atom" : true,
-      "apple" : false,
-      "travelban" : false
+      "atom" : false,
+      "apple" : false
     }
   },
   {
@@ -7806,7 +7488,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 6.27,
       "rank" : 159,
       "rank12" : 151,
@@ -7833,10 +7515,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7855,7 +7535,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.92,
       "rank" : 161,
       "rank12" : 160,
@@ -7882,10 +7562,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7904,7 +7582,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 6.92,
       "rank" : 162,
       "rank12" : 161,
@@ -7931,10 +7609,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -7953,7 +7629,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 4.35,
       "rank" : 163,
       "rank12" : 159,
@@ -7980,10 +7656,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : true,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -8002,7 +7676,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 3.5199999999999996,
       "rank" : 164,
       "rank12" : 157,
@@ -8029,10 +7703,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : false
+      "apple" : false
     }
   },
   {
@@ -8051,7 +7723,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 3.96,
       "rank" : 165,
       "rank12" : 165,
@@ -8078,10 +7750,8 @@
       "subAfrica" : true,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : true
+      "apple" : false
     }
   },
   {
@@ -8100,7 +7770,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : 5.36,
       "rank" : 166,
       "rank12" : 164,
@@ -8127,10 +7797,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : false,
-      "blacklist" : false,
       "atom" : false,
-      "apple" : false,
-      "travelban" : true
+      "apple" : false
     }
   },
   {
@@ -8149,7 +7817,7 @@
       "hdi" : ""
     },
     "scores": {
-      "regimeType" : "Authoritarian regime",
+      "regimeType" : "Authoritarian",
       "hdi" : null,
       "rank" : 167,
       "rank12" : 167,
@@ -8176,10 +7844,8 @@
       "subAfrica" : false,
       "westernEurope" : false,
       "name" : true,
-      "blacklist" : true,
       "atom" : true,
-      "apple" : false,
-      "travelban" : true
+      "apple" : false
     }
   }
 ]

@@ -15,7 +15,7 @@
     },
     "scores": {
       "regimeType" : {{jsonize(cells["regime type"].value)}},
-      "hdi" : {{jsonize(cells["HDI2015"].value)}},
+      "hdi" : {{jsonize(cells["HDI2015-2"].value)}},
       "rank" : {{jsonize(cells["Rank 2017"].value)}},
       "rank12" : {{jsonize(cells["Rank 2012"].value)}},
       "rank06" : {{jsonize(cells["Rank 2006"].value)}},
@@ -41,9 +41,7 @@
       "subAfrica" : {{jsonize(cells["subsaharanAfrica"].value)}},
       "westernEurope" : {{jsonize(cells["westernEurope"].value)}},
       "name" : {{jsonize(cells["name"].value)}},
-      "blacklist" : {{jsonize(cells["blacklist"].value)}},
       "atom" : {{jsonize(cells["atom"].value)}},
-      "apple" : {{jsonize(cells["apple"].value)}},
-      "travelban" : {{jsonize(cells["travelban"].value)}}
+      "apple" : {{jsonize(cells["apple"].value)}}
     }
   }
