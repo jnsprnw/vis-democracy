@@ -15,7 +15,7 @@
     </svg>
     <ul>
       <li
-        v-for="label in labels">{{ label }}</li>
+        v-for="label in labels">{{ format(label) }}</li>
     </ul>
   </section>
 </template>
@@ -121,6 +121,9 @@
           arr = [...this.evenSteps(min, 0, steps / 2), ...this.evenSteps(0, max, steps / 2), max]
         }
         return arr
+      },
+      format (v) {
+        return String(v).replace('-', '–')
       }
     }
   }
