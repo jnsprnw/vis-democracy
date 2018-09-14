@@ -40,10 +40,10 @@ h1 {
 
 h2 {
   font-weight: normal;
-  font-size: 3em;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.1;
-  margin: 2rem 0 2rem 0;
+  margin: .5rem 0 .5rem 0;
   text-align: center;
 
   small {
@@ -54,11 +54,50 @@ h2 {
     padding-bottom: 0;
     line-height: 0.3;
   }
+
+  @include media-query($on-tablet-landscape) {
+    & {
+      font-size: 2rem;
+      margin: 1rem 0 1rem 0;
+    }
+  }
+
+  @include media-query($on-laptop) {
+    & {
+      font-size: 2.5rem;
+      margin: 1.5rem 0 1.5rem 0;
+    }
+  }
+
+  @include media-query($on-desktop) {
+    & {
+      font-size: 2.7rem;
+      margin: 2rem 0 2rem 0;
+    }
+  }
 }
 
 p, small, .imprint ul {
   padding: 0 0 0.5em;
   font-size: 0.85rem;
+
+  @include media-query($on-tablet-landscape) {
+    & {
+      font-size: 0.7rem;
+    }
+  }
+
+  @include media-query($on-laptop) {
+    & {
+      font-size: 0.8rem;
+    }
+  }
+
+  @include media-query($on-desktop) {
+    & {
+      font-size: 0.85rem;
+    }
+  }
 }
 
 .imprint ul {
@@ -76,13 +115,31 @@ small {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 0.8rem;
   font-weight: 600;
   line-height: 1.2;
   margin: 1rem 0 0.5rem;
 
   &:first-child {
     margin-top: 0;
+  }
+
+  @include media-query($on-tablet-landscape) {
+    & {
+      font-size: 0.8rem;
+    }
+  }
+
+  @include media-query($on-laptop) {
+    & {
+      font-size: 0.9rem;
+    }
+  }
+
+  @include media-query($on-desktop) {
+    & {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -103,9 +160,9 @@ h5 {
   list-style: none;
 
   li {
-    margin: 0.9em 0;
+    margin: 0.5rem 0;
     padding-left: 0.5em;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: #666;
     cursor: pointer;
     line-height: 1;
@@ -120,11 +177,32 @@ h5 {
       font-weight: 500;
       border-color: #EC3A4D;
     }
+
+    @include media-query($on-tablet-landscape) {
+      & {
+        font-size: 0.75rem;
+        margin: 0.6rem 0;
+      }
+    }
+
+    @include media-query($on-laptop) {
+      & {
+        font-size: 0.8rem;
+        margin: 0.7rem 0;
+      }
+    }
+
+    @include media-query($on-desktop) {
+      & {
+        font-size: 0.85rem;
+        margin: 0.9rem 0;
+      }
+    }
   }
 }
 
 .btn {
-  margin: 2em 0;
+  margin: 0.5em 0;
   font-size: 0.8em;
   padding: 0.5em 2em;
   text-transform: uppercase;
@@ -141,6 +219,24 @@ h5 {
     background-color: #EC3A4D;
     color: #fff;
   }
+
+  @include media-query($on-tablet-landscape) {
+    & {
+      margin: 1em 0;
+    }
+  }
+
+  @include media-query($on-laptop) {
+    & {
+      margin: 1.5em 0;
+    }
+  }
+
+  @include media-query($on-desktop) {
+    & {
+      margin: 2em 0;
+    }
+  }
 }
 
 .center {
@@ -150,12 +246,37 @@ h5 {
 }
 
 .menu {
-  margin: 0.5em 1em;
-  padding: 0.5em 0;
+  margin: 0.2em 1em;
+  padding: 0.2em 0;
   list-style: none;
   display: flex;
   width: calc(100% - 2em);
   justify-content: space-between;
+  font-size: 1rem;
+
+  @include media-query($on-tablet-landscape) {
+    & {
+      margin: 0.3em 1em;
+      padding: 0.3em 0;
+      font-size: 0.8rem;
+    }
+  }
+
+  @include media-query($on-laptop) {
+    & {
+      margin: 0.4em 1em;
+      padding: 0.4em 0;
+      font-size: 1rem;
+    }
+  }
+
+  @include media-query($on-desktop) {
+    & {
+      margin: 0.5em 1em;
+      padding: 0.5em 0;
+      font-size: 1rem;
+    }
+  }
 
   li {
     font-weight: bold;

@@ -19,8 +19,10 @@ $color-active: #40A5E7 !default;
 //   }
 // }
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-tablet-portrait:  600px !default;
+$on-tablet-landscape: 900px !default;
+$on-laptop:           1200px !default;
+$on-desktop:          1700px !default;
 
 @mixin media-query($device) {
   @media screen and (min-width: $device) {
@@ -51,15 +53,15 @@ html {
   color: $text-color;
 }
 
-.mobile-invisible {
+.table-invisible {
 	visibility: hidden;
-  display: none;
+  display: none !important;
 }
 
-@include media-query($on-palm) {
-  .mobile-invisible {
-  	visibility: visible;
-    display: inherit;
+@include media-query($on-desktop) {
+  .table-invisible {
+    visibility: visible;
+    display: table !important;
   }
 }
 

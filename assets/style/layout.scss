@@ -12,16 +12,55 @@ body, #__nuxt, #__layout, .page, .page-body {
   justify-content: flex-start;
 
   .page-aside {
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: scroll;
 
+    @include media-query($on-tablet-landscape) {
+      & {
+        width: 40vw;
+      }
+    }
+
+    @include media-query($on-laptop) {
+      & {
+        width: 35vw;
+      }
+    }
+
+    @include media-query($on-desktop) {
+      & {
+        width: 30vw;
+      }
+    }
+
     .tab {
-      margin: 0.5em 1em;
-      padding: 0.5em 0;
+      margin: 0.2em 1em;
+      padding: 0.2em 0;
       align-self: stretch;
+
+      @include media-query($on-tablet-landscape) {
+        & {
+          margin: 0.3em 1em;
+          padding: 0.3em 0;
+        }
+      }
+
+      @include media-query($on-laptop) {
+        & {
+          margin: 0.4em 1em;
+          padding: 0.4em 0;
+        }
+      }
+
+      @include media-query($on-desktop) {
+        & {
+          margin: 0.5em 1em;
+          padding: 0.5em 0;
+        }
+      }
     }
 
     .footer {
@@ -30,9 +69,27 @@ body, #__nuxt, #__layout, .page, .page-body {
   }
 
   .page-content {
-    width: 70vw;
+    width: 60vw;
     height: 100vh;
     display: flex;
+
+    @include media-query($on-tablet-landscape) {
+      & {
+        width: 60vw;
+      }
+    }
+
+    @include media-query($on-laptop) {
+      & {
+        width: 65vw;
+      }
+    }
+
+    @include media-query($on-desktop) {
+      & {
+        width: 70vw;
+      }
+    }
 
     .wrapper {
       width: 100%;
@@ -82,11 +139,29 @@ body, #__nuxt, #__layout, .page, .page-body {
     .vis-legend {
       height: 100%;
       width: 3%;
-      font-size: 12px;
+      font-size: 9px;
       font-weight: bold;
 
       text:first-child {
         font-weight: normal;
+      }
+
+      @include media-query($on-tablet-landscape) {
+        & {
+          font-size: 10px;
+        }
+      }
+
+      @include media-query($on-laptop) {
+        & {
+          font-size: 11px;
+        }
+      }
+
+      @include media-query($on-desktop) {
+        & {
+          font-size: 12px;
+        }
       }
     }
 
@@ -112,8 +187,26 @@ body, #__nuxt, #__layout, .page, .page-body {
         fill: #fff;
 
         &.category {
-          font-size: 12px;
+          font-size: 9px;
           font-weight: bold;
+
+          @include media-query($on-tablet-landscape) {
+            & {
+              font-size: 10px;
+            }
+          }
+
+          @include media-query($on-laptop) {
+            & {
+              font-size: 11px;
+            }
+          }
+
+          @include media-query($on-desktop) {
+            & {
+              font-size: 12px;
+            }
+          }
         }
       }
 
