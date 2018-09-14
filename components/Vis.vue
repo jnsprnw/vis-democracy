@@ -44,7 +44,8 @@
         legendPlacements: [],
         categoryPlacement: [],
         rows: 5,
-        gutter: 7
+        gutter: 7,
+        accuracy: 2
       }
     },
     computed: {
@@ -134,7 +135,7 @@
       },
       calcPoints () {
         let [width, height] = this.resolution
-        let { rows } = this
+        let { rows, accuracy } = this
         let cumulation = _.fill(new Array(rows), 0)
 
         let ys = _.map(this.ysPercent, y => {
@@ -161,7 +162,7 @@
 
           let rightsideXs = _.map(new Array(rows * 2), (x, n) => {
             let index = Math.floor(n / 2)
-            return _.round((cumulation[index] / 100) * (width * 0.97), 2)
+            return _.round((cumulation[index] / 100) * (width * 0.97), accuracy)
           })
 
           _.each(rightsideXs, (x, n) => {
@@ -172,7 +173,7 @@
 
           const _points = _.map(points, point => {
             return _.map(point, n => {
-              return Math.floor(n * 10) / 10
+              return _.round(n, accuracy)
             })
           })
 
@@ -229,15 +230,16 @@
         this.categoryPlacement = places
       },
       calcShapes () {
-        let shapes = _.map(this.points, country => {
+        const { accuracy, points } = this
+        let shapes = _.map(points, country => {
           let curves = []
 
           let l = country.length - 1
           for (let n = 0; n < l; n++) {
             if (n % 2) {
-              let diff = Math.round(((country[n + 1][1] - country[n][1]) / 3) * 10) / 10
-              let y1 = Math.round((country[n][1] + diff * 2) * 10) / 10
-              let y2 = Math.round((country[n + 1][1] - diff * 2) * 10) / 10
+              let diff = _.round(((country[n + 1][1] - country[n][1]) / 3), accuracy)
+              let y1 = _.round((country[n][1] + diff * 2), accuracy)
+              let y2 = _.round((country[n + 1][1] - diff * 2), accuracy)
               curves.push('C' + [country[n][0], y1].join(' ') + ',' + [country[n + 1][0], y2].join(' ') + ',')
             } else {
               curves.push(country[n].join(' ') + 'L' + country[n + 1].join(' '))
