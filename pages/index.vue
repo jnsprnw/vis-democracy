@@ -14,14 +14,14 @@
       </header>
       <section class="tab intro" v-if="activeTab === 'intro'">
         <div class="content">
-          <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. According to the index, a <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" /> has the following features: free and fair elections, political pluralism, respect of civil liberties and human rights, protection of minority rights, a functioning govern&shy;ment with an effective system of checks and balances, equality before the law and an inde&shy;pendent judiciary as well as free and diverse media. Other categories are missing these features partly or completly. See detailed descriptions <nuxt-link to="imprint" class="link">here</nuxt-link>.</p>
+          <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. According to the index, a <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" /> has the following features: free and fair elections, political pluralism, respect of civil liberties and human rights, protection of minority rights, a functioning govern&shy;ment with an effective system of checks and balances, equality before the law and an inde&shy;pendent judiciary as well as free and diverse media. Other categories are missing these features partly or completly.</p>
           <h3>How to read the graphic</h3>
           <p>Each country that is included in the Economist’s index constitutes one slice in the graphic. The countries are ordered by their democracy rank: the more left a country is placed the more democratic it is. The width illustrates the share each country has of the cumulative world population, land mass, and GDP respectively. <LinkHover path="cca3" value="CHN" label="China" />, for example, is home to ~&#8239;19&#8239;% of the world’s population, covers ~&#8239;7&#8239;% of the planet’s land surface and produces ~&#8239;15&#8239;% of the total GDP. The colours indicate the categories <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" />, <LinkHover path="scores.regimeType" value="Flawed democracy" label="flawed democracy" />, <LinkHover path="scores.regimeType" value="Hybrid regime" label="hybrid regime" /> and <LinkHover path="scores.regimeType" value="Authoritarian" label="authoritarian regime" />.</p>
           <span v-on:click="makeActiveTab('story')" class="btn center">Explore</span>
         </div>
       </section>
       <footer class="tab footer" v-if="activeTab === 'intro'">
-        <small>This website was created by Jonas Parnow in 2018. <nuxt-link to="imprint" class="link">Click for details</nuxt-link></small>
+        <small>This website was created by Jonas Parnow in 2018. <nuxt-link to="imprint" class="link">Click for details and data</nuxt-link></small>
       </footer>
       <section class="tab" v-if="activeTab === 'story'">
         <h3>Population</h3>
@@ -35,7 +35,7 @@
         <p>While economic heavyweights <LinkHover path="cca3" value="CHN" label="China" /> and the <LinkHover path="cca3" value="USA" label="US" /> nearly match up to each other in absolute numbers, comparing the numbers per capita would draw a different picture. The GDP per capita (nominal) is $&#8239;60,338 in the <LinkHover path="cca3" value="USA" label="United States" />, but only $&#8239;8,786 in <LinkHover path="cca3" value="CHN" label="China" />, $&#8239;2,085 in <LinkHover path="cca3" value="IND" label="India" />, and a mere $&#8239;1,544 in <LinkHover path="cca3" value="BGD" label="Bangladesh" />.</p>
       </section>
       <section class="tab" v-if="activeTab === 'groups'">
-        <p>In order to defend their own interests, wield power, or make peace, countries enter alliances and form coalitions. Other country constellations emerge because of their geographical position or their belongingness to an assigned category.</p>
+        <p>In order to defend their own interests, wield power, or make peace, countries enter alliances and form coalitions. Other country unions emerge because of their geographical position or their belongingness to an assigned category.</p>
         <div class="list">
           <section v-for="(list, section) in groups">
             <h4>{{ section }}</h4>
