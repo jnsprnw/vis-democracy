@@ -25,7 +25,7 @@ const store = () => new Vuex.Store({
       'Full democracy': ['#CCC200', '#c2d22f'],
       'Flawed democracy': ['#7dbb45', '#329967'],
       'Hybrid regime': ['#117575', '#415151'],
-      'Authoritarian': ['#722b2c', '#a51916']
+      'Authoritarian regime': ['#722b2c', '#a51916']
     },
     groups: {
       'Organisations': {

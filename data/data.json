@@ -5650,7 +5650,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.74,
       "rank" : 116,
       "rank12" : 136,
@@ -5699,7 +5699,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.42,
       "rank" : 117,
       "rank12" : 121,
@@ -5748,7 +5748,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.67,
       "rank" : 117,
       "rank12" : 95,
@@ -5797,7 +5797,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 8,
       "rank" : 119,
       "rank12" : 119,
@@ -5846,7 +5846,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.5600000000000005,
       "rank" : 120,
       "rank12" : 155,
@@ -5895,7 +5895,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.13,
       "rank" : 121,
       "rank12" : 110,
@@ -5944,7 +5944,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 3.53,
       "rank" : 122,
       "rank12" : 111,
@@ -5993,7 +5993,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.98,
       "rank" : 123,
       "rank12" : 127,
@@ -6042,7 +6042,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.629999999999999,
       "rank" : 124,
       "rank12" : 100,
@@ -6091,7 +6091,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.33,
       "rank" : 125,
       "rank12" : 133,
@@ -6140,7 +6140,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 6.97,
       "rank" : 126,
       "rank12" : 126,
@@ -6189,7 +6189,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.18,
       "rank" : 126,
       "rank12" : 131,
@@ -6238,7 +6238,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.45,
       "rank" : 128,
       "rank12" : 118,
@@ -6287,7 +6287,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.48,
       "rank" : 129,
       "rank12" : 123,
@@ -6336,7 +6336,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 6.909999999999999,
       "rank" : 130,
       "rank12" : 109,
@@ -6385,7 +6385,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.75,
       "rank" : 131,
       "rank12" : 127,
@@ -6434,7 +6434,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.92,
       "rank" : 132,
       "rank12" : 144,
@@ -6483,7 +6483,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 8.56,
       "rank" : 133,
       "rank12" : 138,
@@ -6532,7 +6532,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.98,
       "rank" : 133,
       "rank12" : 132,
@@ -6581,7 +6581,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 8.040000000000001,
       "rank" : 135,
       "rank12" : 122,
@@ -6630,7 +6630,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.16,
       "rank" : 136,
       "rank12" : 148,
@@ -6679,7 +6679,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.14,
       "rank" : 137,
       "rank12" : 146,
@@ -6728,7 +6728,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.960000000000001,
       "rank" : 138,
       "rank12" : 141,
@@ -6777,7 +6777,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.38,
       "rank" : 139,
       "rank12" : 142,
@@ -6826,7 +6826,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 6.83,
       "rank" : 140,
       "rank12" : 144,
@@ -6875,7 +6875,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.94,
       "rank" : 141,
       "rank12" : 143,
@@ -6924,7 +6924,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.87,
       "rank" : 142,
       "rank12" : 130,
@@ -6973,7 +6973,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.960000000000001,
       "rank" : 143,
       "rank12" : 135,
@@ -7022,7 +7022,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.41,
       "rank" : 144,
       "rank12" : 137,
@@ -7071,7 +7071,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.7299999999999995,
       "rank" : 145,
       "rank12" : 147,
@@ -7120,7 +7120,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 8.24,
       "rank" : 146,
       "rank12" : 150,
@@ -7169,7 +7169,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 8.4,
       "rank" : 147,
       "rank12" : 149,
@@ -7218,7 +7218,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.59,
       "rank" : 148,
       "rank12" : 139,
@@ -7267,7 +7267,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.79,
       "rank" : 149,
       "rank12" : 152,
@@ -7316,7 +7316,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.74,
       "rank" : 150,
       "rank12" : 158,
@@ -7365,7 +7365,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.2,
       "rank" : 151,
       "rank12" : 153,
@@ -7414,7 +7414,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.859999999999999,
       "rank" : 151,
       "rank12" : 156,
@@ -7463,7 +7463,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.04,
       "rank" : 153,
       "rank12" : 125,
@@ -7512,7 +7512,7 @@
       "hdi" : "high"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.16,
       "rank" : 154,
       "rank12" : 95,
@@ -7561,7 +7561,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.9,
       "rank" : 155,
       "rank12" : 154,
@@ -7610,7 +7610,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.82,
       "rank" : 156,
       "rank12" : 140,
@@ -7659,7 +7659,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.24,
       "rank" : 157,
       "rank12" : 166,
@@ -7708,7 +7708,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 7.01,
       "rank" : 158,
       "rank12" : 161,
@@ -7757,7 +7757,7 @@
       "hdi" : "top"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 8.469999999999999,
       "rank" : 159,
       "rank12" : 163,
@@ -7806,7 +7806,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 6.27,
       "rank" : 159,
       "rank12" : 151,
@@ -7855,7 +7855,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.92,
       "rank" : 161,
       "rank12" : 160,
@@ -7904,7 +7904,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 6.92,
       "rank" : 162,
       "rank12" : 161,
@@ -7953,7 +7953,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 4.35,
       "rank" : 163,
       "rank12" : 159,
@@ -8002,7 +8002,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 3.5199999999999996,
       "rank" : 164,
       "rank12" : 157,
@@ -8051,7 +8051,7 @@
       "hdi" : "low"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 3.96,
       "rank" : 165,
       "rank12" : 165,
@@ -8100,7 +8100,7 @@
       "hdi" : "medium"
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : 5.36,
       "rank" : 166,
       "rank12" : 164,
@@ -8149,7 +8149,7 @@
       "hdi" : ""
     },
     "scores": {
-      "regimeType" : "Authoritarian",
+      "regimeType" : "Authoritarian regime",
       "hdi" : null,
       "rank" : 167,
       "rank12" : 167,

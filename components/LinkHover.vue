@@ -17,8 +17,8 @@
           cls += ' flawed-democracy'
         } else if (value === 'Hybrid regime') {
           cls += ' hybrid-regime'
-        } else if (value === 'Authoritarian') {
-          cls += ' authoritarian'
+        } else if (value === 'Authoritarian regime') {
+          cls += ' authoritarian-regime'
         }
         return cls
       }
@@ -58,7 +58,7 @@
       border-color: #117575;
     }
 
-    &.authoritarian {
+    &.authoritarian-regime {
       font-weight: bold;
       color: #a51916;
       border-color: #a51916;
