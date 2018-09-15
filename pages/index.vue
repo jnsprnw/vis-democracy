@@ -21,7 +21,7 @@
         </div>
       </section>
       <section class="tab" v-if="width < 600">
-        <p><strong>Unfortunately, this website can not be optimized for mobile usage. Please visit the website on a device with a higher resolution.</strong></p>
+        <p><strong>Unfortunately, this website can not be optimized for this resolution. Please visit the website on a device with a higher resolution.</strong></p>
       </section>
       <footer class="tab footer" v-if="activeTab === 'intro'">
         <small>This website was created by Jonas Parnow in 2018. <nuxt-link to="imprint" class="link">Click for details and data</nuxt-link></small>
