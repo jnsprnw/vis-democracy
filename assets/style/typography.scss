@@ -43,7 +43,7 @@ h2 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.1;
-  margin: .5rem 0 .5rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   text-align: center;
 
   small {
@@ -249,13 +249,16 @@ h5 {
   margin: 0.2em 1em;
   padding: 0.2em 0;
   list-style: none;
-  display: flex;
   width: calc(100% - 2em);
   justify-content: space-between;
   font-size: 1rem;
+  visibility: hidden;
+  display: none;
 
   @include media-query($on-tablet-landscape) {
     & {
+      visibility: visible;
+      display: flex;
       margin: 0.3em 1em;
       padding: 0.3em 0;
       font-size: 0.8rem;

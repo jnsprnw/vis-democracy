@@ -65,6 +65,18 @@ html {
   }
 }
 
+.mobile-invisible {
+  visibility: hidden;
+  display: none;
+}
+
+@include media-query($on-tablet-portrait) {
+  .mobile-invisible {
+    visibility: visible;
+    display: block;
+  }
+}
+
 input {
   user-select: none;
   vertical-align: middle;

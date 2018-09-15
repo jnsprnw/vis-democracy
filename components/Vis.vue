@@ -16,7 +16,6 @@
       >{{ item.label }}</text>
     </svg>
     <svg
-      v-if="resolution.length && Math.min(...resolution) > 500"
       :class="{ highlight: activeStatus !== 'default', 'vis-graphic': true, 'negative': activeColour === 'rankDiff1712' || activeColour === 'rankDiff1706' || activeColour === 'scoreDiff1712' || activeColour === 'scoreDiff1706' }">
       <VisCountries :countries="countries" :placements="placements" :shapes="shapes" :points="points" />
       <VisCategories :categoryPlacement="categoryPlacement" />

@@ -1,5 +1,5 @@
 <template>
-  <div class="page-body">
+  <div class="page-body" ref="body">
     <aside class="page-aside">
       <header>
         <h2><small>Degrees of</small> Democracy</h2>
@@ -12,13 +12,16 @@
           </ul>
         </nav>
       </header>
-      <section class="tab intro" v-if="activeTab === 'intro'">
+      <section class="tab intro mobile-invisible" v-if="activeTab === 'intro'">
         <div class="content">
           <p>The Economist’s »<em>Democracy Index</em>« measures and categorizes the state of democracy in 167 countries. According to the index, a <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" /> has the following features: free and fair elections, political pluralism, respect of civil liberties and human rights, protection of minority rights, a functioning govern&shy;ment with an effective system of checks and balances, equality before the law and an inde&shy;pendent judiciary as well as free and diverse media. Other regimes are missing these features partly or completely.</p>
           <h3>How to read the graphic</h3>
           <p>Each country that is included in the Economist’s index constitutes one slice in the graphic. The countries are ordered by their democracy rank: the further left a country is placed the more democratic it is. The width of the slice illustrates each country's share of world population, land mass, and GDP respectively. <LinkHover path="cca3" value="CHN" label="China" />, for example, is home to ~&#8239;19&#8239;% of the world’s population, covers ~&#8239;7&#8239;% of the planet’s land surface and produces ~&#8239;15&#8239;% of the world's total GDP. The colours indicate the categories <LinkHover path="scores.regimeType" value="Full democracy" label="full democracy" />, <LinkHover path="scores.regimeType" value="Flawed democracy" label="flawed democracy" />, <LinkHover path="scores.regimeType" value="Hybrid regime" label="hybrid regime" /> and <LinkHover path="scores.regimeType" value="Authoritarian regime" label="authoritarian regime" /> according to the index.</p>
           <span v-on:click="makeActiveTab('story')" class="btn center tablet-invisible">Explore</span>
         </div>
+      </section>
+      <section class="tab" v-if="width < 600">
+        <p><strong>Unfortunately, this website can not be optimized for mobile usage. Please visit the website on a device with a higher resolution.</strong></p>
       </section>
       <footer class="tab footer" v-if="activeTab === 'intro'">
         <small>This website was created by Jonas Parnow in 2018. <nuxt-link to="imprint" class="link">Click for details and data</nuxt-link></small>
@@ -66,7 +69,7 @@
       </section>
       <Legend v-if="activeTab === 'scores'" />
     </aside>
-    <div class="page-content page-vis">
+    <div class="page-content page-vis" v-if="visible && width >= 600">
       <Vis />
     </div>
   </div>
@@ -81,6 +84,8 @@
   export default {
     data: function () {
       return {
+        width: 0,
+        visible: false
       }
     },
     computed: {
@@ -103,14 +108,26 @@
         'makeActiveStatus',
         'makeActiveColour',
         'makeActiveTab'
-      ])
+      ]),
+      calcSizes: function () {
+        const ref = this.$refs.body
+        if (typeof ref !== 'undefined') {
+          this.width = ref.clientWidth || ref.parentNode.clientWidth
+          this.visible = true
+        }
+      }
+    },
+    mounted () {
+      this.calcSizes()
+      window.addEventListener('resize', this.calcSizes, false)
+    },
+    destroyed () {
+      window.removeEventListener('resize', this.calcSizes)
     },
     components: {
       Vis,
       LinkHover,
       Legend
-    },
-    mounted () {
     }
   }
 </script>

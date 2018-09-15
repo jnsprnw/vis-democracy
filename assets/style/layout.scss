@@ -12,11 +12,17 @@ body, #__nuxt, #__layout, .page, .page-body {
   justify-content: flex-start;
 
   .page-aside {
-    width: 30vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: scroll;
+
+    @include media-query($on-tablet-portrait) {
+      & {
+        width: 30vw;
+      }
+    }
 
     .tab {
       margin: 0.2em 1em;
@@ -51,9 +57,15 @@ body, #__nuxt, #__layout, .page, .page-body {
   }
 
   .page-content {
-    width: 70vw;
+    width: 0vw;
     height: 100vh;
     display: flex;
+
+    @include media-query($on-tablet-portrait) {
+      & {
+        width: 70vw;
+      }
+    }
 
     .wrapper {
       width: 100%;
