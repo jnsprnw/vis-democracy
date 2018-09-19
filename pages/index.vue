@@ -20,7 +20,7 @@
           <span v-on:click="makeActiveTab('story')" class="btn center tablet-invisible">Explore</span>
         </div>
       </section>
-      <section class="tab" v-if="width < 600">
+      <section class="tab" v-if="width < 600 && visible">
         <p><strong>Unfortunately, this website can not be optimized for this resolution. Please visit the website on a device with a higher resolution.</strong></p>
       </section>
       <footer class="tab footer" v-if="activeTab === 'intro'">
